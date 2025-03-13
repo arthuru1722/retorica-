@@ -9,33 +9,78 @@
 <body>
     <!-- Tela Inicial -->
     <div id="telaInicial">
-        <h1>Retórica +</h1>
-        <p>Figura de linguagem</p>
-        <button onclick="iniciarQuiz()">Jogar</button>
-        <button onclick="">Creditos</button>
-        <button onclick="">Sair</button>
-    </div>
-    <div class="information">
-        <div class="left">
-            <div class="white_bg">
-                <img src="src/machado.png">
+        <div>
+            <h1>Retórica +</h1>
+            <p>Figura de linguagem</p>
+            <button onclick="iniciarQuiz()">Jogar</button>
+            <button onclick="">Creditos</button>
+            <button onclick="">Sair</button>
+        </div>
+    
+        <div class="information">
+            <div class="escritores"> 
+                <div class="left">
+                    <div class="white_bg">
+                        <img src="src/machado.png">
+                    </div>
+                    <h3>Machado De Assis</h3>
+                    <p>(xxxx-xxxx)</p>
+                </div>
+
+                <div class="right">
+                    <p>Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial.</p>
+                </div>
+
+                <div class="bottom">
+                    <h2>Grandes Escritores</h2>
+                </div>
             </div>
-            <h2>Machado De Assis</h2>
-            <p>(xxxx-xxxx)</p>
+            <div class="creditos">
+                <div class="left">
+                    <h2>Créditos</h2>
+                </div>
+            </div>
+            <div class="right">
+                <p>Suelly</p>
+                <p>Ruan</p>
+                <p>João Pedro</p>
+                <p>Manuel</p>
+                <p>Karollayne</p>
+            </div>
+            <div class="right-bottom">
+                <div class="crrbleft">
+                    <p>Programação:</p>
+                    <p>Arthur Maycon</p>
+                </div>
+                <div class="right">
+                    <p>Game Design</p>
+                    <p>João Pedro</p>
+                </div>
+            </div>
         </div>
-
-        <div class="right">
-            <p>Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial.</p>
-        </div>
-
     </div>
 
     <!-- Tela do Quiz -->
     <div id="telaQuiz">
-        <h1 id="pergunta"></h1>
-        <ul id="opcoes"></ul>
-        <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
-        <p class="timer" id="timer"></p>
+        <div class="title">
+            <h1>Retórica+</h1>
+            <h2>Figura de linguagem</h2>
+        </div>
+        
+        <div class="left">
+            <div class="question">
+                <p>Identifique que tipo de figura de linguagem se trata:</p>
+                <h1 id="pergunta"></h1>
+            </div>
+            <p class="timer" id="timer"></p>
+            <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
+        </div>
+
+        <div class="right">
+            <ul id="opcoes"></ul>
+        </div>
+
+        
     </div>
 
     <!-- Tela de Explicação (só aparece se errar) -->
