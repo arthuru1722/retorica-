@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Português</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Tela Inicial -->
+    <div id="telaInicial">
+        <h1>Retórica +</h1>
+        <p>Figura de linguagem</p>
+        <button onclick="iniciarQuiz()">Jogar</button>
+        <button onclick="">Creditos</button>
+        <button onclick="">Sair</button>
+    </div>
+    <div class="information">
+        <div class="left">
+            <div class="white_bg">
+                <img src="src/machado.png">
+            </div>
+            <h2>Machado De Assis</h2>
+            <p>(xxxx-xxxx)</p>
+        </div>
+
+        <div class="right">
+            <p>Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial.</p>
+        </div>
+
+    </div>
+
+    <!-- Tela do Quiz -->
+    <div id="telaQuiz">
+        <h1 id="pergunta"></h1>
+        <ul id="opcoes"></ul>
+        <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
+        <p class="timer" id="timer"></p>
+    </div>
+
+    <!-- Tela de Explicação (só aparece se errar) -->
+    <div id="telaExplicacao">
+        <h2 id="tema"></h2>
+        <p id="descricaoTema"></p>
+        <h3>Explicação da resposta</h3>
+        <p id="explicacao"></p>
+        <button onclick="voltarParaTelaInicial()">Entendi</button>
+    </div>
+
+    <!-- Tela de Tempo Esgotado -->
+    <div id="telaTempoEsgotado">
+        <h1>Tempo esgotado!</h1>
+        <p>Você não respondeu todas as perguntas a tempo.</p>
+        <button onclick="voltarParaTelaInicial()">Voltar ao início</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

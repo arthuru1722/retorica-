@@ -1,0 +1,37 @@
+{
+    "gramatica": {
+      "descricao": "A gramática estuda as regras que regem a formação das palavras e a estrutura das frases em um idioma.",
+      "perguntas": [
+        {
+          "pergunta": "Qual é a forma correta?",
+          "opcoes": ["Houveram muitos problemas", "Houve muitos problemas", "Tiveram muitos problemas", "Tivemos muito problema"],
+          "correta": 1,
+          "explicacao": "O verbo 'haver' no sentido de existência é impessoal, então ele sempre fica no singular: 'Houve muitos problemas'."
+        },
+        {
+          "pergunta": "Qual é o plural de 'cidadão'?",
+          "opcoes": ["Cidadãos", "Cidadães", "Cidadãoses", "Cidades"],
+          "correta": 0,
+          "explicacao": "O plural correto de 'cidadão' é 'cidadãos'. A forma 'cidadães' não existe."
+        }
+      ]
+    },
+    "ortografia": {
+      "descricao": "A ortografia trata da escrita correta das palavras de acordo com as normas da língua.",
+      "perguntas": [
+        {
+          "pergunta": "Qual palavra está escrita corretamente?",
+          "opcoes": ["exceção", "excessão", "execeção", "exxessão"],
+          "correta": 0,
+          "explicacao": "A palavra correta é 'exceção', que significa uma situação fora do comum."
+        },
+        {
+          "pergunta": "Qual dessas palavras leva acento?",
+          "opcoes": ["Heroi", "Jiboi", "Baú", "Anciao"],
+          "correta": 2,
+          "explicacao": "'Baú' leva acento por ser um hiato: a vogal 'u' está separada da anterior."
+        }
+      ]
+    }
+  }
+  
