@@ -10,7 +10,7 @@ let timerInterval;
 async function carregarPerguntas() {
     const response = await fetch("perguntas.json");
     perguntas = await response.json();
-    document.getElementById("telaInicial").style.display = "block";
+    document.getElementById("telaInicial").style.display = "flex";
 }
 
 function iniciarQuiz() {
@@ -74,12 +74,12 @@ function formatTime(seconds) {
 
 function mostrarTempoEsgotado() {
     document.getElementById("telaQuiz").style.display = "none";
-    document.getElementById("telaTempoEsgotado").style.display = "block";
+    document.getElementById("telaTempoEsgotado").style.display = "flex";
 }
 
 function carregarPergunta() {
 
-    document.getElementById("telaQuiz").style.display = "block";
+    document.getElementById("telaQuiz").style.display = "flex";
     document.getElementById("telaExplicacao").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "none";
 
@@ -135,7 +135,7 @@ function verificarResposta(elemento, indice, correta, opcoes) {
 
 function mostrarExplicacao() {
     document.getElementById("telaQuiz").style.display = "none";
-    document.getElementById("telaExplicacao").style.display = "block";
+    document.getElementById("telaExplicacao").style.display = "flex";
 
     document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
     document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
@@ -145,7 +145,7 @@ function mostrarExplicacao() {
 function voltarParaTelaInicial() {
     document.getElementById("telaExplicacao").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "none";
-    document.getElementById("telaInicial").style.display = "block";
+    document.getElementById("telaInicial").style.display = "flex";
 }
 
 function embaralharArray(array) {
@@ -156,3 +156,81 @@ function embaralharArray(array) {
 }
 
 carregarPerguntas();
+
+const escritores = [
+    {
+        nome: "Machado De Assis",
+        anos: "(1839-1908)",
+        imagem: "src/machado.png",
+        descricao: "Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial."
+    },
+    {
+        nome: "Clarice Lispector",
+        anos: "(1920-1977)",
+        imagem: "src/clarice.png",
+        descricao: "Foi uma das escritoras mais importantes do Brasil e uma das principais vozes da literatura modernista. Sua obra é marcada por uma escrita introspectiva, explorando temas como identidade, solidão e a complexidade do universo feminino. Romances como A Hora da Estrela, Perto do Coração Selvagem e A Paixão Segundo G.H. destacam seu estilo inovador e sua capacidade de mergulhar na psique dos personagens. Sua influência na literatura brasileira e mundial permanece forte até hoje."
+    },
+    {
+        nome: "João Guimarães Rosa",
+        anos: "(1908–1967)",
+        imagem: "src/guimaraes.png",
+        descricao: "Foi um dos maiores escritores brasileiros e inovador da literatura nacional. Sua obra-prima, Grande Sertão: Veredas, revolucionou a narrativa ao misturar regionalismo, neologismos e profundidade filosófica. Seus contos e romances, como Sagarana e Primeiras Estórias, exploram a cultura sertaneja, a luta humana e o destino. Seu estilo complexo e poético o tornou uma figura central do modernismo brasileiro e uma referência na literatura mundial."
+    },
+    {
+        nome: "Carlos Drummond de Andrade",
+        anos: "(1902–1987)",
+        imagem: "src/drummond.png",
+        descricao: "Um dos mais influentes poetas brasileiros do século XX, Drummond destacou-se por sua escrita reflexiva e inovadora. Sua poesia transitou entre o modernismo e uma abordagem mais universal da condição humana, explorando temas como amor, cotidiano, política e solidão. Obras como Sentimento do Mundo, A Rosa do Povo e Claro Enigma são marcos da literatura nacional. Sua influência é duradoura, consolidando-o como um dos maiores nomes da poesia em língua portuguesa."
+    }
+];
+
+let index = 0;
+
+function updateSlide() {
+    document.getElementById("writer-name").textContent = escritores[index].nome;
+    document.getElementById("writer-years").textContent = escritores[index].anos;
+    document.getElementById("writer-img").src = escritores[index].imagem;
+    document.getElementById("writer-description").textContent = escritores[index].descricao;
+    
+    document.querySelectorAll(".dot").forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+    });
+}
+
+function nextSlide() {
+    index = (index + 1) % escritores.length;
+    updateSlide();
+}
+
+function prevSlide() {
+    index = (index - 1 + escritores.length) % escritores.length;
+    updateSlide();
+}
+
+function goToSlide(slideIndex) {
+    index = slideIndex;
+    updateSlide();
+    resetTimer();
+}
+
+// Troca automático a cada 5 segundos
+function resetTimer() {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, 50000);
+}
+
+// Inicia o timer quando a página carrega
+slideInterval = setInterval(nextSlide, 50000);
+
+function toggleSection() {
+    const escritoresSection = document.getElementById("escritores");
+    const creditosSection = document.getElementById("creditos");
+
+    if (escritoresSection.style.display === "none") {
+        escritoresSection.style.display = "flex";
+        creditosSection.style.display = "none";
+    } else {
+        escritoresSection.style.display = "none";
+        creditosSection.style.display = "block";
+    }
+}

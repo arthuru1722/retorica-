@@ -5,56 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz de Português</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Tela Inicial -->
-    <div id="telaInicial">
-        <div>
-            <h1>Retórica +</h1>
-            <p>Figura de linguagem</p>
-            <button onclick="iniciarQuiz()">Jogar</button>
-            <button onclick="">Creditos</button>
-            <button onclick="">Sair</button>
+    <div id="telaInicial" class="telaInicial">
+        <div class="menu">
+            <div class="title">
+                <h1>Retórica +</h1>
+                <p>Figura de linguagem</p>
+            </div>
+            <div class="buttons">
+                <button onclick="iniciarQuiz()">Jogar</button>
+                <button onclick="toggleSection()">Creditos</button>
+                <button onclick="">Sair</button>
+            </div>
         </div>
     
         <div class="information">
-            <div class="escritores"> 
-                <div class="left">
-                    <div class="white_bg">
-                        <img src="src/machado.png">
+            <div class="escritores" id="escritores">
+                <div class="carousel">
+                    <div class="slide">
+                        <div class="left">
+                            <div class="white_bg">
+                                <img id="writer-img" src="src/machado.png">
+                            </div>
+                            <div class="info">
+                                <h3 id="writer-name">Machado De Assis</h3>
+                            <p id="writer-years">(1839-1908)</p>
+                            </div>
+                        </div>
+        
+                        <div class="right">
+                            <p id="writer-description">Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial.</p>
+                        </div>
+  
                     </div>
-                    <h3>Machado De Assis</h3>
-                    <p>(xxxx-xxxx)</p>
-                </div>
-
-                <div class="right">
-                    <p>Foi um dos maiores escritores brasileiros e um dos fundadores da Academia Brasileira de Letras. Considerado um mestre da literatura, introduziu o Realismo no Brasil com Memórias Póstumas de Brás Cubas (1881), rompendo com o Romantismo e trazendo uma narrativa inovadora, marcada pela ironia e pela análise psicológica dos personagens. Suas obras, como Dom Casmurro, Quincas Borba e Esaú e Jacó, exploram temas como hipocrisia, ambição e desigualdade social, oferecendo uma crítica profunda da sociedade brasileira de sua época. Seu legado influenciou gerações de escritores e consolidou a literatura brasileira no cenário mundial.</p>
-                </div>
-
-                <div class="bottom">
-                    <h2>Grandes Escritores</h2>
+                    <div class="bottom">
+                        <h2>Grandes Escritores</h2>
+                    </div>
+                    <div class="indicators">
+                        <span class="dot active" onclick="goToSlide(0)"></span>
+                        <span class="dot" onclick="goToSlide(1)"></span>
+                        <span class="dot" onclick="goToSlide(2)"></span>
+                        <span class="dot" onclick="goToSlide(3)"></span>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="creditos">
+            <div class="creditos" id="creditos">
                 <div class="left">
                     <h2>Créditos</h2>
                 </div>
-            </div>
-            <div class="right">
-                <p>Suelly</p>
-                <p>Ruan</p>
-                <p>João Pedro</p>
-                <p>Manuel</p>
-                <p>Karollayne</p>
-            </div>
-            <div class="right-bottom">
-                <div class="crrbleft">
-                    <p>Programação:</p>
-                    <p>Arthur Maycon</p>
-                </div>
                 <div class="right">
-                    <p>Game Design</p>
+                    <p>Suelly</p>
+                    <p>Ruan</p>
                     <p>João Pedro</p>
+                    <p>Karollayne</p>
+                </div>
+                <div class="right-bottom">
+                    <div class="crrbleft">
+                        <p>Programação:</p>
+                        <p>Arthur Maycon</p>
+                    </div>
+                    <div class="right">
+                        <p>Game Design:</p>
+                        <p>João Pedro</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,36 +84,70 @@
             <h2>Figura de linguagem</h2>
         </div>
         
-        <div class="left">
-            <div class="question">
-                <p>Identifique que tipo de figura de linguagem se trata:</p>
-                <h1 id="pergunta"></h1>
+        <div class="bottom">
+            <div class="left">
+                <div class="question">
+                    <p>Identifique que tipo de figura de linguagem se trata:</p>
+                    <h1 id="pergunta"></h1>
+                </div>
+                <div>
+                    <p>Tempo:</p>
+                    <p class="timer" id="timer"></p>
+                </div>
+                
+                <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
             </div>
-            <p class="timer" id="timer"></p>
-            <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
+    
+            <div class="right">
+                <ul id="opcoes"></ul>
+            </div>
         </div>
-
-        <div class="right">
-            <ul id="opcoes"></ul>
-        </div>
+        
 
         
     </div>
 
     <!-- Tela de Explicação (só aparece se errar) -->
     <div id="telaExplicacao">
-        <h2 id="tema"></h2>
-        <p id="descricaoTema"></p>
-        <h3>Explicação da resposta</h3>
-        <p id="explicacao"></p>
-        <button onclick="voltarParaTelaInicial()">Entendi</button>
+        <div class="left">
+            <h2 id="tema"></h2>
+            <p id="descricaoTema"></p>
+        </div>
+        <div class="center">
+            <h3>Explicação da resposta</h3>
+            <p id="explicacao"></p>
+        </div>
+        <div class="right">
+            <div class="top">
+                
+            </div>
+            <div class="bottom">
+                <button onclick="voltarParaTelaInicial()">Entendi</button>
+                <div class="title">
+                    <h1>Retórica+</h1>
+                    <p>Figura de linguagem</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Tela de Tempo Esgotado -->
     <div id="telaTempoEsgotado">
-        <h1>Tempo esgotado!</h1>
-        <p>Você não respondeu todas as perguntas a tempo.</p>
-        <button onclick="voltarParaTelaInicial()">Voltar ao início</button>
+        <div class="left">
+            <h1>Tempo esgotado!</h1>
+            <i class="fa-solid fa-stopwatch"></i>
+        </div>
+        <div class="right">
+            <div class="top"></div>
+            <div class="bottom">
+                <button onclick="voltarParaTelaInicial()">Voltar ao início</button>
+                <div class="title">
+                    <h1>Retórica+</h1>
+                    <p>Figura de linguagem</p>
+                </div>
+            </div>
+        </div>
+       
     </div>
 
     <script src="script.js"></script>
