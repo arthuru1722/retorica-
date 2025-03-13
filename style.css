@@ -1,13 +1,12 @@
 body { 
     background-color: #f4bb8c; 
-    font-family: 'Poppins', 'Questrial'; 
-    padding: 40px; 
+    font-family: 'Poppins', 'Questrial', 'Alata', 'Open Sans'; 
+    padding: 8vmin; 
 }
 #telaInicial {
-    background-color: #00000007;
+    /* background-color: #00000007; */
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 20vmin;
     width: 100%;
 }
 
@@ -16,40 +15,43 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 70vmin;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #telaInicial .title {
-    width: 450px;
-    line-height: 1.2px;
+    width: 50vmin;
+    line-height: 1.2vmin;
 }
 
 #telaInicial h1 {
-    font-size: 85px;
+    font-size: 9.5vmin;
     color: #6e8f7c;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #telaInicial .title p {
-    font-size: 32px;
+    font-size: 3.8vmin;
     color: #a86255;
     font-family: 'Questrial';
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
-    height: 60px;
+    width: 50vmin;
+    height: 8vmin;
     background-color: #feefd8;
 }
 
 .information {
-    background-color: #f8d4d4;
-    width: 800px;
-    height: 80vh;
+    /* background-color: #f8d4d4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vmin;
+    height: 60vmin;
 }
 
 #writer-img {
-    width: 50px;
+    width: 5vmin;
 }
 
 #telaQuiz .bottom {
@@ -57,35 +59,34 @@ body {
 }
 
 .buttons button {
-    width: 450px;
-    height: 80px;
+    width: 50vmin;
+    height: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'poppins';
-    font-size: 50px;
+    font-size: 7vmin;
     background-color: #6e8f7c;
     font-weight: bold;
     border: none;
     color: #feefd8;
 }
 .buttons {
-    background-color: #00ff6a;
-    height: 300px;
+    /* background-color: #00ff6a; */
+    height: 35vmin;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .slide {
     display: flex;
     justify-content: space-between;
-    width: 660px;
+    width: 80vmin;
     background-color: aqua;
 }
 .white_bg {
-    width: 220px;
-    height: 200px;
+    width: 34vmin;
+    height: 30vmin;
     background-color: #feefd8;
 }
 .slide .left {
@@ -93,27 +94,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    height: 420px;
-    width: 220px;
-    
+    padding: 3vmin;
+    height: 58vmin;
+    width: 34vmin;
 }
 #writer-description {
-    width: 360px;
-    height: 420px;
+    width: 56vmin;
+    height: 60vmin;
     background-color: #feefd8;
+    color: #3b3838;
+    font-family: 'Alata';
+    font-size: 2.3vmin;
     margin: 0;
-    padding: 20px;
+    padding: 2vmin;
 }
 
 .slide .info {
-    width: 220px;
-    height: 200px;
-    line-height: 1px;
+    width: 34vmin;
+    height: 20vmin;
+    line-height: 1vmin;
 }
 
 .slide .info h3 {
-    font-size: 22px;
+    font-size: 3.2vmin;
     margin: 0;
     font-family: 'poppins';
     color: #feefd8;
@@ -122,7 +125,7 @@ body {
 
 .slide .info p {
     color: #feefd8;
-    font-size: 18px;
+    font-size: 2.4vmin;
     font-weight: bold;
 }
 
@@ -133,8 +136,8 @@ body {
     top: -50%;
 }
 .escritores {
-    background-color: #00ff6a;
-    height: 600px;
+    /* background-color: #00ff6a; */
+    height: 50vmin;
     scale: 0.9;
 }
 .carousel {
@@ -144,10 +147,10 @@ body {
 }
 .carousel .bottom h2 {
     background-color: #6e8f7c;
-    height: 70px;
+    height: 9vmin;
     margin: 0;
     font-family: 'questrial';
-    font-size: 31px;
+    font-size: 4.1vmin;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,57 +158,156 @@ body {
     font-weight: lighter;
 }
 
-
-
-
-
 #opcoes li { 
     cursor: pointer; 
-    padding: 10px; 
+    padding: 1vmin; 
     display: block; 
-    margin: 5px; 
-    border: 1px solid black; 
-    width: 450px;
+    font-size: 4vmin;
+    text-align: center;
+    font-weight: 800;
+    margin: 2.5vmin;
+    background-color: #6e8f7c; 
+    color: #feefd8;
+    font-family: 'poppins';
+    width: 48vmin;
+    height: 6vmin;
 }
 .correta { 
     color: green; 
     font-weight: bold; 
-    border: 2px solid green; 
+    border: 0.2vmin solid green; 
     background-color: #d4f8d4; 
 }
 .errada { 
     color: red; 
     font-weight: bold; 
-    border: 2px solid red; 
+    border: 0.2vmin solid red; 
     background-color: #f8d4d4; 
 }
 
 .indicators {
     text-align: center;
     width: 100%;
-    margin-top: 10px;
-    background-color: #bbff00;
+    margin-top: 1vmin;
+    /* background-color: #bbff00; */
 }
 
 .dot {
     display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 5px;
-    background-color: gray;
+    width: 2vmin;
+    height: 2vmin;
+    margin: 0.5vmin;
+    background-color: #7e493e;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .dot.active {
-    background-color: rgb(255, 1, 1);
+    background-color: #422620;
 }
 
 #telaExplicacao, #telaInicial, #telaQuiz, #telaTempoEsgotado, #creditos { display: none; }
-.timer { font-size: 20px; font-weight: bold; }
+.timer { font-size: 2vmin; font-weight: bold; }
 
 @keyframes blinking {
     0% { color: red; }
     50% { color: black; }
     100% { color: red; }
+}
+
+#telaQuiz {
+    flex-direction: column;
+}
+
+#telaQuiz .title h1 {
+    font-size: 6vmin;
+    color: #6e8f7c;
+    margin: 0;
+}
+
+#telaQuiz .title p{
+    background-color: #feefd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 3.8vmin;
+    width: 30vmin;
+    color: #a86255;
+    font-family: 'Questrial';
+    font-size: 2vmin;
+}
+
+#telaQuiz .bottom .left .question .disclaimer {
+    background-color: #6e8f7c;
+    height: 9vmin;
+    color: #feefd8;
+    font-size: 3vmin;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Alata';
+    
+
+}
+
+#telaQuiz .bottom .left {
+    width: 80vmin;
+    height: 50vmin;
+}
+
+#telaQuiz .bottom .left .question .pergunta h1 {
+    background-color: #a86255;
+    color: #feefd8;
+    font-size: 5vmin;
+    font-family: 'poppins';
+    padding: 2vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 18vmin;
+    margin: 0;
+}
+
+#time {
+    color: #f4bb8c;
+    font-family: 'poppins';
+    background-color: #7e493e;
+    width: fit-content;
+    padding: 0 2vmin 0 2vmin;
+    font-size: 4vmin;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.timer {
+    color: #7e493e;
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 8vmin;
+}
+
+#telaQuiz .bottom .left .left-bottom {
+    display: flex;
+    gap: 20vmin;
+}
+
+#rp {
+    color: #3b3838;
+    display: flex;
+    font-family: 'poppins';
+    font-weight: 600;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: #feefd8;
+    margin-top: 4vmin;
+    width: 40vmin;
+    font-size: 3vmin;
+}
+
+#rp p {
+    margin: 0;
+}
+#respostasCorretas {
+    font-size: 8vmin;
 }

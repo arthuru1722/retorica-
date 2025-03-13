@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz de Português</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Tela Inicial -->
@@ -81,21 +81,30 @@
     <div id="telaQuiz">
         <div class="title">
             <h1>Retórica+</h1>
-            <h2>Figura de linguagem</h2>
+            <p>Figura de linguagem</p>
         </div>
         
         <div class="bottom">
             <div class="left">
                 <div class="question">
-                    <p>Identifique que tipo de figura de linguagem se trata:</p>
-                    <h1 id="pergunta"></h1>
+                    <div class="disclaimer">
+                        <p>Identifique que tipo de figura de <br> linguagem se trata:</p>
+                    </div>
+                    <div class="pergunta">
+                        <h1 id="pergunta"></h1>
+                    </div>  
                 </div>
-                <div>
-                    <p>Tempo:</p>
-                    <p class="timer" id="timer"></p>
+                <div class="left-bottom">
+                    <div>
+                        <p id="time">TEMPO:</p>
+                        <p class="timer" id="timer"></p>
+                    </div>
+                    <div id="rp">
+                        <p>Respondidos <br> <span id="respostasCorretas">0</span></p> 
+                    </div>
+                       
                 </div>
                 
-                <p>Respostas corretas: <span id="respostasCorretas">0</span></p>
             </div>
     
             <div class="right">

@@ -3,7 +3,7 @@ let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
 let respostasCorretas = 0;
-let tempoRestante = 20; // 1:30
+let tempoRestante = 5000; // 1:30
 let contadorPerguntas = 0;
 let timerInterval;
 
@@ -29,7 +29,7 @@ function iniciarQuiz() {
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 20 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 5000 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
 
     if (tempoRestante < 10) tempoRestante = 10; // Limita o tempo para não ser menor que 10 segundos.
 
