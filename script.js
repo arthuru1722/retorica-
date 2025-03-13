@@ -3,7 +3,7 @@ let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
 let respostasCorretas = 0;
-let tempoRestante = 5000; // 1:30
+let tempoRestante = 90; // 1:30
 let contadorPerguntas = 0;
 let timerInterval;
 
@@ -29,7 +29,7 @@ function iniciarQuiz() {
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 5000 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 90 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
 
     if (tempoRestante < 10) tempoRestante = 10; // Limita o tempo para não ser menor que 10 segundos.
 
@@ -112,26 +112,39 @@ function carregarPergunta() {
 
 
 function verificarResposta(elemento, indice, correta, opcoes) {
-    document.querySelectorAll("#opcoes li").forEach(li => li.onclick = null);
+    clearInterval(timerInterval); // Pausar o timer
+    document.querySelectorAll("#opcoes li").forEach(li => li.onclick = null); // Desabilitar as outras respostas
 
-    // Encontra qual índice embaralhado é o da resposta correta
-    const indiceCorreto = opcoes.findIndex(opcao => opcao.index === correta);
+    // Obtém o container correto do botão
+    let container = elemento.parentElement;
 
-    document.querySelectorAll("#opcoes li")[indiceCorreto].classList.add("correta"); // Destaca a correta
-
+    // Se a resposta for correta, adiciona a classe 'correta' à opção clicada
     if (indice === correta) {
-        elemento.innerHTML += " ✔️";
+        elemento.classList.add("correta");
         respostasCorretas++;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
-        setTimeout(carregarPergunta, 1000); // Se acertar, vai pra próxima pergunta
     } else {
-        elemento.innerHTML += " ❌";
+        // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
         elemento.classList.add("errada");
-        setTimeout(mostrarExplicacao, 1500); // Se errar, mostra explicação
+    }
+
+    // Adiciona a resposta correta à lista
+    const opcoesEl = document.querySelectorAll("#opcoes li");
+    const indiceCorreto = opcoes.findIndex(opcao => opcao.index === correta);
+
+    // Destaca a opção correta (verde) se não for a mesma opção clicada
+    opcoesEl[indiceCorreto].classList.add("correta");
+
+    // Se o usuário acertou, vai para a próxima pergunta após 1 segundo
+    if (indice === correta) {
+        setTimeout(carregarPergunta, 1000);
+    } else {
+        setTimeout(mostrarExplicacao, 1500); // Se errar, mostra a explicação após 1,5 segundos
     }
 
     contadorPerguntas++;
 }
+
 
 function mostrarExplicacao() {
     document.getElementById("telaQuiz").style.display = "none";

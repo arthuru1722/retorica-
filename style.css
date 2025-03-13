@@ -70,6 +70,12 @@ body {
     font-weight: bold;
     border: none;
     color: #feefd8;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    scale: 1.05;
 }
 .buttons {
     /* background-color: #00ff6a; */
@@ -158,25 +164,43 @@ body {
     font-weight: lighter;
 }
 
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.opcao-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 #opcoes li { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer; 
-    padding: 1vmin; 
+    text-align: center;
+    
+    padding: 2vmin; 
     display: block; 
     font-size: 4vmin;
-    text-align: center;
     font-weight: 800;
-    margin: 2.5vmin;
     background-color: #6e8f7c; 
     color: #feefd8;
     font-family: 'poppins';
     width: 48vmin;
     height: 6vmin;
+    transition: scale 0.3s ease; /* Suaviza a redução do botão */
 }
+
+#opcoes li:hover {
+    scale: 1.05;
+}
+
 .correta { 
-    color: green; 
-    font-weight: bold; 
-    border: 0.2vmin solid green; 
-    background-color: #d4f8d4; 
+    border: 0.5vmin solid green; 
 }
 .errada { 
     color: red; 
@@ -310,4 +334,22 @@ body {
 }
 #respostasCorretas {
     font-size: 8vmin;
+}
+
+#telaQuiz .bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20vmin;
+}
+
+#telaQuiz .bottom .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vmin;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
 }
