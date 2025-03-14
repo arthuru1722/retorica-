@@ -268,12 +268,33 @@ slideInterval = setInterval(nextSlide, 50000);
 function toggleSection() {
     const escritoresSection = document.getElementById("escritores");
     const creditosSection = document.getElementById("creditos");
+    const documentationSection = document.getElementById("documentation");
 
     if (escritoresSection.style.display === "none") {
         escritoresSection.style.display = "flex";
+        documentationSection.style.display = "none";
         creditosSection.style.display = "none";
     } else {
         escritoresSection.style.display = "none";
+        documentationSection.style.display = "none";
         creditosSection.style.display = "flex";
     }
 }
+
+function toggleDocumentation() {
+    const documentationSection = document.getElementById("documentation");
+    const creditosSection = document.getElementById("creditos");
+    const escritoresSection = document.getElementById("escritores");
+
+    if (documentationSection.style.display === "none") {
+        documentationSection.style.display = "flex"
+        escritoresSection.style.display = "none";
+        creditosSection.style.display = "none";
+    } else {
+        documentationSection.style.display = "none";
+        creditosSection.style.display = "none";
+        escritoresSection.style.display = "flex";   
+    }
+}
+
+toggleDocumentation()

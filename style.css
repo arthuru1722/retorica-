@@ -302,7 +302,7 @@ body {
     background-color: #422620;
 }
 
-#telaExplicacao, #telaInicial, #telaQuiz, #telaTempoEsgotado, #creditos { display: none; }
+#telaExplicacao, #telaInicial, #telaQuiz, #telaTempoEsgotado, #creditos, #documentation { display: none; }
 .timer { font-size: 2vmin; font-weight: bold; }
 
 @keyframes blinking {
@@ -452,12 +452,12 @@ ul, ol {
 }
 
 #telaExplicacao .left h2 {
-    font-size: 7vmin;
+    font-size: 6vmin;
     height: 80px;
     text-align: center;
     color: #feefd8;
     margin: 0;
-    line-height: 17vmin;
+    line-height: 13vmin;
 }
 
 #telaExplicacao .left h3 {
@@ -470,7 +470,7 @@ ul, ol {
 #telaExplicacao .left p {
     color: #feefd8;
     font-size: 2.5vmin;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 7vmin;
     margin-right: 7vmin;
 }
@@ -492,7 +492,7 @@ ul, ol {
 #telaExplicacao .center p {
     color: #feefd8;
     font-size: 2.5vmin;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 7vmin;
     margin-right: 7vmin;
     z-index: 9999;
