@@ -6,6 +6,31 @@ let respostasCorretas = 0;
 let tempoRestante = 90; // 1:30
 let contadorPerguntas = 0;
 let timerInterval;
+let recorde = localStorage.getItem("recordeQuiz") || 0;
+recorde = parseInt(recorde);
+
+document.getElementById("recorde").innerText = recorde;
+
+function atualizarRecorde() {
+    if (respostasCorretas > recorde) {
+        recorde = respostasCorretas;
+        
+        localStorage.setItem("recordeQuiz", recorde);
+        console.log(recorde)
+        document.getElementById("recorde").innerText = recorde;
+    }
+}
+
+let recordeAtual = 0;
+
+document.getElementById("recordeAtual").innerText = recordeAtual;
+
+function atualizarRecordeAtual() {
+    recordeAtual = respostasCorretas;
+    console.log(recordeAtual)
+    document.getElementById("recordeAtual").innerText = recordeAtual;
+}
+
 
 async function carregarPerguntas() {
     const response = await fetch("perguntas.json");
@@ -73,6 +98,7 @@ function formatTime(seconds) {
 }
 
 function mostrarTempoEsgotado() {
+    document.getElementById("telaInicial").style.display = "none";
     document.getElementById("telaQuiz").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "flex";
 }
@@ -123,9 +149,13 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         elemento.classList.add("correta");
         respostasCorretas++;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
+        atualizarRecordeAtual()
+        atualizarRecorde()
     } else {
         // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
         elemento.classList.add("errada");
+        atualizarRecordeAtual()
+        atualizarRecorde()
     }
 
     // Adiciona a resposta correta à lista
@@ -244,6 +274,6 @@ function toggleSection() {
         creditosSection.style.display = "none";
     } else {
         escritoresSection.style.display = "none";
-        creditosSection.style.display = "block";
+        creditosSection.style.display = "flex";
     }
 }
