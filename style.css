@@ -4,7 +4,7 @@ body {
     padding: 8vmin; 
 }
 #telaInicial {
-    /* background-color: #00000007; */
+    background-color: #00000007;
     display: flex;
     gap: 20vmin;
     width: 100%;
@@ -363,6 +363,16 @@ body {
     text-align: center;
     height: 18vmin;
     margin: 0;
+}
+
+#documentation {
+    flex-direction: column;
+    background-color: #a86255;
+    margin: 0;
+}
+
+#documentation p {
+
 }
 
 #time {

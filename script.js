@@ -36,6 +36,34 @@ async function carregarPerguntas() {
     const response = await fetch("perguntas.json");
     perguntas = await response.json();
     document.getElementById("telaInicial").style.display = "flex";
+
+    generateDocumentationCards();
+}
+
+function generateDocumentationCards() {
+    const contentDiv = document.getElementById('documentation-content');
+    // Limpa o conteúdo atual (caso haja alguma renderização anterior)
+    contentDiv.innerHTML = '';
+
+    // Percorre cada categoria presente no JSON
+    for (const [categoria, info] of Object.entries(perguntas)) {
+        // Cria o card
+        const card = document.createElement('div');
+        card.classList.add('card');
+
+        // Cria o título do card (nome da categoria)
+        const title = document.createElement('h3');
+        title.innerText = categoria;
+        card.appendChild(title);
+
+        // Cria a descrição do card
+        const description = document.createElement('p');
+        description.innerText = info.descricao;
+        card.appendChild(description);
+
+        // Adiciona o card à área de documentação
+        contentDiv.appendChild(card);
+    }
 }
 
 function iniciarQuiz() {
