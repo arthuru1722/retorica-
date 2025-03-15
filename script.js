@@ -82,11 +82,15 @@ function iniciarQuiz() {
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 90 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 20 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
 
     if (tempoRestante < 10) tempoRestante = 10; // Limita o tempo para não ser menor que 10 segundos.
 
     document.getElementById("timer").innerText = formatTime(tempoRestante);
+    if (tempoRestante > 10 ) {
+        document.getElementById("timer").style.color = "#7e493e";
+        document.getElementById("timer").style.animation = ""; // Remove o efeito de piscar
+    }
 
     // Verifica se a quantidade de perguntas respondidas é maior que 1
     if (contadorPerguntas > 1) {
@@ -104,13 +108,13 @@ function updateTimer() {
     tempoRestante--;
     document.getElementById("timer").innerText = formatTime(tempoRestante);
 
-    // if (tempoRestante === 10) {
-    //     document.getElementById("timer").style.color = "red";
-    //     document.getElementById("timer").style.animation = "blinking 1  s infinite";
-    // } else if (tempoRestante > 10 ) {
-    //     document.getElementById("timer").style.color = "black";
-    //     document.getElementById("timer").style.animation = ""; // Remove o efeito de piscar
-    // }
+     if (tempoRestante === 10) {
+         document.getElementById("timer").style.color = "red";
+         document.getElementById("timer").style.animation = "blinking 1s infinite";
+     } else if (tempoRestante > 10 ) {
+         document.getElementById("timer").style.color = "#7e493e";
+         document.getElementById("timer").style.animation = ""; // Remove o efeito de piscar
+     }
 
     if (tempoRestante <= 0) {
         clearInterval(timerInterval);
