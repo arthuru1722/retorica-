@@ -8,10 +8,10 @@ html {
 body { 
     background-color: #f4bb8c; 
     font-family: 'Poppins', 'Questrial', 'Alata', 'Open Sans';
+    height: 100%;
 }
 
 #telaInicial {
-    background-color: #00000007;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 80vh;
+    height: 40vh;
     width: 50vmin;
 }
 
@@ -43,19 +43,6 @@ body {
 
 .logo3 {
     width: 100%
-}
-
-#telaInicial .menu p {
-    font-size: 3vmin;
-    color: #a86255;
-    font-family: 'Questrial';
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50vmin;
-    height: 5vmin;
-    padding: 1vmin 0;
-    background-color: #feefd8;
 }
 
 #telaInicial .creditos {
@@ -134,7 +121,6 @@ body {
 }
 
 .information {
-    background-color: #f8d4d4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,6 +148,26 @@ body {
     scale: 1.05;
 }
 
+.recorde {
+    margin-top: 20px;
+    width: 80vw;
+    font-size: 3vmin;
+    color: #a86255;
+    font-family: 'Questrial';
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vmin;
+    padding: 1vmin 0;
+    background-color: #feefd8;
+}
+
+.recorde p {
+    width: 100%;
+}
+
 .buttons {
     height: auto;
     display: flex;
@@ -175,7 +181,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
+    height: 500px;
     background-color: aqua;
 }
 
@@ -195,16 +202,15 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    height: auto;
+    height: 31rem;
     width: 40%;
     max-width: 340px;
 }
 
 #writer-description {
     width: 100%;
-    max-width: 560px;
-    height: 94%;
-    height: 520px;
+    max-width: 56vmin;
+    height: 31rem;
     background-color: #feefd8;
     overflow: visible;
     color: #3b3838;
@@ -216,9 +222,15 @@ body {
     box-sizing: border-box;
 }
 
+.slide .right {
+    background-color: #feefd8;
+}
+
 .slide .info {
     width: 100%;
     max-width: 340px;
+    overflow-y: auto;
+    overflow-x: hidden;
     height: auto;
     min-height: 200px;
     line-height: normal;
@@ -273,8 +285,10 @@ body {
 #opcoes {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
-    scale: 1.2;
+    width: 100%;
+
 }
 
 #opcoes li { 
@@ -282,14 +296,14 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer; 
-    text-align: center;
-    padding: 20px; 
+    text-align: center; 
     font-size: calc(16px + 1vw);
     font-weight: 800;
     background-color: #6e8f7c; 
     color: #feefd8;
     font-family: 'poppins';
-    width: 50vmin;
+    width: 100%;
+    padding: 20px 0px;
     max-width: 480px;
     height: auto;
     transition: scale 0.3s ease;
@@ -406,6 +420,7 @@ body {
 #telaQuiz .bottom .left .left-bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
@@ -416,6 +431,7 @@ body {
     font-weight: 600;
     margin: 0;
     justify-content: center;
+    align-items: center;
     text-align: center;
     background-color: #feefd8;
     margin-top: 40px;
@@ -841,17 +857,44 @@ ul, ol {
     }
 } */
 
-@media (max-width: 768px) {
-    body {
-        
-    }
+@media (max-width: 1020px) {
     #telaInicial {
-        flex-direction: column;  
+        flex-direction: column;
+        justify-content: space-between;     
+        height: 100%;
 
     }
+
+    .slide {
+        height: 20rem;
+    }
+
+    #writer-description {
+        height: 20rem;
+    }
+
+    .slide .left {
+        height: 18rem;
+    }
+
+    .buttons {
+        margin-top: 20px;
+    }
     
-    #telaInicial button {
-        width: 80vw;
+    .buttons button {
+        width: 100%;
+    }
+
+    .buttons button:hover{
+        scale: 1;
+    }
+
+    #telaInicial .content {
+        order: 3;
+    }
+
+    #telaInicial .menu .buttons {
+        width: 100%;
     }
 
     #telaInicial .title{
@@ -860,24 +903,21 @@ ul, ol {
         align-items: center;
     }
 
-    .information {
-        height: 20vmin !important;
+    .logo1 {
+        width: 20em;
+    }
+    .logo2 {
+        width: 70%;
     }
 
     .creditos .right {
-        height: 20vmin;
+        height: 20em;
     }
 
-    .carousel {
-        height: 20vmin !important;
-    }
-
-    .slide {
-        height: 20vmin !important;
-    }
-
-    #writer-description {
-        height: 20vmin !important;
+    .information {
+        height: 470px;
+        display: block;
+        order: 2;
     }
     
     .escritores {
@@ -886,17 +926,140 @@ ul, ol {
 
     #telaInicial .menu {
         align-items: center;
-        height: 80vmin;
+        height: 30vmin;
         width: 100%;
-        background-color: #8f6e6e8a;
+        order: 2;
     }
 
-    .information {
-        height: fit-content;
+    #telaInicial .creditos .right {
+        height: 430px;
     }
 
-    #telaQuiz {
+    #telaInicial .creditos .left h2 {
+        background-color: #6e8f7c;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        height: 430px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-size: calc(18px + 1.5vw);
+        color: #feefd8;
+        font-family: 'Questrial';
+        font-weight: 200;
+        margin: 0;
+    }
+
+    #telaInicial .menu .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #telaQuiz { 
         flex-direction: column;
     }
 
+    #telaQuiz .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    #opcoes {
+        width: 70vw;
+    }
+
+    #opcoes li {
+        width: 90%;
+    }
+    #telaQuiz .bottom .left{
+        width: 100%;
+    }
+
+    #telaQuiz .bottom .right {
+        width: 100%;
+    }
+
+    .slide .info h3 {
+        margin-top: 2px;
+        line-height: 20.2px;
+    }
+
+    .slide .info p {
+        font-size: calc(13px + 0.5vw);
+    }
+    #telaQuiz .title {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #telaExplicacao {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #telaExplicacao .left , #telaExplicacao .center, #telaExplicacao .right {
+        max-width: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    #telaExplicacao .right .bottom .title {
+        display: none;
+    }
+
+    #telaExplicacao .left h3 {
+        font-size: 1.5rem;
+    }
+
+    #telaExplicacao .left h2 {
+        font-size: 3rem;
+        line-height: 2rem;
+    }
+
+    #telaExplicacao .center h3 {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
+
+    #rp {
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    #telaQuiz .bottom .left .question .disclaimer {
+        padding: 1px 0;
+    }
+
+    #telaQuiz .bottom .left .question .pergunta h1 {
+        min-height: 100px;
+    }
+
+    #telaTempoEsgotado {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #telaTempoEsgotado .left, #telaTempoEsgotado .right {
+        width: 100%;
+    }
+
+    #telaTempoEsgotado .right .bottom .title {
+        display: none;
+    }
+
+    #telaTempoEsgotado .right .top .bg {
+        height: 84%;
+    }
+    #telaTempoEsgotado .right .top {
+        height: 60%;
+    }
+
+}
+
+@media (max-width: 380px) {
+    html {
+        height: 110%;
+    }
 }

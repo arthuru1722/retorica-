@@ -2,7 +2,7 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta name="description" content="Descrição do seu site aqui. Este é o seu site hospedado no GitHub Pages!">
     <title>Retórica+</title>
     <link rel="stylesheet" href="style.css">
@@ -14,19 +14,25 @@
         
     <!-- Tela Inicial -->
     <div id="telaInicial" class="telaInicial">
-        <div class="menu">
-            <div class="title">
-                <img class="logo1" src="src/logo1.png">
-            </div>
-            <div class="buttons">
-                <button class="menubtn" onclick="iniciarQuiz()">Jogar</button>
-                <button class="menubtn" onclick="toggleSection()">Creditos</button>
-                <button class="menubtn" onclick="toggleDocumentation()">Sair</button>
-            </div>
-            <div class="recorde">
-                <p>Recorde:<span id="recorde">0</span></p>
+        <div>
+            <div class="menu">
+                <div class="title">
+                    <img class="logo1" src="src/logo1.png">
+                </div>
+            </div> 
+            <div class="content">
+                <div class="buttons">
+                    <button class="menubtn" onclick="iniciarQuiz()">Jogar</button>
+                    <button class="menubtn" onclick="toggleSection()">Creditos</button>
+                    <button class="menubtn" onclick="toggleDocumentation()">Sair</button>
+                </div>
+                <div class="recorde">
+                    <p>Recorde:<span id="recorde">0</span></p>
+                </div>
             </div>
         </div>
+        
+        
     
         <div class="information">
             <div class="escritores" id="escritores">
@@ -62,7 +68,7 @@
             <div class="creditos" id="creditos">
                 <div class="left">
                     <h2>Créditos</h2>
-                </div>  
+                </div>
                 <div class="right">
                     <div class="topp">
                         <p>Suelly</p>

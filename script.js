@@ -326,15 +326,3 @@ function toggleDocumentation() {
 }
 
 toggleDocumentation()
-
-function alterarPosicao() {
-    const larguraTela = window.innerWidth;
-    const telaInicial = document.getElementById("telaInicial");
-
-    // Mudando o conteúdo com innerHTML
-    if (larguraTela >= 768) {
-        telaInicial.innerHTML = "<div class='elemento'>Posição para desktop</div>";
-    } else {
-        telaInicial.innerHTML = "<div class='elemento'>Posição para mobile</div>";
-    }
-}
