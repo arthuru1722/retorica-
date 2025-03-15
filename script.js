@@ -3,8 +3,9 @@ let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
 let respostasCorretas = 0;
-let tempoRestante = 90; // 1:30
+let tempoRestante = 60; // 1:30
 let contadorPerguntas = 0;
+let count = 3;
 let timerInterval;
 let recorde = localStorage.getItem("recordeQuiz") || 0;
 recorde = parseInt(recorde);
@@ -67,22 +68,36 @@ function generateDocumentationCards() {
 }
 
 function iniciarQuiz() {
-    document.getElementById("telaInicial").style.display = "none";
-    perguntasDisponiveis = Object.keys(perguntas).flatMap(categoria =>
-        perguntas[categoria].perguntas.map(pergunta => ({ ...pergunta, categoria }))
-    );
-    embaralharArray(perguntasDisponiveis);
-    respostasCorretas = 0;
-    contadorPerguntas = 0;
-    document.getElementById("respostasCorretas").innerText = respostasCorretas;
-    carregarPergunta();
+    count = 3;
+    const vinheta = document.querySelector(".vinheta");
+    vinheta.classList.add("ativa");
+    setTimeout(() => {
+        animateTimer()
+    }, 1000);
+    
+
+    // Remove a vinheta após a animação pra não ficar ocupando espaço na DOM
+    setTimeout(() => {
+        vinheta.classList.remove("ativa");
+    }, 5000);
+    setTimeout(() => {
+        document.getElementById("telaInicial").style.display = "none";
+        perguntasDisponiveis = Object.keys(perguntas).flatMap(categoria =>
+            perguntas[categoria].perguntas.map(pergunta => ({ ...pergunta, categoria }))
+        );
+        embaralharArray(perguntasDisponiveis);
+        respostasCorretas = 0;
+        contadorPerguntas = 0;
+        document.getElementById("respostasCorretas").innerText = respostasCorretas;
+        carregarPergunta();
+    }, 3500);
     startTimer();
 }
 
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 20 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 60 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
 
     if (tempoRestante < 10) tempoRestante = 10; // Limita o tempo para não ser menor que 10 segundos.
 
@@ -330,3 +345,42 @@ function toggleDocumentation() {
 }
 
 toggleDocumentation()
+
+const timerElement = document.getElementById("timerr");
+
+function animateTimer() {
+    if (count > 0) {
+        timerElement.textContent = count;
+        
+        // Primeiro aumenta, depois diminui
+        timerElement.style.transform = `scale(${1.5})`;
+
+        setTimeout(() => {
+            timerElement.style.transform = `scale(${1.2})`; // Ainda maior que o original
+        }, 300);
+
+        count--;
+        setTimeout(animateTimer, 1000);
+    } else {
+        // Substitui o número pelo ícone com a animação de escala
+        timerElement.innerHTML = '<i class="fa-solid fa-check"></i>';
+        const checkIcon = document.querySelector('.fa-check');
+        
+        // Anima o ícone de check
+        checkIcon.style.transform = `scale(${1.2})`;
+
+        setTimeout(() => {
+            checkIcon.style.transform = `scale(${1.5})`; // Deixa ele um pouco maior que o original
+        },1);
+
+        setTimeout(() => {
+            checkIcon.style.transform = `scale(${1.2})`; // Deixa ele um pouco maior que o original
+        }, 301);
+        setTimeout(() => {
+            timerElement.innerHTML = '3';
+            count = 3;
+            console.log(count)
+        }, 1999);
+        
+    }
+}

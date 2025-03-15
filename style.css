@@ -470,8 +470,8 @@ ul, ol {
     background-image: url('src/download.svg');
     background-repeat: no-repeat; 
     background-size: contain; 
-    background-position: center 100%;
-    height: 300px;
+    background-position: center center;
+    height: 100%;
     background-size: 120px;
 }
 
@@ -747,6 +747,66 @@ ul, ol {
     animation: shake 2s ease-in infinite;
 }
 
+.vinheta {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6e8f7c;
+    z-index: 9999;
+    transform: translateY(-100%);
+    display: none; /* Oculta até ser ativada */
+}
+
+.vinheta.ativa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideDown 5s ease-in-out forwards;
+}
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    20% {
+      transform: translateY(0);
+    }
+    80% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+
+  #timerr {
+    position: absolute;
+    color: #feefd8;
+    font-weight: 700;
+    font-size: 20vmin;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes shake {
     0% { transform: translateX(10px); }
     1% { transform: translateX(-10px); }
@@ -851,7 +911,7 @@ ul, ol {
     }
 } */
 
-@media (max-width: 1020px) {
+@media (max-width: 768px) {
     html { padding: 20px}
     #telaInicial {
         flex-direction: column;
@@ -1009,12 +1069,12 @@ ul, ol {
     }
 
     #telaExplicacao .left h2 {
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 2rem;
     }
 
     #telaExplicacao .center h3 {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 2rem;
     }
 
