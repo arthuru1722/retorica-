@@ -781,7 +781,7 @@ ul, ol {
     }
 } */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     #telaInicial .creditos .left h2 {
         writing-mode: horizontal-tb;
         transform: none;
@@ -839,10 +839,64 @@ ul, ol {
     #telaTempoEsgotado .left i {
         font-size: calc(80px + 8vw);
     }
-}
+} */
 
 @media (max-width: 768px) {
     body {
-        background-color: #422620;
+        
     }
+    #telaInicial {
+        flex-direction: column;  
+
+    }
+    
+    #telaInicial button {
+        width: 80vw;
+    }
+
+    #telaInicial .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .information {
+        height: 20vmin !important;
+    }
+
+    .creditos .right {
+        height: 20vmin;
+    }
+
+    .carousel {
+        height: 20vmin !important;
+    }
+
+    .slide {
+        height: 20vmin !important;
+    }
+
+    #writer-description {
+        height: 20vmin !important;
+    }
+    
+    .escritores {
+        min-height: 0vmin;
+    }
+
+    #telaInicial .menu {
+        align-items: center;
+        height: 80vmin;
+        width: 100%;
+        background-color: #8f6e6e8a;
+    }
+
+    .information {
+        height: fit-content;
+    }
+
+    #telaQuiz {
+        flex-direction: column;
+    }
+
 }
