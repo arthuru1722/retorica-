@@ -485,7 +485,7 @@ ul, ol {
 #telaExplicacao .left {
     background-color: #653931;
     width: 100%;
-    max-width: 55vmin;
+    width: 55vmin;
     padding-top: 30px;
     overflow-y: auto;
 }
@@ -541,7 +541,7 @@ ul, ol {
 }
 #telaExplicacao .right {
     width: 100%;
-    max-width: 55vmin;
+    width: 55vmin;
 }
 
 #telaExplicacao .right .top {
@@ -734,7 +734,7 @@ ul, ol {
     padding: 10px 0;
 }
 
-#telaTempoEsgotado .left i{
+.fa-stopwatch{
     margin: 7vmin;
     color: rgba(254, 239, 216, 0.63);
     width: 100%;
@@ -744,7 +744,9 @@ ul, ol {
     animation-duration: 4.5s; 
 }
 
-#telaTempoEsgotado .left .clock {
+.relogio-vinheta
+
+.clock {
     height: 80%;
     display: flex;
     animation: shake 4.5s ease-in;
@@ -767,6 +769,44 @@ ul, ol {
     justify-content: center;
     align-items: center;
     animation: slideDown 5s ease-in-out forwards;
+}
+
+.vinheta1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e96767;
+    z-index: 9999;
+    transform: translateY(-100%);
+    display: none; /* Oculta até ser ativada */
+}
+
+.vinheta1.ativa1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideDown 1s ease-in-out forwards;
+}
+
+.vinheta2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e96767;
+    z-index: 9999;
+    transform: translateY(-100%);
+    display: none; /* Oculta até ser ativada */
+}
+
+.vinheta2.ativa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideDown 1s ease-in-out forwards;
 }
   @keyframes slideDown {
     0% {

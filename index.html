@@ -12,8 +12,12 @@
 </head>
 <body>
     
-    <div class="vinheta"> <p id="timerr">3</p>
-        
+    <div class="vinheta"> <p id="timerr">3</p></div>
+    <div class="vinheta1"></div>
+    <div class="vinheta2">
+        <div class="clock">
+            <i class="fa-solid fa-stopwatch fa-shake fa-bounce relogio-vinheta"></i>
+        </div>
     </div>
         
     <!-- Tela Inicial -->
@@ -27,7 +31,7 @@
             <div class="content">
                 <div class="buttons">
                     <button class="menubtn" onclick="iniciarQuiz()">Jogar</button>
-                    <button class="menubtn" onclick="toggleSection()">Creditos</button>
+                    <button class="menubtn" id="creditosbtn" onclick="toggleSection()">Creditos</button>
                     <button class="menubtn" onclick="toggleDocumentation()">Sair</button>
                 </div>
                 <div class="recorde">

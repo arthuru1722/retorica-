@@ -68,7 +68,6 @@ function generateDocumentationCards() {
 }
 
 function iniciarQuiz() {
-    count = 3;
     const vinheta = document.querySelector(".vinheta");
     vinheta.classList.add("ativa");
     setTimeout(() => {
@@ -82,6 +81,8 @@ function iniciarQuiz() {
     }, 5000);
     setTimeout(() => {
         document.getElementById("telaInicial").style.display = "none";
+        document.getElementById("telaExplicacao").style.display = "none";
+        document.getElementById("telaTempoEsgotado").style.display = "none";
         perguntasDisponiveis = Object.keys(perguntas).flatMap(categoria =>
             perguntas[categoria].perguntas.map(pergunta => ({ ...pergunta, categoria }))
         );
@@ -130,6 +131,7 @@ function audeo() {
     audio.play();
     if (tempoRestante <= 0) {
         audio.pause()
+        audio.currentTime = 0;
     }
 }
 
@@ -161,7 +163,25 @@ function updateTimer() {
          audeo()
     }
 }
+const vinheta1 = document.querySelector(".vinheta1");
+function vinheta2() {
+    console.log('a')
+        vinheta1.classList.add("ativa1");
+        // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
+        setTimeout(() => {
+            vinheta1.classList.remove("ativa1");
+        }, 2000);
+}
 
+const vinheta3 = document.querySelector(".vinheta2");
+function vinheta4() {
+    console.log('a')
+        vinheta3.classList.add("ativa2");
+        // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
+        setTimeout(() => {
+            vinheta3.classList.remove("ativa2");
+        }, 2000);
+}
 
 function formatTime(seconds) {
     let minutos = Math.floor(seconds / 60);
@@ -170,9 +190,12 @@ function formatTime(seconds) {
 }
 
 function mostrarTempoEsgotado() {
-    document.getElementById("telaInicial").style.display = "none";
-    document.getElementById("telaQuiz").style.display = "none";
-    document.getElementById("telaTempoEsgotado").style.display = "flex";
+    vinheta4()
+    setTimeout(() => {
+        document.getElementById("telaInicial").style.display = "none";
+        document.getElementById("telaQuiz").style.display = "none";
+        document.getElementById("telaTempoEsgotado").style.display = "flex";
+    }, 1000);
 }
 
 function carregarPergunta() {
@@ -249,12 +272,14 @@ function verificarResposta(elemento, indice, correta, opcoes) {
 
 
 function mostrarExplicacao() {
-    document.getElementById("telaQuiz").style.display = "none";
-    document.getElementById("telaExplicacao").style.display = "flex";
-
-    document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
-    document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
-    document.getElementById("explicacao").innerText = perguntaAtual.explicacao;
+    vinheta2() 
+    setTimeout(() => {
+        document.getElementById("telaQuiz").style.display = "none";
+        document.getElementById("telaExplicacao").style.display = "flex";
+        document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
+        document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
+        document.getElementById("explicacao").innerText = perguntaAtual.explicacao;
+    }, 500);
 }
 
 function voltarParaTelaInicial() {
@@ -340,13 +365,16 @@ slideInterval = setInterval(nextSlide, 50000);
 function toggleSection() {
     const escritoresSection = document.getElementById("escritores");
     const creditosSection = document.getElementById("creditos");
+    const creditosbtn = document.getElementById("creditosbtn")
     const documentationSection = document.getElementById("documentation");
 
     if (escritoresSection.style.display === "none") {
+        creditosbtn.innerHTML = "Creditos"
         escritoresSection.style.display = "flex";
         documentationSection.style.display = "none";
         creditosSection.style.display = "none";
     } else {
+        creditosbtn.innerHTML = "Escritores"
         escritoresSection.style.display = "none";
         documentationSection.style.display = "none";
         creditosSection.style.display = "flex";
@@ -374,6 +402,7 @@ toggleDocumentation()
 const timerElement = document.getElementById("timerr");
 
 function animateTimer() {
+    console.log(count);
     if (count > 0) {
         timerElement.textContent = count;
         
