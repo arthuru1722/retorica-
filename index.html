@@ -11,6 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Alata&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="estatisticas">
+        <div class="content">
+            <div class="top">
+                <div></div>
+                <h2>Figuras de linguagem</h2>
+                <button onclick="ocultStats()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="down">
+                <div class="est"><p>TEMPO DE JOGO:</p><span id="timee"></span></div>
+                <div class="est"><p>RECORDE:</p><span id="recorde"></span></div>
+                <div class="est"><p>RESPOSTAS:</p><span id="respostas"></span></div>
+                <div class="est"><p>RESPOSTAS ERRADAS:</p><span id="respostasW"></span></div>
+                <div class="est"><p>RESPOSTAS CERTAS:</p><span id="respostasR"></span></div>
+                <div class="est"><p>TEMPO ESGOTADO:</p><span id="esgotado"></span> </div>
+            </div>
+        </div>    
+    </div>
     
     <div class="vinheta"> <p id="timerr">3</p></div>
     <div class="vinheta1"></div>
@@ -32,7 +49,7 @@
                 <div class="buttons">
                     <button class="menubtn" onclick="iniciarQuiz()">Jogar</button>
                     <button class="menubtn" id="creditosbtn" onclick="toggleSection()">Creditos</button>
-                    <button class="menubtn" onclick="toggleDocumentation()">Sair</button>
+                    <button class="menubtn" onclick="showStats()">Creditos</button>
                 </div>
                 <div class="recorde">
                     <p>Recorde:<span id="recorde">0</span></p>
@@ -96,14 +113,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="documentation">
-                <top>
-                    <h2>Figuras de linguagem</h2>
-                </top>
-                <down id="documentation-content">
-                
-                </down>
             </div>
         </div>
     </div>

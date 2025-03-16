@@ -8,9 +8,48 @@ let contadorPerguntas = 0;
 let count = 3;
 let timerInterval;
 let recorde = localStorage.getItem("recordeQuiz") || 0;
+let respostas = localStorage.getItem("Respostas") || 0;
+let respostasW = localStorage.getItem("respostasW") || 0; // Corrigido
+let respostasR = localStorage.getItem("respostasR") || 0; // Corrigido
+let timee = localStorage.getItem("timee") || 0;
+let esgotado = localStorage.getItem("esgotado") || 0;
+
 recorde = parseInt(recorde);
+respostas = parseInt(respostas);
+respostasW = parseInt(respostasW);
+respostasR = parseInt(respostasR);
+timee = parseInt(timee);
+esgotado = parseInt(esgotado);
+
 
 document.getElementById("recorde").innerText = recorde;
+document.getElementById("respostas").innerText = respostas;
+document.getElementById("respostasW").innerText = respostasW;
+document.getElementById("respostasR").innerText = respostasR;
+document.getElementById("esgotado").innerText = esgotado;
+
+function formatarTempo(timee) {
+    let minutos = Math.floor(timee / 60);
+    let horas = Math.floor(timee / 3600);
+    let dias = Math.floor(timee / 86400);
+    
+    if (timee < 60) {
+        return `${timee} segundos`;
+    } else if (timee < 3600) {
+        return `${minutos} minutos`;
+    } else if (timee < 86400) {
+        return `${horas} horas`;
+    } else {
+        return `${dias} dias, ${horas % 24} horas e ${minutos % 60} minutos`;
+    }
+}
+
+document.getElementById("timee").textContent = formatarTempo(timee);
+
+
+function atualizarEstatisticas() {
+
+}
 
 function atualizarRecorde() {
     if (respostasCorretas > recorde) {
@@ -37,34 +76,6 @@ async function carregarPerguntas() {
     const response = await fetch("perguntas.json");
     perguntas = await response.json();
     document.getElementById("telaInicial").style.display = "flex";
-
-    generateDocumentationCards();
-}
-
-function generateDocumentationCards() {
-    const contentDiv = document.getElementById('documentation-content');
-    // Limpa o conteúdo atual (caso haja alguma renderização anterior)
-    contentDiv.innerHTML = '';
-
-    // Percorre cada categoria presente no JSON
-    for (const [categoria, info] of Object.entries(perguntas)) {
-        // Cria o card
-        const card = document.createElement('div');
-        card.classList.add('card');
-
-        // Cria o título do card (nome da categoria)
-        const title = document.createElement('h3');
-        title.innerText = categoria;
-        card.appendChild(title);
-
-        // Cria a descrição do card
-        const description = document.createElement('p');
-        description.innerText = info.descricao;
-        card.appendChild(description);
-
-        // Adiciona o card à área de documentação
-        contentDiv.appendChild(card);
-    }
 }
 
 function iniciarQuiz() {
@@ -99,9 +110,7 @@ function startTimer() {
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
     tempoRestante = 60 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
-
     if (tempoRestante < 15) tempoRestante = 15; // Limita o tempo para não ser menor que 10 segundos.
-
     document.getElementById("timer").innerText = formatTime(tempoRestante);
     if (tempoRestante > 10 ) {
         document.getElementById("timer").style.color = "#7e493e";
@@ -144,6 +153,8 @@ function auldeo() {
 
 function updateTimer() {
     tempoRestante--;
+    timee++;
+    localStorage.setItem("timee", timee);
     document.getElementById("timer").innerText = formatTime(tempoRestante);
 
      if (tempoRestante === 10) {
@@ -155,6 +166,8 @@ function updateTimer() {
      }
 
     if (tempoRestante <= 0) {
+        esgotado++;
+        localStorage.setItem("esgotado", esgotado);
         auldeo()
         clearInterval(timerInterval);
         mostrarTempoEsgotado();
@@ -233,6 +246,8 @@ function carregarPergunta() {
 
 
 function verificarResposta(elemento, indice, correta, opcoes) {
+    respostas += 1;
+    localStorage.setItem("Respostas", respostas);
     clearInterval(timerInterval); // Pausar o timer
     document.querySelectorAll("#opcoes li").forEach(li => li.onclick = null); // Desabilitar as outras respostas
 
@@ -241,12 +256,16 @@ function verificarResposta(elemento, indice, correta, opcoes) {
 
     // Se a resposta for correta, adiciona a classe 'correta' à opção clicada
     if (indice === correta) {
+        respostasR++;
+        localStorage.setItem("respostasR", respostasR);
         elemento.classList.add("correta");
         respostasCorretas++;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
         atualizarRecordeAtual()
         atualizarRecorde()
     } else {
+        respostasW++;
+        localStorage.setItem("respostasW", respostasW);
         // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
         elemento.classList.add("errada");
         atualizarRecordeAtual()
@@ -366,40 +385,35 @@ function toggleSection() {
     const escritoresSection = document.getElementById("escritores");
     const creditosSection = document.getElementById("creditos");
     const creditosbtn = document.getElementById("creditosbtn")
-    const documentationSection = document.getElementById("documentation");
 
     if (escritoresSection.style.display === "none") {
-        creditosbtn.innerHTML = "Creditos"
+        creditosbtn.innerHTML = "Creditos";
         escritoresSection.style.display = "flex";
-        documentationSection.style.display = "none";
         creditosSection.style.display = "none";
     } else {
-        creditosbtn.innerHTML = "Escritores"
+        creditosbtn.innerHTML = "Escritores";
         escritoresSection.style.display = "none";
-        documentationSection.style.display = "none";
         creditosSection.style.display = "flex";
     }
 }
 
-function toggleDocumentation() {
-    const documentationSection = document.getElementById("documentation");
-    const creditosSection = document.getElementById("creditos");
-    const escritoresSection = document.getElementById("escritores");
+const timerElement = document.getElementById("timerr");
 
-    if (documentationSection.style.display === "none") {
-        documentationSection.style.display = "flex"
-        escritoresSection.style.display = "none";
-        creditosSection.style.display = "none";
+function showStats() {
+    const estatistica = document.getElementById("estatisticas")
+
+    if (estatistica.style.display === "none") {
+        estatistica.style.display = "flex";
     } else {
-        documentationSection.style.display = "none";
-        creditosSection.style.display = "none";
-        escritoresSection.style.display = "flex";   
+        estatistica.style.display = "none"
     }
 }
+function ocultStats() {
+    const estatistica = document.getElementById("estatisticas")
+    estatistica.style.display = "none"
+}
 
-toggleDocumentation()
-
-const timerElement = document.getElementById("timerr");
+showStats()
 
 function animateTimer() {
     console.log(count);
