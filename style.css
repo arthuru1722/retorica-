@@ -930,6 +930,54 @@ ul, ol {
     margin-left: 10px;
 }
 
+.notificacao {
+    position: fixed;
+    top: -80%;
+    left: 0; /* Posição à direita */
+    width: 100vw;
+    height: 15vmin; 
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    z-index: 9999;
+    transition: top 0.5s ease-in-out; /* Animação de deslizar */
+}
+
+.notificacao.visivel {
+    top: 0; /* Posição final da notificação */
+}
+
+#noti {
+    background-color: #e96767;
+    width: 50vmin;
+    height: 15vmin;
+}
+
+#noti-top {
+    background-color: #feefd8;
+    color: #3b3838;
+    font-weight: 600;
+    font-size: 3vmin;
+    height: 4vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noti p {
+    font-size: 6vmin;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.version {
+    color: #feefd8;
+}
+
 
 
 

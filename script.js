@@ -28,6 +28,12 @@ document.getElementById("respostasW").innerText = respostasW;
 document.getElementById("respostasR").innerText = respostasR;
 document.getElementById("esgotado").innerText = esgotado;
 
+let sessenta = false;
+let cinquenta = false;
+let quarenta = false;
+let trinta = false;
+let vinte = false;
+
 function formatarTempo(timee) {
     let minutos = Math.floor(timee / 60);
     let horas = Math.floor(timee / 3600);
@@ -56,7 +62,6 @@ function atualizarRecorde() {
         recorde = respostasCorretas;
         
         localStorage.setItem("recordeQuiz", recorde);
-        console.log(recorde)
         document.getElementById("recorde").innerText = recorde;
     }
 }
@@ -67,7 +72,6 @@ document.getElementById("recordeAtual").innerText = recordeAtual;
 
 function atualizarRecordeAtual() {
     recordeAtual = respostasCorretas;
-    console.log(recordeAtual)
     document.getElementById("recordeAtual").innerText = recordeAtual;
 }
 
@@ -79,6 +83,12 @@ async function carregarPerguntas() {
 }
 
 function iniciarQuiz() {
+    sessenta = false;
+    cinquenta = false;
+    quarenta = false;
+    trinta = false;
+    vinte = false;
+
     const vinheta = document.querySelector(".vinheta");
     vinheta.classList.add("ativa");
     setTimeout(() => {
@@ -102,8 +112,9 @@ function iniciarQuiz() {
         contadorPerguntas = 0;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
         carregarPergunta();
-    }, 3500);
+    }, 4000);
     startTimer();
+
 }
 
 function startTimer() {  
@@ -178,7 +189,6 @@ function updateTimer() {
 }
 const vinheta1 = document.querySelector(".vinheta1");
 function vinheta2() {
-    console.log('a')
         vinheta1.classList.add("ativa1");
         // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
         setTimeout(() => {
@@ -188,7 +198,6 @@ function vinheta2() {
 
 const vinheta3 = document.querySelector(".vinheta2");
 function vinheta4() {
-    console.log('a')
         vinheta3.classList.add("ativa2");
         // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
         setTimeout(() => {
@@ -242,6 +251,54 @@ function carregarPergunta() {
     });
 
     startTimer(); // Reinicia o timer aqui, quando a nova pergunta for carregada
+    const reduT = document.getElementById('reduT')
+    const notitop = document.getElementById('noti-top')
+    if (tempoRestante === 60 && !sessenta) {
+        notitop.innerHTML = "Tempo restante:"
+        reduT.innerHTML = "60"
+        notification()
+        sessenta = true;
+    } else if (tempoRestante === 50 && !sessenta) {
+        reduT.innerHTML = "50"
+        notification()
+        sessenta = true;
+    } else if (tempoRestante === 40 && !sessenta) {
+        reduT.innerHTML = "40"
+        notification()
+        sessenta = true;
+    } else if (tempoRestante === 30 && !sessenta) {
+        reduT.innerHTML = "30"
+        notification()
+        sessenta = true;
+    } else if (tempoRestante === 20 && !sessenta) {
+        reduT.innerHTML = "20"
+        notification()
+        sessenta = true;
+    } else if (tempoRestante === 15 && !sessenta) {
+        reduT.innerHTML = "15"
+        notification()
+        sessenta = true;
+    }
+}
+
+function notification() {
+    const notificacao = document.getElementById('notificacao');
+    
+    // Exibindo a notificação deslizando para baixo
+    notificacao.style.display = 'flex';
+    setTimeout(() => {
+        notificacao.classList.add('visivel'); // Adiciona a classe para animar a posição
+    }, 10); // Espera o display ser alterado antes de animar
+
+    // Escondendo a notificação após 3 segundos
+    setTimeout(() => {
+        notificacao.classList.remove('visivel'); // Remove a classe para fazer ela sair
+    }, 3000); // Dura 3 segundos
+
+    // Escondendo a notificação completamente após a animação
+    setTimeout(() => {
+        notificacao.style.display = 'none';
+    }, 3500); // Tempo total após a animação
 }
 
 
@@ -416,7 +473,6 @@ function ocultStats() {
 showStats()
 
 function animateTimer() {
-    console.log(count);
     if (count > 0) {
         timerElement.textContent = count;
         
