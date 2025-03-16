@@ -10,6 +10,9 @@ body {
     font-family: 'Poppins', 'Questrial', 'Alata', 'Open Sans';
     height: 100%;
 }
+.pinto {
+    display: none;
+}
 
 #telaInicial {
     display: flex;
@@ -182,7 +185,7 @@ body {
     justify-content: space-between;
     width: 90vmin;
     height: 50vmin;
-    background-color: aqua;
+    background-color: #a86255;
 }
 
 .white_bg {
@@ -246,7 +249,7 @@ body {
 }
 
 #writer-img {
-    width: 20vmin;
+    width: 100%;
     height: auto; 
 }
 
@@ -738,13 +741,13 @@ ul, ol {
     text-align: center;
     font-size: calc(100px + 10vw);
     display: inline-block;
-    animation-duration: 2s; 
+    animation-duration: 4.5s; 
 }
 
 #telaTempoEsgotado .left .clock {
     height: 80%;
     display: flex;
-    animation: shake 2s ease-in infinite;
+    animation: shake 4.5s ease-in;
 }
 
 .vinheta {
@@ -922,14 +925,20 @@ ul, ol {
 
     .slide {
         height: 20rem;
+        width: 100%;
     }
 
     #writer-description {
-        height: 20rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .carousel .bottom h2 {
+        width: 100%;
     }
 
     .slide .left {
-        height: 18rem;
+        height: 19rem;
     }
 
     .buttons {
@@ -1109,6 +1118,10 @@ ul, ol {
     }
     #telaTempoEsgotado .right .top {
         height: 60%;
+    }
+
+    .pinto {
+        display: none;
     }
 
 }

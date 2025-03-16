@@ -99,7 +99,7 @@ function startTimer() {
     clearInterval(timerInterval); // Limpa qualquer timer anterior
     tempoRestante = 60 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
 
-    if (tempoRestante < 10) tempoRestante = 10; // Limita o tempo para não ser menor que 10 segundos.
+    if (tempoRestante < 15) tempoRestante = 15; // Limita o tempo para não ser menor que 10 segundos.
 
     document.getElementById("timer").innerText = formatTime(tempoRestante);
     if (tempoRestante > 10 ) {
@@ -119,6 +119,27 @@ function startTimer() {
     }
 }
 
+// Criar o elemento de áudio
+const audio = new Audio('sfx/60s-tick.wav');
+const auldio = new Audio('sfx/timer.mp3');
+
+// Adicionar evento para tocar o áudio
+function audeo() {
+    audio.volume = 0.5;
+    audio.playbackRate = 1;
+    audio.play();
+    if (tempoRestante <= 0) {
+        audio.pause()
+    }
+}
+
+// Adicionar evento para tocar o áudio
+function auldeo() {
+    auldio.volume = 0.5;
+    auldio.playbackRate = 1;
+    auldio.play();
+}
+
 function updateTimer() {
     tempoRestante--;
     document.getElementById("timer").innerText = formatTime(tempoRestante);
@@ -132,8 +153,12 @@ function updateTimer() {
      }
 
     if (tempoRestante <= 0) {
+        auldeo()
         clearInterval(timerInterval);
         mostrarTempoEsgotado();
+    }
+    if (tempoRestante <= 10) {
+         audeo()
     }
 }
 
@@ -379,7 +404,6 @@ function animateTimer() {
         setTimeout(() => {
             timerElement.innerHTML = '3';
             count = 3;
-            console.log(count)
         }, 1999);
         
     }
