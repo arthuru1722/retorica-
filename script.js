@@ -33,6 +33,7 @@ let cinquenta = false;
 let quarenta = false;
 let trinta = false;
 let vinte = false;
+let quinze = false;
 
 function formatarTempo(timee) {
     let minutos = Math.floor(timee / 60);
@@ -88,6 +89,7 @@ function iniciarQuiz() {
     quarenta = false;
     trinta = false;
     vinte = false;
+    quinze = false;
 
     const vinheta = document.querySelector(".vinheta");
     vinheta.classList.add("ativa");
@@ -258,27 +260,27 @@ function carregarPergunta() {
         reduT.innerHTML = "60"
         notification()
         sessenta = true;
-    } else if (tempoRestante === 50 && !sessenta) {
+    } else if (tempoRestante === 50 && !cinquenta) {
         notitop.innerHTML = "Tempo reduzido para:"
         reduT.innerHTML = "50"
         notification()
-        sessenta = true;
-    } else if (tempoRestante === 40 && !sessenta) {
+        cinquenta = true;
+    } else if (tempoRestante === 40 && !quarenta) {
         reduT.innerHTML = "40"
         notification()
-        sessenta = true;
-    } else if (tempoRestante === 30 && !sessenta) {
+        quarenta = true;
+    } else if (tempoRestante === 30 && !trinta) {
         reduT.innerHTML = "30"
         notification()
-        sessenta = true;
-    } else if (tempoRestante === 20 && !sessenta) {
+        trinta = true;
+    } else if (tempoRestante === 20 && !vinte) {
         reduT.innerHTML = "20"
         notification()
-        sessenta = true;
-    } else if (tempoRestante === 15 && !sessenta) {
+        vinheta1 = true;
+    } else if (tempoRestante === 15 && !quinze) {
         reduT.innerHTML = "15"
         notification()
-        sessenta = true;
+        quinze = true;
     }
 }
 
