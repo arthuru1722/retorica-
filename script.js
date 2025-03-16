@@ -24,6 +24,7 @@ esgotado = parseInt(esgotado);
 
 document.getElementById("recordee").innerText = recorde;
 document.getElementById("recorde").innerText = recorde;
+atualizarRecorde()
 document.getElementById("respostas").innerText = respostas;
 document.getElementById("respostasW").innerText = respostasW;
 document.getElementById("respostasR").innerText = respostasR;
@@ -511,3 +512,5 @@ function animateTimer() {
         
     }
 }
+
+atualizarRecorde()
