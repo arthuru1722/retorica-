@@ -818,7 +818,7 @@ ul, ol {
 .fa-stopwatch{
     margin: 7vmin;
     color: rgba(254, 239, 216, 0.63);
-    width: 100%;
+    width: fit-content;
     text-align: center;
     font-size: calc(100px + 10vw);
     display: inline-block;
@@ -828,8 +828,8 @@ ul, ol {
 .relogio-vinheta
 
 .clock {
-    height: 80%;
-    display: flex;
+    height: 60%;
+    display: flex;  
     animation: shake 4.5s ease-in;
 }
 
@@ -912,6 +912,25 @@ ul, ol {
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
 }
+
+#telaTempoEsgotado .left .clock {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+#telaInicial .creditos .right .bottom .leftt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#telaInicial .creditos .right .bottom .leftt a {
+    font-size: 4vmin;
+    margin-left: 10px;
+}
+
+
 
 
 
@@ -1037,6 +1056,9 @@ ul, ol {
 
 @media (max-width: 768px) {
     html { padding: 20px}
+    body {
+        overflow-x: hidden;
+    }
     #telaInicial {
         flex-direction: column;
         justify-content: space-between;     
@@ -1228,6 +1250,15 @@ ul, ol {
 
     #telaTempoEsgotado .left, #telaTempoEsgotado .right {
         width: 100%;
+    }
+
+    #telaTempoEsgotado .left .clock {
+        display: flex;
+        justify-content: center;
+    }
+
+    #telaTempoEsgotado .left {
+        height: 100%;
     }
 
     #telaTempoEsgotado .right .bottom .title {

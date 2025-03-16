@@ -22,7 +22,7 @@ timee = parseInt(timee);
 esgotado = parseInt(esgotado);
 
 
-document.getElementById("recorde").innerText = recorde;
+document.getElementById("recordee").innerText = recorde;
 document.getElementById("respostas").innerText = respostas;
 document.getElementById("respostasW").innerText = respostasW;
 document.getElementById("respostasR").innerText = respostasR;
@@ -40,7 +40,7 @@ function formatarTempo(timee) {
     } else if (timee < 86400) {
         return `${horas} horas`;
     } else {
-        return `${dias} dias, ${horas % 24} horas e ${minutos % 60} minutos`;
+        return `${dias} dias e ${horas % 24} horas`;
     }
 }
 

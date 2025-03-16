@@ -1,2 +1,2 @@
-# retorica-
-projeto de escola para um amigo
+# retorica+
+Retórica + é um site dedicado ao estudo e à prática das figuras de linguagem. Através de quizzes interativos, ele permite que os usuários testem seus conhecimentos sobre as principais figuras que enriquecem a comunicação, como metáforas, metonímias, anáforas, entre outras. Com um design simples e funcional, o Retórica + oferece uma maneira divertida e dinâmica de aprender, revisar e se aprofundar nas complexidades da linguagem. Ideal para estudantes, professores e qualquer pessoa interessada em dominar as sutilezas da retórica de forma prática e envolvente.
