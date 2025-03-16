@@ -259,6 +259,7 @@ function carregarPergunta() {
         notification()
         sessenta = true;
     } else if (tempoRestante === 50 && !sessenta) {
+        notitop.innerHTML = "Tempo reduzido para:"
         reduT.innerHTML = "50"
         notification()
         sessenta = true;
