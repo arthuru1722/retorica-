@@ -1,4 +1,6 @@
 let perguntas = {};
+let perguntasD = {};
+let perguntasM = {};
 let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
@@ -80,12 +82,36 @@ function atualizarRecordeAtual() {
 
 
 async function carregarPerguntas() {
-    const response = await fetch("perguntas.json");
-    perguntas = await response.json();
+    let perguntass = true;
+    let perguntasM = true;
+    let perguntasD = true;
+
+    if (perguntass) {
+        const response1 = await fetch("/questions/perguntas.json");
+        perguntas = await response1.json();
+    }
+
+    if (perguntasM) {
+        const response2 = await fetch("/questions/perguntasM.json");
+        perguntasM = await response2.json();
+    }
+
+    if (perguntasD) {
+        const response3 = await fetch("/questions/perguntasD.json");
+        perguntasD = await response3.json();
+    }
+
+    console.log(perguntas);
+    console.log(perguntasM);
+    console.log(perguntasD);
+
     document.getElementById("telaInicial").style.display = "flex";
 }
 
+
 function iniciarQuiz() {
+    vidaAtual = 3;
+    atualizarVidas()
     sessenta = false;
     cinquenta = false;
     quarenta = false;
@@ -254,7 +280,7 @@ function carregarPergunta() {
     } else if (tempoRestante === 20 && !vinte) {
         reduT.innerHTML = "20"
         notification()
-        vinheta1 = true;
+        vinte = true;
     } else if (tempoRestante === 15 && !quinze) {
         reduT.innerHTML = "15"
         notification()
@@ -307,6 +333,7 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
         elemento.classList.add("errada");
         atualizarRecordeAtual()
+        perderVida()
         atualizarRecorde()
     }
 
@@ -320,8 +347,9 @@ function verificarResposta(elemento, indice, correta, opcoes) {
     // Se o usuário acertou, vai para a próxima pergunta após 1 segundo
     if (indice === correta) {
         setTimeout(carregarPergunta, 1000);
-    } else {
-        setTimeout(mostrarExplicacao, 1500); // Se errar, mostra a explicação após 1,5 segundos
+    } else if (vidaAtual >= 2) {
+        setTimeout(carregarPergunta, 1000);
+        // Se errar, mostra a explicação após 1,5 segundos
     }
 
     contadorPerguntas++;
@@ -490,3 +518,36 @@ function animateTimer() {
 }
 
 atualizarRecorde()
+
+let vidaAtual = 3;
+const vidaMaxima = 6;
+
+function ganharVida() {
+    if (vidaAtual < vidaMaxima) {
+        vidaAtual++;
+        atualizarVidas();
+    }
+}
+
+function perderVida() {
+    setTimeout(() => {
+        if (vidaAtual > 0) {
+            vidaAtual--;
+            atualizarVidas();
+        }
+    }, 1500);
+    
+}
+
+function atualizarVidas() {
+    const vidasContainer = document.getElementById("vidas");
+    vidasContainer.innerHTML = "";
+
+    if (vidaAtual > 0) {
+        for (let i = 0; i < vidaAtual; i++) {
+            vidasContainer.innerHTML += `<i class="fa-solid fa-heart"></i> `;
+        }
+    } else {
+        mostrarExplicacao();
+    }
+}

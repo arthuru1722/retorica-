@@ -439,6 +439,17 @@ body {
     flex-direction: column;
 }
 
+#telaQuiz .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#vidas {
+    height: 100%;
+    font-size: 200%;
+    color: crimson;
+}
+
 #telaQuiz .bottom .left .question .disclaimer {
     background-color: #6e8f7c;
     height: auto;
@@ -1247,8 +1258,10 @@ ul, ol {
     }
     #telaQuiz .title {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        margin-bottom: 20px;
+        align-items: center;
+        
     }
 
     #telaExplicacao {
@@ -1324,6 +1337,11 @@ ul, ol {
 
     .pinto {
         display: none;
+    }
+
+    #vidas {
+        height: 100%;
+        font-size: 200%;
     }
 
 }

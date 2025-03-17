@@ -1,0 +1,707 @@
+{
+    "zeugma": {
+      "descricao": "O zeugma é uma figura de linguagem caracterizada pela omissão de um termo já mencionado anteriormente na frase, criando uma ligação gramatical ou semântica entre elementos distintos. Geralmente, um verbo ou preposição é usado uma única vez, mas se aplica a múltiplos complementos, muitas vezes com significados diferentes. Essa figura confere concisão e elegância ao texto, evitando repetições desnecessárias.",
+      "perguntas": [
+        {
+          "pergunta": "Ele perdeu o ônibus e a paciência.",
+          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Elipse"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'perdeu' aplicado a 'ônibus' (sentido literal) e 'paciência' (sentido figurado). A metáfora compararia conceitos, a hipérbole exageraria e a elipse omitiria termos."
+        },
+        {
+          "pergunta": "Ela vestiu um vestido vermelho e coragem.",
+          "opcoes": ["Zeugma", "Prosopopeia", "Ironia", "Paronomásia"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre com o verbo 'vestiu' ligando 'vestido' (objeto concreto) e 'coragem' (abstrato). A prosopopeia daria vida a objetos, a ironia expressaria o oposto e a paronomásia usaria palavras parecidas."
+        },
+        {
+          "pergunta": "Ele quebrou o copo e o silêncio.",
+          "opcoes": ["Zeugma", "Hipérbole", "Metonímia", "Antítese"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'quebrou', aplicado a 'copo' (físico) e 'silêncio' (abstrato). A hipérbole exageraria, a metonímia substituiria termos e a antítese oporia ideias."
+        },
+        {
+          "pergunta": "Ele fechou os olhos e o coração.",
+          "opcoes": ["Zeugma", "Metáfora", "Eufemismo", "Sinestesia"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'fechou' para 'olhos' (ação física) e 'coração' (sentimental). A metáfora compararia conceitos, o eufemismo suavizaria e a sinestesia misturaria sensações."
+        },
+        {
+          "pergunta": "Ela carregava uma bolsa pesada e um segredo.",
+          "opcoes": ["Zeugma", "Personificação", "Hipérbato", "Pleonasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma liga 'carregava' a 'bolsa' (literal) e 'segredo' (figurado). A personificação daria vida a objetos, o hipérbato inverteria a ordem e o pleonasmo seria redundante."
+        },
+        {
+          "pergunta": "Ele abriu a porta e o coração.",
+          "opcoes": ["Zeugma", "Sarcasmo", "Catacrese", "Anáfora"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'abriu' para 'porta' (físico) e 'coração' (emocional). O sarcasmo teria tom irônico, a catacrese usaria metáforas comuns e a anáfora repetiria palavras iniciais."
+        },
+        {
+          "pergunta": "Ela bebeu o suco e a atenção de todos.",
+          "opcoes": ["Zeugma", "Polissíndeto", "Metáfora", "Elipse"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'bebeu' aplicado a 'suco' (literal) e 'atenção' (abstrato). O polissíndeto repetiria conjunções, a metáfora compararia conceitos e a elipse omitiria termos."
+        },
+        {
+          "pergunta": "Ele lavou as mãos e a consciência.",
+          "opcoes": ["Zeugma", "Ironia", "Hipérbole", "Assíndeto"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'lavou' para 'mãos' (ação física) e 'consciência' (simbólico). A ironia expressaria o oposto, a hipérbole exageraria e o assíndeto eliminaria conjunções."
+        },
+        {
+          "pergunta": "Ele ganhou o jogo e a admiração do público.",
+          "opcoes": ["Zeugma", "Paradoxo", "Metonímia", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma liga 'ganhou' a 'jogo' (concreto) e 'admiração' (abstrato). O paradoxo uniria contradições, a metonímia substituiria termos e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ela segurou a criança e a respiração.",
+          "opcoes": ["Zeugma", "Eufemismo", "Antítese", "Zeugma"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'segurou' aplicado a 'criança' (físico) e 'respiração' (figurado). O eufemismo suavizaria e a antítese oporia ideias."
+        },
+        {
+          "pergunta": "Ele apagou a luz e as dúvidas.",
+          "opcoes": ["Zeugma", "Prosopopeia", "Hipérbole", "Silepse"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'apagou' para 'luz' (literal) e 'dúvidas' (metafórico). A prosopopeia personificaria objetos, a hipérbole exageraria e a silepse faria concordância ideológica."
+        },
+        {
+          "pergunta": "Ela acendeu a vela e a esperança.",
+          "opcoes": ["Zeugma", "Metáfora", "Paronomásia", "Gradação"],
+          "correta": 0,
+          "explicacao": "O zeugma liga 'acendeu' a 'vela' (fogo) e 'esperança' (simbólico). A metáfora compararia conceitos, a paronomásia usaria palavras parecidas e a gradação criaria uma sequência."
+        },
+        {
+          "pergunta": "Ele cortou o papel e o assunto.",
+          "opcoes": ["Zeugma", "Ironia", "Pleonasmo", "Anacoluto"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'cortou' aplicado a 'papel' (literal) e 'assunto' (figurado). A ironia expressaria o oposto, o pleonasmo seria redundante e o anacoluto quebraria a estrutura."
+        },
+        {
+          "pergunta": "Ela quebrou o silêncio e o vaso.",
+          "opcoes": ["Zeugma", "Hipérbato", "Sinestesia", "Zeugma"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'quebrou' para 'silêncio' (abstrato) e 'vaso' (concreto). O hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+        },
+        {
+          "pergunta": "Ele ergueu os braços e a voz.",
+          "opcoes": ["Zeugma", "Catacrese", "Polissíndeto", "Eufemismo"],
+          "correta": 0,
+          "explicacao": "O zeugma liga 'ergueu' a 'braços' (movimento físico) e 'voz' (intensidade). A catacrese usaria metáforas comuns, o polissíndeto repetiria conjunções e o eufemismo suavizaria."
+        },
+        {
+          "pergunta": "Ela abraçou o filho e a oportunidade.",
+          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Personificação"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'abraçou' aplicado a 'filho' (físico) e 'oportunidade' (abstrato). A metáfora compararia conceitos, a hipérbole exageraria e a personificação daria vida a objetos."
+        },
+        {
+          "pergunta": "Ele plantou árvores e ideias.",
+          "opcoes": ["Zeugma", "Antítese", "Zeugma", "Paradoxo"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'plantou' para 'árvores' (literal) e 'ideias' (figurado). A antítese oporia ideias e o paradoxo uniria contradições."
+        },
+        {
+          "pergunta": "Ela escreveu uma carta e sua história.",
+          "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma liga 'escreveu' a 'carta' (objeto) e 'história' (abstrato). A metonímia substituiria termos, o sarcasmo teria tom irônico e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ele conquistou a montanha e o respeito.",
+          "opcoes": ["Zeugma", "Hipérbole", "Elipse", "Prosopopeia"],
+          "correta": 0,
+          "explicacao": "O zeugma está em 'conquistou' aplicado a 'montanha' (física) e 'respeito' (simbólico). A hipérbole exageraria, a elipse omitiria termos e a prosopopeia personificaria objetos."
+        },
+        {
+          "pergunta": "Ela perdeu as chaves e a compostura.",
+          "opcoes": ["Zeugma", "Paronomásia", "Eufemismo", "Gradação"],
+          "correta": 0,
+          "explicacao": "O zeugma usa 'perdeu' para 'chaves' (literal) e 'compostura' (emocional). A paronomásia usaria palavras parecidas, o eufemismo suavizaria e a gradação criaria uma sequência."
+        },
+        {
+            "pergunta": "Ele fechou os olhos e o coração para a verdade.",
+            "opcoes": ["Zeugma", "Polissíndeto", "Metáfora", "Hipérbole"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque o verbo 'fechar' se aplica a 'olhos' (sentido literal) e 'coração' (sentido figurado), mas é mencionado apenas uma vez. O polissíndeto repetiria conjunções, a metáfora faria uma comparação implícita e a hipérbole exageraria a ação."
+          },
+          {
+            "pergunta": "Ela perdeu o voo e a paciência no aeroporto.",
+            "opcoes": ["Zeugma", "Ironia", "Assíndeto", "Personificação"],
+            "correta": 0,
+            "explicacao": "O zeugma está no uso único do verbo 'perder' para duas situações distintas: uma concreta ('voo') e outra abstrata ('paciência'). A ironia expressaria o oposto, o assíndeto omitiria conjunções e a personificação daria vida a objetos."
+          },
+          {
+            "pergunta": "Ele levou o guarda-chuva e um susto com a tempestade.",
+            "opcoes": ["Zeugma", "Eufemismo", "Aliteração", "Antítese"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'levar' conecta um objeto físico ('guarda-chuva') e uma experiência emocional ('susto'). O eufemismo suavizaria, a aliteração repetiria sons e a antítese oporia ideias."
+          },
+          {
+            "pergunta": "A artista pintou quadros e a própria história.",
+            "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'quadros' (ato físico) e 'história' (ato simbólico). A metáfora compararia conceitos, a hipérbole exageraria e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "Ele quebrou o silêncio e o copo durante a discussão.",
+            "opcoes": ["Zeugma", "Paradoxo", "Metonímia", "Sarcasmo"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação abstrata ('silêncio') e uma ação física ('copo'). O paradoxo uniria contradições, a metonímia substituiria termos e o sarcasmo teria tom ácido."
+          },
+          {
+            "pergunta": "Ela vestiu um vestido vermelho e uma atitude desafiadora.",
+            "opcoes": ["Zeugma", "Comparação", "Sinestesia", "Anáfora"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'vestir', que se aplica a 'vestido' (literal) e 'atitude' (figurado). A comparação usaria 'como', a sinestesia misturaria sensações e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "Ele abriu a janela e o coração para os novos amigos.",
+            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Catacrese"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('janela') e uma emocional ('coração'). A metáfora omitiria o conectivo, o polissíndeto repetiria conjunções e a catacrese usaria metáforas comuns."
+          },
+          {
+            "pergunta": "O discurso tocou o público e o assunto principal.",
+            "opcoes": ["Zeugma", "Hipérbole", "Eufemismo", "Prosopopeia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'tocar', que se aplica a 'público' (emocional) e 'assunto' (abordar). A hipérbole exageraria, o eufemismo suavizaria e a prosopopeia personificaria o discurso."
+          },
+          {
+            "pergunta": "Ela levou a bolsa, as chaves e um grande susto.",
+            "opcoes": ["Zeugma", "Assíndeto", "Ironia", "Aliteração"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'levar' conecta objetos físicos ('bolsa', 'chaves') e uma experiência ('susto'). O assíndeto omitiria conjunções, a ironia expressaria o oposto e a aliteração repetiria sons."
+          },
+          {
+            "pergunta": "Ele escreveu poemas e o próprio destino com determinação.",
+            "opcoes": ["Zeugma", "Metáfora", "Antítese", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'escrever', que se aplica a 'poemas' (literal) e 'destino' (figurado). A metáfora compararia conceitos, a antítese oporia ideias e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "A criança quebrou o brinquedo e a concentração da mãe.",
+            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paronomásia"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'quebrar' une um objeto físico ('brinquedo') e um estado abstrato ('concentração'). A hipérbole exageraria, a personificação daria vida a objetos e a paronomásia usaria palavras parecidas."
+          },
+          {
+            "pergunta": "Ele bebeu café e as palavras do chefe com atenção.",
+            "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Anacoluto"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'beber', que se aplica a 'café' (literal) e 'palavras' (figurado). A metonímia substituiria termos, o sarcasmo teria tom irônico e o anacoluto quebraria a estrutura da frase."
+          },
+          {
+            "pergunta": "Ela abraçou a oportunidade e o filho antes de sair.",
+            "opcoes": ["Zeugma", "Eufemismo", "Hipérbato", "Sinestesia"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'abraçar' conecta uma ação abstrata ('oportunidade') e uma física ('filho'). O eufemismo suavizaria, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+          },
+          {
+            "pergunta": "O artista pintou telas e a própria fama com maestria.",
+            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Ironia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'telas' (literal) e 'fama' (figurado). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e a ironia expressaria o oposto."
+          },
+          {
+            "pergunta": "Ele ganhou o jogo e a admiração dos adversários.",
+            "opcoes": ["Zeugma", "Hipérbole", "Assíndeto", "Catacrese"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'ganhar' conecta uma vitória concreta ('jogo') e um sentimento abstrato ('admiração'). A hipérbole exageraria, o assíndeto omitiria conjunções e a catacrese usaria metáforas cristalizadas."
+          },
+          {
+            "pergunta": "Ela guardou as roupas e as lágrimas para mais tarde.",
+            "opcoes": ["Zeugma", "Personificação", "Paradoxo", "Aliteração"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'roupas' (literal) e 'lágrimas' (figurado). A personificação daria vida a objetos, o paradoxo uniria contradições e a aliteração repetiria sons."
+          },
+          {
+            "pergunta": "Ele acendeu a lâmpada e a esperança no grupo.",
+            "opcoes": ["Zeugma", "Metáfora", "Silepse", "Zeugma"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'acender' conecta uma ação física ('lâmpada') e uma abstrata ('esperança'). A metáfora omitiria o conectivo, e a silepse faria concordância ideológica."
+          },
+          {
+            "pergunta": "O professor corrigiu provas e o comportamento dos alunos.",
+            "opcoes": ["Zeugma", "Eufemismo", "Hipérbole", "Anáfora"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'corrigir', que se aplica a 'provas' (literal) e 'comportamento' (figurado). O eufemismo suavizaria, a hipérbole exageraria e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "Ele fechou a porta e os ouvidos para as críticas.",
+            "opcoes": ["Zeugma", "Ironia", "Metonímia", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'fechar' une uma ação física ('porta') e uma atitude abstrata ('ouvidos'). A ironia expressaria o oposto, a metonímia substituiria termos e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "Ela plantou flores e dúvidas no jardim da mente.",
+            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Paronomásia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'plantar', que se aplica a 'flores' (literal) e 'dúvidas' (figurado). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a paronomásia usaria palavras parecidas."
+          },
+          {
+            "pergunta": "Ele cortou o bolo e o clima tenso da reunião.",
+            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Zeugma"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'cortar' conecta uma ação concreta ('bolo') e uma abstrata ('clima'). A hipérbole exageraria e a personificação daria vida a objetos."
+          },
+          {
+            "pergunta": "Ela segurou a carteira e o riso durante a piada.",
+            "opcoes": ["Zeugma", "Sarcasmo", "Catacrese", "Anacoluto"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'segurar', que se aplica a 'carteira' (literal) e 'riso' (figurado). O sarcasmo teria tom irônico, a catacrese usaria metáforas comuns e o anacoluto quebraria a estrutura sintática."
+          },
+          {
+            "pergunta": "Ele levantou a voz e a bandeira da justiça.",
+            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Eufemismo"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'levantar' conecta uma ação física ('voz') e uma simbólica ('bandeira'). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e o eufemismo suavizaria."
+          },
+          {
+            "pergunta": "Ela perdeu o ônibus e a paciência naquela manhã.",
+            "opcoes": ["Zeugma", "Ironia", "Hipérbato", "Sinestesia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'perder', que se aplica a 'ônibus' (literal) e 'paciência' (figurado). A ironia expressaria o oposto, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+          },
+          {
+            "pergunta": "Ele abriu o livro e a mente para novas ideias.",
+            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('livro') e uma intelectual ('mente'). A metáfora omitiria o conectivo, o assíndeto eliminaria conjunções e a aliteração repetiria sons."
+          },
+          {
+            "pergunta": "Ela lavou a louça e a alma com água corrente.",
+            "opcoes": ["Zeugma", "Personificação", "Hipérbole", "Paronomásia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'lavar', que se aplica a 'louça' (literal) e 'alma' (figurado). A personificação daria vida a objetos, a hipérbole exageraria e a paronomásia usaria palavras parecidas."
+          },
+          {
+            "pergunta": "Ele quebrou o lápis e o silêncio com uma pergunta.",
+            "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação física ('lápis') e uma abstrata ('silêncio'). A metonímia substituiria termos, o sarcasmo teria tom ácido e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "Ela acendeu a vela e a discussão no jantar.",
+            "opcoes": ["Zeugma", "Ironia", "Catacrese", "Anáfora"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'acender', que se aplica a 'vela' (literal) e 'discussão' (figurado). A ironia expressaria o oposto, a catacrese usaria metáforas comuns e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "Ele beijou a esposa e a oportunidade de ficar rico.",
+            "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Zeugma"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'beijar' conecta uma ação física ('esposa') e uma abstrata ('oportunidade'). A metáfora compararia conceitos e a hipérbole exageraria a situação."
+          },
+          {
+            "pergunta": "Ela guardou os documentos e o orgulho após a derrota.",
+            "opcoes": ["Zeugma", "Eufemismo", "Polissíndeto", "Sinestesia"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'documentos' (literal) e 'orgulho' (figurado). O eufemismo suavizaria, o polissíndeto repetiria conjunções e a sinestesia misturaria sensações."
+          },
+          {
+            "pergunta": "Ele ergueu os braços e a voz contra a injustiça.",
+            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
+            "correta": 0,
+            "explicacao": "O zeugma ocorre porque 'erguer' conecta uma ação física ('braços') e uma simbólica ('voz'). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a aliteração repetiria sons."
+          },
+          {
+            "pergunta": "Ela apagou a luz e as más lembranças do passado.",
+            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paradoxo"],
+            "correta": 0,
+            "explicacao": "O zeugma está no verbo 'apagar', que se aplica a 'luz' (literal) e 'lembranças' (figurado). A hipérbole exageraria, a personificação daria vida a objetos e o paradoxo uniria contradições."
+          }
+      ]
+    },
+    "catacrese": {
+        "descricao": "A catacrese é uma figura de linguagem que consiste no uso de uma palavra fora de seu sentido original por falta de um termo específico para designar um conceito ou objeto. Trata-se de uma metáfora tão consolidada na língua que seu uso figurado passa a ser aceito como convencional. Exemplos comuns incluem expressões como 'pé da mesa' ou 'asa da xícara', onde partes do corpo ou elementos naturais são emprestados para nomear coisas abstratas ou concretas que não possuem denominação própria.",
+        "perguntas": [
+          {
+            "pergunta": "Ele limpou o céu da boca com cuidado após o jantar.",
+            "opcoes": ["Catacrese", "Metáfora", "Metonímia", "Hipérbole"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'céu da boca', termo metafórico cristalizado para designar a parte superior da cavidade oral. A metáfora seria uma comparação não convencional, a metonímia substituiria termos relacionados, e a hipérbole exageraria a ação."
+          },
+          {
+            "pergunta": "A folha de papel voou com o vento pela janela.",
+            "opcoes": ["Catacrese", "Personificação", "Sinestesia", "Ironia"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'folha de papel', termo emprestado da natureza para nomear uma superfície plana. A personificação daria características humanas ao papel, a sinestesia misturaria sensações, e a ironia expressaria o oposto."
+          },
+          {
+            "pergunta": "O braço do sofá estava quebrado, precisando de reparo.",
+            "opcoes": ["Catacrese", "Metáfora", "Zeugma", "Antítese"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'braço do sofá', termo convencional para designar parte do móvel. A metáfora seria uma comparação não cristalizada, o zeugma omitiria um verbo, e a antítese oporia ideias."
+          },
+          {
+            "pergunta": "Ela colocou o dente de alho na panela sem descascá-lo.",
+            "opcoes": ["Catacrese", "Paronomásia", "Eufemismo", "Aliteração"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'dente de alho', termo adaptado da anatomia para nomear parte do vegetal. A paronomásia usaria palavras parecidas, o eufemismo suavizaria, e a aliteração repetiria sons consonantais."
+          },
+          {
+            "pergunta": "O pé da cama estava desalinhado com o tapete.",
+            "opcoes": ["Catacrese", "Hipérbole", "Prosopopeia", "Silepse"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'pé da cama', termo convencional para a base do móvel. A hipérbole exageraria, a prosopopeia personificaria a cama, e a silepse faria concordância ideológica."
+          },
+          {
+            "pergunta": "As asas do avião foram inspecionadas antes do voo.",
+            "opcoes": ["Catacrese", "Metáfora", "Metonímia", "Anáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'asas do avião', termo adaptado de seres vivos para partes da aeronave. A metáfora seria uma comparação não convencional, a metonímia substituiria termos, e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "A cabeça do prego estava enferrujada e difícil de martelar.",
+            "opcoes": ["Catacrese", "Ironia", "Hipérbato", "Polissíndeto"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'cabeça do prego', termo convencional para a parte superior do objeto. A ironia expressaria o oposto, o hipérbato inverteria a ordem, e o polissíndeto repetiria conjunções."
+          },
+          {
+            "pergunta": "O olho do furacão estava surpreendentemente calmo.",
+            "opcoes": ["Catacrese", "Personificação", "Paradoxo", "Zeugma"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'olho do furacão', termo metafórico consolidado para o centro da tempestade. A personificação daria vida ao furacão, o paradoxo uniria contradições, e o zeugma omitiria um verbo."
+          },
+          {
+            "pergunta": "A boca do fogão estava entupida, dificultando o acendimento.",
+            "opcoes": ["Catacrese", "Eufemismo", "Metáfora", "Assíndeto"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'boca do fogão', termo convencional para a abertura de saída do gás. O eufemismo suavizaria, a metáfora seria uma comparação não cristalizada, e o assíndeto omitiria conjunções."
+          },
+          {
+            "pergunta": "O pescoço da garrafa estava estreito, dificultando o enchimento.",
+            "opcoes": ["Catacrese", "Hipérbole", "Sinestesia", "Antítese"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'pescoço da garrafa', termo anatômico adaptado para designar parte do objeto. A hipérbole exageraria, a sinestesia misturaria sensações, e a antítese oporia ideias."
+          },
+          {
+            "pergunta": "As pernas da cadeira foram reforçadas para aguentar mais peso.",
+            "opcoes": ["Catacrese", "Metonímia", "Aliteração", "Sarcasmo"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'pernas da cadeira', termo convencional para as partes de sustentação. A metonímia substituiria termos, a aliteração repetiria sons, e o sarcasmo teria tom irônico."
+          },
+          {
+            "pergunta": "A coluna do livro estava desgastada pelo uso constante.",
+            "opcoes": ["Catacrese", "Metáfora", "Pleonasmo", "Anacoluto"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'coluna do livro', termo anatômico adaptado para a parte central da encadernação. A metáfora seria uma comparação não cristalizada, o pleonasmo seria redundante, e o anacoluto quebraria a estrutura sintática."
+          },
+          {
+            "pergunta": "O coração da cidade estava movimentado durante o feriado.",
+            "opcoes": ["Catacrese", "Personificação", "Hipérbole", "Zeugma"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'coração da cidade', termo consolidado para o centro urbano. A personificação daria vida à cidade, a hipérbole exageraria, e o zeugma omitiria um verbo."
+          },
+          {
+            "pergunta": "A língua do sapato estava desamarrada, causando tropeços.",
+            "opcoes": ["Catacrese", "Ironia", "Paronomásia", "Eufemismo"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'língua do sapato', termo anatômico adaptado para parte do calçado. A ironia expressaria o oposto, a paronomásia usaria palavras parecidas, e o eufemismo suavizaria."
+          },
+          {
+            "pergunta": "O dente do pente quebrou após cair no chão.",
+            "opcoes": ["Catacrese", "Metáfora", "Hipérbato", "Gradação"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'dente do pente', termo consolidado para as hastes do objeto. A metáfora seria uma comparação não convencional, o hipérbato inverteria a ordem, e a gradação criaria uma sequência de intensidade."
+          },
+          {
+            "pergunta": "O cotovelo do rio era perigoso para a navegação.",
+            "opcoes": ["Catacrese", "Prosopopeia", "Metonímia", "Assíndeto"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'cotovelo do rio', termo anatômico adaptado para designar uma curva acentuada. A prosopopeia personificaria o rio, a metonímia substituiria termos, e o assíndeto omitiria conjunções."
+          },
+          {
+            "pergunta": "A palma da mão estava ardendo após segurar o objeto quente.",
+            "opcoes": ["Catacrese", "Sinestesia", "Hipérbole", "Zeugma"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'palma da mão', termo botânico adaptado para a parte interna da mão. A sinestesia misturaria sensações, a hipérbole exageraria, e o zeugma omitiria um verbo."
+          },
+          {
+            "pergunta": "O lombo da montanha era íngreme e difícil de escalar.",
+            "opcoes": ["Catacrese", "Metáfora", "Antítese", "Aliteração"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'lombo da montanha', termo anatômico adaptado para designar uma elevação. A metáfora seria uma comparação não cristalizada, a antítese oporia ideias, e a aliteração repetiria sons."
+          },
+          {
+            "pergunta": "A goela da garrafa estava bloqueada por um pedaço de papel.",
+            "opcoes": ["Catacrese", "Eufemismo", "Paradoxo", "Anáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'goela da garrafa', termo anatômico adaptado para o gargalo. O eufemismo suavizaria, o paradoxo uniria contradições, e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "O couro cabeludo da terra estava ressecado pela seca.",
+            "opcoes": ["Catacrese", "Personificação", "Hipérbole", "Metonímia"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'couro cabeludo da terra', termo anatômico adaptado para a superfície do solo. A personificação daria vida à terra, a hipérbole exageraria, e a metonímia substituiria termos."
+          },
+          {
+            "pergunta": "O dedo do laser apontava para o gráfico durante a apresentação.",
+            "opcoes": ["Catacrese", "Metáfora", "Zeugma", "Sarcasmo"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'dedo do laser', termo anatômico adaptado para designar o ponteiro luminoso. A metáfora seria uma comparação não convencional, o zeugma omitiria um verbo, e o sarcasmo teria tom irônico."
+          },
+          {
+            "pergunta": "A testa do navio foi danificada pela colisão com o iceberg.",
+            "opcoes": ["Catacrese", "Prosopopeia", "Hipérbato", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'testa do navio', termo anatômico adaptado para a parte frontal da embarcação. A prosopopeia personificaria o navio, o hipérbato inverteria a ordem, e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "O nariz do avião foi danificado durante a tempestade.",
+            "opcoes": ["Catacrese", "Prosopopeia", "Hipérbole", "Metonímia"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'nariz do avião', termo anatômico adaptado para a parte frontal da aeronave. A prosopopeia daria vida ao avião, a hipérbole exageraria o dano, e a metonímia substituiria termos relacionados."
+          },
+          {
+            "pergunta": "O lábio do vulcão expelia fumaça constantemente.",
+            "opcoes": ["Catacrese", "Metáfora", "Sinestesia", "Antítese"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'lábio do vulcão', termo anatômico usado para a borda da cratera. A metáfora seria uma comparação não cristalizada, a sinestesia misturaria sensações, e a antítese oporia ideias."
+          },
+          {
+            "pergunta": "O umbigo da cidade era a praça central, cheia de vida.",
+            "opcoes": ["Catacrese", "Ironia", "Eufemismo", "Anáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'umbigo da cidade', termo anatômico adaptado para o centro geográfico. A ironia expressaria o oposto, o eufemismo suavizaria, e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "O dorso da montanha era coberto por neve eterna.",
+            "opcoes": ["Catacrese", "Hipérbato", "Zeugma", "Paronomásia"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'dorso da montanha', termo anatômico para a parte superior do relevo. O hipérbato inverteria a ordem, o zeugma omitiria um verbo, e a paronomásia usaria palavras semelhantes."
+          },
+          {
+            "pergunta": "A testa do edifício estava decorada com luzes natalinas.",
+            "opcoes": ["Catacrese", "Personificação", "Hipérbole", "Pleonasmo"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'testa do edifício', termo anatômico para a fachada frontal. A personificação daria vida ao prédio, a hipérbole exageraria a decoração, e o pleonasmo seria redundante."
+          },
+          {
+            "pergunta": "O cotovelo da estrada era conhecido por acidentes frequentes.",
+            "opcoes": ["Catacrese", "Metáfora", "Assíndeto", "Sarcasmo"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'cotovelo da estrada', termo anatômico para uma curva acentuada. A metáfora seria uma comparação não convencional, o assíndeto omitiria conjunções, e o sarcasmo teria tom irônico."
+          },
+          {
+            "pergunta": "A palma da mão estava marcada pelo calor do objeto.",
+            "opcoes": ["Catacrese", "Sinestesia", "Polissíndeto", "Aliteração"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'palma da mão', termo botânico adaptado para a parte interna da mão. A sinestesia misturaria sensações, o polissíndeto repetiria conjunções, e a aliteração repetiria sons consonantais."
+          },
+          {
+            "pergunta": "O coração da maçã estava intacto, sem vermes.",
+            "opcoes": ["Catacrese", "Metáfora", "Hipérbole", "Anacoluto"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'coração da maçã', termo anatômico para o núcleo do fruto. A metáfora seria uma comparação não cristalizada, a hipérbole exageraria, e o anacoluto quebraria a estrutura sintática."
+          },
+          {
+            "pergunta": "As costas do livro estavam desgastadas pelo tempo.",
+            "opcoes": ["Catacrese", "Metonímia", "Zeugma", "Gradação"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'costas do livro', termo anatômico para a lombada. A metonímia substituiria termos, o zeugma omitiria um verbo, e a gradação criaria uma sequência de intensidade."
+          },
+          {
+            "pergunta": "O pé da lâmpada estava enferrujado, dificultando a troca.",
+            "opcoes": ["Catacrese", "Ironia", "Eufemismo", "Paradoxo"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'pé da lâmpada', termo anatômico para a base do objeto. A ironia expressaria o oposto, o eufemismo suavizaria, e o paradoxo uniria contradições."
+          },
+          {
+            "pergunta": "A língua da campainha estava emperrada, impedindo o som.",
+            "opcoes": ["Catacrese", "Personificação", "Hipérbole", "Metáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'língua da campainha', termo anatômico para o componente metálico interno. A personificação daria vida à campainha, a hipérbole exageraria, e a metáfora compararia conceitos."
+          },
+          {
+            "pergunta": "O braço do rio era estreito, mas profundo.",
+            "opcoes": ["Catacrese", "Antítese", "Assíndeto", "Aliteração"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'braço do rio', termo anatômico para um afluente ou ramificação. A antítese oporia ideias, o assíndeto omitiria conjunções, e a aliteração repetiria sons consonantais."
+          },
+          {
+            "pergunta": "A coluna do jornal trazia um artigo polêmico.",
+            "opcoes": ["Catacrese", "Metonímia", "Sarcasmo", "Hipérbato"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'coluna do jornal', termo arquitetônico adaptado para seções textuais. A metonímia substituiria termos, o sarcasmo teria tom ácido, e o hipérbato inverteria a ordem."
+          },
+          {
+            "pergunta": "O olho da fechadura estava entupido com poeira.",
+            "opcoes": ["Catacrese", "Prosopopeia", "Pleonasmo", "Zeugma"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'olho da fechadura', termo anatômico para a abertura da chave. A prosopopeia daria vida à fechadura, o pleonasmo seria redundante, e o zeugma omitiria um verbo."
+          },
+          {
+            "pergunta": "O dente do pente quebrou ao desembaraçar os cabelos.",
+            "opcoes": ["Catacrese", "Metáfora", "Hipérbole", "Anáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'dente do pente', termo anatômico para as hastes do objeto. A metáfora seria uma comparação não cristalizada, a hipérbole exageraria, e a anáfora repetiria palavras iniciais."
+          },
+          {
+            "pergunta": "A goela do vaso estava rachada, vazando água.",
+            "opcoes": ["Catacrese", "Eufemismo", "Paronomásia", "Silepse"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'goela do vaso', termo anatômico para o gargalo do recipiente. O eufemismo suavizaria, a paronomásia usaria palavras parecidas, e a silepse faria concordância ideológica."
+          },
+          {
+            "pergunta": "O couro cabeludo da terra estava ressecado pelo sol.",
+            "opcoes": ["Catacrese", "Personificação", "Hipérbole", "Metáfora"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'couro cabeludo da terra', termo anatômico para a superfície do solo. A personificação daria vida à terra, a hipérbole exageraria, e a metáfora compararia conceitos."
+          },
+          {
+            "pergunta": "O dedo do laser apontava para o gráfico durante a palestra.",
+            "opcoes": ["Catacrese", "Zeugma", "Ironia", "Aliteração"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'dedo do laser', termo anatômico para o ponteiro luminoso. O zeugma omitiria um verbo, a ironia expressaria o oposto, e a aliteração repetiria sons consonantais."
+          },
+          {
+            "pergunta": "O lombo da cadeira estava desconfortável após horas sentado.",
+            "opcoes": ["Catacrese", "Metonímia", "Hipérbato", "Sinestesia"],
+            "correta": 0,
+            "explicacao": "A catacrese ocorre em 'lombo da cadeira', termo anatômico para o encosto do móvel. A metonímia substituiria termos, o hipérbato inverteria a ordem, e a sinestesia misturaria sensações."
+          },
+          {
+            "pergunta": "A cabeça do parafuso estava enferrujada, impedindo o ajuste.",
+            "opcoes": ["Catacrese", "Metáfora", "Eufemismo", "Antítese"],
+            "correta": 0,
+            "explicacao": "A catacrese está em 'cabeça do parafuso', termo anatômico para a parte superior do objeto. A metáfora seria uma comparação não convencional, o eufemismo suavizaria, e a antítese oporia ideias."
+          }
+        ]
+      },
+      "sinestesia": {
+    "descricao": "A sinestesia é uma figura de linguagem que consiste na combinação de sensações percebidas por diferentes órgãos dos sentidos, criando uma expressão que mistura elementos como visão, audição, tato, paladar e olfato. Essa fusão de percepções gera imagens poéticas e impactantes, como 'cor fria' ou 'som doce', ampliando a expressividade do texto.",
+    "perguntas": [
+      {
+        "pergunta": "O silêncio da noite tinha um tom azul profundo.",
+        "opcoes": ["Sinestesia", "Metáfora", "Metonímia", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura audição ('silêncio') e visão ('tom azul'). A metáfora compararia conceitos sem ligar sentidos, a metonímia substituiria termos relacionados, e a hipérbole exageraria a descrição."
+      },
+      {
+        "pergunta": "O perfume da música era tão doce que parecia mel.",
+        "opcoes": ["Sinestesia", "Comparação", "Catacrese", "Ironia"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina olfato ('perfumo'), audição ('música') e paladar ('doce'). A comparação usaria 'como' ou 'parecia', a catacrese usaria termos cristalizados, e a ironia expressaria o oposto."
+      },
+      {
+        "pergunta": "Seu abraço tinha um calor verde de esperança.",
+        "opcoes": ["Sinestesia", "Prosopopeia", "Eufemismo", "Zeugma"],
+        "correta": 0,
+        "explicacao": "A sinestesia une tato ('calor') e visão ('verde'). A prosopopeia daria vida a objetos, o eufemismo suavizaria, e o zeugma omitiria um verbo."
+      },
+      {
+        "pergunta": "A voz dela era suave como veludo, mas cortante como gelo.",
+        "opcoes": ["Sinestesia", "Antítese", "Hipérbole", "Aliteração"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura audição ('voz') com tato ('suave', 'cortante'). A antítese oporia ideias, a hipérbole exageraria, e a aliteração repetiria sons consonantais."
+      },
+      {
+        "pergunta": "O amarelo do sol tinha um gosto de limão fresco.",
+        "opcoes": ["Sinestesia", "Metáfora", "Pleonasmo", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga visão ('amarelo') e paladar ('gosto de limão'). A metáfora compararia conceitos, o pleonasmo seria redundante, e o paradoxo uniria contradições."
+      },
+      {
+        "pergunta": "O som da chuva era áspero contra a janela.",
+        "opcoes": ["Sinestesia", "Personificação", "Metonímia", "Sarcasmo"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina audição ('som') e tato ('áspero'). A personificação daria vida à chuva, a metonímia substituiria termos, e o sarcasmo teria tom irônico."
+      },
+      {
+        "pergunta": "O cheiro do café tinha uma textura aveludada.",
+        "opcoes": ["Sinestesia", "Catacrese", "Hipérbole", "Anáfora"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura olfato ('cheiro') e tato ('textura aveludada'). A catacrese usaria termos cristalizados, a hipérbole exageraria, e a anáfora repetiria palavras iniciais."
+      },
+      {
+        "pergunta": "O vermelho do poema ardia com um sabor picante.",
+        "opcoes": ["Sinestesia", "Metáfora", "Zeugma", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A sinestesia une visão ('vermelho'), tato ('ardia') e paladar ('picante'). A metáfora compararia conceitos, o zeugma omitiria um verbo, e o eufemismo suavizaria."
+      },
+      {
+        "pergunta": "A melodia da pintura era fria e metálica.",
+        "opcoes": ["Sinestesia", "Paradoxo", "Assíndeto", "Ironia"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina audição ('melodia') e tato ('fria', 'metálica'). O paradoxo uniria contradições, o assíndeto omitiria conjunções, e a ironia expressaria o oposto."
+      },
+      {
+        "pergunta": "O toque do violino era doce como açúcar mascavo.",
+        "opcoes": ["Sinestesia", "Comparação", "Hipérbole", "Metonímia"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura tato ('toque') e paladar ('doce'). A comparação usaria 'como', a hipérbole exageraria, e a metonímia substituiria termos relacionados."
+      },
+      {
+        "pergunta": "O grito da cor vermelha enchia a sala de angústia.",
+        "opcoes": ["Sinestesia", "Prosopopeia", "Pleonasmo", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga visão ('vermelho') e audição ('grito'). A prosopopeia daria vida à cor, o pleonasmo seria redundante, e o anacoluto quebraria a estrutura sintática."
+      },
+      {
+        "pergunta": "O aroma do jazz era amadeirado e reconfortante.",
+        "opcoes": ["Sinestesia", "Metáfora", "Sinestesia", "Hipérbato"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina olfato ('aroma'), audição ('jazz') e tato ('reconfortante'). A metáfora compararia conceitos, e o hipérbato inverteria a ordem das palavras."
+      },
+      {
+        "pergunta": "O sabor da luz do entardecer era caramelizado.",
+        "opcoes": ["Sinestesia", "Catacrese", "Zeugma", "Antítese"],
+        "correta": 0,
+        "explicacao": "A sinestesia une paladar ('sabor') e visão ('luz'). A catacrese usaria termos cristalizados, o zeugma omitiria um verbo, e a antítese oporia ideias."
+      },
+      {
+        "pergunta": "A textura do seu riso era macia e aconchegante.",
+        "opcoes": ["Sinestesia", "Personificação", "Hipérbole", "Paronomásia"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura audição ('riso') e tato ('macia'). A personificação daria vida ao riso, a hipérbole exageraria, e a paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "O frio da sua voz cortava como uma lâmina prateada.",
+        "opcoes": ["Sinestesia", "Comparação", "Metonímia", "Silepse"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina tato ('frio') e audição ('voz'). A comparação usaria 'como', a metonímia substituiria termos, e a silepse faria concordância ideológica."
+      },
+      {
+        "pergunta": "O azul da canção trazia um cheiro de mar aberto.",
+        "opcoes": ["Sinestesia", "Metáfora", "Eufemismo", "Aliteração"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga visão ('azul'), audição ('canção') e olfato ('cheiro'). A metáfora compararia conceitos, o eufemismo suavizaria, e a aliteração repetiria sons."
+      },
+      {
+        "pergunta": "O amargo do seu olhar gelou o ambiente.",
+        "opcoes": ["Sinestesia", "Hipérbole", "Antítese", "Zeugma"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura paladar ('amargo') e visão ('olhar'). A hipérbole exageraria o efeito, a antítese oporia ideias, e o zeugma omitiria um verbo."
+      },
+      {
+        "pergunta": "A música tinha um brilho prateado que encantava.",
+        "opcoes": ["Sinestesia", "Metáfora", "Prosopopeia", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina audição ('música') e visão ('brilho prateado'). A metáfora omitiria a mistura de sentidos, a prosopopeia daria vida à música, e o pleonasmo seria redundante."
+      },
+      {
+        "pergunta": "O doce aroma da melodia envolvia a sala.",
+        "opcoes": ["Sinestesia", "Comparação", "Hipérbato", "Ironia"],
+        "correta": 0,
+        "explicacao": "A sinestesia une olfato ('aroma'), paladar ('doce') e audição ('melodia'). A comparação usaria 'como', o hipérbato inverteria a ordem, e a ironia expressaria o oposto."
+      },
+      {
+        "pergunta": "O toque do poema era quente e vibrante.",
+        "opcoes": ["Sinestesia", "Metáfora", "Metonímia", "Gradação"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura tato ('toque', 'quente') e audição/visão ('poema vibrante'). A metáfora compararia conceitos, a metonímia substituiria termos, e a gradação criaria uma sequência."
+      },
+      {
+        "pergunta": "O sussurro da brisa tinha cor de lavanda.",
+        "opcoes": ["Sinestesia", "Personificação", "Hipérbole", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga audição ('sussurro') e visão ('cor de lavanda'). A personificação daria vida à brisa, a hipérbole exageraria, e o paradoxo uniria contradições."
+      }
+     ]
+   }
+  }

@@ -1,0 +1,2638 @@
+{
+  "personificacao": {
+    "descricao": "A personificação, também chamada de prosopopeia, é uma figura de linguagem que atribui características, sentimentos ou ações humanas a seres inanimados ou irracionais. Essa técnica é amplamente usada na literatura, na poesia e até na publicidade para criar imagens vívidas e expressivas. A personificação pode fazer com que objetos e elementos da natureza pareçam ter vida própria, emoções e intenções. Diferente de outras figuras de linguagem, como a metáfora, que estabelece comparações implícitas, ou a hipérbole, que exagera uma ideia, a personificação dá vida a conceitos abstratos e elementos inanimados. Ela também se distingue da onomatopeia, que se limita a reproduzir sons, e da metonímia, que substitui um termo por outro relacionado. Seu uso torna a linguagem mais expressiva e poética, permitindo que o leitor visualize cenas de forma mais envolvente.",
+    "perguntas": [
+      {
+        "pergunta": "\"O vento sussurrava segredos ao pé do ouvido das árvores.\"",
+        "opcoes": ["Prosopopeia", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A personificação ocorre porque o vento realiza uma ação humana (sussurrar). A metáfora compararia o vento a algo sem o uso de 'como' ou 'parecia'. A hipérbole exageraria uma ideia, como dizer que o vento era ensurdecedor. O eufemismo suavizaria algo desagradável, o que não acontece aqui."
+      },
+      {
+        "pergunta": "\"O tempo, inimigo cruel, roubou-lhe a juventude.\"",
+        "opcoes": ["Personificação", "Metonímia", "Antítese", "Aliteração"],
+        "correta": 0,
+        "explicacao": "O tempo é tratado como um ser que age (roubar), caracterizando a personificação. A metonímia substituiria um termo por outro relacionado, a antítese oporia ideias opostas e a aliteração repetiria sons consonantais. \n\nEssa frase remete a diversas obras literárias que retratam o tempo como um agente cruel, como nas poesias de Vinicius de Moraes e nos sonetos de Luís de Camões."
+      },
+      {
+        "pergunta": "\"O relógio gritava que já era tarde demais.\"",
+        "opcoes": ["Personificação", "Onomatopeia", "Comparação", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "O relógio ganha a capacidade humana de gritar, o que caracteriza personificação. A onomatopeia usaria uma palavra para imitar um som (tic-tac). A comparação exigiria um termo como 'como' ou 'parecia'. O paradoxo criaria uma contradição aparente, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"A lua solitária derramava sua tristeza sobre a cidade.\"",
+        "opcoes": ["Prosopopeia", "Hipérbole", "Metonímia", "Elipse"],
+        "correta": 0,
+        "explicacao": "A lua é atribuída sentimentos humanos (solidão, tristeza), caracterizando personificação. A hipérbole exageraria um fato. A metonímia substituiria um termo por outro próximo. A elipse omite termos sem comprometer o sentido."
+      },
+      {
+        "pergunta": "\"O mar rugia furioso contra os rochedos.\"",
+        "opcoes": ["Personificação", "Onomatopeia", "Metáfora", "Gradação"],
+        "correta": 0,
+        "explicacao": "O mar recebe características humanas (rugir de fúria). A onomatopeia imitaria sons diretamente. A metáfora estabeleceria uma comparação implícita, e a gradação apresentaria uma sequência crescente ou decrescente de ideias."
+      },
+      {
+        "pergunta": "\"As nuvens choravam sem parar naquela tarde cinzenta.\"",
+        "opcoes": ["Personificação", "Metonímia", "Eufemismo", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "As nuvens são descritas como chorando, ação humana, logo, é personificação. A metonímia substituiria um termo por outro relacionado. O eufemismo suavizaria uma expressão. O assíndeto eliminaria conjunções entre termos."
+      },
+      {
+        "pergunta": "\"Os livros me chamavam da estante, pedindo para serem lidos.\"",
+        "opcoes": ["Personificação", "Metáfora", "Antítese", "Paronomásia"],
+        "correta": 0,
+        "explicacao": "Livros não podem chamar ou pedir, mas aqui ganham essa capacidade humana, tornando-se personificação. A metáfora compararia sem termos explícitos. A antítese oporia ideias. A paronomásia jogaria com palavras de sons parecidos."
+      },
+      {
+        "pergunta": "\"As árvores cochichavam entre si enquanto o vento passava.\"",
+        "opcoes": ["Personificação", "Comparação", "Hipérbole", "Polissíndeto"],
+        "correta": 0,
+        "explicacao": "As árvores realizam uma ação humana (cochichar), o que caracteriza personificação. A comparação usaria 'como' ou 'parecia'. A hipérbole exageraria uma ideia. O polissíndeto repetiria conjunções para efeito rítmico."
+      },
+      {
+        "pergunta": "\"O destino sorriu para ele naquele momento decisivo.\"",
+        "opcoes": ["Personificação", "Metáfora", "Sinestesia", "Zeugma"],
+        "correta": 0,
+        "explicacao": "O destino não pode sorrir, então é personificação. A metáfora compararia implicitamente. A sinestesia misturaria sentidos. O zeugma omite um termo já mencionado anteriormente."
+      },
+      {
+        "pergunta": "\"O coração da cidade pulsava forte ao amanhecer.\"",
+        "opcoes": ["Prosopopeia", "Metonímia", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A cidade recebe uma ação humana (pulsar), o que configura personificação. A metonímia substituiria um termo por outro relacionado. O eufemismo suavizaria uma ideia, e a antítese oporia conceitos. \n\nA ideia de uma cidade como um ser vivo pulsante é recorrente na literatura urbana, sendo explorada em romances como 'São Paulo: Noite e Dia', de Mário de Andrade."
+      },
+      {
+        "pergunta": "\"A Morte veio sorrindo e o levou pela mão.\"",
+        "opcoes": ["Personificação", "Metáfora", "Alusão", "Ironia"],
+        "correta": 0,
+        "explicacao": "A Morte ganha características humanas (sorrir, segurar a mão), caracterizando personificação. A metáfora compararia algo sem expressar explicitamente. A alusão referenciaria uma obra sem explicitação direta. A ironia diria o oposto do que se quer afirmar. \n\nEssa representação da Morte como um ser com intenções aparece em obras como 'Auto da Barca do Inferno', de Gil Vicente."
+      },
+      {
+        "pergunta": "\"As sombras dançavam nas paredes ao som da vela tremeluzente.\"",
+        "opcoes": ["Prosopopeia", "Metáfora", "Hipérbole", "Sinestesia"],
+        "correta": 0,
+        "explicacao": "A personificação acontece porque as sombras realizam uma ação humana (dançar). A metáfora compararia elementos sem o uso de termos explícitos. A hipérbole exageraria a ideia, e a sinestesia misturaria percepções sensoriais."
+      },
+      {
+        "pergunta": "\"Os sinos choraram em lamentos durante o funeral.\"",
+        "opcoes": ["Personificação", "Metonímia", "Eufemismo", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "A ação de 'chorar' é atribuída aos sinos, algo humano, caracterizando personificação. A metonímia substituiria um termo por outro relacionado. O eufemismo suavizaria a ideia da morte, e a onomatopeia imitaria sons, como 'ding-dong'."
+      },
+      {
+        "pergunta": "\"O céu abriu um sorriso azul depois da tempestade.\"",
+        "opcoes": ["Personificação", "Comparação", "Metonímia", "Gradação"],
+        "correta": 0,
+        "explicacao": "O céu ganha a capacidade humana de sorrir, tornando-se personificação. A comparação exigiria um termo como 'como'. A metonímia substituiria um termo por outro relacionado, e a gradação criaria uma sequência crescente ou decrescente."
+      },
+      {
+        "pergunta": "\"Os muros da cidade guardavam segredos há séculos.\"",
+        "opcoes": ["Prosopopeia", "Metáfora", "Ironia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Os muros recebem a capacidade humana de 'guardar segredos', o que configura personificação. A metáfora compararia algo de forma implícita. A ironia diria o contrário do que se quer afirmar, e o paradoxo apresentaria uma contradição aparente. \n\nEssa ideia de muros que testemunham o passar do tempo e os segredos da humanidade aparece em obras históricas e literárias, como nos escritos de Victor Hugo sobre Paris."
+      },
+      {
+        "pergunta": "\"A fome devorava os camponeses sem piedade.\"",
+        "opcoes": ["Prosopopeia", "Hipérbole", "Metonímia", "Aliteração"],
+        "correta": 0,
+        "explicacao": "A fome é tratada como um ser com intenções (devorar), tornando-se personificação. A hipérbole exageraria um fato, a metonímia substituiria um termo por outro, e a aliteração repetiria sons consonantais. \n\nA fome é frequentemente retratada como um ente cruel em textos clássicos, como na obra 'Os Miseráveis', de Victor Hugo."
+      },
+      {
+        "pergunta": "\"O rio sussurrava histórias antigas enquanto corria pelo vale.\"",
+        "opcoes": ["Personificação", "Onomatopeia", "Metáfora", "Elipse"],
+        "correta": 0,
+        "explicacao": "O rio é descrito como sussurrando, algo exclusivo dos humanos, caracterizando personificação. A onomatopeia imitaria sons diretamente. A metáfora compararia o rio a algo sem explicitação, e a elipse omitiria palavras sem comprometer o sentido."
+      },
+      {
+        "pergunta": "\"O fogo dançava alegremente na lareira.\"",
+        "opcoes": ["Personificação", "Metonímia", "Hipérbole", "Comparação"],
+        "correta": 0,
+        "explicacao": "O fogo recebe características humanas (dançar, estar alegre), o que configura personificação. A metonímia substituiria um termo por outro relacionado. A hipérbole exageraria uma ideia, e a comparação usaria 'como'."
+      },
+      {
+        "pergunta": "\"A cidade nunca dormia, sempre iluminada e cheia de vida.\"",
+        "opcoes": ["Prosopopeia", "Antítese", "Metonímia", "Ironia"],
+        "correta": 0,
+        "explicacao": "A cidade recebe uma característica humana (dormir), tornando-se personificação. A antítese oporia ideias, a metonímia substituiria termos, e a ironia afirmaria o oposto do que se quer dizer. \n\nA imagem de uma cidade que nunca dorme é icônica na literatura urbana, aparecendo em romances sobre metrópoles modernas como Nova York e São Paulo."
+      },
+      {
+        "pergunta": "\"A tristeza abraçou sua alma e não a soltou mais.\"",
+        "opcoes": ["Personificação", "Metáfora", "Eufemismo", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "A tristeza ganha a capacidade de 'abraçar', característica humana, o que torna essa frase uma personificação. A metáfora compararia a tristeza a algo sem expressar explicitamente. O eufemismo suavizaria a expressão, e o paradoxo apresentaria uma contradição aparente."
+      },
+      {
+        "pergunta": "\"As folhas cochichavam segredos enquanto eram levadas pelo vento.\"",
+        "opcoes": ["Personificação", "Aliteração", "Metonímia", "Ironia"],
+        "correta": 0,
+        "explicacao": "As folhas são descritas como realizando uma ação humana (cochichar), caracterizando personificação. A aliteração repetiria sons consonantais. A metonímia substituiria um termo por outro relacionado, e a ironia afirmaria algo contrário ao pretendido."
+      },
+      {
+        "pergunta": "\"A neve cantava suavemente ao tocar o solo.\"",
+        "opcoes": ["Personificação", "Hipérbole", "Metáfora", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "A neve é descrita com uma ação humana (cantar), o que caracteriza personificação. A hipérbole exageraria a ideia, a metáfora faria uma comparação implícita, e a onomatopeia imitaria sons."
+      },
+      {
+        "pergunta": "\"O sol sorria radiante, iluminando o campo florido.\"",
+        "opcoes": ["Prosopopeia", "Metonímia", "Comparação", "Aliteração"],
+        "correta": 0,
+        "explicacao": "O sol é atribuído uma ação humana (sorrir), o que caracteriza personificação. A metonímia substituiria um termo por outro, a comparação usaria 'como', e a aliteração repetiria sons consonantais."
+      },
+      {
+        "pergunta": "\"A noite vestia seu manto de estrelas e silêncio.\"",
+        "opcoes": ["Personificação", "Metáfora", "Antítese", "Ironia"],
+        "correta": 0,
+        "explicacao": "A noite é descrita como se vestisse algo, caracterizando personificação. A metáfora compararia implicitamente a noite com algo, a antítese apresentaria ideias opostas e a ironia diria o contrário do que se quer expressar."
+      },
+      {
+        "pergunta": "\"O rio murmurava segredos enquanto as águas deslizavam tranquilas.\"",
+        "opcoes": ["Personificação", "Onomatopeia", "Sinestesia", "Metonímia"],
+        "correta": 0,
+        "explicacao": "O rio realiza uma ação humana (murmurar), caracterizando personificação. A onomatopeia imitaria sons diretamente, a sinestesia misturaria os sentidos, e a metonímia substituiria um termo por outro."
+      },
+      {
+        "pergunta": "\"A tempestade rugia com força, varrendo tudo pela frente.\"",
+        "opcoes": ["Prosopopeia", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A tempestade recebe uma ação humana (rugir), tornando-se personificação. A metáfora compararia sem o uso explícito de termos comparativos, a hipérbole exageraria a ideia, e o eufemismo suavizaria uma ideia desagradável."
+      },
+      {
+        "pergunta": "\"O relógio, apressado, tentava engolir o tempo que passava.\"",
+        "opcoes": ["Personificação", "Hipérbole", "Metáfora", "Ironia"],
+        "correta": 0,
+        "explicacao": "O relógio é descrito com uma ação humana (engolir), caracterizando personificação. A hipérbole exageraria a ideia, a metáfora faria uma comparação implícita e a ironia afirmaria o contrário do que se quer dizer."
+      },
+      {
+        "pergunta": "\"As árvores, cheias de sabedoria, contavam histórias aos viajantes.\"",
+        "opcoes": ["Personificação", "Metonímia", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "As árvores recebem uma ação humana (contar histórias), caracterizando personificação. A metonímia substituiria um termo por outro relacionado, a antítese apresentaria ideias opostas, e a onomatopeia imitaria sons."
+      },
+      {
+        "pergunta": "\"O vento, brincalhão, bagunçava os cabelos das pessoas na rua.\"",
+        "opcoes": ["Personificação", "Metáfora", "Eufemismo", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "O vento é descrito como brincalhão, o que caracteriza personificação. A metáfora faria uma comparação implícita, o eufemismo suavizaria a ideia e o assíndeto omitiría conjunções."
+      },
+      {
+        "pergunta": "\"O relógio, impiedoso, não parava de contar os minutos.\"",
+        "opcoes": ["Personificação", "Metáfora", "Hipérbole", "Aliteração"],
+        "correta": 0,
+        "explicacao": "O relógio é descrito como impiedoso, caracterizando personificação. A metáfora faria uma comparação sem explicitação, a hipérbole exageraria a ideia, e a aliteração repetiria sons consonantais."
+      },
+      {
+        "pergunta": "\"A lua, cheia de mistério, iluminava o caminho solitário.\"",
+        "opcoes": ["Personificação", "Metáfora", "Sinestesia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "A lua é tratada como se tivesse um sentimento humano (mistério), caracterizando personificação. A metáfora faria uma comparação implícita, a sinestesia misturaria os sentidos, e o paradoxo criaria uma contradição."
+      },
+      {
+        "pergunta": "\"O vento, com raiva, arrancava as folhas das árvores.\"",
+        "opcoes": ["Prosopopeia", "Metáfora", "Hipérbole", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "O vento é descrito como se tivesse raiva, o que caracteriza personificação. A metáfora compararia implicitamente, a hipérbole exageraria, e o anacoluto criaria uma estrutura gramatical incompleta."
+      },
+      {
+        "pergunta": "\"O coração da floresta pulsava no ritmo da vida.\"",
+        "opcoes": ["Personificação", "Metáfora", "Antítese", "Zeugma"],
+        "correta": 0,
+        "explicacao": "A floresta é tratada como se tivesse um coração que pulsa, o que caracteriza personificação. A metáfora compararia algo de forma implícita, a antítese oporia ideias opostas, e o zeugma omitiria um termo já mencionado."
+      },
+      {
+        "pergunta": "\"As estrelas piscavam, como se estivessem acenando para nós.\"",
+        "opcoes": ["Personificação", "Metáfora", "Hipérbole", "Comparação"],
+        "correta": 0,
+        "explicacao": "As estrelas são tratadas como se pudessem acenar, uma ação humana, caracterizando personificação. A metáfora compararia implicitamente, a hipérbole exageraria a ideia e a comparação utilizaria 'como'."
+      },
+      {
+        "pergunta": "\"O sol queimava os campos com sua fúria incansável.\"",
+        "opcoes": ["Prosopopeia", "Hipérbole", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "O sol é descrito com uma ação humana (queimar com fúria), configurando personificação. A hipérbole exageraria a ideia, a metáfora compararia implicitamente e a antítese apresentaria ideias opostas."
+      },
+      {
+        "pergunta": "\"A cidade respirava vida, cheia de movimento e cores.\"",
+        "opcoes": ["Personificação", "Metáfora", "Alusão", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "A cidade é tratada como se pudesse respirar, uma ação humana, configurando personificação. A metáfora compararia implicitamente, a alusão faria referência a algo de forma indireta, e o paradoxo criaria uma contradição."
+      },
+      {
+        "pergunta": "\"O mar rugia furioso enquanto devorava tudo à sua frente.\"",
+        "opcoes": ["Personificação", "Metáfora", "Onomatopeia", "Gradação"],
+        "correta": 0,
+        "explicacao": "O mar é tratado como se pudesse rugir, uma característica humana, configurando personificação. A metáfora compararia implicitamente, a onomatopeia imitaria sons, e a gradação apresentaria uma sequência crescente ou decrescente de ideias."
+      },
+      {
+        "pergunta": "\"A chama dançava no vento, brincando com as sombras.\"",
+        "opcoes": ["Personificação", "Aliteração", "Hipérbole", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A chama é descrita com uma ação humana (dançar), o que caracteriza personificação. A aliteração repetiria sons, a hipérbole exageraria a ideia e a metáfora compararia de forma implícita."
+      },
+      {
+        "pergunta": "\"O inverno chegou, cobrindo a terra com seu manto gelado.\"",
+        "opcoes": ["Prosopopeia", "Hipérbole", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "O inverno é descrito como se tivesse um manto e fizesse ações humanas, o que caracteriza personificação. A hipérbole exageraria a ideia, a antítese oporia conceitos opostos e a metáfora faria uma comparação implícita."
+      }
+    ]
+  },
+  "metonimia": {
+    "descricao": "A metonímia é uma figura de linguagem que consiste na substituição de uma palavra por outra, com a qual mantém uma relação de proximidade, seja de contiguidade ou de causa e efeito. Ela é usada para tornar a comunicação mais direta, substituindo o nome de algo por outro com o qual tem alguma conexão.",
+    "perguntas": [
+      {
+        "pergunta": "\"Ele perdeu a cabeça durante a discussão.\"",
+        "opcoes": ["Metonímia", "Personificação", "Hipérbole", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Neste caso, 'perder a cabeça' é uma metonímia, pois a parte (cabeça) é substituída pelo todo (razão ou controle). A personificação atribuiria características humanas a algo não humano, a hipérbole exageraria a ideia e a onomatopeia imitaria sons."
+      },
+      {
+        "pergunta": "\"Ele leu Shakespeare na escola.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Alusão", "Ironia"],
+        "correta": 0,
+        "explicacao": "Aqui, 'Shakespeare' é usado como metonímia para se referir às obras do autor. A metáfora compararia de forma implícita, a alusão faria referência indireta a algo e a ironia significaria o oposto do que é dito."
+      },
+      {
+        "pergunta": "\"Ela tem um bom ouvido para música.\"",
+        "opcoes": ["Metonímia", "Personificação", "Anacoluto", "Metáfora"],
+        "correta": 0,
+        "explicacao": "'Ouvido' é usado como metonímia para se referir à habilidade de perceber ou compreender música. A personificação atribuiria uma ação humana a um ser não humano, o anacoluto quebraria a estrutura gramatical e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O Brasil venceu a Copa do Mundo.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Aqui, 'Brasil' é usado metonimicamente para se referir à seleção brasileira, ou seja, o nome do país é substituído pelo seu time. A hipérbole exageraria a ideia, a antítese apresentaria ideias opostas e a comparação usaria 'como' ou 'assim como'."
+      },
+      {
+        "pergunta": "\"Ela adora beber um bom vinho.\"",
+        "opcoes": ["Metonímia", "Personificação", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Vinho' é utilizado metonimicamente para representar a bebida em si, substituindo o produto pelo que ele é. A personificação daria características humanas a objetos, a metáfora compararia de forma implícita e a antítese apresentaria conceitos opostos."
+      },
+      {
+        "pergunta": "\"Vou comprar um Rolex amanhã.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Anacoluto", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Rolex' é uma metonímia para se referir a um relógio de luxo, associando a marca ao produto. A metáfora compararia de maneira implícita, o anacoluto romperia a estrutura sintática e a ironia diria o contrário do que é esperado."
+      },
+      {
+        "pergunta": "\"Ela tem um talento para os pincéis.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Comparação", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Pincéis' aqui é uma metonímia para se referir à pintura ou à arte em si, substituindo o objeto pela atividade. A hipérbole exageraria a ideia, a comparação usaria 'como', e o anacoluto quebraria a estrutura da frase."
+      },
+      {
+        "pergunta": "\"Os jogadores estavam com a bola o tempo todo.\"",
+        "opcoes": ["Metonímia", "Personificação", "Eufemismo", "Metáfora"],
+        "correta": 0,
+        "explicacao": "'A bola' é uma metonímia para o jogo de futebol, já que o objeto está associado à atividade. A personificação atribuiria ações humanas a algo inanimado, o eufemismo suavizaria a expressão, e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O cinema oferece uma grande variedade de filmes para o público.\"",
+        "opcoes": ["Metonímia", "Antítese", "Alusão", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Cinema' é uma metonímia que se refere à indústria cinematográfica, substituindo o local pelo conceito. A antítese apresentaria conceitos opostos, a alusão faria uma referência indireta e a comparação usaria 'como'."
+      },
+      {
+        "pergunta": "\"A liderança da empresa sempre toma as melhores decisões.\"",
+        "opcoes": ["Metonímia", "Personificação", "Alusão", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Liderança' aqui é uma metonímia para se referir às pessoas que exercem a liderança. A personificação daria características humanas a algo não humano, a alusão seria uma referência indireta, e a ironia contradizia o esperado."
+      },
+      {
+        "pergunta": "\"O país ficou triste com a notícia.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Personificação", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'O país' é uma metonímia que representa os cidadãos ou a população em geral. A metáfora compararia implicitamente, a personificação atribuiria emoções humanas ao país e o anacoluto romperia a estrutura da frase."
+      },
+      {
+        "pergunta": "\"Eu estou com fome, vou comer uma pizza agora.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Metáfora", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Pizza' aqui é uma metonímia para se referir à refeição que será feita. A hipérbole exageraria o fato, a metáfora faria uma comparação implícita e o assíndeto omitia conjunções."
+      },
+      {
+        "pergunta": "\"Ela coleciona fotos de viagens ao redor do mundo.\"",
+        "opcoes": ["Metonímia", "Antítese", "Metáfora", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Fotos' é uma metonímia para se referir à lembrança ou recordação das viagens. A antítese apresentaria ideias opostas, a metáfora compararia implicitamente e o anacoluto interromperia a frase de forma abrupta."
+      },
+      {
+        "pergunta": "\"Os céus choraram durante o funeral.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Personificação", "Metáfora"],
+        "correta": 0,
+        "explicacao": "'Céus' aqui é uma metonímia para se referir à chuva que cai durante o funeral. A hipérbole exageraria a ideia, a personificação atribuiria características humanas e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O time conquistou a vitória com muito esforço.\"",
+        "opcoes": ["Metonímia", "Personificação", "Hipérbole", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Vitória' é uma metonímia para o resultado alcançado pelo time. A personificação atribuiria uma ação humana, a hipérbole exageraria o esforço e o anacoluto romperia a estrutura da frase."
+      },
+      {
+        "pergunta": "\"Eu comprei um novo Kindle para ler mais livros.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Alusão", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Kindle' é uma metonímia para o ato de ler livros digitais, substituindo o aparelho pela ação. A metáfora faria uma comparação implícita, a alusão seria uma referência indireta e a ironia diria o contrário do esperado."
+      },
+      {
+        "pergunta": "\"Ela vendeu o seu Fusca para comprar um carro novo.\"",
+        "opcoes": ["Metonímia", "Personificação", "Metáfora", "Alusão"],
+        "correta": 0,
+        "explicacao": "'Fusca' é uma metonímia que representa o carro do modelo da marca, substituindo o nome da marca pelo modelo. A personificação daria características humanas ao objeto, a metáfora faria uma comparação implícita e a alusão seria uma referência indireta."
+      },
+      {
+        "pergunta": "\"Ele está estudando para o vestibular da universidade.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Ironia", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Vestibular' é uma metonímia que representa o exame que leva à entrada na universidade. A metáfora faria uma comparação implícita, a ironia significaria o oposto e o anacoluto interromperia a frase."
+      },
+      {
+        "pergunta": "\"Ele foi à loja e comprou um Nike.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Metáfora", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Nike' aqui é uma metonímia que substitui o tipo de tênis pela marca, usando o nome da marca para se referir ao produto. A hipérbole exageraria a ideia, a metáfora faria uma comparação implícita, e a ironia significaria o oposto do que é esperado."
+      },
+      {
+        "pergunta": "\"O governo anunciou novas medidas para combater a crise.\"",
+        "opcoes": ["Metonímia", "Antítese", "Alusão", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Governo' é uma metonímia para se referir aos governantes ou autoridades responsáveis pela tomada de decisões. A antítese apresentaria ideias opostas, a alusão seria uma referência indireta e o anacoluto interromperia a frase de maneira abrupta."
+      },
+      {
+        "pergunta": "\"Ela preferiu escolher uma Rolex para o aniversário.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Alusão", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Rolex' é uma metonímia que representa um relógio de luxo, associando a marca ao tipo de produto. A metáfora faria uma comparação implícita, a alusão seria uma referência indireta e a personificação atribuiria características humanas a algo inanimado."
+      },
+      {
+        "pergunta": "\"Os céus ficaram escuros com a chegada da tempestade.\"",
+        "opcoes": ["Metonímia", "Personificação", "Hipérbole", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Céus' é uma metonímia que representa a atmosfera ou o tempo, substituindo o todo pela parte. A personificação daria características humanas ao céu, a hipérbole exageraria o efeito da tempestade e o anacoluto causaria uma quebra na estrutura da frase."
+      },
+      {
+        "pergunta": "\"Ele adorou o conteúdo do jornal.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Hipérbole", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Jornal' aqui é usado como metonímia para a informação que é transmitida por ele, substituindo o conteúdo pela mídia. A metáfora compararia de maneira implícita, a hipérbole exageraria o conteúdo e a ironia contradizia o que é esperado."
+      },
+      {
+        "pergunta": "\"Ela tem uma mente brilhante, sempre inovando nas ideias.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Mente' é uma metonímia para se referir ao intelecto ou capacidade mental da pessoa. A metáfora compararia implicitamente, a antítese apresentaria ideias opostas e o assíndeto omitiria a conjunção."
+      },
+      {
+        "pergunta": "\"O Brasil é campeão mundial de futebol.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Metáfora", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Brasil' é uma metonímia para se referir à seleção de futebol, substituindo o país pelo time. A hipérbole exageraria o feito, a metáfora faria uma comparação implícita e a comparação usaria palavras como 'como'."
+      },
+      {
+        "pergunta": "\"O time ganhou a partida de forma emocionante.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Personificação", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Partida' aqui é uma metonímia para o jogo de futebol, usando o nome do evento para se referir à competição. A metáfora faria uma comparação implícita, a personificação atribuiria características humanas à partida e a ironia significaria o contrário do esperado."
+      },
+      {
+        "pergunta": "\"Ele comprou um Ford novo para viajar.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Ford' é uma metonímia para o carro da marca, usando o nome da fabricante para representar o veículo. A metáfora compararia de forma implícita, a antítese apresentaria ideias opostas e o assíndeto omitia a conjunção."
+      },
+      {
+        "pergunta": "\"Ela teve que pagar o preço da fama.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Alusão", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "'Preço' aqui é uma metonímia para as dificuldades ou custos associados à fama, substituindo o custo financeiro pelo conceito mais amplo. A metáfora compararia de maneira implícita, a alusão faria uma referência indireta e a hipérbole exageraria o impacto da fama."
+      },
+      {
+        "pergunta": "\"O autor usou a língua de forma sofisticada.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Língua' é uma metonímia para se referir à fala ou à escrita do autor. A metáfora compararia de maneira implícita, a antítese apresentaria conceitos opostos e o assíndeto omitiria conjunções."
+      },
+      {
+        "pergunta": "\"Ela conhece bem os sabores do mundo.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Personificação", "Anacoluto"],
+        "correta": 0,
+        "explicacao": "'Sabores' é uma metonímia para as experiências sensoriais ou culturais que ela vivenciou. A metáfora faria uma comparação implícita, a personificação atribuiria características humanas aos sabores e o anacoluto interromperia a estrutura da frase."
+      },
+      {
+        "pergunta": "\"O artista é mestre do pincel e das cores.\"",
+        "opcoes": ["Metonímia", "Hipérbole", "Metáfora", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Pincel' e 'cores' são metonímias para as ferramentas e materiais usados pelo artista, substituindo as ferramentas pela arte. A hipérbole exageraria as qualidades do artista, a metáfora faria uma comparação implícita e a ironia significaria o oposto do que é esperado."
+      },
+      {
+        "pergunta": "\"O filme foi uma grande obra de arte.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Obra' é uma metonímia para o trabalho artístico realizado no filme. A metáfora faria uma comparação implícita, a antítese apresentaria ideias opostas e o assíndeto omitiria conjunções."
+      },
+      {
+        "pergunta": "\"Os rios da Amazônia estão sendo devastados.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Personificação", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "'Rios' é uma metonímia para se referir aos recursos naturais da região amazônica, substituindo o elemento pelo conceito maior. A metáfora compararia de maneira implícita, a personificação atribuiria emoções aos rios e a hipérbole exageraria o impacto."
+      },
+      {
+        "pergunta": "\"Ele comprou um Samsung novo.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Samsung' aqui é uma metonímia para o tipo de celular fabricado pela empresa. A metáfora compararia de forma implícita, a antítese apresentaria ideias opostas e o assíndeto omitaria conjunções."
+      },
+      {
+        "pergunta": "\"O seu discurso foi um verdadeiro golpe de mestre.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Personificação", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Golpe de mestre' é uma metonímia para se referir à habilidade ou estratégia usada no discurso. A metáfora compararia implicitamente, a personificação atribuiria características humanas a algo inanimado e a ironia contradiria o esperado."
+      },
+      {
+        "pergunta": "\"Ele sempre lê um bom livro antes de dormir.\"",
+        "opcoes": ["Metonímia", "Metáfora", "Anacoluto", "Ironia"],
+        "correta": 0,
+        "explicacao": "'Livro' é uma metonímia que representa o conteúdo literário ou a prática de ler, substituindo o objeto pelo conceito. A metáfora faria uma comparação implícita, o anacoluto causaria uma quebra na estrutura da frase e a ironia significaria o oposto do esperado."
+      }
+    ]
+  },
+  "eufemismo": {
+    "descricao": "O eufemismo é uma figura de linguagem que suaviza uma ideia ou expressão que poderia ser considerada rude, negativa ou desconfortável. Ele é utilizado para tornar a comunicação mais polida, educada ou até mais aceitável socialmente, especialmente quando se trata de temas delicados como a morte, problemas financeiros ou doenças.",
+    "perguntas": [
+      {
+        "pergunta": "\"Ele partiu para um lugar melhor.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Personificação"],
+        "correta": 0,
+        "explicacao": "O eufemismo é utilizado aqui para suavizar a morte, substituindo a expressão direta 'morreu' por uma forma mais suave. Essa expressão é comumente usada em velórios e discursos fúnebres. A metáfora faria uma comparação implícita, a hipérbole exageraria o sentido, e a personificação atribuiria características humanas a algo inanimado. A expressão 'partiu para um lugar melhor' é usada em diversos contextos, como no livro *A Culpa é das Estrelas* de John Green."
+      },
+      {
+        "pergunta": "\"Ela está um pouco acima do peso.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "A expressão 'um pouco acima do peso' é um eufemismo utilizado para suavizar a ideia de que alguém está gordo. Essa forma é mais polida e aceitável socialmente. A metáfora compararia implicitamente, a antítese apresentaria ideias opostas e a comparação usaria palavras como 'como'. Esse tipo de eufemismo é frequentemente encontrado em romances como *Orgulho e Preconceito* de Jane Austen, onde o peso é tratado de forma sutil."
+      },
+      {
+        "pergunta": "\"Ele perdeu a batalha contra a doença.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Usar 'perdeu a batalha contra a doença' é um eufemismo para falar sobre a morte de alguém de forma mais suave. Em vez de dizer que a pessoa morreu, o eufemismo coloca o fim da vida como uma 'batalha' que foi perdida. A metáfora faria uma comparação implícita, a antítese apresentaria conceitos opostos e a onomatopeia envolveria sons, o que não se aplica aqui. Essa frase é similar ao que aparece em *O Caçador de Pipas* de Khaled Hosseini."
+      },
+      {
+        "pergunta": "\"O chefe não está mais conosco.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Ironia"],
+        "correta": 0,
+        "explicacao": "A expressão 'não está mais conosco' é um eufemismo usado para referir-se à morte de uma forma mais respeitosa e suave. Em livros como *As Vinhas da Ira* de John Steinbeck, esse tipo de eufemismo é utilizado para lidar com temas delicados de forma mais humana e sensível."
+      },
+      {
+        "pergunta": "\"Ela está se recuperando de uma cirurgia.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Ironia", "Antítese"],
+        "correta": 0,
+        "explicacao": "A expressão 'se recuperando de uma cirurgia' é um eufemismo para evitar mencionar que a pessoa passou por um procedimento invasivo ou complicado. É uma forma mais suave de dizer que ela esteve doente ou que passou por uma situação difícil. No livro *O Morro dos Ventos Uivantes* de Emily Brontë, a dor física e os processos de cura também são suavizados por eufemismos para não assustar o leitor."
+      },
+      {
+        "pergunta": "\"Ele está descansando agora.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Essa expressão é um eufemismo para a morte. Ao invés de falar diretamente sobre a morte, o eufemismo opta por dizer que a pessoa está 'descansando'. Esse tipo de expressão pode ser encontrado em livros como *Os Miseráveis* de Victor Hugo, onde a morte é abordada de forma mais suave e respeitosa."
+      },
+      {
+        "pergunta": "\"Ela se retirou da competição por motivos pessoais.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Neste caso, o eufemismo suaviza o motivo da desistência, provavelmente por razões mais sensíveis ou difíceis de discutir publicamente. No livro *A Menina que Roubava Livros* de Markus Zusak, há diversas situações onde eufemismos são usados para abordar a morte e a dor de forma mais leve."
+      },
+      {
+        "pergunta": "\"Ele teve um problema de saúde, mas está bem agora.\"",
+        "opcoes": ["Eufemismo", "Hipérbole", "Metáfora", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Problema de saúde' é um eufemismo usado para evitar especificar uma doença grave ou debilitante. No livro *O Diário de Anne Frank* de Anne Frank, eufemismos semelhantes são usados para suavizar as condições de vida e a saúde da autora durante os tempos de guerra."
+      },
+      {
+        "pergunta": "\"Ela fez uma escolha difícil e agora está em paz.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Fez uma escolha difícil' é um eufemismo para situações que envolvem dilemas morais ou difíceis de explicar diretamente. Esse tipo de linguagem pode ser visto em *Crime e Castigo* de Dostoiévski, onde as decisões difíceis são abordadas de forma indireta e respeitosa."
+      },
+      {
+        "pergunta": "\"Ele precisou de um tempo para se recompor.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Assíndeto"],
+        "correta": 0,
+        "explicacao": "'Se recompor' é um eufemismo para lidar com o fato de que a pessoa estava emocionalmente abalada ou fragilizada. Um exemplo disso aparece em *Dom Casmurro* de Machado de Assis, onde personagens lidam com situações de perda de forma mais delicada."
+      },
+      {
+        "pergunta": "\"Ela teve uma dificuldade pessoal e precisou se afastar.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "'Dificuldade pessoal' é um eufemismo para uma crise mais séria ou problema emocional. Esse tipo de eufemismo pode ser encontrado em *Cem Anos de Solidão* de Gabriel García Márquez, onde as dificuldades pessoais dos personagens são frequentemente suavizadas."
+      },
+      {
+        "pergunta": "\"Ele não está mais entre nós.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Personificação"],
+        "correta": 0,
+        "explicacao": "Essa expressão é um eufemismo usado para suavizar a morte, uma forma indireta de dizer que alguém faleceu. No livro *A Morte de Ivan Ilitch* de Tolstói, a morte de Ivan é suavizada com um tratamento delicado de eufemismos para preservar a sensibilidade do leitor."
+      },
+      {
+        "pergunta": "\"Ele está descansando em paz agora.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Descansando em paz' é um eufemismo clássico usado para se referir à morte de maneira suave e respeitosa. Esse eufemismo é comumente usado em diversos romances, como em *O Velho e o Mar* de Ernest Hemingway, onde temas de morte e tranquilidade são tratados de forma sutil."
+      },
+      {
+        "pergunta": "\"Ela foi promovida a um cargo mais elevado.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Foi promovida a um cargo mais elevado' é um eufemismo para esconder uma possível demissão ou mudança de posição em termos mais positivos. Esse tipo de linguagem pode ser visto em *1984* de George Orwell, onde as distorções de linguagem ajudam a suavizar a realidade de forma ideológica."
+      },
+      {
+        "pergunta": "\"Ele está em uma fase de transição.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Fase de transição' é um eufemismo que pode ser usado para suavizar uma situação de perda ou mudança difícil. Em *O Grande Gatsby* de F. Scott Fitzgerald, a transição de vida dos personagens é frequentemente tratada dessa forma para não expor diretamente as dificuldades."
+      },
+      {
+        "pergunta": "\"Ele não trabalha mais aqui, mas ainda é lembrado.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Não trabalha mais aqui' é um eufemismo para indicar que alguém foi demitido ou deixou o trabalho, de forma mais polida. Esse tipo de eufemismo pode ser encontrado em *O Morro dos Ventos Uivantes* de Emily Brontë, onde situações de afastamento ou perda são suavizadas."
+      },
+      {
+        "pergunta": "\"Ele não resistiu à cirurgia.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A expressão 'não resistiu à cirurgia' é um eufemismo para a morte, evitando dizer de forma direta que a pessoa faleceu. É uma maneira mais suave de comunicar algo triste e pesado."
+      },
+      {
+        "pergunta": "\"Ela decidiu descansar por um tempo.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Personificação"],
+        "correta": 0,
+        "explicacao": "Essa é uma forma de eufemismo para evitar falar diretamente sobre alguém estar doente ou emocionalmente abalado. O 'descansar' aqui significa que a pessoa precisa de recuperação, sem especificar a razão."
+      },
+      {
+        "pergunta": "\"Ele foi embora de forma tranquila.\"",
+        "opcoes": ["Eufemismo", "Antítese", "Metáfora", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "'Foi embora de forma tranquila' é um eufemismo que suaviza a morte, evitando o termo direto 'morreu'. Essa expressão faz o conceito de falecimento mais palatável para a conversa."
+      },
+      {
+        "pergunta": "\"Ela se afastou da vida pública por um tempo.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Esse é um eufemismo para indicar que a pessoa pode ter se afastado por questões pessoais delicadas, como problemas de saúde ou emocionais, sem detalhar a situação."
+      },
+      {
+        "pergunta": "\"Ele está passando por um momento difícil.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Aqui, 'momento difícil' é um eufemismo para uma situação mais grave ou complicada, como uma crise emocional ou financeira. Essa frase é uma forma suave de mencionar uma adversidade."
+      },
+      {
+        "pergunta": "\"Ela perdeu o emprego recentemente.\"",
+        "opcoes": ["Eufemismo", "Antítese", "Comparação", "Metáfora"],
+        "correta": 0,
+        "explicacao": "'Perdeu o emprego' é um eufemismo que suaviza o impacto de uma demissão, uma situação que pode ser considerada negativa ou embaraçosa."
+      },
+      {
+        "pergunta": "\"Ele está descansando em um lugar melhor.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Personificação", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase 'descansando em um lugar melhor' é um eufemismo comum para a morte. Em vez de usar o termo 'morreu', o eufemismo transforma a falecimento em algo mais sereno e respeitoso."
+      },
+      {
+        "pergunta": "\"Ela precisou de um tempo para se reorganizar.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Se reorganizar' é um eufemismo que pode ser usado para suavizar a explicação de uma crise pessoal ou emocional, sem revelar o motivo específico ou a gravidade da situação."
+      },
+      {
+        "pergunta": "\"Ele está vivendo uma nova fase da vida.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Nova fase da vida' é um eufemismo que pode ser usado para indicar uma mudança significativa, como a aposentadoria ou uma transição difícil, sem especificar detalhes complicados."
+      },
+      {
+        "pergunta": "\"Ela foi chamada para a sala da direção.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Comparação"],
+        "correta": 0,
+        "explicacao": "Esse eufemismo suaviza a ideia de que a pessoa pode ter cometido um erro ou uma infração. Em vez de dizer que ela foi repreendida, a frase utiliza 'chamada' para manter um tom mais neutro."
+      },
+      {
+        "pergunta": "\"Ele teve que fazer uma pausa em seus estudos.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Personificação"],
+        "correta": 0,
+        "explicacao": "'Fazer uma pausa' é um eufemismo para indicar que algo deu errado nos estudos, talvez até uma interrupção significativa, sem especificar o que causou essa parada."
+      },
+      {
+        "pergunta": "\"Ela está em um processo de recuperação.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Processo de recuperação' é um eufemismo utilizado para indicar que alguém está se recuperando de uma doença ou de um problema de saúde sem entrar em detalhes sobre o que aconteceu."
+      },
+      {
+        "pergunta": "\"Ele teve uma pequena complicação no procedimento.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Pequena complicação' é um eufemismo usado para suavizar uma complicação grave durante um procedimento, de modo a evitar alarmar ou preocupar os outros com a gravidade real da situação."
+      },
+      {
+        "pergunta": "\"Ela precisou de um tempo para digerir a notícia.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Digerir a notícia' é um eufemismo para indicar que alguém precisa de tempo para processar informações difíceis ou desagradáveis, como uma perda ou uma mudança repentina."
+      },
+      {
+        "pergunta": "\"Ele está em um lugar mais tranquilo agora.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Lugar mais tranquilo' é um eufemismo para indicar a morte de alguém de forma mais serena e sem agitação, em vez de usar a palavra 'morreu'."
+      },
+      {
+        "pergunta": "\"Ela teve que tomar uma decisão difícil.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "'Decisão difícil' é um eufemismo para indicar uma escolha complicada ou dolorosa, sem entrar em detalhes sobre as circunstâncias que a tornaram tão difícil."
+      },
+      {
+        "pergunta": "\"Ele está em um novo emprego agora.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Novo emprego' pode ser um eufemismo usado para suavizar o fato de que alguém foi demitido ou deixou uma posição, indicando apenas que ele começou algo novo."
+      },
+      {
+        "pergunta": "\"Ela precisou de um tempo para refletir sobre sua vida.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Refletir sobre sua vida' é um eufemismo usado para indicar que alguém está passando por uma crise existencial ou emocional sem revelar diretamente o problema que está enfrentando."
+      },
+      {
+        "pergunta": "\"Ele foi convidado a se retirar da reunião.\"",
+        "opcoes": ["Eufemismo", "Metáfora", "Comparação", "Antítese"],
+        "correta": 0,
+        "explicacao": "'Convidado a se retirar' é um eufemismo para suavizar a ideia de que alguém foi expulso ou solicitado a sair de uma reunião ou evento de forma não amigável."
+      }
+    ]
+  },
+  "hiperbole": {
+    "descricao": "A hipérbole é uma figura de linguagem que utiliza exageros para enfatizar uma ideia, sentimento ou característica. Essa técnica é comumente usada na comunicação cotidiana, na literatura e na publicidade, com o objetivo de criar um impacto emocional no receptor. A hipérbole é eficaz para transmitir emoções intensas, como surpresa, admiração ou frustração, tornando a comunicação mais expressiva e memorável.",
+    "perguntas": [
+      {
+        "pergunta": "\"Ele chorou um rio de lágrimas.\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A expressão 'chorou um rio de lágrimas' é uma hipérbole, pois exagera a quantidade de lágrimas para enfatizar a intensidade do choro. O exagero cria um efeito emocional e dramático."
+      },
+      {
+        "pergunta": "\"Eu já te disse um milhão de vezes!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Personificação"],
+        "correta": 0,
+        "explicacao": "Aqui, a hipérbole exagera a quantidade de vezes que algo foi dito, enfatizando a frustração da pessoa. Obviamente, a frase não é literal, já que é impossível ter falado um milhão de vezes."
+      },
+      {
+        "pergunta": "\"Estou morrendo de fome.\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Essa frase utiliza a hipérbole para exagerar a sensação de fome. O termo 'morrendo' é um exagero usado para expressar que a pessoa está com muita fome, mas sem ser literal."
+      },
+      {
+        "pergunta": "\"Ela corre mais rápido que o vento!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Essa frase é uma hipérbole porque exagera a velocidade da pessoa ao compará-la com a velocidade do vento, algo fisicamente impossível de se igualar."
+      },
+      {
+        "pergunta": "\"Fui esperar o ônibus por séculos!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa expressão exagera o tempo de espera, indicando que a pessoa teve que esperar muito, mas de forma exagerada, já que 'séculos' é uma medida de tempo extremamente longa."
+      },
+      {
+        "pergunta": "\"Ela tem uma paciência infinita.\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa frase é uma hipérbole, pois exagera a paciência de alguém ao afirmar que é 'infinita'. Isso serve para enfatizar que a pessoa tem uma paciência extrema."
+      },
+      {
+        "pergunta": "\"O volume daquela música quase me destruiu!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole aqui exagera a reação do ouvinte à música, indicando que o volume foi tão alto que 'quase destruiu', quando na verdade isso é um exagero para expressar desconforto."
+      },
+      {
+        "pergunta": "\"Ele tem uma memória de elefante!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 1,
+        "explicacao": "Embora pareça um exagero, essa frase é uma metáfora. Ela não é uma hipérbole porque não exagera a habilidade de recordar, mas faz uma comparação implícita com o animal famoso por sua memória."
+      },
+      {
+        "pergunta": "\"Ele falou por horas sem parar!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Essa frase é uma hipérbole porque exagera o tempo que alguém falou. Falar por horas sem parar é fisicamente improvável, o que sugere um exagero para transmitir a ideia de que a pessoa falou muito."
+      },
+      {
+        "pergunta": "\"Ela tem olhos como estrelas!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Personificação"],
+        "correta": 0,
+        "explicacao": "Essa é uma hipérbole que exagera a beleza dos olhos da pessoa, comparando-os com as estrelas. Essa comparação transmite uma ideia de brilho ou encanto de forma exagerada."
+      },
+      {
+        "pergunta": "\"Eu tenho um milhão de coisas para fazer!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole aqui exagera a quantidade de tarefas que alguém tem para fazer. Dizer que se tem 'um milhão de coisas' é uma forma de demonstrar que há muitas tarefas a serem cumpridas."
+      },
+      {
+        "pergunta": "\"O calor está insuportável, estou derretendo!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, a frase exagera o impacto do calor. 'Estou derretendo' não é literal, é uma hipérbole usada para enfatizar como a pessoa está sofrendo com o calor intenso."
+      },
+      {
+        "pergunta": "\"Eu te disse isso um trilhão de vezes!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a quantidade de vezes que algo foi dito. O uso de 'um trilhão de vezes' é uma forma de enfatizar a frustração da pessoa com a repetição do mesmo assunto."
+      },
+      {
+        "pergunta": "\"Eles têm olhos tão grandes quanto o mar!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa frase é uma hipérbole, pois exagera a comparação entre os olhos de alguém e o mar, algo fisicamente impossível de se igualar. O objetivo é mostrar quão impressionantes ou bonitos os olhos são."
+      },
+      {
+        "pergunta": "\"O barulho da explosão foi ensurdecedor!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a intensidade do barulho da explosão, sugerindo que foi 'ensurdecedor', um termo utilizado para enfatizar o impacto do som, embora não seja literalmente capaz de causar surdez."
+      },
+      {
+        "pergunta": "\"Ele estudou a vida inteira para passar nesse concurso!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Essa frase exagera a quantidade de tempo que alguém estudou, ao afirmar que foi 'a vida inteira'. O objetivo é enfatizar o esforço significativo que a pessoa fez para atingir seu objetivo."
+      },
+      {
+        "pergunta": "\"Eu estava tão cansado que dormi por mil anos!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Simile"],
+        "correta": 0,
+        "explicacao": "A hipérbole é usada aqui para exagerar a quantidade de sono de maneira cômica. Dormir por 'mil anos' é fisicamente impossível, mas a expressão enfatiza o extremo cansaço da pessoa."
+      },
+      {
+        "pergunta": "\"Ele estava tão feliz que poderia explodir de alegria!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a felicidade ao dizer que a pessoa poderia 'explodir de alegria', uma expressão que transmite uma emoção intensa de forma exagerada."
+      },
+      {
+        "pergunta": "\"Fui a uma festa que parecia durar a eternidade!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Simile"],
+        "correta": 0,
+        "explicacao": "Essa é uma hipérbole que exagera o tempo da festa. 'Durar a eternidade' é uma maneira de expressar que a festa parecia muito longa e cansativa, mas é claramente uma exagero."
+      },
+      {
+        "pergunta": "\"Estou com uma fome que dá para comer um boi!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa expressão usa a hipérbole para exagerar o apetite da pessoa. 'Comer um boi' é uma forma figurativa de dizer que está com muita fome, mas não literal."
+      },
+      {
+        "pergunta": "\"Ela tem um milhão de amigos!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "A hipérbole aqui exagera o número de amigos de alguém. 'Um milhão de amigos' é uma maneira figurativa de dizer que a pessoa tem muitos amigos, mas é fisicamente impossível ter esse número exato."
+      },
+      {
+        "pergunta": "\"Ela corre mais rápido que uma flecha!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Antítese"],
+        "correta": 0,
+        "explicacao": "Essa frase é uma hipérbole, pois exagera a velocidade da pessoa ao compará-la com uma flecha, o que transmite a ideia de rapidez de maneira exagerada."
+      },
+      {
+        "pergunta": "\"Eu te falei isso mil vezes!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A hipérbole é usada aqui para exagerar o número de vezes que algo foi dito, com o objetivo de expressar frustração pela repetição."
+      },
+      {
+        "pergunta": "\"Ele tem uma paciência infinita!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Simile"],
+        "correta": 0,
+        "explicacao": "Aqui a hipérbole exagera a paciência de alguém, indicando que é infinita, o que é obviamente um exagero para dar ênfase à sua paciência."
+      },
+      {
+        "pergunta": "\"O calor está tão forte que quase me derreti!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa é uma hipérbole, pois exagera a sensação de calor ao afirmar que a pessoa quase derreteu. Obviamente, é um exagero para enfatizar a intensidade do calor."
+      },
+      {
+        "pergunta": "\"Estou com uma fome que daria para comer um cavalo!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Simile"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a fome da pessoa ao dizer que ela poderia comer um cavalo, uma comparação exagerada usada para expressar o quanto está faminta."
+      },
+      {
+        "pergunta": "\"O barulho da explosão foi tão forte que quase destruiu a cidade!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui a hipérbole exagera o impacto do barulho da explosão, sugerindo que foi tão forte a ponto de destruir uma cidade, o que é um exagero usado para enfatizar sua intensidade."
+      },
+      {
+        "pergunta": "\"Ela ficou tão feliz que poderia iluminar a cidade inteira com seu sorriso!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "A frase exagera a felicidade da pessoa, dizendo que ela poderia iluminar a cidade inteira com um sorriso, o que não é literal, mas sim uma forma de expressar extrema felicidade."
+      },
+      {
+        "pergunta": "\"Ele sabia tanto que parecia um enciclopédia ambulante!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera o conhecimento de alguém ao compará-lo com uma enciclopédia ambulante, destacando sua vasta quantidade de informações."
+      },
+      {
+        "pergunta": "\"Ela estava tão cansada que podia dormir por uma década inteira!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa frase exagera o cansaço da pessoa, sugerindo que ela poderia dormir por uma década, o que é obviamente impossível, mas serve para destacar o quanto ela estava exausta."
+      },
+      {
+        "pergunta": "\"Ele tem tanto dinheiro que poderia comprar o mundo!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui a hipérbole exagera a riqueza de alguém, dizendo que ele poderia comprar o mundo. Esse exagero é usado para expressar o quão rico ele é de forma figurada."
+      },
+      {
+        "pergunta": "\"O céu estava tão azul que parecia ter sido pintado à mão!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a cor do céu ao compará-lo com algo pintado à mão, destacando sua beleza de forma exagerada."
+      },
+      {
+        "pergunta": "\"Ele cantava tão bem que sua voz poderia ser ouvida em qualquer parte do mundo!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "Aqui, a hipérbole exagera a qualidade da voz de alguém, sugerindo que sua voz é tão boa que poderia ser ouvida em qualquer parte do mundo."
+      },
+      {
+        "pergunta": "\"Estava tão frio que até o vento parecia congelar!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Essa é uma hipérbole que exagera o frio ao afirmar que até o vento parecia congelar. A intenção é dar ênfase à intensidade do frio de maneira exagerada."
+      },
+      {
+        "pergunta": "\"As estrelas estavam tão brilhantes que iluminavam toda a noite!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "A hipérbole aqui exagera a intensidade da luz das estrelas, sugerindo que elas eram tão brilhantes que iluminavam toda a noite, o que é uma forma figurada de expressar sua beleza."
+      },
+      {
+        "pergunta": "\"Eu tenho tanto trabalho que poderia passar a vida inteira resolvendo!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera a quantidade de trabalho de alguém, afirmando que ele poderia passar a vida inteira resolvendo, destacando a sobrecarga de tarefas."
+      },
+      {
+        "pergunta": "\"Ela tinha um sorriso tão bonito que podia derreter corações!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase exagera a beleza do sorriso de alguém ao afirmar que ele poderia derreter corações, uma maneira figurada de expressar como o sorriso era encantador."
+      },
+      {
+        "pergunta": "\"Ele correu tanto que parecia estar voando!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Simile", "Comparação"],
+        "correta": 0,
+        "explicacao": "Essa é uma hipérbole que exagera a velocidade da pessoa ao comparar sua corrida com o voo, uma forma de destacar a rapidez de maneira exagerada."
+      },
+      {
+        "pergunta": "\"Ela falou por horas e horas sem parar!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui a hipérbole exagera o tempo de fala, sugerindo que a pessoa falou 'por horas e horas', quando na verdade é apenas uma maneira de expressar que ela falou muito."
+      },
+      {
+        "pergunta": "\"Estou tão feliz que meu coração vai explodir de alegria!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole aqui exagera a felicidade de alguém, dizendo que seu coração vai explodir de alegria, algo fisicamente impossível, mas usado para enfatizar a emoção."
+      },
+      {
+        "pergunta": "\"Eu esperava por ela como se fosse uma eternidade!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Comparação", "Simile"],
+        "correta": 0,
+        "explicacao": "Essa frase exagera a duração da espera, sugerindo que ela foi interminável, como uma eternidade, quando na verdade foi um período muito longo, mas não literal."
+      },
+      {
+        "pergunta": "\"Ela tem tanto estilo que poderia ser uma musa inspiradora!\"",
+        "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A hipérbole exagera o estilo de alguém, dizendo que ela poderia ser uma musa inspiradora, uma forma de dar ênfase ao quão estilosa a pessoa é."
+      }
+    ]
+  },
+  "comparacao": {
+    "descricao": "A comparação é uma figura de linguagem que estabelece uma relação de semelhança entre dois elementos, geralmente usando palavras como 'como', 'assim como', 'tal qual', entre outras. Ela permite ao falante ou escritor ilustrar melhor um conceito, dando uma ideia mais clara ao receptor. A comparação pode ser utilizada para intensificar uma característica ou apenas para criar uma imagem mais vívida e compreensível. A chave da comparação está no uso explícito de elementos que são comparados, tornando a relação entre eles bem evidente.",
+    "perguntas": [
+      {
+        "pergunta": "\"Ela é rápida como um raio!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase é uma comparação, pois utiliza o 'como' para comparar a rapidez da pessoa com a de um raio, destacando sua velocidade de maneira clara."
+      },
+      {
+        "pergunta": "\"O céu estava tão azul quanto o mar!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita ao associar a cor do céu com a do mar, utilizando o 'quanto' para estabelecer a semelhança."
+      },
+      {
+        "pergunta": "\"A criança era tão doce como um anjo!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação destaca a doçura da criança ao associá-la a um anjo, utilizando o 'como' para criar uma relação de semelhança."
+      },
+      {
+        "pergunta": "\"Ele trabalha igual a um louco!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre o modo de trabalho da pessoa e a ideia de ser 'louco', usando a palavra 'igual' para indicar semelhança."
+      },
+      {
+        "pergunta": "\"Ela canta como uma diva!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Essa é uma comparação que utiliza o 'como' para relacionar a voz da pessoa à de uma diva, realçando a qualidade da sua voz."
+      },
+      {
+        "pergunta": "\"O corredor é tão ágil quanto um gato!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Simile"],
+        "correta": 0,
+        "explicacao": "A comparação estabelece a agilidade do corredor ao associá-lo a um gato, usando 'quanto' para demonstrar a semelhança."
+      },
+      {
+        "pergunta": "\"Ela é forte como um touro!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase faz uma comparação entre a força da pessoa e a de um touro, utilizando o 'como' para destacar essa semelhança."
+      },
+      {
+        "pergunta": "\"O vento soprava como um uivo distante!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre o som do vento e o uivo de um animal, usando o 'como' para indicar a semelhança sonora."
+      },
+      {
+        "pergunta": "\"Sua voz era suave como a brisa da manhã!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase compara a suavidade da voz com a brisa da manhã, utilizando o 'como' para fazer essa relação de semelhança."
+      },
+      {
+        "pergunta": "\"Ele estava tão feliz quanto um passarinho em liberdade!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A felicidade dele é comparada com a de um passarinho em liberdade, utilizando 'quanto' para destacar essa semelhança."
+      },
+      {
+        "pergunta": "\"A menina olhou para o céu como quem vê um sonho se realizar!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Simile"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita entre o olhar da menina e a sensação de um sonho se realizando, utilizando 'como' para relacionar os dois."
+      },
+      {
+        "pergunta": "\"Ele é esperto como uma raposa!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação usa a raposa como referência para ilustrar a esperteza da pessoa, fazendo essa relação de semelhança com a palavra 'como'."
+      },
+      {
+        "pergunta": "\"Ela nadava como um peixe no oceano!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação faz uma relação direta entre a habilidade de nadar da pessoa e o movimento de um peixe no oceano, com a palavra 'como'."
+      },
+      {
+        "pergunta": "\"O silêncio na sala era como uma calmaria no mar!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita entre o silêncio da sala e a calmaria do mar, usando o 'como' para indicar a semelhança entre as duas situações."
+      },
+      {
+        "pergunta": "\"Ele falava com a sabedoria de um ancião!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase compara a fala dele com a sabedoria de um ancião, utilizando 'com a sabedoria de' para fazer essa comparação."
+      },
+      {
+        "pergunta": "\"A noite caiu sobre a cidade como um manto escuro!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Simile"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é entre o manto escuro e a escuridão da noite, usando o 'como' para destacar a semelhança entre os dois elementos."
+      },
+      {
+        "pergunta": "\"A felicidade dela transbordava como um rio após a chuva!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase compara a felicidade da pessoa ao transbordamento de um rio, utilizando o 'como' para reforçar a ideia de intensidade da emoção."
+      },
+      {
+        "pergunta": "\"Ele era tão calmo quanto uma tarde sem vento!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é entre a calma dele e a de uma tarde tranquila, usando 'quanto' para indicar a semelhança entre ambos."
+      },
+      {
+        "pergunta": "\"Sua voz soava como uma melodia suave!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Simile"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre a voz dela e uma melodia suave, usando o 'como' para fazer a relação entre os dois."
+      },
+      {
+        "pergunta": "\"O cheiro de flores preenchia o ar como um perfume raro!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Simile"],
+        "correta": 0,
+        "explicacao": "Essa comparação é feita entre o cheiro das flores e o perfume raro, utilizando o 'como' para indicar a semelhança entre ambos."
+      },
+      {
+        "pergunta": "\"Ele estava tão nervoso quanto um tigre prestes a atacar!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui a comparação é feita entre o nervosismo dele e o comportamento de um tigre prestes a atacar, utilizando 'quanto' para dar destaque à semelhança."
+      },
+      {
+        "pergunta": "\"O trabalho era tão difícil quanto subir uma montanha!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação destaca a dificuldade do trabalho ao relacioná-lo à tarefa de subir uma montanha, usando o 'quanto' para estabelecer a semelhança."
+      },
+      {
+        "pergunta": "\"Ele era alto como uma torre!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre a altura dele e a de uma torre, utilizando 'como' para estabelecer a semelhança."
+      },
+      {
+        "pergunta": "\"O céu estava vermelho como um incêndio!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre o céu e um incêndio, usando o 'como' para estabelecer a semelhança. As outras opções não são corretas: a metáfora não usa o 'como', o eufemismo suaviza a expressão e a antítese é a oposição de ideias."
+      },
+      {
+        "pergunta": "\"Ele era veloz como um guepardo!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação destaca a velocidade dele ao associá-lo a um guepardo, utilizando o 'como'. As outras opções não são corretas: metáfora não usa o 'como', hipérbole exagera a ideia e antítese apresenta oposição de ideias."
+      },
+      {
+        "pergunta": "\"Ela sorria como uma criança feliz!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação é feita ao associar o sorriso dela com o de uma criança feliz, usando o 'como'. As outras opções não se aplicam: metáfora não usa o 'como', hipérbole exageraria a felicidade e eufemismo suavizaria a ideia."
+      },
+      {
+        "pergunta": "\"O vento cortava como uma faca afiada!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita entre o vento e uma faca afiada, utilizando 'como'. A metáfora não usa o 'como', a hipérbole exageraria o efeito do vento, e a antítese apresentaria um contraste, o que não é o caso."
+      },
+      {
+        "pergunta": "\"O céu estava claro como cristal!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre o céu e o cristal é feita com o uso do 'como'. A metáfora não usaria o 'como', a hipérbole exageraria a clareza e a antítese apresentaria contraste entre dois elementos."
+      },
+      {
+        "pergunta": "\"Ele era forte como um leão!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase compara a força dele à de um leão, utilizando 'como'. A metáfora não usaria 'como', a hipérbole exageraria a força e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"A noite caiu sobre nós como uma manta escura!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre a noite e uma manta escura, usando 'como'. A metáfora não usaria 'como', a hipérbole exageraria a ideia e a antítese contrastaria os elementos."
+      },
+      {
+        "pergunta": "\"Sua voz era suave como o som de um violino!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita entre a voz e o som de um violino, com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria a suavidade da voz e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"O cachorro correu como um raio!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre a velocidade do cachorro e a de um raio, utilizando 'como'. A metáfora não usa 'como', a hipérbole exageraria a rapidez e a antítese apresentaria uma oposição de ideias."
+      },
+      {
+        "pergunta": "\"Ela dançava como uma folha ao vento!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre a dança dela e o movimento da folha ao vento é feita com o uso de 'como'. A metáfora não utilizaria 'como', a hipérbole exageraria o movimento e a antítese contrastaria os elementos."
+      },
+      {
+        "pergunta": "\"O céu estava tão claro quanto um espelho!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A comparação entre a clareza do céu e a de um espelho é feita com o uso de 'quanto'. A metáfora não usaria 'quanto', o eufemismo suavizaria a ideia e a hipérbole exageraria a clareza."
+      },
+      {
+        "pergunta": "\"Ele estava tão nervoso quanto uma corda prestes a arrebentar!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A comparação é feita entre o nervosismo dele e a tensão de uma corda prestes a arrebentar, utilizando 'quanto'. A metáfora não usaria 'quanto', o eufemismo suavizaria a ideia e a hipérbole exageraria o nervosismo."
+      },
+      {
+        "pergunta": "\"O campo estava tão verde quanto uma esmeralda!\"",
+        "opcoes": ["Comparação", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, a comparação é feita entre a cor do campo e a de uma esmeralda, utilizando 'quanto'. A metáfora não usaria 'quanto', o eufemismo suavizaria a expressão e a antítese apresentaria uma oposição."
+      },
+      {
+        "pergunta": "\"O sol estava quente como uma fornalha!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre o calor do sol e o de uma fornalha é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria o calor e a antítese apresentaria contraste entre os elementos."
+      },
+      {
+        "pergunta": "\"O rio corria tranquilo como uma criança adormecida!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação entre o rio e uma criança adormecida é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria a tranquilidade e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Ele era valente como um cavaleiro medieval!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre a valentia dele e a de um cavaleiro medieval é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria a valentia e a antítese apresentaria oposição."
+      },
+      {
+        "pergunta": "\"O cheiro da comida estava como um perfume!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação entre o cheiro da comida e o perfume é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria o cheiro e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Ela era leve como uma pluma!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre a leveza dela e a de uma pluma é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria a leveza e a antítese apresentaria um contraste."
+      },
+      {
+        "pergunta": "\"A cidade estava tão movimentada quanto um formigueiro!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação entre a movimentação da cidade e um formigueiro é feita com o uso de 'quanto'. A metáfora não usaria 'quanto', a hipérbole exageraria o movimento e o eufemismo suavizaria a ideia."
+      },
+      {
+        "pergunta": "\"Ele lutou como um herói!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A comparação entre a luta dele e a de um herói é feita com o uso de 'como'. A metáfora não usaria 'como', a hipérbole exageraria a luta e o eufemismo suavizaria a ideia."
+      },
+      {
+        "pergunta": "\"O livro era tão interessante quanto uma aventura!\"",
+        "opcoes": ["Comparação", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A comparação entre o livro e uma aventura é feita com o uso de 'quanto'. A metáfora não usaria 'quanto', a hipérbole exageraria a ideia e a antítese contrastaria os elementos."
+      }
+    ]
+  },
+  "metafora": {
+    "descricao": "A metáfora é uma figura de linguagem em que uma palavra ou expressão é usada para designar outra, com a qual mantém alguma semelhança. A principal diferença entre a metáfora e a comparação é que, enquanto a comparação usa palavras como 'como', 'assim como' ou 'tal qual' para estabelecer uma relação entre dois elementos, a metáfora faz essa associação de forma implícita, sem o uso dessas palavras. Ela é uma forma de condensar ideias e sentimentos, enriquecendo a expressão e proporcionando uma imagem mais intensa e poética. Metáforas podem ser usadas para representar abstrações, sentimentos ou qualidades de uma maneira mais impactante e simbólica.",
+    "perguntas": [
+      {
+        "pergunta": "\"A vida é um palco, e nós, atores.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora aqui está na associação entre a vida e o palco, onde a vida é representada como um palco de teatro. A comparação usaria o 'como' para fazer a relação explícita, a hipérbole exageraria a ideia, e a antítese contraporía ideias opostas, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"O mundo é um livro, e quem não viaja lê apenas uma página.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o mundo é comparado implicitamente a um livro, sem o uso de 'como'. A comparação usaria o 'como', o eufemismo suavizaria a ideia, e a antítese traria ideias contrastantes."
+      },
+      {
+        "pergunta": "\"A mente humana é um oceano profundo e misterioso.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora usa a imagem de um oceano para representar a mente humana, sem o uso de 'como'. A comparação usaria 'como', a hipérbole exageraria a profundidade e a antítese faria um contraste."
+      },
+      {
+        "pergunta": "\"Ela tem um coração de pedra.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora aqui é usada para mostrar que ela é insensível ou fria, associando o coração dela a uma pedra, sem o uso de 'como'. A comparação usaria 'como', o eufemismo suavizaria a expressão e a antítese contrastaria a ideia."
+      },
+      {
+        "pergunta": "\"A cidade nunca dorme.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, a cidade é associada a um ser humano, que pode dormir. Não é uma comparação, pois não usa 'como', é uma metáfora. A hipérbole exageraria a ideia e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Ele é a luz da minha vida.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a pessoa a luz, representando sua importância e influência na vida, sem o uso de 'como'. A comparação usaria 'como', o eufemismo suavizaria a expressão e a hipérbole exageraria a ideia."
+      },
+      {
+        "pergunta": "\"O amor é uma rosa, com espinhos e tudo.\"",
+        "opcoes": ["Metáfora", "Comparação", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A metáfora utiliza a rosa como símbolo do amor, representando suas qualidades e dificuldades. A comparação usaria 'como', a antítese contrastaria opostos, e a hipérbole exageraria a experiência."
+      },
+      {
+        "pergunta": "\"Ele é o sol da minha vida.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora faz a comparação implícita entre a pessoa e o sol, ressaltando sua importância. A comparação usaria 'como', a hipérbole exageraria a ideia, e o eufemismo suavizaria."
+      },
+      {
+        "pergunta": "\"A política é um jogo sujo.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, a política é comparada implicitamente a um jogo, no qual há trapaças e enganações, sem o uso de 'como'. A comparação usaria 'como', o eufemismo suavizaria a expressão e a antítese traria uma oposição."
+      },
+      {
+        "pergunta": "\"A dor é um monstro que nos devora por dentro.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A dor é representada como um monstro, uma metáfora que ilustra como ela consome a pessoa. A comparação usaria 'como', a hipérbole exageraria a ideia e a antítese contrastaria elementos."
+      },
+      {
+        "pergunta": "\"O tempo é ouro.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora aqui faz uma comparação implícita entre o tempo e o ouro, destacando o valor do tempo. A comparação usaria 'como', a hipérbole exageraria a ideia e a antítese criaria oposição."
+      },
+      {
+        "pergunta": "\"Ele é um tigre nas negociações.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a habilidade dele nas negociações a um tigre, uma imagem que remete à força e agressividade. A comparação usaria 'como', a hipérbole exageraria e a antítese faria um contraste."
+      },
+      {
+        "pergunta": "\"O mar é um vasto e imenso espelho.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara o mar a um espelho, simbolizando sua imensidão e a reflexão da luz. A comparação usaria 'como', a hipérbole exageraria e a antítese contrastaria ideias."
+      },
+      {
+        "pergunta": "\"O coração dela é um labirinto de emoções.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o coração é comparado a um labirinto, representando a complexidade de seus sentimentos, sem o uso de 'como'. A comparação usaria 'como', a hipérbole exageraria e a antítese criaria um contraste."
+      },
+      {
+        "pergunta": "\"As palavras dele foram uma flecha que atingiu meu coração.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora associa as palavras a uma flecha, simbolizando como elas afetaram emocionalmente. A comparação usaria 'como', a hipérbole exageraria a reação e a antítese contrastaria as ideias."
+      },
+      {
+        "pergunta": "\"A cidade é uma selva de concreto.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a cidade a uma selva, destacando seu caos e selvageria, sem usar 'como'. A comparação usaria 'como', a hipérbole exageraria a selvageria e a antítese criaria um contraste."
+      },
+      {
+        "pergunta": "\"O medo é uma sombra que nunca nos deixa.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o medo é comparado a uma sombra que está sempre presente, uma metáfora que ilustra sua persistência. A comparação usaria 'como', a hipérbole exageraria e a antítese contrastaria ideias."
+      },
+      {
+        "pergunta": "\"A felicidade é uma borboleta que sempre foge quando tentamos pegá-la.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a felicidade a uma borboleta, representando a dificuldade de alcançá-la. A comparação usaria 'como', a hipérbole exageraria a fuga e a antítese contrastaria as ideias."
+      },
+      {
+        "pergunta": "\"O futuro é uma caixa de surpresas.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o futuro é comparado a uma caixa de surpresas, sem o uso de 'como', representando a incerteza do que está por vir. A comparação usaria 'como', a hipérbole exageraria a imprevisibilidade e a antítese faria um contraste."
+      },
+      {
+        "pergunta": "\"Ele tem olhos de águia.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora faz uma comparação implícita entre os olhos e os de uma águia, sugerindo sua acuidade visual. A comparação usaria 'como', a hipérbole exageraria a visão e a antítese contrastaria a ideia."
+      },
+      {
+        "pergunta": "\"O coração dela é um vulcão de emoções.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o coração é comparado a um vulcão, mostrando a intensidade e a explosão emocional dela. A comparação usaria 'como', o eufemismo suavizaria a emoção e a antítese faria uma oposição."
+      },
+      {
+        "pergunta": "\"A vida é uma estrada cheia de curvas.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a vida a uma estrada, simbolizando seus altos e baixos, sem o uso de 'como'. A comparação usaria 'como', a hipérbole exageraria a dificuldade e a antítese criaria oposição."
+      },
+      {
+        "pergunta": "\"Ele é um leão na luta.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Aqui, ele é comparado implicitamente a um leão, simbolizando coragem e ferocidade. A comparação usaria 'como', o eufemismo suavizaria a ideia e a hipérbole exageraria a intensidade."
+      },
+      {
+        "pergunta": "\"A mentira é uma bola de neve que cresce a cada mentira.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A mentira é comparada a uma bola de neve, representando como ela cresce à medida que outras são ditas. A comparação usaria 'como', a hipérbole exageraria o crescimento e a antítese contrastaria as ideias."
+      },
+      {
+        "pergunta": "\"A felicidade é um raio de sol em um dia nublado.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora associa a felicidade a um raio de sol, simbolizando sua capacidade de iluminar e aquecer. A comparação usaria 'como', a hipérbole exageraria o impacto e o eufemismo suavizaria a ideia."
+      },
+      {
+        "pergunta": "\"O amor é um rio que nunca para de correr.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora usa o rio como símbolo do amor, que é contínuo e flui sem parar. A comparação usaria 'como', a hipérbole exageraria a ideia e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Ele tem um coração de ouro.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora sugere que ele é uma pessoa boa e generosa, associando seu coração ao ouro. A comparação usaria 'como', o eufemismo suavizaria e a antítese criaria uma oposição."
+      },
+      {
+        "pergunta": "\"A escola é um jardim onde as ideias florescem.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a escola a um jardim, simbolizando o crescimento e desenvolvimento das ideias. A comparação usaria 'como', a hipérbole exageraria a ideia e o eufemismo suavizaria."
+      },
+      {
+        "pergunta": "\"A mente dele é um labirinto de pensamentos complexos.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, a metáfora compara a mente a um labirinto, representando sua complexidade. A comparação usaria 'como', a hipérbole exageraria a complexidade e a antítese traria contraste."
+      },
+      {
+        "pergunta": "\"A guerra é um monstro que devora tudo em seu caminho.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a guerra a um monstro, simbolizando sua destruição implacável. A comparação usaria 'como', a hipérbole exageraria a destruição e o eufemismo suavizaria."
+      },
+      {
+        "pergunta": "\"Ela é a estrela que brilha mais forte na sala.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, a metáfora associa a pessoa a uma estrela, destacando seu brilho e importância. A comparação usaria 'como', a hipérbole exageraria o brilho e a antítese traria contraste."
+      },
+      {
+        "pergunta": "\"A vida é uma estrada cheia de obstáculos.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a vida a uma estrada, representando as dificuldades que surgem ao longo do caminho. A comparação usaria 'como', o eufemismo suavizaria a ideia e a hipérbole exageraria as dificuldades."
+      },
+      {
+        "pergunta": "\"A tristeza é uma nuvem escura sobre minha cabeça.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora usa a imagem de uma nuvem para simbolizar o peso da tristeza. A comparação usaria 'como', a hipérbole exageraria a tristeza e a antítese contrastaria as emoções."
+      },
+      {
+        "pergunta": "\"Ele tem um temperamento de fogo.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara o temperamento dele ao fogo, indicando que ele é explosivo e intenso. A comparação usaria 'como', a hipérbole exageraria a intensidade e a antítese traria uma oposição."
+      },
+      {
+        "pergunta": "\"A amizade é uma árvore que cresce com o tempo.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara a amizade a uma árvore, destacando como ela se fortalece com o tempo. A comparação usaria 'como', o eufemismo suavizaria e a antítese contrastaria."
+      },
+      {
+        "pergunta": "\"O dia está nascendo com um sorriso radiante.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara o nascer do dia a um sorriso, simbolizando sua beleza e alegria. A comparação usaria 'como', a hipérbole exageraria a alegria e a antítese contrastaria as imagens."
+      },
+      {
+        "pergunta": "\"A juventude é uma chama que arde rápido.\"",
+        "opcoes": ["Metáfora", "Comparação", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A metáfora associa a juventude a uma chama, sugerindo sua intensidade e efemeridade. A comparação usaria 'como', a hipérbole exageraria a rapidez e o eufemismo suavizaria."
+      },
+      {
+        "pergunta": "\"O futuro é uma tela em branco.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A metáfora compara o futuro a uma tela em branco, representando suas infinitas possibilidades. A comparação usaria 'como', o eufemismo suavizaria e a antítese contrastaria."
+      },
+      {
+        "pergunta": "\"O silêncio é uma arma poderosa.\"",
+        "opcoes": ["Metáfora", "Comparação", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "Aqui, o silêncio é comparado a uma arma, simbolizando seu poder de impacto. A comparação usaria 'como', o eufemismo suavizaria e a antítese contrastaria a ideia."
+      }
+    ]
+  },
+  "paradoxo": {
+    "descricao": "O paradoxo é uma figura de linguagem que reúne ideias aparentemente contraditórias, mas que, ao serem analisadas mais profundamente, revelam uma verdade profunda ou lógica. Essa contradição é usada para provocar reflexão e desafiando as percepções comuns da realidade. A ideia central é que, embora as frases se contradigam de forma superficial, elas podem apresentar uma verdade oculta ou inesperada.",
+    "perguntas": [
+      {
+        "pergunta": "\"Menos é mais.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A frase apresenta um paradoxo, pois sugere que a simplicidade (menos) pode ser mais eficaz ou impactante. A antítese criaria um contraste direto entre ideias opostas, mas sem essa sugestão irônica de harmonia entre os opostos."
+      },
+      {
+        "pergunta": "\"A única constante é a mudança.\"",
+        "opcoes": ["Paradoxo", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, o paradoxo surge pela ideia de que algo constante (a mudança) pode ser uma constante. A antítese contrastaria diretamente a mudança com a estabilidade, mas sem a sugestão irônica da afirmação paradoxal."
+      },
+      {
+        "pergunta": "\"Eu só sei que nada sei.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A famosa frase de Sócrates é um paradoxo, pois ela afirma saber que não se sabe, criando uma tensão entre conhecimento e ignorância. A antítese contrastaria diretamente o saber com o não saber, mas sem essa ironia."
+      },
+      {
+        "pergunta": "\"O silêncio grita mais alto que palavras.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui é que o silêncio, em sua ausência de som, pode ter um impacto maior que palavras. A antítese contrastaria o silêncio com o som, mas sem sugerir essa ideia irônica de que o silêncio tem um poder superior."
+      },
+      {
+        "pergunta": "\"O fim é o começo de tudo.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, a ideia de um fim implica um novo começo, criando um ciclo. A antítese, por sua vez, contrasta o fim com o começo de forma direta, sem sugerir essa relação cíclica."
+      },
+      {
+        "pergunta": "\"A guerra é a paz.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo é usado no livro '1984' de George Orwell, onde as ideias de guerra e paz são contraditórias, mas coexistem. A antítese contrastaria diretamente as duas ideias sem esse sentido de coexistência irônica."
+      },
+      {
+        "pergunta": "\"A única maneira de encontrar liberdade é através da disciplina.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo reside no fato de que a liberdade é muitas vezes associada à ausência de regras, enquanto a disciplina é a imposição de regras. A antítese contrastaria diretamente liberdade e disciplina, sem sugerir essa relação irônica."
+      },
+      {
+        "pergunta": "\"O nada é tudo.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, o 'nada' se torna 'tudo', sugerindo que a ausência pode ter presença. A antítese contrastaria diretamente a ideia de nada com a ideia de tudo, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Quanto mais eu aprendo, mais percebo o quanto não sei.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este é um paradoxo, pois quanto mais se adquire conhecimento, mais se percebe a vastidão da ignorância. A antítese contrastaria conhecimento e ignorância de forma mais direta, sem essa reflexão irônica."
+      },
+      {
+        "pergunta": "\"A única certeza é a incerteza.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui é que a única certeza na vida seria a incerteza, criando uma contradição que provoca reflexão. A antítese contrastaria diretamente certeza e incerteza, mas sem essa ideia irônica."
+      },
+      {
+        "pergunta": "\"A vida é a morte e a morte é a vida.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, vida e morte são apresentadas como interdependentes, cada uma sendo a outra. A antítese contrastaria diretamente vida e morte, sem sugerir essa coexistência paradoxal."
+      },
+      {
+        "pergunta": "\"É preciso perder para aprender a ganhar.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui é que, para se alcançar a vitória, é necessário experimentar a perda. A antítese contrastaria diretamente perder e ganhar, sem essa ideia de aprendizado através da perda."
+      },
+      {
+        "pergunta": "\"A ignorância é força.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Essa frase de Orwell em '1984' é um paradoxo, pois sugere que a ignorância, em vez de ser algo negativo, pode ser uma fonte de poder. A antítese contrastaria diretamente ignorância e conhecimento, sem essa relação irônica de força."
+      },
+      {
+        "pergunta": "\"A solidão é companhia.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A ideia de que a solidão pode ser uma forma de companhia é um paradoxo, pois contradiz a definição de solidão como ausência de companhia. A antítese contrastaria solidão com companhia, sem essa sugestão paradoxal."
+      },
+      {
+        "pergunta": "\"O prazer na dor é a verdadeira felicidade.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a verdadeira felicidade pode ser encontrada em uma experiência de dor, contradizendo a ideia convencional de felicidade. A antítese contrastaria prazer e dor diretamente, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"A vida é curta, mas os dias são longos.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui está na contradição entre a brevidade da vida e a sensação de lentidão nos dias. A antítese contrastaria vida curta e dias longos de forma direta, sem sugerir essa contradição."
+      },
+      {
+        "pergunta": "\"O homem é um anjo caído e um demônio elevado.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, o homem é simultaneamente bom e mau, uma ideia complexa e contraditória. A antítese contrastaria diretamente o anjo com o demônio, sem essa coexistência paradoxal."
+      },
+      {
+        "pergunta": "\"O maior erro é não tentar.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O paradoxo surge quando o erro de não tentar é, de fato, um erro de ação. A antítese contrastaria diretamente tentar e não tentar, sem essa implicação irônica de erro."
+      },
+      {
+        "pergunta": "\"É preciso perder o controle para ganhar o controle.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, o paradoxo surge pela ideia de que para alcançar controle, é necessário perder o controle momentaneamente. A antítese contrastaria diretamente perder e ganhar controle, sem essa ironia."
+      },
+      {
+        "pergunta": "\"A felicidade é triste e a tristeza é feliz.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, as emoções opostas se mesclam, sugerindo que a felicidade pode surgir da tristeza. A antítese contrastaria felicidade e tristeza de forma direta, sem essa fusão paradoxal."
+      },
+      {
+        "pergunta": "\"Eu sou a ignorância do saber.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Esse é um paradoxo porque sugere que a ignorância é uma forma de saber, algo que parece contraditório. A antítese contrastaria diretamente ignorância e saber, sem sugerir essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Quanto mais você tem, mais você precisa.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Aqui, o paradoxo é que quanto mais uma pessoa possui, mais ela sente a necessidade de possuir, o que é contraditório. A antítese contrastaria diretamente ter e precisar, sem essa ironia."
+      },
+      {
+        "pergunta": "\"A liberdade na prisão é verdadeira liberdade.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este é um paradoxo, pois afirma que a liberdade pode ser encontrada dentro da prisão, o que é contraditório. A antítese contrastaria liberdade e prisão de forma direta, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Eu sou a resposta para a pergunta sem resposta.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui é que a resposta está na própria pergunta sem resposta, criando uma contradição. A antítese contrastaria a resposta com a pergunta de forma direta, sem essa ironia paradoxal."
+      },
+      {
+        "pergunta": "\"A maior fraqueza é a força.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a força, algo geralmente considerado uma virtude, pode ser uma fraqueza. A antítese contrastaria diretamente força e fraqueza sem essa relação irônica."
+      },
+      {
+        "pergunta": "\"O medo é a coragem que não se vê.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo surge ao sugerir que o medo, geralmente visto como oposto à coragem, na verdade contém uma forma de coragem. A antítese contrastaria medo e coragem de forma direta, sem essa ironia paradoxal."
+      },
+      {
+        "pergunta": "\"O silêncio é a maior voz.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Aqui, o paradoxo sugere que o silêncio tem um poder de comunicação maior do que palavras. A antítese contrastaria silêncio com som de forma direta, sem essa sugestão irônica."
+      },
+      {
+        "pergunta": "\"Para encontrar a verdade, é preciso acreditar na mentira.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Este paradoxo afirma que acreditar na mentira pode levar à descoberta da verdade, criando uma contradição. A antítese contrastaria diretamente verdade e mentira sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Eu sou a mentira na verdade.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase apresenta um paradoxo porque ela mistura a verdade com a mentira, que são conceitos antagônicos. A antítese contrastaria diretamente mentira e verdade sem essa fusão paradoxal."
+      },
+      {
+        "pergunta": "\"O movimento é a própria imobilidade.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que o movimento e a imobilidade são, de certa forma, a mesma coisa. A antítese contrastaria movimento e imobilidade diretamente, sem essa união paradoxal."
+      },
+      {
+        "pergunta": "\"O vazio é o espaço cheio.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, o vazio, que é a ausência, é visto como um espaço cheio de potencial. A antítese contrastaria vazio e cheio de forma direta, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"O amor é o ódio disfarçado de carinho.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo está na ideia de que o amor e o ódio podem coexistir, com o amor escondendo o ódio. A antítese contrastaria amor e ódio diretamente, sem essa conexão paradoxal."
+      },
+      {
+        "pergunta": "\"A maior riqueza é a pobreza.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a pobreza, muitas vezes vista como uma condição negativa, pode ser uma forma de riqueza. A antítese contrastaria riqueza e pobreza sem essa ideia irônica."
+      },
+      {
+        "pergunta": "\"A morte é a vida em outra forma.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui sugere que a morte e a vida são interligadas, sendo uma forma da outra. A antítese contrastaria vida e morte diretamente, sem essa coexistência paradoxal."
+      },
+      {
+        "pergunta": "\"A verdade é a mentira que se revela.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a verdade pode ser uma mentira descoberta, criando uma contradição. A antítese contrastaria verdade e mentira de forma direta, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Nada é tudo e tudo é nada.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, o nada é visto como tudo e o tudo como nada, desafiando a lógica convencional. A antítese contrastaria diretamente nada e tudo sem essa troca irônica."
+      },
+      {
+        "pergunta": "\"O fracasso é o caminho para o sucesso.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O paradoxo aqui está na ideia de que o fracasso pode ser necessário para alcançar o sucesso, criando uma contradição. A antítese contrastaria fracasso e sucesso diretamente, sem essa conexão paradoxal."
+      },
+      {
+        "pergunta": "\"Quem busca encontra o que não quer encontrar.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a busca por algo pode resultar em encontrar algo inesperado e indesejado. A antítese contrastaria buscar e encontrar diretamente, sem essa ironia."
+      },
+      {
+        "pergunta": "\"A luz é a escuridão que se revela.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Neste paradoxo, luz e escuridão são vistas como interdependentes, uma revelando a outra. A antítese contrastaria luz e escuridão diretamente, sem essa relação paradoxal."
+      },
+      {
+        "pergunta": "\"Eu sou a liberdade da minha prisão.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Este paradoxo sugere que a liberdade pode ser encontrada na prisão, uma ideia contraditória. A antítese contrastaria liberdade e prisão diretamente, sem essa contradição irônica."
+      },
+      {
+        "pergunta": "\"Eu sou o eterno efêmero.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Aqui, o paradoxo sugere que o efêmero (que é passageiro) pode ser eterno, criando uma contradição. A antítese contrastaria efêmero e eterno diretamente, sem essa relação irônica."
+      }
+    ]
+  },
+  "antitese": {
+    "descricao": "Figura de linguagem que consiste na apresentação de ideias, palavras ou conceitos opostos dentro de uma mesma estrutura frasal, criando um contraste deliberado. A antítese realça a oposição entre elementos (como 'luz e sombra', 'amor e ódio') para enfatizar diferenças, gerar tensão dramática ou destacar paradoxos. É frequentemente usada em textos filosóficos, poéticos e discursivos para provocar reflexão ou reforçar um argumento por meio da dualidade. Diferencia-se do paradoxo (que une contradições aparentemente irreconciliáveis)",
+    "perguntas": [
+      {
+        "pergunta": "\"Entre o amor e o ódio, apenas um passo.\"",
+        "opcoes": ["Antítese", "Metáfora", "Hipérbole", "Comparação"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'amor' e 'ódio', conceitos opostos. Metáfora compararia implicitamente ('amor é fogo'), hipérbole exageraria ('ódio infinito'), e comparação usaria 'como'.\n\nA proximidade de opostos destaca a fragilidade da fronteira entre eles."
+      },
+      {
+        "pergunta": "\"Na luz da esperança, a sombra do medo.\"",
+        "opcoes": ["Personificação", "Antítese", "Eufemismo", "Gradação"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'luz da esperança' e 'sombra do medo'. Personificação daria ação à esperança ou ao medo, eufemismo suavizaria ('preocupação'), e gradação criaria uma sequência.\n\nA oposição luz/sombra reforça o conflito emocional."
+      },
+      {
+        "pergunta": "\"Sorria com os lábios, chore com a alma.\"",
+        "opcoes": ["Antítese", "Onomatopeia", "Metonímia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'sorrir' (ação física) e 'chorar' (emoção interna). Onomatopeia imitaria sons ('risada'), metonímia usaria parte pelo todo ('lábios' por fala), e paradoxo uniria contradições.\n\nA oposição enfatiza a dualidade entre aparência e sentimento."
+      },
+      {
+        "pergunta": "\"Construí pontes durante o dia, destruí muros à noite.\"",
+        "opcoes": ["Hipérbole", "Antítese", "Metáfora", "Anáfora"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'construir pontes' (união) e 'destruir muros' (separação). Hipérbole exageraria ('destruí cidades'), metáfora compararia ações a símbolos, e anáfora repetiria termos iniciais.\n\nA oposição destaca contradições comportamentais."
+      },
+      {
+        "pergunta": "\"Seus olhos eram frios como o inverno, mas seu toque queimava como o verão.\"",
+        "opcoes": ["Comparação", "Antítese", "Pleonasmo", "Gradação"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'frio do inverno' e 'calor do verão'. Comparação usaria 'como' (presente nas frases), pleonasmo repetiria ideias, e gradação criaria sequência.\n\nA oposição térmica intensifica a contradição do personagem."
+      },
+      {
+        "pergunta": "\"Na riqueza da alma, a pobreza do coração.\"",
+        "opcoes": ["Antítese", "Metáfora", "Personificação", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'riqueza' e 'pobreza' aplicados a aspectos imateriais. Metáfora compararia alma/coração a objetos, personificação daria ação a eles, e eufemismo suavizaria.\n\nA oposição critica a desconexão entre valores internos."
+      },
+      {
+        "pergunta": "\"Palavras doces que escondiam intenções amargas.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Onomatopeia", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'doces' (positivo) e 'amargas' (negativo). Hipérbole exageraria ('amargas como veneno'), onomatopeia imitaria sons, e metonímia usaria parte pelo todo.\n\nA oposição revela a ironia entre discurso e intenção."
+      },
+      {
+        "pergunta": "\"No silêncio da noite, o barulho dos pensamentos.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Comparação", "Gradação"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'silêncio' e 'barulho'. Paradoxo uniria contradições ('silêncio barulhento'), comparação usaria 'como', e gradação criaria uma sequência.\n\nA oposição destaca a agitação mental em ambiente tranquilo."
+      },
+      {
+        "pergunta": "\"Ela era fogo em paixão, ele era gelo em indiferença.\"",
+        "opcoes": ["Antítese", "Metáfora", "Hipérbole", "Anáfora"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'fogo' (paixão) e 'gelo' (frieza). Metáfora compararia os elementos a sentimentos, hipérbole exageraria ('gelo eterno'), e anáfora repetiria termos.\n\nA oposição térmica simboliza diferenças emocionais."
+      },
+      {
+        "pergunta": "\"Na guerra dos homens, a paz das estrelas.\"",
+        "opcoes": ["Antítese", "Personificação", "Eufemismo", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'guerra' e 'paz'. Personificação daria ação às estrelas, eufemismo suavizaria a guerra ('conflito'), e pleonasmo repetiria ideias.\n\nA oposição critica a violência humana versus harmonia cósmica."
+      },
+      {
+        "pergunta": "\"Vivo na morte dos dias, morto na vida dos sonhos.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Metáfora", "Gradação"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'vivo/morto' e 'dias/sonhos'. Paradoxo uniria contradições ('vivo morto'), metáfora compararia conceitos, e gradação criaria progressão.\n\nA oposição explora a dualidade existencial."
+      },
+      {
+        "pergunta": "\"Seu sorriso era luz, sua ausência era escuridão.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Onomatopeia", "Comparação"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'luz' e 'escuridão'. Hipérbole exageraria ('escuridão infinita'), onomatopeia imitaria sons, e comparação usaria 'como'.\n\nA oposição destaca o impacto da presença e ausência."
+      },
+      {
+        "pergunta": "\"Na simplicidade das coisas, a complexidade da existência.\"",
+        "opcoes": ["Antítese", "Metáfora", "Metonímia", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'simplicidade' e 'complexidade'. Metáfora compararia existência a algo, metonímia usaria parte pelo todo, e eufemismo suavizaria.\n\nA oposição questiona a percepção humana da realidade."
+      },
+      {
+        "pergunta": "\"Gritava em silêncio, calava-se em vozes.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Personificação", "Hipérbole"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'gritar/silêncio' e 'calar/vozes'. Paradoxo uniria contradições, personificação daria ação ao silêncio, e hipérbole exageraria.\n\nA oposição expressa conflitos internos intensos."
+      },
+      {
+        "pergunta": "\"Na força do corpo, a fraqueza da mente.\"",
+        "opcoes": ["Antítese", "Gradação", "Metáfora", "Anáfora"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'força' e 'fraqueza' aplicados a aspectos físicos e mentais. Gradação mostraria progressão, metáfora compararia corpo/mente a algo, e anáfora repetiria termos.\n\nA oposição critica a desarmonia entre físico e intelectual."
+      },
+      {
+        "pergunta": "\"No caos da cidade, a ordem da natureza.\"",
+        "opcoes": ["Antítese", "Comparação", "Eufemismo", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'caos' e 'ordem'. Comparação usaria 'como', eufemismo suavizaria ('movimento'), e onomatopeia imitaria sons urbanos.\n\nA oposição ressalta a diferença entre ambiente urbano e natural."
+      },
+      {
+        "pergunta": "\"A verdade liberta, a mentira aprisiona.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Personificação", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'libertar' e 'aprisionar' associados à verdade/mentira. Hipérbole exageraria ('aprisiona eternamente'), personificação daria ação aos conceitos, e metonímia usaria símbolos.\n\nA oposição enfatiza o poder ético da verdade."
+      },
+      {
+        "pergunta": "\"No riso das crianças, o choro da guerra.\"",
+        "opcoes": ["Antítese", "Metáfora", "Gradação", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'riso' (alegria) e 'choro' (dor). Metáfora compararia guerra a algo, gradação criaria sequência, e pleonasmo repetiria ideias.\n\nA oposição denuncia o impacto da violência na inocência."
+      },
+      {
+        "pergunta": "\"Na velocidade do progresso, a lentidão da alma.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Comparação", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'velocidade' (tecnologia) e 'lentidão' (espiritualidade). Hipérbole exageraria ('lentidão eterna'), comparação usaria 'como', e eufemismo suavizaria.\n\nA oposição critica o desequilíbrio entre avanço material e humano."
+      },
+      {
+        "pergunta": "\"Na doçura do mel, a amargura do veneno.\"",
+        "opcoes": ["Antítese", "Metáfora", "Onomatopeia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'doçura' e 'amargura'. Metáfora compararia mel/veneno a conceitos, onomatopeia imitaria sabores, e paradoxo uniria contradições.\n\nA oposição alerta para perigos sob aparências atraentes."
+      },
+      {
+        "pergunta": "\"No calor do verão, o frio da solidão.\"",
+        "opcoes": ["Antítese", "Personificação", "Gradação", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'calor' (físico) e 'frio' (emocional). Personificação daria ação à solidão, gradação criaria sequência térmica, e metonímia usaria símbolos.\n\nA oposição explora a contradição entre ambiente e sentimento."
+      },
+      {
+        "pergunta": "\"Na luz da razão, a sombra da ignorância.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Comparação", "Anáfora"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'luz' (saber) e 'sombra' (ignorância). Hipérbole exageraria ('sombra infinita'), comparação usaria 'como', e anáfora repetiria termos.\n\nA oposição defende o conhecimento como antídoto."
+      },
+      {
+        "pergunta": "\"No alto da montanha, o fundo do vale.\"",
+        "opcoes": ["Antítese", "Metáfora", "Pleonasmo", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'alto' e 'fundo' (opostos geográficos). Metáfora compararia montanha/vale a conceitos, pleonasmo repetiria ideias, e onomatopeia imitaria sons.\n\nA oposição destaca extremos naturais."
+      },
+      {
+        "pergunta": "\"Na certeza das dúvidas, a dúvida das certezas.\"",
+        "opcoes": ["Paradoxo", "Antítese", "Hipérbole", "Gradação"],
+        "correta": 1,
+        "explicacao": "Antítese: Contraste entre 'certeza/dúvida' invertidos. Paradoxo uniria contradições ('certeza incerta'), hipérbole exageraria, e gradação criaria progressão.\n\nA oposição questiona a natureza volátil do conhecimento."
+      },
+      {
+        "pergunta": "\"No brilho do ouro, a escuridão da ganância.\"",
+        "opcoes": ["Antítese", "Metáfora", "Personificação", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'brilho' (material) e 'escuridão' (moral). Metáfora compararia ouro a ganância, personificação daria ação a conceitos, e eufemismo suavizaria.\n\nA oposição critica a corrupção pelo dinheiro."
+      },
+      {
+        "pergunta": "\"Na brevidade da vida, a eternidade da morte.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Comparação", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'brevidade' (vida) e 'eternidade' (morte). Hipérbole exageraria ('eternidade cósmica'), comparação usaria 'como', e metonímia substituiria termos.\n\nA oposição reflete sobre a finitude humana."
+      },
+      {
+        "pergunta": "\"No grito da revolta, o sussurro da esperança.\"",
+        "opcoes": ["Antítese", "Onomatopeia", "Gradação", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'grito' (intensidade) e 'sussurro' (suavidade). Onomatopeia imitaria sons ('grrr'), gradação criaria sequência, e pleonasmo repetiria ideias.\n\nA oposição simboliza a coexistência de protesto e fé."
+      },
+      {
+        "pergunta": "\"Na inocência das crianças, a malícia do mundo.\"",
+        "opcoes": ["Antítese", "Metáfora", "Personificação", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'inocência' e 'malícia'. Metáfora compararia crianças/mundo a símbolos, personificação daria ação ao mundo, e paradoxo uniria contradições.\n\nA oposição denuncia a perda da pureza infantil."
+      },
+      {
+        "pergunta": "\"No caos da arte, a ordem da técnica.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Comparação", "Anáfora"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'caos' (criatividade) e 'ordem' (disciplina). Hipérbole exageraria ('caos infinito'), comparação usaria 'como', e anáfora repetiria termos.\n\nA oposição explora o equilíbrio na criação artística."
+      },
+      {
+        "pergunta": "\"No frio do inverno, o calor da lareira.\"",
+        "opcoes": ["Antítese", "Metáfora", "Onomatopeia", "Gradação"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'frio' e 'calor'. Metáfora compararia inverno/lareira a conceitos, onomatopeia imitaria sons ('crackle'), e gradação criaria sequência térmica.\n\nA oposição destaca o conforto contra adversidades."
+      },
+      {
+        "pergunta": "\"Na leveza das nuvens, o peso das memórias.\"",
+        "opcoes": ["Antítese", "Personificação", "Eufemismo", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'leveza' (física) e 'peso' (emocional). Personificação daria ação às memórias, eufemismo suavizaria ('lembranças'), e metonímia usaria símbolos.\n\nA oposição explora o conflito entre liberdade e apego."
+      },
+      {
+        "pergunta": "\"No silêncio da noite, o grito da consciência.\"",
+        "opcoes": ["Antítese", "Hipérbole", "Comparação", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'silêncio' (externo) e 'grito' (interno). Hipérbole exageraria ('grito ensurdecedor'), comparação usaria 'como', e pleonasmo repetiria ideias.\n\nA oposição revela a inquietude moral em meio à calmaria."
+      },
+      {
+        "pergunta": "\"Na simplicidade do amor, a complexidade do ciúme.\"",
+        "opcoes": ["Antítese", "Metáfora", "Gradação", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Antítese: Contraste entre 'simplicidade' e 'complexidade' aplicados a sentimentos. Metáfora compararia amor/ciúme a elementos, gradação criaria sequência, e paradoxo uniria contradições.\n\nA oposição analisa a dualidade dos relacionamentos."
+      }
+    ]
+  },
+  "pleonasmo": {
+    "descricao": "Pleonasmo é Figura de linguagem caracterizada pela redundância, ou seja, pelo uso de termos desnecessários que repetem uma ideia já expressa. Pode ser classificado em dois tipos: vicioso (quando a repetição é considerada um erro por não acrescentar significado, como 'subir para cima') ou estilístico (quando usado intencionalmente para ênfase ou efeito expressivo, como 'eu vi com meus próprios olhos'). O pleonasmo estilístico é comum na literatura para intensificar descrições ou emoções.",
+    "perguntas": [
+      {
+        "pergunta": "\"Subir para cima é uma ação desnecessária.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo ocorre quando há a repetição desnecessária de um conceito. Neste caso, o verbo 'subir' já implica em ir para cima, então dizer 'para cima' é redundante. O eufemismo suavizaria a expressão, o que não é o caso aqui."
+      },
+      {
+        "pergunta": "\"Entrar para dentro de casa não faz sentido.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A expressão 'entrar para dentro' é um pleonasmo, pois o verbo 'entrar' já sugere o movimento para dentro. O eufemismo teria o objetivo de suavizar a expressão, o que não acontece aqui."
+      },
+      {
+        "pergunta": "\"Aquele bebê ainda é bem novo e imaturo.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Este é um exemplo de pleonasmo, já que 'bem novo' e 'imaturo' são conceitos semelhantes e estão sendo usados juntos de maneira redundante. O eufemismo tentaria suavizar a ideia, o que não acontece nesse caso."
+      },
+      {
+        "pergunta": "\"Vou descer para baixo agora.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo se dá aqui pela redundância do 'descer' com o 'para baixo', já que descer implica automaticamente em ir para baixo. O eufemismo tentaria suavizar a ideia, mas isso não ocorre nesta frase."
+      },
+      {
+        "pergunta": "\"Eu já vi isso antes, em repetidas ocasiões.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A frase contém um pleonasmo ao repetir a ideia de 'ver isso antes' com 'em repetidas ocasiões', tornando a frase redundante. O eufemismo suavizaria a frase, mas aqui há apenas repetição desnecessária."
+      },
+      {
+        "pergunta": "\"Ela ficou completamente cheia de coisas.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A expressão 'completamente cheia' é um pleonasmo, pois 'cheia' já implica em totalidade, e 'completamente' é redundante. O eufemismo suavizaria a frase, mas não há suavização aqui."
+      },
+      {
+        "pergunta": "\"Você deve repetir novamente a tarefa.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase é um pleonasmo, pois 'repetir' já implica em fazer novamente a tarefa, tornando 'novamente' desnecessário. O eufemismo suavizaria o pedido, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"Ela falou com suas próprias palavras.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo aparece aqui em 'suas próprias palavras', pois o verbo 'falar' já implica que ela usou suas palavras. O eufemismo suavizaria o conteúdo, mas a frase é apenas redundante."
+      },
+      {
+        "pergunta": "\"Ele repetiu de novo o mesmo erro.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A frase é um pleonasmo, pois 'repetir' já implica em fazer novamente, e 'de novo' é redundante. O eufemismo tentaria suavizar a situação, o que não é o caso aqui."
+      },
+      {
+        "pergunta": "\"Aquele som de ruído era insuportável.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Metáfora"],
+        "correta": 0,
+        "explicacao": "Aqui, 'som de ruído' é um pleonasmo, porque 'ruído' já é som. O eufemismo seria usado para suavizar a ideia, mas a frase é redundante sem esse efeito."
+      },
+      {
+        "pergunta": "\"Eu vi ela pessoalmente na festa.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A frase contém um pleonasmo, pois 'pessoalmente' já implica que a pessoa foi vista de forma direta. O eufemismo tentaria suavizar a afirmação, mas isso não ocorre aqui."
+      },
+      {
+        "pergunta": "\"Eles saíram para fora do prédio.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo aqui é 'para fora', já que 'sair' implica automaticamente em ir para fora. O eufemismo teria como objetivo suavizar, o que não ocorre nesta frase."
+      },
+      {
+        "pergunta": "\"O calor insuportável do verão me deixou mal.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está em 'calor insuportável', pois 'insuportável' já sugere um calor extremo, tornando a frase redundante. O eufemismo suavizaria a ideia, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"Ela estava absolutamente certa de suas decisões.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase apresenta um pleonasmo, já que 'absolutamente' é redundante com 'certa'. O eufemismo poderia suavizar a certeza da pessoa, mas aqui há apenas repetição."
+      },
+      {
+        "pergunta": "\"Ele caiu para baixo da escada.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo ocorre com 'para baixo', já que 'cair' já implica em movimento para baixo. O eufemismo suavizaria a situação, o que não é o caso aqui."
+      },
+      {
+        "pergunta": "\"O futuro é incerto e imprevisível.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A frase é um pleonasmo, pois 'incerto' e 'imprevisível' têm significados semelhantes. O eufemismo suavizaria a ideia de incerteza, o que não acontece aqui."
+      },
+      {
+        "pergunta": "\"Eu olhei para frente e vi a paisagem.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A redundância está no uso de 'para frente', já que 'olhar' normalmente implica direcionar-se para frente. O eufemismo suavizaria a expressão, mas neste caso há apenas repetição desnecessária."
+      },
+      {
+        "pergunta": "\"O mar estava tão calmo e sereno.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A frase apresenta um pleonasmo ao usar 'calmo' e 'sereno', que significam basicamente a mesma coisa. O eufemismo suavizaria a ideia de tranquilidade, mas isso não acontece aqui."
+      },
+      {
+        "pergunta": "\"Ela foi ao banheiro fazer suas necessidades fisiológicas.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A frase contém um pleonasmo, pois 'necessidades fisiológicas' já se refere a ir ao banheiro. O eufemismo é a suavização do termo, mas aqui não há suavização, apenas redundância."
+      },
+      {
+        "pergunta": "\"Ele me deu um presente de presente.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A frase apresenta um pleonasmo, pois 'presente de presente' é uma repetição desnecessária. O eufemismo teria a intenção de suavizar a expressão, mas não é o caso aqui."
+      },
+      {
+        "pergunta": "\"Ela chorou de tanto chorar.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo se dá pelo uso de 'chorar de tanto chorar', onde o conceito de chorar já está implícito. O eufemismo suavizaria a situação, mas aqui há apenas repetição."
+      },
+      {
+        "pergunta": "\"Ele estava completamente cheio de emoções.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Metáfora", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "A frase é um pleonasmo, pois 'completamente cheio' já transmite a ideia de totalidade, tornando a expressão redundante. A antítese mostraria contradição, a metáfora usaria uma comparação implícita e a onomatopeia faria referência a sons, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"Aquela tempestade foi um verdadeiro caos total.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Hipérbole", "Metáfora"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está na expressão 'verdadeiro caos total', pois 'caos' já implica em uma total desordem, tornando o termo 'total' redundante. A hipérbole exageraria a situação, e a metáfora usaria uma comparação indireta, mas não é o caso aqui."
+      },
+      {
+        "pergunta": "\"Ele vai subir para cima da colina.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Eufemismo", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está em 'subir para cima', pois o verbo 'subir' já sugere movimento para cima, tornando a frase redundante. A antítese apresentaria uma oposição de ideias, o eufemismo suavizaria a frase e a onomatopeia imitaria sons."
+      },
+      {
+        "pergunta": "\"Eu vi ele pessoalmente de perto.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Aqui, o pleonasmo ocorre porque 'pessoalmente' e 'de perto' expressam a mesma ideia, tornando a frase redundante. A antítese indicaria ideias opostas, a metáfora usaria uma comparação implícita, e a hipérbole exageraria a visão, o que não ocorre."
+      },
+      {
+        "pergunta": "\"O fogo queimava intensamente de forma ardente.\"",
+        "opcoes": ["Pleonasmo", "Hipérbole", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A redundância está em 'queimava intensamente de forma ardente', pois 'queimar' já implica em algo ardente. A hipérbole exageraria o efeito, a antítese apresentaria opostos, e a metáfora seria uma comparação implícita, mas nenhuma dessas opções se encaixa aqui."
+      },
+      {
+        "pergunta": "\"Aquele lugar estava absolutamente vazio e deserto.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O pleonasmo se encontra em 'absolutamente vazio' e 'deserto', pois ambos indicam falta total de algo, tornando a frase redundante. A metáfora faria uma comparação implícita, a antítese mostraria oposição de ideias, e o eufemismo suavizaria a expressão, mas não é o caso."
+      },
+      {
+        "pergunta": "\"O sol brilhava intensamente de forma radiante.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está em 'brilhava intensamente de forma radiante', já que 'brilhar' implica em algo radiante. A metáfora faria uma comparação implícita, o eufemismo suavizaria a frase e a hipérbole exageraria o brilho, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"Eles entraram para dentro da sala.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "A redundância ocorre com o uso de 'entraram para dentro', pois 'entrar' já implica em movimento para dentro. A metáfora usaria uma comparação implícita, a antítese traria uma ideia oposta e a onomatopeia imitaria um som, que não se aplica."
+      },
+      {
+        "pergunta": "\"Ela foi ao banheiro fazer suas necessidades fisiológicas.\"",
+        "opcoes": ["Pleonasmo", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A frase é um pleonasmo, pois 'necessidades fisiológicas' já se refere ao ato de ir ao banheiro, tornando a expressão redundante. O eufemismo suavizaria a expressão, mas não há suavização aqui."
+      },
+      {
+        "pergunta": "\"O aumento de preço foi extremamente alto e elevado.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo é evidenciado em 'extremamente alto' e 'elevado', pois ambos expressam o aumento de preço de maneira redundante. A metáfora faria uma comparação implícita, a antítese indicaria uma ideia oposta, e a hipérbole exageraria a situação."
+      },
+      {
+        "pergunta": "\"Ela disse a mesma coisa repetidamente várias vezes.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase contém pleonasmo ao usar 'repetidamente' e 'várias vezes', já que ambos indicam repetição. A metáfora faria uma comparação implícita, a hipérbole exageraria a situação e o eufemismo suavizaria, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"O vento soprava forte e impetuoso.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo ocorre em 'forte e impetuoso', já que ambos os adjetivos transmitem a ideia de força. A metáfora faria uma comparação implícita, a hipérbole exageraria o vento e a antítese traria uma ideia oposta, mas nenhuma dessas opções se aplica aqui."
+      },
+      {
+        "pergunta": "\"Ela subiu para o topo da montanha.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está em 'subiu para o topo', já que 'subir' já implica em alcançar o topo. A metáfora usaria uma comparação implícita, a hipérbole exageraria a ação e o eufemismo suavizaria, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"O mar estava calmo e sereno.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O pleonasmo aparece em 'calmo e sereno', já que ambos os adjetivos indicam tranquilidade. A metáfora faria uma comparação implícita, a hipérbole exageraria a calma e o eufemismo suavizaria a ideia, mas não há suavização aqui."
+      },
+      {
+        "pergunta": "\"Ele tem um futuro promissor e brilhante pela frente.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo ocorre com 'promissor e brilhante', pois ambos os termos significam que o futuro é positivo. A metáfora faria uma comparação implícita, a hipérbole exageraria a ideia e a antítese traria uma oposição de ideias."
+      },
+      {
+        "pergunta": "\"Ela está completamente desesperada e sem esperança.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Hipérbole", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A redundância ocorre em 'desesperada e sem esperança', pois ambos os termos indicam a falta de esperança. A antítese apresentaria uma ideia oposta, a hipérbole exageraria o desespero e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O dia estava extremamente quente e abafado.\"",
+        "opcoes": ["Pleonasmo", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "O pleonasmo se encontra em 'extremamente quente' e 'abafado', pois ambos indicam calor excessivo. A antítese mostraria uma oposição de ideias, a metáfora usaria uma comparação implícita e a hipérbole exageraria a temperatura."
+      },
+      {
+        "pergunta": "\"Ele cometeu um erro grande e significativo.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A frase contém pleonasmo, já que 'grande' e 'significativo' transmitem a mesma ideia de algo importante. A metáfora faria uma comparação implícita, a hipérbole exageraria o erro e o eufemismo suavizaria a situação."
+      },
+      {
+        "pergunta": "\"O tempo estava muito quente e sufocante.\"",
+        "opcoes": ["Pleonasmo", "Hipérbole", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "O pleonasmo é evidenciado em 'quente e sufocante', já que ambos os adjetivos indicam calor excessivo. A hipérbole exageraria o calor, a antítese traria uma ideia oposta e a metáfora usaria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"Ela chorou muito e exaustivamente.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "O pleonasmo ocorre com 'muito' e 'exaustivamente', pois ambos indicam uma quantidade excessiva de choro. A metáfora faria uma comparação implícita, a antítese traria uma oposição e o eufemismo suavizaria a situação."
+      },
+      {
+        "pergunta": "\"Eu tenho um novo e recente livro.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A redundância está em 'novo e recente', pois ambos os termos indicam que o livro é recente. A metáfora faria uma comparação implícita, a antítese traria uma oposição e a hipérbole exageraria a novidade."
+      },
+      {
+        "pergunta": "\"Ela tem uma voz suave e delicada.\"",
+        "opcoes": ["Pleonasmo", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "O pleonasmo está em 'suave e delicada', já que ambos os adjetivos expressam uma característica similar de suavidade. A metáfora usaria uma comparação implícita, o eufemismo suavizaria a voz e a antítese traria uma oposição."
+      }
+    ]
+  },
+  "anafora": {
+    "descricao": "Anafora é uma figura de linguagem que consiste na repetição intencional de uma mesma palavra ou expressão no início de versos, frases ou orações consecutivas. Essa repetição busca enfatizar uma ideia, criar ritmo ou reforçar um conceito, gerando impacto no leitor ou ouvinte. É comum em discursos, poemas e textos persuasivos para destacar um tema central.",
+    "perguntas": [
+      {
+        "pergunta": "\"Eu vi o sol nascer. Eu vi o sol se pôr. Eu vi o sol brilhar.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Pleonasmo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição da palavra 'Eu vi' no início de cada frase. A metáfora faz uma comparação implícita, o pleonasmo seria redundante e a hipérbole exageraria a ação, mas nenhuma dessas se aplica aqui."
+      },
+      {
+        "pergunta": "\"Ele cantou a noite inteira, ele dançou a noite inteira, ele viveu a noite inteira.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição do início das frases com 'ele'. A antítese apresentaria uma oposição de ideias, a metáfora usaria uma comparação implícita e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Nós lutamos por liberdade. Nós lutamos por justiça. Nós lutamos por igualdade.\"",
+        "opcoes": ["Anáfora", "Antítese", "Hipérbole", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Nós lutamos' no início das frases caracteriza a anáfora. A antítese indicaria ideias opostas, a hipérbole exageraria a situação e o pleonasmo seria redundante, o que não ocorre aqui."
+      },
+      {
+        "pergunta": "\"A paz chegou, a esperança chegou, o amor chegou.\"",
+        "opcoes": ["Anáfora", "Eufemismo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "O recurso utilizado é a anáfora, com a repetição de 'a' no início de cada frase. O eufemismo suavizaria a expressão, a antítese traria uma ideia oposta e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O dia começou com chuva. O dia começou com vento. O dia começou com sol.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A anáfora está presente pela repetição da frase 'O dia começou' no início de cada sentença. A metáfora faria uma comparação indireta, a hipérbole exageraria o cenário e o pleonasmo tornaria a frase redundante."
+      },
+      {
+        "pergunta": "\"A coragem é essencial. A coragem é fundamental. A coragem é a chave para o sucesso.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora é caracterizada pela repetição da palavra 'A coragem'. A metáfora usaria uma comparação implícita, a antítese apresentaria opostos e a hipérbole exageraria o efeito."
+      },
+      {
+        "pergunta": "\"Ela chorou. Ela gritou. Ela se desesperou.\"",
+        "opcoes": ["Anáfora", "Pleonasmo", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Ela' no início das frases é um exemplo claro de anáfora. O pleonasmo seria redundante, a metáfora usaria uma comparação implícita e o eufemismo suavizaria o choro."
+      },
+      {
+        "pergunta": "\"Nós somos mais fortes. Nós somos mais corajosos. Nós somos mais sábios.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição de 'Nós somos'. A metáfora faria uma comparação implícita, a hipérbole exageraria as qualidades e o pleonasmo tornaria a frase redundante."
+      },
+      {
+        "pergunta": "\"Eu não desisto. Eu não vou parar. Eu não me renderei.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "O recurso de anáfora é utilizado pela repetição da frase 'Eu não'. A metáfora faria uma comparação implícita, a hipérbole exageraria a atitude e a antítese traria uma oposição de ideias."
+      },
+      {
+        "pergunta": "\"Eles estavam tristes, eles estavam com medo, eles estavam inseguros.\"",
+        "opcoes": ["Anáfora", "Eufemismo", "Metáfora", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição da frase 'eles estavam'. O eufemismo suavizaria a tristeza, a metáfora faria uma comparação implícita e o pleonasmo tornaria a frase redundante."
+      },
+      {
+        "pergunta": "\"A noite foi calma. A noite foi silenciosa. A noite foi tranquila.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A anáfora está presente pela repetição de 'A noite foi'. A hipérbole exageraria a calmaria, a antítese indicaria uma oposição de ideias e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"Eles cantaram ao luar. Eles dançaram ao luar. Eles se encantaram ao luar.\"",
+        "opcoes": ["Anáfora", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A repetição da expressão 'Eles' no início das frases caracteriza a anáfora. O eufemismo suavizaria a ação, a metáfora faria uma comparação implícita e a hipérbole exageraria o encantamento."
+      },
+      {
+        "pergunta": "\"Nós vamos vencer, nós vamos lutar, nós vamos conquistar.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A anáfora se dá pela repetição da frase 'nós vamos'. A metáfora faria uma comparação implícita, a hipérbole exageraria a vitória e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"Eles ouviram o vento. Eles sentiram a chuva. Eles viveram a tempestade.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Eles' no início de cada frase caracteriza a anáfora. A antítese mostraria ideias opostas, a metáfora faria uma comparação implícita e o eufemismo suavizaria a tempestade."
+      },
+      {
+        "pergunta": "\"A vida é curta. A vida é intensa. A vida é preciosa.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre com a repetição de 'A vida é'. A hipérbole exageraria a intensidade da vida, a metáfora faria uma comparação implícita e a antítese traria uma oposição."
+      },
+      {
+        "pergunta": "\"O amor é paciente. O amor é bondoso. O amor é eterno.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A repetição de 'O amor é' no início de cada frase caracteriza a anáfora. A antítese apresentaria ideias opostas, a metáfora faria uma comparação implícita e o eufemismo suavizaria a descrição do amor."
+      },
+      {
+        "pergunta": "\"Eu fui ao parque. Eu fui ao cinema. Eu fui à praia.\"",
+        "opcoes": ["Anáfora", "Pleonasmo", "Antítese", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição de 'Eu fui' no início das frases. O pleonasmo seria redundante, a antítese traria uma ideia oposta e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"O céu estava limpo. O céu estava claro. O céu estava brilhante.\"",
+        "opcoes": ["Anáfora", "Antítese", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição de 'O céu estava'. A antítese apresentaria uma ideia oposta, a hipérbole exageraria a clareza do céu e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Ele escreveu seu nome, ele escreveu sua história, ele escreveu seu legado.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora se dá pela repetição da palavra 'ele escreveu'. A antítese traria uma ideia oposta, a metáfora faria uma comparação implícita e a hipérbole exageraria o impacto da escrita."
+      },
+      {
+        "pergunta": "\"Eu não posso viver sem você. Eu não posso respirar sem você. Eu não posso existir sem você.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição de 'Eu não posso' no início de cada frase. A metáfora faria uma comparação implícita, a hipérbole exageraria a necessidade e o pleonasmo seria redundante."
+      },
+      {
+        "pergunta": "\"Ela cantou a noite inteira. Ela dançou até o amanhecer. Ela sorriu o tempo todo.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Ela' no início de cada frase é a característica da anáfora. A metáfora faria uma comparação implícita, o eufemismo suavizaria as ações e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"Eu vou te amar para sempre. Eu vou te proteger para sempre. Eu vou te esperar para sempre.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição de 'Eu vou' no início de cada frase. A antítese apresentaria uma ideia oposta, a metáfora faria uma comparação implícita e a hipérbole exageraria o amor."
+      },
+      {
+        "pergunta": "\"Nós vamos conquistar o mundo. Nós vamos fazer história. Nós vamos triunfar juntos.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Nós vamos' caracteriza a anáfora. A metáfora faria uma comparação implícita, o eufemismo suavizaria a vitória e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"A chuva não parava. A chuva era forte. A chuva parecia interminável.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora é caracterizada pela repetição da palavra 'A chuva'. A hipérbole exageraria a intensidade da chuva, a metáfora faria uma comparação implícita e o eufemismo suavizaria a situação."
+      },
+      {
+        "pergunta": "\"Ele não desiste. Ele não para. Ele não se rende.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Ele não' no início de cada frase caracteriza a anáfora. A metáfora faria uma comparação implícita, a hipérbole exageraria a determinação e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"O dia amanheceu com sol. O dia amanheceu com calor. O dia amanheceu brilhante.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição de 'O dia amanheceu'. A metáfora faria uma comparação implícita, o eufemismo suavizaria o calor e a hipérbole exageraria o brilho do sol."
+      },
+      {
+        "pergunta": "\"Eles estavam felizes. Eles estavam animados. Eles estavam eufóricos.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "A anáfora é caracterizada pela repetição de 'Eles estavam'. A hipérbole exageraria a felicidade, a metáfora faria uma comparação implícita e a antítese apresentaria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"O amor é eterno. O amor é inquebrável. O amor é imortal.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora está presente pela repetição de 'O amor é'. A metáfora faria uma comparação implícita, a hipérbole exageraria a força do amor e o eufemismo suavizaria a expressão."
+      },
+      {
+        "pergunta": "\"Eu nunca vou te abandonar. Eu nunca vou te esquecer. Eu nunca vou te deixar.\"",
+        "opcoes": ["Anáfora", "Eufemismo", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Eu nunca' caracteriza a anáfora. O eufemismo suavizaria a ideia de abandono, a metáfora faria uma comparação implícita e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"A cidade estava vazia. A cidade estava silenciosa. A cidade estava deserta.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Eufemismo", "Metáfora"],
+        "correta": 0,
+        "explicacao": "A repetição de 'A cidade estava' é um exemplo de anáfora. A hipérbole exageraria a desolação da cidade, o eufemismo suavizaria a situação e a metáfora faria uma comparação implícita."
+      },
+      {
+        "pergunta": "\"Ela cantava com alegria. Ela cantava com emoção. Ela cantava com paixão.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição de 'Ela cantava'. A hipérbole exageraria a emoção, a metáfora faria uma comparação implícita e o eufemismo suavizaria a intensidade do canto."
+      },
+      {
+        "pergunta": "\"O vento soprava forte. O vento cortava a pele. O vento era gelado.\"",
+        "opcoes": ["Anáfora", "Eufemismo", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora está presente pela repetição de 'O vento'. O eufemismo suavizaria o efeito do vento, a metáfora faria uma comparação implícita e a hipérbole exageraria a intensidade."
+      },
+      {
+        "pergunta": "\"Nós vamos lutar. Nós vamos vencer. Nós vamos conquistar.\"",
+        "opcoes": ["Anáfora", "Antítese", "Metáfora", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A anáfora se caracteriza pela repetição de 'Nós vamos'. A antítese traria uma ideia oposta, a metáfora faria uma comparação implícita e a hipérbole exageraria o triunfo."
+      },
+      {
+        "pergunta": "\"Ela tem uma presença imponente. Ela tem uma voz marcante. Ela tem um olhar penetrante.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora é evidenciada pela repetição de 'Ela tem'. A hipérbole exageraria a presença, a metáfora faria uma comparação implícita e o eufemismo suavizaria a descrição."
+      },
+      {
+        "pergunta": "\"A rua estava iluminada. A rua estava tranquila. A rua estava vazia.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Antítese"],
+        "correta": 0,
+        "explicacao": "A anáfora é caracterizada pela repetição de 'A rua estava'. A metáfora faria uma comparação implícita, a hipérbole exageraria a iluminação e a antítese traria uma oposição."
+      },
+      {
+        "pergunta": "\"O céu estava escuro. O céu estava ameaçador. O céu estava carregado.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A repetição de 'O céu estava' no início de cada frase caracteriza a anáfora. A metáfora faria uma comparação implícita, a hipérbole exageraria a escuridão e o eufemismo suavizaria o tom."
+      },
+      {
+        "pergunta": "\"Eles marcharam pela vitória. Eles marcharam pela glória. Eles marcharam pela justiça.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Hipérbole", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A anáfora ocorre pela repetição da palavra 'Eles marcharam'. A metáfora faria uma comparação implícita, a hipérbole exageraria a luta e o eufemismo suavizaria o conceito de vitória."
+      },
+      {
+        "pergunta": "\"Eu te amarei até o fim. Eu te amarei até a morte. Eu te amarei até o infinito.\"",
+        "opcoes": ["Anáfora", "Hipérbole", "Metáfora", "Antítese"],
+        "correta": 0,
+        "explicacao": "A repetição de 'Eu te amarei' é um exemplo claro de anáfora. A hipérbole exageraria o amor eterno, a metáfora faria uma comparação implícita e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"A música ecoava pela casa. A música preenchia o ambiente. A música tomava conta do espaço.\"",
+        "opcoes": ["Anáfora", "Metáfora", "Eufemismo", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "A repetição de 'A música' caracteriza a anáfora. A metáfora faria uma comparação implícita, o eufemismo suavizaria o efeito da música e a hipérbole exageraria sua intensidade."
+      }
+    ]
+  },
+  "gradação": {
+    "descricao": "A gradação (ou clímax) é uma figura de linguagem que apresenta uma sequência de ideias em ordem crescente ou decrescente de intensidade, criando um efeito de progressão.",
+    "perguntas": [
+      {
+        "pergunta": "\"Ele correu, voou, desapareceu no horizonte.\"",
+        "opcoes": ["Clímax", "Hipérbole", "Personificação", "Metáfora"],
+        "correta": 0,
+        "explicacao": "Clímax: A sequência 'correu, voou, desapareceu' mostra uma progressão de ações em intensidade crescente. A hipérbole exageraria uma única ação ('voou mil vezes'), a personificação daria características humanas a elementos não humanos, e a metáfora faria uma comparação implícita.\n\nA gradação é marcada pelo encadeamento lógico de ideias que se intensificam, criando um clímax narrativo."
+      },
+      {
+        "pergunta": "\"O vento sussurrava, murmurava, rugia com força.\"",
+        "opcoes": ["Onomatopeia", "Clímax", "Antítese", "Eufemismo"],
+        "correta": 1,
+        "explicacao": "Gradação: A sequência 'sussurrava, murmurava, rugia' apresenta intensidade sonora crescente. Onomatopeia imitaria sons ('shhh', 'rum'), antítese contrastaria opostos ('sussurro e grito'), e eufemismo suavizaria ('rugia levemente').\n\nA progressão do sussurro ao rugido caracteriza a gradação."
+      },
+      {
+        "pergunta": "\"Ela era inteligente, brilhante, um gênio.\"",
+        "opcoes": ["Gradação", "Comparação", "Metonímia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'inteligente, brilhante, gênio' aumenta gradualmente o nível de intelectualidade. Comparação usaria 'como' ('como um gênio'), metonímia substituiria termos relacionados, e paradoxo uniria contradições.\n\nCada termo supera o anterior em intensidade, definindo a gradação."
+      },
+      {
+        "pergunta": "\"A chuva começou com pingos, virou garoa, transformou-se em tempestade.\"",
+        "opcoes": ["Hipérbole", "Gradação", "Personificação", "Metáfora"],
+        "correta": 1,
+        "explicacao": "Gradação: A sequência 'pingos, garoa, tempestade' mostra intensidade climática crescente. Hipérbole exageraria ('tempestade do século'), personificação diria 'chuva dançou', e metáfora compararia ('chuva era lágrimas').\n\nA progressão natural da chuva define a gradação."
+      },
+      {
+        "pergunta": "\"O silêncio era leve, denso, opressivo.\"",
+        "opcoes": ["Gradação", "Antítese", "Eufemismo", "Pleonasmo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'leve, denso, opressivo' aumenta a sensação de peso do silêncio. Antítese contrastaria ('leve e pesado'), eufemismo suavizaria ('silêncio suave'), e pleonasmo repetiria ideias ('silêncio calado').\n\nCada termo intensifica a descrição anterior."
+      },
+      {
+        "pergunta": "\"O fogo crepitava, ardia, devorava tudo.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Onomatopeia", "Metáfora"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'crepitava, ardia, devorava' mostra a progressão destruidora do fogo. Hipérbole exageraria ('devorou o universo'), onomatopeia imitaria sons ('crack'), e metáfora compararia ('fogo era fome').\n\nA escalada de ações define a gradação."
+      },
+      {
+        "pergunta": "\"A angústia era um incômodo, uma dor, uma agonia.\"",
+        "opcoes": ["Gradação", "Comparação", "Metonímia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'incômodo, dor, agonia' intensifica o sofrimento emocional. Comparação usaria 'como' ('como uma facada'), metonímia substituiria termos ('coração' por angústia), e paradoxo uniria contradições ('alegria dolorosa').\n\nCada termo aumenta a gravidade do sentimento."
+      },
+      {
+        "pergunta": "\"O amor era uma paixão, uma obsessão, uma loucura.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Personificação", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'paixão, obsessão, loucura' mostra uma escalada emocional. Hipérbole exageraria ('loucura infinita'), personificação diria 'amor gritou', e eufemismo suavizaria ('sentimento intenso').\n\nA progressão reflete o aumento da intensidade do amor."
+      },
+      {
+        "pergunta": "\"A cidade dormia, sonhava, mergulhava no caos.\"",
+        "opcoes": ["Gradação", "Metáfora", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'dormia, sonhava, mergulhava' cria uma progressão narrativa. Metáfora compararia ('cidade era um sonho'), antítese contrastaria ('paz e caos'), e onomatopeia imitaria sons ('zzz').\n\nA gradação aqui constrói uma transição de estados."
+      },
+      {
+        "pergunta": "\"A voz dela era um murmúrio, um sussurro, um grito.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Comparação", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'murmúrio, sussurro, grito' aumenta a intensidade sonora. Hipérbole exageraria ('grito ensurdecedor'), comparação usaria 'como' ('como um trovão'), e metonímia usaria 'cordas vocais' por voz.\n\nA progressão define a gradação."
+      },
+      {
+        "pergunta": "\"O dia nascia, crescia, morria na escuridão.\"",
+        "opcoes": ["Gradação", "Personificação", "Paradoxo", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'nascia, crescia, morria' descreve o ciclo do dia em etapas. Personificação daria ação ao dia ('dia sorria'), paradoxo uniria contradições ('nascia morto'), e eufemismo suavizaria ('dia findou').\n\nA ordem temporal caracteriza a gradação."
+      },
+      {
+        "pergunta": "\"O medo era uma sombra, uma névoa, um abismo.\"",
+        "opcoes": ["Gradação", "Metáfora", "Antítese", "Hipérbole"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'sombra, névoa, abismo' intensifica a sensação de medo. Metáfora compararia ('medo é escuridão'), antítese contrastaria ('sombra e luz'), e hipérbole exageraria ('abismo infinito').\n\nCada termo aumenta a gravidade da imagem."
+      },
+      {
+        "pergunta": "\"Ele era um aluno bom, excelente, extraordinário.\"",
+        "opcoes": ["Gradação", "Eufemismo", "Metonímia", "Comparação"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'bom, excelente, extraordinário' eleva o nível de desempenho. Eufemismo suavizaria ('não mal'), metonímia usaria 'notas' por aluno, e comparação usaria 'como' ('como um gênio').\n\nA progressão de adjetivos define a gradação."
+      },
+      {
+        "pergunta": "\"A história era triste, comovente, devastadora.\"",
+        "opcoes": ["Clímax", "Hipérbole", "Personificação", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Clímax: A sequência 'triste, comovente, devastadora' aumenta o impacto emocional. Hipérbole exageraria ('devastadora como um terremoto'), personificação diria 'história chorou', e paradoxo uniria contradições ('tristeza alegre').\n\nCada termo intensifica a descrição."
+      },
+      {
+        "pergunta": "\"O rio fluía, corria, despenhava-se na cachoeira.\"",
+        "opcoes": ["Gradação", "Metáfora", "Onomatopeia", "Antítese"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'fluía, corria, despenhava' mostra aumento na velocidade e força. Metáfora compararia ('rio era uma serpente'), onomatopeia imitaria sons ('plash'), e antítese contrastaria ('fluir e parar').\n\nA progressão de ações é típica da gradação."
+      },
+      {
+        "pergunta": "\"A luz era fraca, tênue, inexistente.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Eufemismo", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'fraca, tênue, inexistente' mostra redução progressiva da luz. Hipérbole exageraria ('inexistente como o vácuo'), eufemismo suavizaria ('pouca luz'), e metonímia usaria 'lâmpada' por luz.\n\nA gradação pode ser decrescente, como neste caso."
+      },
+      {
+        "pergunta": "\"A esperança era uma chama, um fogo, um incêndio.\"",
+        "opcoes": ["Gradação", "Metáfora", "Personificação", "Comparação"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'chama, fogo, incêndio' intensifica a imagem de esperança. Metáfora compararia ('esperança é luz'), personificação diria 'chama dançou', e comparação usaria 'como' ('como um incêndio').\n\nA progressão de elementos do fogo define a gradação."
+      },
+      {
+        "pergunta": "\"O tempo rastejava, andava, voava.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Antítese", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'rastejava, andava, voava' mostra aceleração progressiva. Hipérbole exageraria ('voava mais que luz'), antítese contrastaria ('lento e rápido'), e onomatopeia imitaria sons ('tic-tac').\n\nA gradação aqui ilustra a percepção subjetiva do tempo."
+      },
+      {
+        "pergunta": "\"A dor era um desconforto, um suplício, uma tortura.\"",
+        "opcoes": ["Gradação", "Eufemismo", "Metonímia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'desconforto, suplício, tortura' aumenta a intensidade da dor. Eufemismo suavizaria ('incômodo leve'), metonímia usaria 'nervos' por dor, e paradoxo uniria contradições ('dor prazerosa').\n\nCada termo amplifica a descrição do sofrimento."
+      },
+      {
+        "pergunta": "\"A festa era animada, eufórica, caótica.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Comparação", "Personificação"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'animada, eufórica, caótica' mostra intensidade crescente. Hipérbole exageraria ('caótica como um furacão'), comparação usaria 'como', e personificação diria 'festa pulou').\n\nA progressão reflete o aumento do frenesi."
+      },
+      {
+        "pergunta": "\"O vento era uma brisa, um vendaval, um furacão.\"",
+        "opcoes": ["Gradação", "Metáfora", "Onomatopeia", "Antítese"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'brisa, vendaval, furacão' aumenta a força do vento. Metáfora compararia ('vento era fúria'), onomatopeia imitaria sons ('uivo'), e antítese contrastaria ('brisa e furacão').\n\nA gradação aqui descreve uma escalada climática."
+      },
+      {
+        "pergunta": "\"A decisão foi difícil, árdua, angustiante.\"",
+        "opcoes": ["Gradação", "Eufemismo", "Metonímia", "Paradoxo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'difícil, árdua, angustiante' intensifica a complexidade da decisão. Eufemismo suavizaria ('desafiadora'), metonímia usaria 'mente' por decisão, e paradoxo uniria contradições ('difícil e fácil').\n\nCada termo aumenta a carga emocional."
+      },
+      {
+        "pergunta": "\"A noite era tranquila, silenciosa, morta.\"",
+        "opcoes": ["Clímax", "Hipérbole", "Personificação", "Metáfora"],
+        "correta": 0,
+        "explicacao": "Clímax: A sequência 'tranquila, silenciosa, morta' aumenta a sensação de ausência de vida. Hipérbole exageraria ('morta como o espaço'), personificação diria 'noite dormia', e metáfora compararia ('noite era um túmulo').\n\nA progressão sugere uma intensificação da quietude."
+      },
+      {
+        "pergunta": "\"O projeto era ambicioso, ousado, revolucionário.\"",
+        "opcoes": ["Gradação", "Comparação", "Antítese", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'ambicioso, ousado, revolucionário' eleva o impacto do projeto. Comparação usaria 'como' ('como um furacão'), antítese contrastaria ('ambicioso e modesto'), e eufemismo suavizaria ('inovador').\n\nCada termo amplifica a grandiosidade."
+      },
+      {
+        "pergunta": "\"A paixão era uma faísca, uma chama, um incêndio.\"",
+        "opcoes": ["Gradação", "Metáfora", "Hipérbole", "Onomatopeia"],
+        "correta": 0,
+        "explicacao": "Gradação: A sequência 'faísca, chama, incêndio' mostra intensidade crescente do sentimento. Metáfora compararia ('paixão é fogo'), hipérbole exageraria ('incêndio cósmico'), e onomatopeia imitaria sons ('crackle').\n\nA progressão de elementos do fogo define a gradação."
+      },
+      {
+        "pergunta": "\"O filme era interessante, envolvente, hipnotizante.\"",
+        "opcoes": ["Clímax", "Hipérbole", "Personificação", "Metonímia"],
+        "correta": 0,
+        "explicacao": "Clímax: A sequência 'interessante, envolvente, hipnotizante' aumenta o nível de engajamento. Hipérbole exageraria ('hipnotizante como magia'), personificação diria 'filme capturou'), e metonímia usaria 'telão' por filme.\n\nCada termo intensifica a experiência do espectador."
+      },
+      {
+        "pergunta": "\"Ela estava animada, cheia de energia, eufórica com a festa.\"",
+        "opcoes": ["Gradação", "Metáfora", "Eufemismo", "Antítese"],
+        "correta": 0,
+        "explicacao": "A gradação é a intensificação das emoções: 'animada', 'cheia de energia' e 'eufórica'. A metáfora faria uma comparação implícita, o eufemismo suavizaria e a antítese traria uma ideia oposta."
+      },
+      {
+        "pergunta": "\"O livro era bom, excelente, uma obra-prima.\"",
+        "opcoes": ["Gradação", "Hipérbole", "Metáfora", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "A gradação é a progressão da avaliação do livro: 'bom', 'excelente' e 'obra-prima'. A hipérbole exageraria, a metáfora faria uma comparação implícita e o eufemismo suavizaria."
+      }
+    ]
+  },
+  "onomatopeia": {
+    "descricao": "A onomatopeia é uma figura de linguagem que reproduz ou imita sons naturais, animais ou de objetos por meio de palavras. Ela busca representar foneticamente ruídos como latidos, trovões, batidas ou outros barulhos. É comum em histórias em quadrinhos, textos literários e descrições realistas",
+    "perguntas": [
+      {
+        "pergunta": "O gato soltou um 'miau' alto ao ver o pássaro.",
+        "opcoes": ["Onomatopeia", "Metáfora", "Hipérbole", "Prosopopeia"],
+        "correta": 0,
+        "explicacao": "A onomatopeia está na palavra 'miau', que imita o som do gato. Metáfora compararia o miado a outra coisa (ex: 'o gato era uma sirene'). Hipérbole exageraria (ex: 'o gato rugiu como um leão'). Prosopopeia daria emoções humanas ao gato (ex: 'o gato protestou')."
+      },
+      {
+        "pergunta": "O ronco 'zzzz' do avô ecoava pelo quarto.",
+        "opcoes": ["Onomatopeia", "Comparação", "Eufemismo", "Ironia"],
+        "correta": 0,
+        "explicacao": "'zzzz' imita o som do ronco. Comparação usaria 'como' (ex: 'ronco como um motor'). Eufemismo suavizaria (ex: 'descansou profundamente'). Ironia implicaria contradição, o que não ocorre."
+      },
+      {
+        "pergunta": "O 'crack' do trovão assustou as crianças.",
+        "opcoes": ["Onomatopeia", "Prosopopeia", "Metonímia", "Aliteração"],
+        "correta": 0,
+        "explicacao": "'crack' reproduz o som do trovão. Prosopopeia diria 'o trovão gritou'. Metonímia substituiria causa por efeito (ex: 'o céu chorou'). Aliteração repetiria sons consonantais, algo não presente."
+      },
+      {
+        "pergunta": "O 'ding-dong' da campainha anunciou a chegada.",
+        "opcoes": ["Onomatopeia", "Hipérbole", "Sinestesia", "Antítese"],
+        "correta": 0,
+        "explicacao": "'ding-dong' imita o som da campainha. Hipérbole exageraria (ex: 'a campainha estrondou'). Sinestesia misturaria sentidos (ex: 'som azedo'). Antítese oporia ideias, o que não acontece."
+      },
+      {
+        "pergunta": "O motor da moto fazia 'vrum vrum' ao acelerar.",
+        "opcoes": ["Onomatopeia", "Personificação", "Paradoxo", "Perífrase"],
+        "correta": 0,
+        "explicacao": "'vrum vrum' reproduz o som do motor. Personificação diria 'a moto rugia'. Paradoxo usaria contradição (ex: 'silêncio barulhento'). Perífrase descreveria algo indiretamente (ex: 'o cavalo de ferro')."
+      },
+      {
+        "pergunta": "O 'clique' da câmera registrou o momento.",
+        "opcoes": ["Onomatopeia", "Metáfora", "Catacrese", "Gradação"],
+        "correta": 0,
+        "explicacao": "'clique' imita o som da câmera. Metáfora seria 'a câmera sorriu'. Catacrese usaria expressão consagrada (ex: 'dente de alho'). Gradação criaria uma sequência progressiva, ausente aqui."
+      },
+      {
+        "pergunta": "As gotas caíam com um 'plash' no lago.",
+        "opcoes": ["Onomatopeia", "Prosopopeia", "Hipérbato", "Elipse"],
+        "correta": 0,
+        "explicacao": "'plash' reproduz o som da água. Prosopopeia diria 'as gotas dançavam'. Hipérbato inverteria a ordem (ex: 'no lago caíam as gotas'). Elipse omitiria termos, o que não ocorre."
+      },
+      {
+        "pergunta": "A bomba explodiu com um 'buum' ensurdecedor.",
+        "opcoes": ["Onomatopeia", "Alegoria", "Pleonasmo", "Silepse"],
+        "correta": 0,
+        "explicacao": "'buum' imita o som da explosão. Alegoria usaria símbolos abstratos (ex: 'a bomba era o caos'). Pleonasmo repetiria ideias (ex: 'vi com meus olhos'). Silepse concordaria com a ideia, não a forma."
+      },
+      {
+        "pergunta": "O galo cantou 'cócóricó' ao amanhecer.",
+        "opcoes": ["Onomatopeia", "Metáfora", "Anáfora", "Metonímia"],
+        "correta": 0,
+        "explicacao": "'cócóricó' imita o canto do galo. Metáfora seria 'o galo era um despertador'. Anáfora repetiria termos (ex: 'cantou, cantou, cantou'). Metonímia substituiria algo relacionado (ex: 'a voz da manhã')."
+      },
+      {
+        "pergunta": "Seu coração batia 'tum-tum' de ansiedade.",
+        "opcoes": ["Onomatopeia", "Hipérbole", "Prosopopeia", "Eufemismo"],
+        "correta": 0,
+        "explicacao": "'tum-tum' imita o som do coração. Hipérbole exageraria (ex: 'batia como um tambor de guerra'). Prosopopeia diria 'o coração fugia do peito'. Eufemismo suavizaria (ex: 'não estava calmo')."
+      }
+    ]
+  }
+}
+
+
