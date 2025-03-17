@@ -825,8 +825,6 @@ ul, ol {
     animation-duration: 4.5s; 
 }
 
-.relogio-vinheta
-
 .clock {
     height: 60%;
     display: flex;  
@@ -862,6 +860,10 @@ ul, ol {
     z-index: 9999;
     transform: translateY(-100%);
     display: none; /* Oculta até ser ativada */
+    & i {
+        font-size: 30vmin;
+        color: #feefd8;
+    }
 }
 
 .vinheta1.ativa1 {

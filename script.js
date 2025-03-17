@@ -145,26 +145,6 @@ function startTimer() {
 }
 
 // Criar o elemento de áudio
-const audio = new Audio('sfx/60s-tick.wav');
-const auldio = new Audio('sfx/timer.mp3');
-
-// Adicionar evento para tocar o áudio
-function audeo() {
-    audio.volume = 0.5;
-    audio.playbackRate = 1;
-    audio.play();
-    if (tempoRestante <= 0) {
-        audio.pause()
-        audio.currentTime = 0;
-    }
-}
-
-// Adicionar evento para tocar o áudio
-function auldeo() {
-    auldio.volume = 0.5;
-    auldio.playbackRate = 1;
-    auldio.play();
-}
 
 function updateTimer() {
     tempoRestante--;
@@ -183,12 +163,8 @@ function updateTimer() {
     if (tempoRestante <= 0) {
         esgotado++;
         localStorage.setItem("esgotado", esgotado);
-        auldeo()
         clearInterval(timerInterval);
         mostrarTempoEsgotado();
-    }
-    if (tempoRestante <= 10) {
-         audeo()
     }
 }
 const vinheta1 = document.querySelector(".vinheta1");
