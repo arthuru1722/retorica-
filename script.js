@@ -58,10 +58,6 @@ function formatarTempo(timee) {
 document.getElementById("timee").textContent = formatarTempo(timee);
 
 
-function atualizarEstatisticas() {
-
-}
-
 function atualizarRecorde() {
     if (respostasCorretas > recorde) {
         recorde = respostasCorretas;
@@ -80,38 +76,124 @@ function atualizarRecordeAtual() {
     document.getElementById("recordeAtual").innerText = recordeAtual;
 }
 
-
-async function carregarPerguntas() {
-
-    let response1 = await fetch("/questions/perguntas.json");
-    perguntas = await response1.json();
-
-    console.log(perguntas);
-
-    document.getElementById("telaInicial").style.display = "flex";
-}
-
 async function json1() {
+    const telaInicial = document.getElementById('telaInicial');
 
     response1 = await fetch("/questions/perguntas.json");
     perguntas = await response1.json();
 
     console.log(perguntas);
+    
+    setTimeout(() => {
+        if (telaInicial.style.display === 'flex' && !gradual) {
+            iniciarQuiz()
+        } else {carregarPergunta()} 
+    }, 500);  
+    
 }
 
 async function json2() {
+    const telaInicial = document.getElementById('telaInicial');
+
     response1 = await fetch("/questions/perguntasM.json");
     perguntas = await response1.json();
 
     console.log(perguntas);
+    
+        setTimeout(() => {
+            if (telaInicial.style.display === 'flex') {
+                iniciarQuiz()
+            } else {carregarPergunta()} 
+        }, 500);  
+    
+    
 }
 
 async function json3() {
+    const telaInicial = document.getElementById('telaInicial');
+
     response1 = await fetch("/questions/perguntasD.json"); 
     perguntas = await response1.json();
 
-    console.log(perguntas); 
+    console.log(perguntas);
+    
+      setTimeout(() => {
+        if (telaInicial.style.display === 'flex') {
+            iniciarQuiz()
+        } else {carregarPergunta()} 
+    }, 500);  
+    
+    
 }
+
+let json4T = null;
+
+document.getElementById("telaInicial").style.display = "flex";
+
+async function carregarJSON(nomeArquivo) {
+    const telaInicial = document.getElementById('telaInicial')
+    response1 = await fetch(`questions/${nomeArquivo}`);
+    perguntas = await response1.json();
+    
+    console.log(perguntas);
+    setTimeout(() => {
+        if (telaInicial.style.display === 'flex') {
+            iniciarQuiz()
+        } else {carregarPergunta()} 
+    }, 500);
+  }
+  
+  // Função principal 'json4' que escolhe um arquivo aleatório e carrega seu conteúdo
+  async function json4() {
+    // Lista com os nomes dos arquivos JSON
+    const arquivos = ['perguntas.json', 'perguntasM.json', 'perguntasD.json'];
+  
+    // Escolher um arquivo aleatório
+    const arquivoAleatorio = arquivos[Math.floor(Math.random() * arquivos.length)];
+  
+    // Carregar o conteúdo do arquivo aleatório
+    const perguntas1 = await carregarJSON(arquivoAleatorio);
+  
+    console.log(perguntas1);
+    return perguntas1;
+  }
+  
+
+
+function iniciarQuizBtn() {
+    if (respostasR <= 40) {
+        json1()
+        console.log('respostasR <= 40')
+    } else if (respostasR >= 40 && respostasR < 80) {
+        json2()
+        console.log('respostasR >= 40')
+    } else if (respostasR >= 80 && respostasR < 120) {
+        json3()
+        console.log('respostasR >= 80')
+    } else if (respostasR >= 120) {
+        toggleSelect()
+        console.log('respostasR >= 120')
+    }
+}
+
+function toggleSelect() {
+    const creditos = document.getElementById('creditos');
+    const select = document.getElementById('select');
+    const escritores = document.getElementById('escritores');
+
+    if (select.style.display === "none") {
+        select.style.display = "flex";
+        creditos.style.display = "none";
+        escritores.style.display = "none";
+    } else {
+        console.log ('2')
+        select.style.display = "none";
+        creditos.style.display = "none";
+        escritores.style.display = "flex";
+    }
+}
+
+toggleSelect()
 
 function iniciarQuiz() {
     vidaAtual = 3;
@@ -319,9 +401,6 @@ function verificarResposta(elemento, indice, correta, opcoes) {
     clearInterval(timerInterval); // Pausar o timer
     document.querySelectorAll("#opcoes li").forEach(li => li.onclick = null); // Desabilitar as outras respostas
 
-    // Obtém o container correto do botão
-    let container = elemento.parentElement;
-
     // Se a resposta for correta, adiciona a classe 'correta' à opção clicada
     if (indice === correta) {
         respostasR++;
@@ -329,16 +408,16 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         elemento.classList.add("correta");
         respostasCorretas++;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
-        atualizarRecordeAtual()
-        atualizarRecorde()
+        atualizarRecordeAtual();
+        atualizarRecorde();
     } else {
         respostasW++;
         localStorage.setItem("respostasW", respostasW);
         // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
         elemento.classList.add("errada");
-        atualizarRecordeAtual()
-        perderVida()
-        atualizarRecorde()
+        atualizarRecordeAtual();
+        perderVida();
+        atualizarRecorde();
     }
 
     // Adiciona a resposta correta à lista
@@ -384,7 +463,6 @@ function embaralharArray(array) {
     }
 }
 
-carregarPerguntas();
 
 const escritores = [
     {
@@ -554,4 +632,58 @@ function atualizarVidas() {
     } else {
         mostrarExplicacao();
     }
+}
+
+
+
+function difficultyToggle() {
+    const difficulty = document.getElementById('difficulty');
+    const difficultyBtn = document.getElementById('difficultyBtn');
+
+    if (difficulty.style.display === "none") {
+        difficulty.style.display = "grid";
+        difficultyBtn.style.backgroundColor = "#4f6d5c";
+        console.log ('1')
+    } else {
+        difficulty.style.display = "none"
+        difficultyBtn.style.backgroundColor = "";
+        console.log ('2')
+    }
+}
+
+difficultyToggle()
+
+
+function cu() {
+    if (respostasCorretas < 1) {
+        json1()
+    } else if (respostasCorretas >= 2 && respostasCorretas < 3) {
+        json2()
+    } else if (respostasCorretas > 3) {
+        json2()
+    }
+}
+
+//
+
+function easePlay() {
+    const vinheta = document.getElementById('vinheta');
+    vinheta.style.background = "#6e8f7c";
+    json1();
+}
+
+function mediumPlay() {
+    const vinheta = document.getElementById('vinheta');
+    vinheta.style.background = "#f4bb8c";
+    json2();
+}
+
+function hardPlay() {
+    const vinheta = document.getElementById('vinheta');
+    vinheta.style.background = "#CF1E1E";
+    json3();
+}
+
+function randomPlay() {
+    json4();
 }
