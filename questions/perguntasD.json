@@ -701,7 +701,1274 @@
         "opcoes": ["Sinestesia", "Personificação", "Hipérbole", "Paradoxo"],
         "correta": 0,
         "explicacao": "A sinestesia liga audição ('sussurro') e visão ('cor de lavanda'). A personificação daria vida à brisa, a hipérbole exageraria, e o paradoxo uniria contradições."
+      },
+      {
+        "pergunta": "O sabor do seu olhar era amargo como café forte.",
+        "opcoes": ["zeugma", "catacrese", "sinestesia", "antonomasia"],
+        "correta": 2,
+        "explicacao": "A sinestesia une paladar ('sabor amargo') e visão ('olhar'). Zeugma omitiria um termo, catacrese usaria termos cristalizados, e antonomasia substituiria nomes por características."
+      },
+      {
+        "pergunta": "A música tinha uma cor dourada que brilhava no escuro.",
+        "opcoes": ["sinestesia", "sincope", "alusão", "prosapopeia"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura audição ('música') e visão ('cor dourada'). Sincope omitiria letras, alusão faria referência indireta, e prosapopeia daria vida a objetos."
+      },
+      {
+        "pergunta": "O toque da melodia era suave como seda.",
+        "opcoes": ["anacoluta", "sinestesia", "zeugma", "alusão"],
+        "correta": 1,
+        "explicacao": "A sinestesia liga tato ('toque suave') e audição ('melodia'). Anacoluta quebraria a estrutura da frase, zeugma omitiria um verbo, e alusão faria referência indireta"
+      },
+      {
+        "pergunta": "O frio da sua voz cortou o ar como uma lâmina.",
+        "opcoes": ["catacrese", "sinestesia", "apostrofe", "antonomasia"],
+        "correta": 1,
+        "explicacao": "A sinestesia combina tato ('frio') e audição ('voz'). Catacrese usaria termos como 'pé da mesa', apostrofe seria um apelo direto, e antonomasia substituiria nomes."
+      },
+      {
+        "pergunta": "O cheiro do entardecer era quente e caramelizado.",
+        "opcoes": ["sinestesia", "zeugma", "sincope", "prosapopeia"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura olfato ('cheiro') e tato ('quente'). Zeugma omitiria um termo, sincope encurtaria palavras, e prosapopeia animaria o entardecer."
+      },
+      {
+        "pergunta": "O silêncio da noite tinha um tom azul profundo.",
+        "opcoes": ["alusão", "sinestesia", "anacoluta", "catacrese"],
+        "correta": 1,
+        "explicacao": "A sinestesia une audição ('silêncio') e visão ('tom azul'). Alusão faria referência indireta, anacoluta desorganizaria a frase, e catacrese usaria termos como 'asa da xícara'."
+      },
+      {
+        "pergunta": "O amarelo do sol tinha um gosto de limão fresco.",
+        "opcoes": ["sinestesia", "antonomasia", "zeugma", "alusão"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga visão ('amarelo') e paladar ('gosto de limão'). Antonomasia substituiria o sol por um título, zeugma omitiria um verbo, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "A textura do poema era áspera e reverberante.",
+        "opcoes": ["prosapopeia", "sinestesia", "apostrofe", "sincope"],
+        "correta": 1,
+        "explicacao": "A sinestesia mistura tato ('textura áspera') e audição ('reverberante'). Prosapopeia daria vida ao poema, apostrofe seria um apelo, e sincope omitiria letras."
+      },
+      {
+        "pergunta": "O aroma da música era doce como mel.",
+        "opcoes": ["catacrese", "sinestesia", "anacoluta", "alusão"],
+        "correta": 1,
+        "explicacao": "A sinestesia combina olfato ('aroma') e audição ('música'). Catacrese usaria termos como 'dente de alho', anacoluta quebraria a estrutura, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "O calor da sinfonia envolveu a plateia em ondas.",
+        "opcoes": ["zeugma", "sinestesia", "antonomasia", "alusão"],
+        "correta": 1,
+        "explicacao": "A sinestesia une tato ('calor') e audição ('sinfonia'). Zeugma omitiria um verbo, antonomasia substituiria a sinfonia por um título, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "O sussurro da brisa tinha cor de lavanda.",
+        "opcoes": ["sinestesia", "prosapopeia", "sincope", "apostrofe"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura audição ('sussurro') e visão ('cor de lavanda'). Prosapopeia daria vida à brisa, sincope omitiria letras, e apostrofe seria um apelo direto."
+      },
+      {
+        "pergunta": "O grito da cor vermelha enchia a sala de angústia.",
+        "opcoes": ["sinestesia", "catacrese", "anacoluta", "alusão"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina audição ('grito') e visão ('cor vermelha'). Catacrese usaria termos como 'pé da mesa', anacoluta desorganizaria a frase, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "O doce perfume da paisagem acalmava a alma.",
+        "opcoes": ["sinestesia", "zeugma", "antonomasia", "alusão"],
+        "correta": 0,
+        "explicacao": "A sinestesia une paladar ('doce') e olfato ('perfume'). Zeugma omitiria um termo, antonomasia substituiria a paisagem por um título, e alusão faria referência indireta  ."
+      },
+      {
+        "pergunta": "O som do luar prateado banhava a floresta.",
+        "opcoes": ["prosapopeia", "sinestesia", "sincope", "apostrofe"],
+        "correta": 1,
+        "explicacao": "A sinestesia mistura audição ('som') e visão ('luar prateado'). Prosapopeia daria vida ao luar, sincope omitiria letras, e apostrofe seria um apelo direto."
+      },
+      {
+        "pergunta": "O sabor da luz do entardecer era caramelizado.",
+        "opcoes": ["sinestesia", "catacrese", "anacoluta", "alusão"],
+        "correta": 0,
+        "explicacao": "A sinestesia liga paladar ('sabor') e visão ('luz'). Catacrese usaria termos como 'céu da boca', anacoluta quebraria a estrutura, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "A maciez da melodia acalmou os corações.",
+        "opcoes": ["sinestesia", "zeugma", "antonomasia", "sincope"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina tato ('maciez') e audição ('melodia'). Zeugma omitiria um verbo, antonomasia substituiria a melodia por um título, e sincope omitiria letras."
+      },
+      {
+        "pergunta": "O brilho da canção iluminava o salão vazio.",
+        "opcoes": ["prosapopeia", "sinestesia", "sincope", "apostrofe"],
+        "correta": 1,
+        "explicacao": "A sinestesia une visão ('brilho') e audição ('canção'). Prosapopeia daria vida à canção, sincope omitiria letras, e apostrofe seria um apelo direto."
+      },
+      {
+        "pergunta": "O amargo da saudade corroía seu peito.",
+        "opcoes": ["sinestesia", "catacrese", "anacoluta", "alusão"],
+        "correta": 0,
+        "explicacao": "A sinestesia mistura paladar ('amargo') e sentimento ('saudade'). Catacrese usaria termos como 'braço do sofá', anacoluta desorganizaria a frase, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "A aspereza da luz branca ofuscava os olhos.",
+        "opcoes": ["sinestesia", "zeugma", "antonomasia", "sincope"],
+        "correta": 0,
+        "explicacao": "A sinestesia combina tato ('aspereza') e visão ('luz branca'). Zeugma omitiria um termo, antonomasia substituiria a luz por um título, e sincope omitiria letras."
+      },
+      {
+        "pergunta": "O aroma do jazz era amadeirado e envolvente.",
+        "opcoes": ["prosapopeia", "sinestesia", "sincope", "apostrofe"],
+        "correta": 1,
+        "explicacao": "A sinestesia une olfato ('aroma') e audição ('jazz'). Prosapopeia daria vida ao jazz, sincope omitiria letras, e apostrofe seria um apelo direto."
       }
      ]
-   }
+   },
+    "apostrofe": {
+      "descricao": "A apóstrofe é uma figura de linguagem que consiste no direcionamento da fala a um interlocutor ausente, abstrato ou inanimado, como uma pessoa que não está presente, um objeto ou um conceito. É comum em discursos emocionados, poesias e textos dramáticos, criando um efeito de ênfase ou dramaticidade.",
+      "perguntas": [
+        {
+          "pergunta": "Ó mar, por que me negas a tranquilidade que tanto busco?",
+          "opcoes": ["apostrofe", "catacrese", "antonomasia", "sinestesia"],
+          "correta": 0,
+          "explicacao": "A apóstrofe ocorre ao dirigir-se diretamente ao mar, entidade inanimada. Catacrese usaria termos como 'pé da mesa', antonomasia substituiria o nome por uma característica, e sinestesia misturaria sentidos."
+        },
+        {
+          "pergunta": "Tempo, implacável ladrão, devolve-me os anos perdidos!",
+          "opcoes": ["apostrofe", "zeugma", "alusão", "sincope"],
+          "correta": 0,
+          "explicacao": "Há apóstrofe ao invocar o Tempo como interlocutor. Zeugma omitiria um verbo, alusão faria referência indireta, e sincope encurtaria palavras."
+        },
+        {
+          "pergunta": "Morte, onde está teu aguilhão? Por que me assombras?",
+          "opcoes": ["apostrofe", "prosopopeia", "anacoluta", "sincope"],
+          "correta": 0,
+          "explicacao": "A apóstrofe dirige-se à Morte. Prosopopeia daria vida à morte, anacoluta quebraria a estrutura da frase, e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Oh solidão, companheira fiel dos meus dias sombrios!",
+          "opcoes": ["apostrofe", "antonomasia", "catacrese", "sinestesia"],
+          "correta": 0,
+          "explicacao": "Dirige-se à solidão, entidade abstrata. Antonomasia usaria um título como 'Rainha da Noite', catacrese usaria termos adaptados, e sinestesia misturaria sentidos."
+        },
+        {
+          "pergunta": "Vento furioso, acalma teu sopro e ouve minha súplica!",
+          "opcoes": ["apostrofe", "zeugma", "alusão", "sincope"],
+          "correta": 0,
+          "explicacao": "Apóstrofe ao vento. Zeugma omitiria um verbo, alusão faria referência indireta, e sincope encurtaria palavras como 'vent' em vez de 'vento'."
+        },
+        {
+          "pergunta": "Livro antigo, guardião de segredos esquecidos, fala-me!",
+          "opcoes": ["apostrofe", "prosopopeia", "anacoluta", "antonomasia"],
+          "correta": 0,
+          "explicacao": "Dirige-se ao livro como interlocutor. Prosopopeia daria vida ao livro, anacoluta desorganizaria a frase, e antonomasia usaria um título como 'Sábio Silencioso'."
+        },
+        {
+          "pergunta": "Ó justiça, cega e surda, quando abrirás os olhos?",
+          "opcoes": ["apostrofe", "sinestesia", "catacrese", "sincope"],
+          "correta": 0,
+          "explicacao": "Invoca a Justiça diretamente. Sinestesia misturaria sentidos (ex: 'voz áspera'), catacrese usaria termos como 'céu da boca', e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Amor, cruel tirano, por que me torturas sem piedade?",
+          "opcoes": ["apostrofe", "antonomasia", "zeugma", "alusão"],
+          "correta": 0,
+          "explicacao": "Apóstrofe ao Amor. Antonomasia substituiria 'Amor' por 'Deus dos Corações', zeugma omitiria um verbo, e alusão referiria-se indiretamente."
+        },
+        {
+          "pergunta": "Noite estrelada, testemunha de nossos segredos, cala-te!",
+          "opcoes": ["apostrofe", "prosopopeia", "sincope", "anacoluta"],
+          "correta": 0,
+          "explicacao": "Dirige-se à noite. Prosopopeia daria vida à noite, sincope omitiria letras, e anacoluta quebraria a estrutura gramatical."
+        },
+        {
+          "pergunta": "Ó destino, teus caprichos são insuportáveis!",
+          "opcoes": ["apostrofe", "catacrese", "sinestesia", "sincope"],
+          "correta": 0,
+          "explicacao": "Invoca o Destino. Catacrese usaria termos como 'braço do sofá', sinestesia misturaria sentidos, e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Espada afiada, por que falhaste em defender meu honra?",
+          "opcoes": ["apostrofe", "zeugma", "antonomasia", "alusão"],
+          "correta": 0,
+          "explicacao": "Dirige-se à espada. Zeugma omitiria um verbo, antonomasia usaria 'Aço Letal' como título, e alusão faria referência indireta."
+        },
+        {
+          "pergunta": "Ó estrelas, guiai-me neste caminho tenebroso!",
+          "opcoes": ["apostrofe", "prosopopeia", "sincope", "anacoluta"],
+          "correta": 0,
+          "explicacao": "Apóstrofe às estrelas. Prosopopeia as faria agir, sincope encurtaria 'estrelas' para 'estrs', e anacoluta desestruturaria a frase."
+        },
+        {
+          "pergunta": "Terra, mãe generosa, por que secas teus rios?",
+          "opcoes": ["apostrofe", "catacrese", "sinestesia", "sincope"],
+          "correta": 0,
+          "explicacao": "Invoca a Terra. Catacrese usaria termos como 'pé da montanha', sinestesia diria 'terra quente', e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Ó esquecimento, envolve-me em teu manto de paz!",
+          "opcoes": ["apostrofe", "antonomasia", "zeugma", "alusão"],
+          "correta": 0,
+          "explicacao": "Dirige-se ao esquecimento. Antonomasia usaria 'Anjo do Olvido', zeugma omitiria 'envolve', e alusão referiria-se a mitos."
+        },
+        {
+          "pergunta": "Lua prateada, por que escondes teu rosto nesta noite?",
+          "opcoes": ["apostrofe", "prosopopeia", "sincope", "anacoluta"],
+          "correta": 0,
+          "explicacao": "Apóstrofe à lua. Prosopopeia a faria agir, sincope encurtaria 'prateada' para 'pratada', e anacoluta quebraria a estrutura."
+        },
+        {
+          "pergunta": "Ó dor, companheira indesejada, afasta-te de mim!",
+          "opcoes": ["apostrofe", "sinestesia", "catacrese", "sincope"],
+          "correta": 0,
+          "explicacao": "Invoca a Dor. Sinestesia diria 'dor fria', catacrese usaria termos como 'cabeça do prego', e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Vozes do passado, calamai-vos e deixai-me em paz!",
+          "opcoes": ["apostrofe", "zeugma", "antonomasia", "alusão"],
+          "correta": 0,
+          "explicacao": "Dirige-se às vozes. Zeugma omitiria 'calai-vos', antonomasia usaria 'Ecos da Memória', e alusão referiria-se a eventos históricos."
+        },
+        {
+          "pergunta": "Ó guerra, monstro devorador de almas, quando terás fim?",
+          "opcoes": ["apostrofe", "prosopopeia", "sincope", "anacoluta"],
+          "correta": 0,
+          "explicacao": "Apóstrofe à Guerra. Prosopopeia a personificaria, sincope encurtaria 'devorador', e anacoluta desorganizaria a frase."
+        },
+        {
+          "pergunta": "Memória, traidora, por que me lembras do que quero esquecer?",
+          "opcoes": ["apostrofe", "catacrese", "sinestesia", "sincope"],
+          "correta": 0,
+          "explicacao": "Invoca a Memória. Catacrese usaria termos como 'pé da cama', sinestesia diria 'memória amarga', e sincope omitiria letras."
+        },
+        {
+          "pergunta": "Ó ventania, leva comigo estas mágoas para longe!",
+          "opcoes": ["apostrofe", "antonomasia", "zeugma", "alusão"],
+          "correta": 0,
+          "explicacao": "Dirige-se à ventania. Antonomasia usaria 'Senhora dos Ventos', zeugma omitiria 'leva', e alusão referiria-se a mitologias."
+        },
+        {
+            "pergunta": "Ó solidão, por que me envolves em teu manto sombrio?",
+            "opcoes": ["apostrofe", "prosapopeia", "sinestesia", "catacrese"],
+            "correta": 0,
+            "explicacao": "A apóstrofe dirige-se à solidão, entidade abstrata. Prosapopeia daria vida à solidão, sinestesia misturaria sentidos, e catacrese usaria termos como 'pé da mesa'."
+          },
+          {
+            "pergunta": "Trovão, rugido dos céus, cala tua voz assustadora!",
+            "opcoes": ["apostrofe", "metáfora", "zeugma", "antonomasia"],
+            "correta": 0,
+            "explicacao": "Há apóstrofe ao invocar o trovão. Metáfora compararia o trovão a um animal, zeugma omitiria um verbo, e antonomasia usaria um título como 'Rei das Tempestades'."
+          },
+          {
+            "pergunta": "Ó rio, testemunha silenciosa de tantas histórias, fala!",
+            "opcoes": ["apostrofe", "prosapopeia", "alusão", "sincope"],
+            "correta": 0,
+            "explicacao": "Dirige-se ao rio diretamente. Prosapopeia faria o rio agir, alusão referiria-se a lendas, e sincope encurtaria palavras como 'testemunh'."
+          },
+          {
+            "pergunta": "Inimigo invisível, por que me persegues sem trégua?",
+            "opcoes": ["apostrofe", "antonomasia", "sinestesia", "anacoluta"],
+            "correta": 0,
+            "explicacao": "Apóstrofe ao dirigir-se a um 'inimigo' abstrato. Antonomasia usaria um título como 'Sombra da Angústia', sinestesia misturaria sensações, e anacoluta quebraria a estrutura."
+          },
+          {
+            "pergunta": "Ó relógio, cruel marcador do tempo, detém-te!",
+            "opcoes": ["apostrofe", "catacrese", "zeugma", "alusão"],
+            "correta": 0,
+            "explicacao": "Invoca o relógio. Catacrese usaria termos como 'braço da cadeira', zeugma omitiria 'detém-te', e alusão faria referência indireta."
+          },
+          {
+            "pergunta": "Liberdade, por que foges quando mais te preciso?",
+            "opcoes": ["apostrofe", "alusão", "prosapopeia", "paronomásia"],
+            "correta": 0,
+            "explicacao": "Dirige-se à liberdade. Alusão referiria-se a eventos históricos, prosapopeia daria ação à liberdade, e paronomásia usaria palavras parecidas."
+          },
+          {
+            "pergunta": "Ó montanha imponente, revela teus segredos ancestrais!",
+            "opcoes": ["apostrofe", "metonímia", "sinestesia", "anacoluta"],
+            "correta": 0,
+            "explicacao": "Apóstrofe à montanha. Metonímia usaria 'coroa' para rei, sinestesia diria 'montanha fria', e anacoluta desorganizaria a frase."
+          },
+          {
+            "pergunta": "Dúvida, serpente traiçoeira, afasta-te de mim!",
+            "opcoes": ["apostrofe", "metáfora", "zeugma", "sincope"],
+            "correta": 0,
+            "explicacao": "Invoca a dúvida. Metáfora compararia a 'serpente' sem invocação direta, zeugma omitiria um verbo, e sincope encurtaria 'traiçoeira'."
+          },
+          {
+            "pergunta": "Ó palavras, por que me abandonam nesta hora crucial?",
+            "opcoes": ["apostrofe", "prosapopeia", "catacrese", "antonomasia"],
+            "correta": 0,
+            "explicacao": "Dirige-se às palavras. Prosapopeia as faria agir, catacrese usaria 'cabeça do prego', e antonomasia usaria 'Senhoras do Discurso'."
+          },
+          {
+            "pergunta": "Fogo consumidor, por que devoras tudo que tocas?",
+            "opcoes": ["apostrofe", "sinestesia", "alusão", "sincope"],
+            "correta": 0,
+            "explicacao": "Apóstrofe ao fogo. Sinestesia diria 'fogo frio', alusão referiria-se a mitos, e sincope omitiria letras."
+          },
+          {
+            "pergunta": "Ó esquecimento, véu que cobre a dor, não me deixes!",
+            "opcoes": ["apostrofe", "metáfora", "zeugma", "anacoluta"],
+            "correta": 0,
+            "explicacao": "Invoca o esquecimento. Metáfora usaria 'véu' sem invocação, zeugma omitiria 'cobre', e anacoluta quebraria a estrutura."
+          },
+          {
+            "pergunta": "Maré, caprichosa dançarina, por que mudas de humor?",
+            "opcoes": ["apostrofe", "prosapopeia", "catacrese", "paronomásia"],
+            "correta": 0,
+            "explicacao": "Dirige-se à maré. Prosapopeia a faria dançar, catacrese usaria 'pé da onda', e paronomásia usaria 'maré' e 'maré'."
+          },
+          {
+            "pergunta": "Ó vento sul, traz-me o aroma das flores distantes!",
+            "opcoes": ["apostrofe", "sinestesia", "alusão", "sincope"],
+            "correta": 0,
+            "explicacao": "Apóstrofe ao vento. Sinestesia misturaria olfato e audição, alusão referiria-se a lugares, e sincope encurtaria 'vent'."
+          },
+          {
+            "pergunta": "Tristeza, lagoa escura, por que me afogas em tuas águas?",
+            "opcoes": ["apostrofe", "metáfora", "zeugma", "antonomasia"],
+            "correta": 0,
+            "explicacao": "Invoca a tristeza. Metáfora compararia sem invocação, zeugma omitiria 'afogas', e antonomasia usaria 'Dama das Lágrimas'."
+          },
+          {
+            "pergunta": "Ó ponte antiga, ligação entre tempos, conta-me tuas histórias!",
+            "opcoes": ["apostrofe", "prosapopeia", "catacrese", "anacoluta"],
+            "correta": 0,
+            "explicacao": "Dirige-se à ponte. Prosapopeia a faria falar, catacrese usaria 'ombro da ponte', e anacoluta desorganizaria a frase."
+          },
+          {
+            "pergunta": "Raiva, fogo interior, por que consomes minha paz?",
+            "opcoes": ["apostrofe", "sinestesia", "alusão", "sincope"],
+            "correta": 0,
+            "explicacao": "Apóstrofe à raiva. Sinestesia misturaria tato e visão, alusão referiria-se a mitos, e sincope omitiria letras."
+          },
+          {
+            "pergunta": "Ó portão enferrujado, guardião do passado, abre-te!",
+            "opcoes": ["apostrofe", "prosapopeia", "metonímia", "zeugma"],
+            "correta": 0,
+            "explicacao": "Invoca o portão. Prosapopeia daria vida a ele, metonímia usaria 'ferro' por portão, e zeugma omitiria 'abre-te'."
+          },
+          {
+            "pergunta": "Medo, sombra persistente, por que me assombras?",
+            "opcoes": ["apostrofe", "metáfora", "catacrese", "paronomásia"],
+            "correta": 0,
+            "explicacao": "Dirige-se ao medo. Metáfora usaria 'sombra' sem invocação, catacrese usaria 'pé da cama', e paronomásia usaria 'medo' e 'mudo'."
+          },
+          {
+            "pergunta": "Ó estrada infinita, para onde conduzes meus passos?",
+            "opcoes": ["apostrofe", "alusão", "sinestesia", "anacoluta"],
+            "correta": 0,
+            "explicacao": "Apóstrofe à estrada. Alusão referiria-se a jornadas épicas, sinestesia diria 'estrada silenciosa', e anacoluta quebraria a estrutura."
+          },
+          {
+            "pergunta": "Noite estrelada, por que escondes os segredos do universo?",
+            "opcoes": ["apostrofe", "prosapopeia", "zeugma", "sincope"],
+            "correta": 0,
+            "explicacao": "Invoca a noite. Prosapopeia a faria agir, zeugma omitiria 'escondes', e sincope encurtaria 'estrelada' para 'estrelad'."
+          }
+       ]
+    },
+    "anacoluto": {
+    "descricao": "O anacoluto é uma figura de linguagem caracterizada pela quebra da estrutura sintática da frase, criando uma incoerência entre suas partes. Geralmente ocorre quando o falante inicia uma construção gramatical e a interrompe abruptamente, deixando termos soltos ou sem conexão lógica.",
+    "perguntas": [
+      {
+        "pergunta": "Eu, você acha que isso é justo?",
+        "opcoes": ["zeugma", "alusão", "anacoluto", "sinestesia"],
+        "correta": 2,
+        "explicacao": "O anacoluto ocorre porque 'eu' inicia a frase, mas não há continuidade sintática, mudando para 'você acha'. Zeugma omitiria um verbo, alusão faria referência indireta, e sinestesia misturaria sentidos."
+      },
+      {
+        "pergunta": "Aquele cara, nunca vi alguém tão desastrado!",
+        "opcoes": ["catacrese", "anacoluto", "prosopopeia", "sincope"],
+        "correta": 1,
+        "explicacao": "Há anacoluto na quebra entre 'Aquele cara' e o restante da frase. Catacrese usaria termos como 'pé da mesa', prosopopeia daria vida a objetos, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "Nós, quando cheguei lá, já estava tudo acabado.",
+        "opcoes": ["anacoluto", "antonomasia", "zeugma", "paronomásia"],
+        "correta": 0,
+        "explicacao": "O anacoluto está na incoerência entre 'nós' e 'cheguei' (singular). Antonomasia substituiria nomes, zeugma omitiria um termo, e paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "O professor, os alunos não entenderam nada da aula.",
+        "opcoes": ["sístole", "anacoluto", "alusão", "metáfora"],
+        "correta": 1,
+        "explicacao": "Anacoluto pela falta de conexão entre 'O professor' e o resto da frase. Sístole reduziria sílabas, alusão faria referência indireta, e metáfora compararia conceitos."
+      },
+      {
+        "pergunta": "Minha mãe, dizem que ela vai se mudar.",
+        "opcoes": ["anacoluto", "catacrese", "sinestesia", "apóstrofe"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'Minha mãe' e 'dizem que ela'. Catacrese usaria termos adaptados, sinestesia misturaria sentidos, e apóstrofe dirigiria-se a alguém."
+      },
+      {
+        "pergunta": "O livro, eu nem sei onde deixei.",
+        "opcoes": ["zeugma", "anacoluto", "prosopopeia", "sincope"],
+        "correta": 1,
+        "explicacao": "Anacoluto pela quebra após 'O livro'. Zeugma omitiria um verbo, prosopopeia daria vida ao livro, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "A festa, não imaginava que seria tão chata.",
+        "opcoes": ["anacoluto", "antonomasia", "alusão", "sístole"],
+        "correta": 0,
+        "explicacao": "Anacoluto na estrutura solta de 'A festa' com o restante. Antonomasia usaria um título, alusão referiria-se a algo indireto, e sístole encurtaria sílabas."
+      },
+      {
+        "pergunta": "Ela, parece que nunca está satisfeita.",
+        "opcoes": ["catacrese", "sinestesia", "anacoluto", "metonímia"],
+        "correta": 2,
+        "explicacao": "Anacoluto na falta de conexão entre 'Ela' e 'parece'. Catacrese usaria termos como 'asa da xícara', sinestesia misturaria sentidos, e metonímia substituiria termos."
+      },
+      {
+        "pergunta": "O chefe, ninguém entende o que ele quer.",
+        "opcoes": ["anacoluto", "zeugma", "apóstrofe", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "Anacoluto pela quebra após 'O chefe'. Zeugma omitiria um verbo, apóstrofe dirigiria-se a alguém, e prosopopeia daria vida ao chefe."
+      },
+      {
+        "pergunta": "A cidade, dizem que vai chover o dia todo.",
+        "opcoes": ["alusão", "anacoluto", "sincope", "antonomasia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na desconexão entre 'A cidade' e o resto. Alusão faria referência indireta, sincope encurtaria palavras, e antonomasia usaria um título."
+      },
+      {
+        "pergunta": "Eu, quando você vai entender isso?",
+        "opcoes": ["anacoluto", "catacrese", "sinestesia", "paronomásia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na mudança abrupta de 'Eu' para 'você'. Catacrese usaria termos adaptados, sinestesia misturaria sentidos, e paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "O cachorro, nunca vi um animal tão teimoso!",
+        "opcoes": ["prosopopeia", "anacoluto", "zeugma", "sístole"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O cachorro'. Prosopopeia daria vida ao animal, zeugma omitiria um verbo, e sístole encurtaria sílabas."
+      },
+      {
+        "pergunta": "A gente, você já viu coisa igual?",
+        "opcoes": ["anacoluto", "alusão", "metáfora", "sincope"],
+        "correta": 0,
+        "explicacao": "Anacoluto na falta de conexão entre 'A gente' e 'você'. Alusão faria referência indireta, metáfora compararia conceitos, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "O sol, nem parece que está verão.",
+        "opcoes": ["catacrese", "anacoluto", "apóstrofe", "sinestesia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na desconexão entre 'O sol' e o restante. Catacrese usaria termos como 'pé da montanha', apóstrofe invocaria o sol, e sinestesia misturaria sentidos."
+      },
+      {
+        "pergunta": "Os amigos, não sei por que sumiram todos.",
+        "opcoes": ["anacoluto", "zeugma", "prosopopeia", "antonomasia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na quebra após 'Os amigos'. Zeugma omitiria um termo, prosopopeia daria vida aos amigos, e antonomasia usaria um título."
+      },
+      {
+        "pergunta": "O trabalho, parece que nunca acaba.",
+        "opcoes": ["sístole", "anacoluto", "alusão", "metonímia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na estrutura solta de 'O trabalho'. Sístole encurtaria sílabas, alusão faria referência indireta, e metonímia substituiria termos."
+      },
+      {
+        "pergunta": "A comida, ninguém merece tanto tempero!",
+        "opcoes": ["anacoluto", "catacrese", "sinestesia", "paronomásia"],
+        "correta": 0,
+        "explicacao": "Anacoluto pela desconexão entre 'A comida' e o restante. Catacrese usaria termos como 'dente de alho', sinestesia misturaria sentidos, e paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "A vida, às vezes penso que não vale a pena.",
+        "opcoes": ["zeugma", "anacoluto", "prosopopeia", "sincope"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'A vida'. Zeugma omitiria um verbo, prosopopeia daria vida à vida, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "O carro, não sei como ainda funciona.",
+        "opcoes": ["anacoluto", "alusão", "antonomasia", "sístole"],
+        "correta": 0,
+        "explicacao": "Anacoluto na falta de conexão entre 'O carro' e o resto. Alusão faria referência indireta, antonomasia usaria um título, e sístole encurtaria sílabas."
+      },
+      {
+        "pergunta": "Eu, você já viu tanta confusão?",
+        "opcoes": ["catacrese", "sinestesia", "anacoluto", "apóstrofe"],
+        "correta": 2,
+        "explicacao": "Anacoluto na mudança abrupta de 'Eu' para 'você'. Catacrese usaria termos adaptados, sinestesia misturaria sentidos, e apóstrofe dirigiria-se a alguém."
+      },
+      {
+        "pergunta": "A gente, quando cheguei lá, já não havia mais nada.",
+        "opcoes": ["anacoluto", "zeugma", "alusão", "antonomasia"],
+        "correta": 0,
+        "explicacao": "Anacoluto pela incoerência entre 'A gente' (plural) e 'cheguei' (singular). Zeugma omitiria um verbo, alusão faria referência indireta, e antonomasia usaria um título."
+      },
+      {
+        "pergunta": "O dinheiro, nunca vi algo tão difícil de conseguir!",
+        "opcoes": ["catacrese", "anacoluto", "sinestesia", "prosapopeia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O dinheiro'. Catacrese usaria termos como 'braço do sofá', sinestesia misturaria sentidos, e prosapopeia daria vida ao dinheiro."
+      },
+      {
+        "pergunta": "Eles, parece que ninguém se importa com o problema.",
+        "opcoes": ["anacoluto", "metonímia", "zeugma", "paronomásia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'Eles' e o restante. Metonímia substituiria termos, zeugma omitiria um verbo, e paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "A chuva, não entendo por que sempre atrapalha meus planos.",
+        "opcoes": ["apóstrofe", "anacoluto", "alusão", "sinestesia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na falta de ligação entre 'A chuva' e o resto. Apóstrofe invocaria a chuva, alusão faria referência indireta, e sinestesia misturaria sentidos."
+      },
+      {
+        "pergunta": "Eu, você já viu coisa mais absurda?",
+        "opcoes": ["anacoluto", "catacrese", "antonomasia", "sincope"],
+        "correta": 0,
+        "explicacao": "Anacoluto na mudança abrupta de 'Eu' para 'você'. Catacrese usaria termos adaptados, antonomasia substituiria nomes, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "O filme, nem sei por que fui assistir aquilo.",
+        "opcoes": ["zeugma", "anacoluto", "prosapopeia", "metáfora"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O filme'. Zeugma omitiria um verbo, prosapopeia daria vida ao filme, e metáfora compararia conceitos."
+      },
+      {
+        "pergunta": "A viagem, quando voltei, tudo estava diferente.",
+        "opcoes": ["anacoluto", "alusão", "sinestesia", "catacrese"],
+        "correta": 0,
+        "explicacao": "Anacoluto pela incoerência entre 'A viagem' e 'voltei'. Alusão faria referência indireta, sinestesia misturaria sentidos, e catacrese usaria termos como 'pé da cama'."
+      },
+      {
+        "pergunta": "O professor, os alunos não prestaram atenção em nada.",
+        "opcoes": ["anacoluto", "zeugma", "apóstrofe", "antonomasia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'O professor' e o restante. Zeugma omitiria um termo, apóstrofe invocaria alguém, e antonomasia usaria um título."
+      },
+      {
+        "pergunta": "A cidade, nunca vi lugar tão barulhento!",
+        "opcoes": ["prosapopeia", "anacoluto", "metonímia", "paronomásia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'A cidade'. Prosapopeia daria vida à cidade, metonímia substituiria termos, e paronomásia usaria palavras semelhantes."
+      },
+      {
+        "pergunta": "Nós, você acha que isso vai dar certo?",
+        "opcoes": ["anacoluto", "sinestesia", "catacrese", "alusão"],
+        "correta": 0,
+        "explicacao": "Anacoluto na mudança de 'Nós' para 'você'. Sinestesia misturaria sentidos, catacrese usaria termos como 'cabeça do prego', e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "O livro, nem lembro onde deixei.",
+        "opcoes": ["zeugma", "anacoluto", "apóstrofe", "sincope"],
+        "correta": 1,
+        "explicacao": "Anacoluto na desconexão entre 'O livro' e o resto. Zeugma omitiria um verbo, apóstrofe invocaria o livro, e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "A festa, não sei por que fui convidado.",
+        "opcoes": ["anacoluto", "antonomasia", "metáfora", "prosapopeia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na quebra após 'A festa'. Antonomasia usaria um título, metáfora compararia conceitos, e prosapopeia daria vida à festa."
+      },
+      {
+        "pergunta": "Ela, quando você vai entender o que aconteceu?",
+        "opcoes": ["catacrese", "anacoluto", "sinestesia", "alusão"],
+        "correta": 1,
+        "explicacao": "Anacoluto na mudança abrupta de 'Ela' para 'você'. Catacrese usaria termos como 'dente de alho', sinestesia misturaria sentidos, e alusão faria referência indireta."
+      },
+      {
+        "pergunta": "O computador, nem sei como consertar isso.",
+        "opcoes": ["anacoluto", "zeugma", "prosapopeia", "paronomásia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'O computador' e o restante. Zeugma omitiria um verbo, prosapopeia daria vida ao computador, e paronomásia usaria palavras parecidas."
+      },
+      {
+        "pergunta": "O café, nunca vi uma bebida tão forte!",
+        "opcoes": ["metonímia", "anacoluto", "apóstrofe", "sinestesia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O café'. Metonímia substituiria termos, apóstrofe invocaria o café, e sinestesia diria 'café amargo'."
+      },
+      {
+        "pergunta": "Eu, quando você chegou, já era tarde demais.",
+        "opcoes": ["anacoluto", "catacrese", "alusão", "antonomasia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na incoerência entre 'Eu' e 'você chegou'. Catacrese usaria termos adaptados, alusão faria referência indireta, e antonomasia substituiria nomes."
+      },
+      {
+        "pergunta": "O silêncio, não aguento mais essa quietude!",
+        "opcoes": ["prosapopeia", "anacoluto", "zeugma", "metáfora"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O silêncio'. Prosapopeia daria vida ao silêncio, zeugma omitiria um termo, e metáfora compararia conceitos."
+      },
+      {
+        "pergunta": "A rua, nunca vi um lugar tão movimentado.",
+        "opcoes": ["anacoluto", "sinestesia", "catacrese", "sincope"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'A rua' e o restante. Sinestesia misturaria sentidos, catacrese usaria termos como 'ombro da estrada', e sincope encurtaria palavras."
+      },
+      {
+        "pergunta": "O relógio, não sei por que parou de funcionar.",
+        "opcoes": ["zeugma", "anacoluto", "apóstrofe", "antonomasia"],
+        "correta": 1,
+        "explicacao": "Anacoluto na quebra após 'O relógio'. Zeugma omitiria um verbo, apóstrofe invocaria o relógio, e antonomasia usaria um título."
+      },
+      {
+        "pergunta": "A vida, às vezes parece um quebra-cabeça sem solução.",
+        "opcoes": ["anacoluto", "metáfora", "alusão", "prosapopeia"],
+        "correta": 0,
+        "explicacao": "Anacoluto na desconexão entre 'A vida' e o restante. Metáfora compararia 'vida' a 'quebra-cabeça', alusão faria referência indireta, e prosapopeia daria vida à vida."
+      }
+    ]
+  },
+  "antonomasia": {
+  "descricao": "A antonomásia é uma figura de linguagem que consiste na substituição de um nome próprio por uma expressão que o caracteriza (ou vice-versa). Pode ser um epíteto, um título ou uma qualidade marcante, como chamar um líder influente de 'O Libertador' em vez de usar seu nome real, ou referir-se a uma figura histórica por uma de suas ações notáveis.",
+  "perguntas": [
+    {
+      "pergunta": "'O Rei do Futebol' marcou história com suas jogadas geniais.",
+      "opcoes": ["antonomasia", "metáfora", "catacrese", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "A antonomásia substitui o nome 'Pelé' por seu epíteto famoso. Metáfora compararia conceitos, catacrese usaria termos adaptados, e prosopopeia daria vida a objetos."
+    },
+    {
+      "pergunta": "O 'Bardo Imortal' influenciou gerações com suas peças sobre a condição humana.",
+      "opcoes": ["antonomasia", "metáfora", "catacrese", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Antonomásia substitui 'William Shakespeare' por um título que destaca sua obra atemporal. Metáfora compararia ideias, catacrese usaria termos como 'pé da mesa', e prosopopeia personificaria objetos."
+    },
+    {
+      "pergunta": "O 'Profeta da Ciência Moderna' revolucionou a compreensão do universo com suas leis.",
+      "opcoes": ["antonomasia", "alusão", "zeugma", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Substitui 'Isaac Newton' por um epíteto ligado a suas descobertas. Alusão faria referência indireta, zeugma omitiria termos, e sinestesia misturaria sentidos."
+    },
+    {
+      "pergunta": "A 'Voz da Liberdade' ecoou em discursos que desafiaram a segregação racial.",
+      "opcoes": ["antonomasia", "metonímia", "anacoluto", "paronomásia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Martin Luther King Jr. por seu papel histórico. Metonímia usaria parte pelo todo, anacoluto quebraria a estrutura, e paronomásia jogaria com palavras similares."
+    },
+    {
+      "pergunta": "O 'Mestre dos Suspenses Psicológicos' criou filmes que mantinham o público em tensão.",
+      "opcoes": ["antonomasia", "catacrese", "prosopopeia", "sincope"],
+      "correta": 0,
+      "explicacao": "Substitui 'Alfred Hitchcock' por uma característica de seu trabalho. Catacrese usaria termos como 'asa do avião', prosopopeia animaria objetos, e síncope omitiria letras."
+    },
+    {
+      "pergunta": "A 'Dama das Letras Místicas' explorou o sobrenatural em contos sombrios.",
+      "opcoes": ["antonomasia", "metáfora", "zeugma", "alusão"],
+      "correta": 0,
+      "explicacao": "Refere-se a Clarice Lispector por seu estilo único. Metáfora compararia conceitos, zeugma omitiria verbos, e alusão sugeriria algo indiretamente."
+    },
+    {
+      "pergunta": "O 'Gênio da Luz' transformou a física com teorias sobre o espaço-tempo.",
+      "opcoes": ["antonomasia", "sinestesia", "anacoluto", "apóstrofe"],
+      "correta": 0,
+      "explicacao": "Substitui 'Albert Einstein' por um epíteto relacionado à relatividade. Sinestesia misturaria sentidos, anacoluto desorganizaria a frase, e apóstrofe invocaria alguém."
+    },
+    {
+      "pergunta": "O 'Arquiteto das Revoluções Silenciosas' mudou a tecnologia com invenções discretas.",
+      "opcoes": ["antonomasia", "metonímia", "catacrese", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Refere-se a um visionário como Steve Jobs. Metonímia substituiria termos, catacrese usaria 'dente de alho', e prosopopeia daria vida a objetos."
+    },
+    {
+      "pergunta": "A 'Poetisa dos Deserdados' deu voz aos marginalizados em versos contundentes.",
+      "opcoes": ["antonomasia", "alusão", "zeugma", "paronomásia"],
+      "correta": 0,
+      "explicacao": "Substitui 'Carolina Maria de Jesus' por seu tema central. Alusão faria referência velada, zeugma omitiria termos, e paronomásia usaria palavras parecidas."
+    },
+    {
+      "pergunta": "O 'Símbolo da Resistência Pacífica' liderou marchas que desafiavam opressões.",
+      "opcoes": ["antonomasia", "metáfora", "sinestesia", "sincope"],
+      "correta": 0,
+      "explicacao": "Refere-se a Mahatma Gandhi por sua filosofia. Metáfora compararia ideias, sinestesia uniria sentidos, e síncope encurtaria palavras."
+    },
+    {
+      "pergunta": "O 'Pintor das Emoções Turbulentas' retratou angústias em telas expressionistas.",
+      "opcoes": ["antonomasia", "catacrese", "apóstrofe", "anacoluto"],
+      "correta": 0,
+      "explicacao": "Substitui 'Vincent van Gogh' por seu estilo artístico. Catacrese usaria 'céu da boca', apóstrofe invocaria alguém, e anacoluto quebraria a estrutura."
+    },
+    {
+      "pergunta": "O 'Mestre da Capoeira' tornou-se símbolo da resistência cultural afro-brasileira.",
+      "opcoes": ["antonomasia", "metonímia", "zeugma", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Mestre Bimba, pioneiro na capoeira regional. Metonímia usaria parte pelo todo, zeugma omitiria termos, e sinestesia misturaria sentidos."
+    },
+    {
+      "pergunta": "A 'Voz do Sertão' ecoou em versos que retratavam a seca e a dor nordestina.",
+      "opcoes": ["antonomasia", "alusão", "catacrese", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Substitui Patativa do Assaré por sua poesia regionalista. Alusão sugeriria algo indireto, catacrese usaria termos como 'pé de serra', e prosopopeia animaria o sertão."
+    },
+    {
+      "pergunta": "O 'Inventor do Brasil Moderno' idealizou cidades futuristas em telas surrealistas.",
+      "opcoes": ["antonomasia", "metáfora", "anacoluto", "paronomásia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Cândido Portinari por suas obras visionárias. Metáfora compararia conceitos, anacoluto quebraria a frase, e paronomásia usaria palavras similares."
+    },
+    {
+      "pergunta": "A 'Musa dos Trópicos' transformou paixões e tragédias em poesia visceral.",
+      "opcoes": ["antonomasia", "zeugma", "sinestesia", "sincope"],
+      "correta": 0,
+      "explicacao": "Substitui Cecília Meireles por seu título literário. Zeugma omitiria verbos, sinestesia misturaria sensações, e síncope encurtaria palavras."
+    },
+    {
+      "pergunta": "O 'Profeta da Chuva' previu secas com sabedoria ancestral no sertão.",
+      "opcoes": ["antonomasia", "apóstrofe", "catacrese", "alusão"],
+      "correta": 0,
+      "explicacao": "Refere-se a personagens folclóricos como o profeta de Juazeiro. Apóstrofe invocaria alguém, catacrese usaria 'céu da boca', e alusão seria indireta."
+    },
+    {
+      "pergunta": "O 'Arquiteto das Curvas' revolucionou a estética das construções brasileiras.",
+      "opcoes": ["antonomasia", "metonímia", "prosopopeia", "anacoluto"],
+      "correta": 0,
+      "explicacao": "Substitui Oscar Niemeyer por seu estilo arquitetônico. Metonímia usaria 'concreto' por obra, prosopopeia daria vida a prédios, e anacoluto desorganizaria a frase."
+    },
+    {
+      "pergunta": "A 'Rainha do Rádio' encantou o país com sambas e histórias de amor.",
+      "opcoes": ["antonomasia", "zeugma", "paronomásia", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Emilinha Borba, ícone da era de ouro do rádio. Zeugma omitiria termos, paronomásia usaria palavras similares, e sinestesia uniria sentidos."
+    },
+    {
+      "pergunta": "O 'Poeta do Absurdo' questionou a existência em versos filosóficos e irônicos.",
+      "opcoes": ["antonomasia", "metáfora", "catacrese", "apóstrofe"],
+      "correta": 0,
+      "explicacao": "Substitui Manuel Bandeira por sua poesia existencial. Metáfora compararia conceitos, catacrese usaria 'pé de vento', e apóstrofe invocaria alguém."
+    },
+    {
+      "pergunta": "O 'Gênio das Fórmulas Impossíveis' desvendou mistérios da matemática nacional.",
+      "opcoes": ["antonomasia", "alusão", "sincope", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Refere-se a cientistas como César Lattes. Alusão seria indireta, síncope omitiria letras, e prosopopeia animaria conceitos abstratos."
+    },
+    {
+      "pergunta": "A 'Dama do Cinema Marginal' retratou a loucura urbana em películas ousadas.",
+      "opcoes": ["antonomasia", "metonímia", "zeugma", "anacoluto"],
+      "correta": 0,
+      "explicacao": "Substitui Helena Ignez por seu papel no cinema experimental. Metonímia usaria 'película' por filme, zeugma omitiria termos, e anacoluto quebraria a estrutura."
+    },
+    {
+      "pergunta": "O 'Símbolo da Bossa Nova' harmonizou violão e poesia em acordes inovadores.",
+      "opcoes": ["antonomasia", "catacrese", "sinestesia", "paronomásia"],
+      "correta": 0,
+      "explicacao": "Refere-se a João Gilberto por sua revolução musical. Catacrese usaria 'asa da xícara', sinestesia misturaria sons e imagens, e paronomásia jogaria com palavras."
+    },
+    {
+      "pergunta": "A 'Voz da Amazônia' denunciou a devastação em versos cheios de protesto.",
+      "opcoes": ["antonomasia", "alusão", "zeugma", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Substitui poetisas como Thiago de Mello. Alusão faria referência velada, zeugma omitiria verbos, e prosopopeia daria vida à floresta."
+    },
+    {
+      "pergunta": "O 'Mito do Futebol Arte' encantou estádios com dribles desconcertantes.",
+      "opcoes": ["antonomasia", "metáfora", "sincope", "apóstrofe"],
+      "correta": 0,
+      "explicacao": "Refere-se a Garrincha por seu estilo único. Metáfora compararia jogadas a arte, síncope encurtaria palavras, e apóstrofe invocaria o jogador."
+    },
+    {
+      "pergunta": "A 'Escritora das Almas Femininas' explorou conflitos íntimos em romances intensos.",
+      "opcoes": ["antonomasia", "catacrese", "anacoluto", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Substitui Lygia Fagundes Telles por sua temática literária. Catacrese usaria 'cabeça de vento', anacoluto desestruturaria a frase, e sinestesia uniria sensações."
+    },
+    {
+      "pergunta": "O 'Herói da Borracha' liderou a luta pelos seringueiros na floresta.",
+      "opcoes": ["antonomasia", "metonímia", "alusão", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Chico Mendes por sua defesa ambiental. Metonímia usaria 'borracha' pela região, alusão seria indireta, e prosopopeia animaria a floresta."
+    },
+    {
+      "pergunta": "A 'Pioneira do Teatro Experimental' quebrou convenções com encenações ousadas.",
+      "opcoes": ["antonomasia", "zeugma", "paronomásia", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Substitui Ziembinski por suas inovações cênicas. Zeugma omitiria termos, paronomásia usaria palavras similares, e sinestesia misturaria sensações."
+    },
+    {
+      "pergunta": "O 'Filósofo da Rua' traduziu a sabedoria popular em provérbios contundentes.",
+      "opcoes": ["antonomasia", "metáfora", "catacrese", "anacoluto"],
+      "correta": 0,
+      "explicacao": "Refere-se a figuras como Stanislaw Ponte Preta. Metáfora compararia ideias, catacrese usaria 'pé de parede', e anacoluto quebraria a estrutura."
+    },
+    {
+      "pergunta": "A 'Estrela do Rádio Brasileiro' conquistou multidões com melodias românticas.",
+      "opcoes": ["antonomasia", "alusão", "sincope", "prosopopeia"],
+      "correta": 0,
+      "explicacao": "Substitui Ângela Maria por sua fama na era do rádio. Alusão seria indireta, síncope encurtaria palavras, e prosopopeia daria vida às músicas."
+    },
+    {
+      "pergunta": "O 'Pintor das Cores Tropicais' retratou a exuberância da natureza brasileira.",
+      "opcoes": ["antonomasia", "metonímia", "zeugma", "paronomásia"],
+      "correta": 0,
+      "explicacao": "Refere-se a Di Cavalcanti por sua paleta vibrante. Metonímia usaria 'cores' por obras, zeugma omitiria termos, e paronomásia usaria palavras parecidas."
+    },
+    {
+      "pergunta": "A 'Cronista do Cotidiano' transformou trivialidades em literatura universal.",
+      "opcoes": ["antonomasia", "catacrese", "apóstrofe", "sinestesia"],
+      "correta": 0,
+      "explicacao": "Substitui Clarice Lispector por seu olhar único sobre o ordinário. Catacrese usaria 'pé de página', apóstrofe invocaria alguém, e sinestesia uniria sentidos."
+    }
+   ]
+  },
+  "sincope": {
+  "descricao": "A síncope é uma figura de linguagem que consiste na supressão de fonemas ou sílabas no meio das palavras. Esse fenômeno ocorre frequentemente na fala coloquial e na poesia para dar fluidez ao discurso.",
+  "perguntas": [
+      {
+        "pergunta": "Ele 'tava' muito cansado depois do treino.",
+        "opcoes": ["síncope", "zeugma", "catacrese", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'estava' sofre uma supressão interna do fonema 'es-', caracterizando a síncope. Zeugma omite um termo já mencionado, catacrese usa um termo de forma figurada por falta de palavra específica, e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Vô' pra casa agora, já tá tarde.",
+        "opcoes": ["síncope", "apóstrofe", "anacoluto", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'vou' perde o fonema 'u' no meio, formando 'vô', um caso clássico de síncope. Apóstrofe é a interpelação direta de alguém, anacoluto é a quebra na estrutura da frase, e antonomásia substitui um nome próprio por um título característico."
+      },
+      {
+        "pergunta": "'Pr'ocê' isso pode ser fácil, mas pra mim não é.",
+        "opcoes": ["síncope", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "'Para você' sofre redução fonética para 'pr’ocê', caracterizando a síncope. Prosopopeia atribui características humanas a seres inanimados, sinestesia mistura sensações de sentidos diferentes, e zeugma omite um termo já expresso anteriormente na frase."
+      },
+      {
+        "pergunta": "'Se'ora' pediu um chá bem quente.",
+        "opcoes": ["síncope", "catacrese", "anacoluto", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'senhora' perde a sílaba medial, formando 'se'ora', um caso de síncope. Catacrese ocorre quando usamos uma palavra por falta de outra mais precisa (como 'pé da mesa'), anacoluto é uma quebra na estrutura da frase, e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "'Fim de semana tem futebol na 'televisã'.",
+        "opcoes": ["síncope", "alusão", "apóstrofe", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'televisão' perde o fonema 'o' no meio, formando 'televisã', um exemplo de síncope. Alusão faz referência indireta a algo conhecido, apóstrofe é uma interpelação direta a uma pessoa ou entidade, e prosopopeia atribui características humanas a objetos ou seres inanimados."
+      },
+      {
+        "pergunta": "'Cê' sabe onde fica a padaria mais próxima?",
+        "opcoes": ["síncope", "zeugma", "catacrese", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'você' perde a sílaba 'vo', tornando-se 'cê', um caso de síncope. Zeugma omite um termo já mencionado, catacrese usa um termo figurado por necessidade, e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Bão' mesmo é aquele café forte logo cedo.",
+        "opcoes": ["síncope", "apóstrofe", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'bom' sofre alteração fonética e vira 'bão', um exemplo de síncope. Apóstrofe é a interpelação direta de alguém, sinestesia mistura sensações diferentes, e prosopopeia atribui características humanas a objetos ou animais."
+      },
+      {
+        "pergunta": "No fim de semana 'nóis' vai pescar no rio.",
+        "opcoes": ["síncope", "anacoluto", "antonomásia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'nós' sofre uma alteração fonética para 'nóis', um caso de síncope. Anacoluto é uma quebra sintática, antonomásia substitui um nome próprio por uma expressão característica, e zeugma omite um termo já citado na frase."
+      },
+      {
+        "pergunta": "Ele me pediu 'péra', mas eu já tinha ido embora.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'espera' perde o início da sílaba, formando 'péra', caracterizando síncope. Catacrese ocorre quando usamos uma palavra por falta de outra mais específica, apóstrofe é uma interpelação direta, e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Ocê' precisa ver isso de perto.",
+        "opcoes": ["síncope", "sinestesia", "prosopopeia", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'você' perde o 'v' inicial, tornando-se 'ocê', um caso de síncope. Sinestesia mistura sensações diferentes, prosopopeia atribui características humanas a objetos e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "Sei não, mas esse jogo 'cê' vai perder.",
+        "opcoes": ["síncope", "zeugma", "anacoluto", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'você' perde a sílaba inicial, tornando-se 'cê', um caso de síncope. Zeugma omite um termo já mencionado, anacoluto quebra a estrutura da frase e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "O carro 'prela' numa velocidade absurda.",
+        "opcoes": ["síncope", "catacrese", "prosopopeia", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'para ela' se contrai e vira 'prela', um exemplo de síncope. Catacrese usa um termo figurado por necessidade, prosopopeia dá características humanas a objetos, e antonomásia substitui um nome próprio por um título característico."
+      },
+      {
+        "pergunta": "'Tô' chegando aí em cinco minutos.",
+        "opcoes": ["síncope", "apóstrofe", "zeugma", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'estou' perde o início e se torna 'tô', um caso de síncope. Apóstrofe é a interpelação direta de alguém, zeugma omite um termo já citado e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Framengo' é o melhor time do Brasil!",
+        "opcoes": ["síncope", "anacoluto", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'Flamengo' perde um fonema e vira 'Framengo', um exemplo de síncope. Anacoluto é uma quebra na estrutura sintática, sinestesia mistura sensações e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Trem bão' é aquele pão de queijo mineiro.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'bom' sofre alteração e vira 'bão', um caso de síncope. Catacrese usa palavras de forma figurada por necessidade, apóstrofe interpela alguém diretamente e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "'Vamo' embora antes que chova.",
+        "opcoes": ["síncope", "zeugma", "catacrese", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'vamos' perde a sílaba final, formando 'vamo', um caso de síncope. Zeugma omite um termo já mencionado, catacrese usa um termo figurado por necessidade, e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Pobrema' não existe, só solução!",
+        "opcoes": ["síncope", "apóstrofe", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'problema' perde um fonema interno e vira 'pobrema', um caso de síncope. Apóstrofe é a interpelação direta de alguém, sinestesia mistura sensações diferentes e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "Ela 'tá' esperando na esquina.",
+        "opcoes": ["síncope", "anacoluto", "antonomásia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'está' perde o 'es-', formando 'tá', um caso de síncope. Anacoluto é uma quebra sintática, antonomásia substitui um nome próprio por uma expressão característica, e zeugma omite um termo já citado na frase."
+      },
+      {
+        "pergunta": "Ele 'ficô' chateado com a notícia.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'ficou' perde o 'u', formando 'ficô', um caso de síncope. Catacrese ocorre quando usamos uma palavra por falta de outra mais específica, apóstrofe é uma interpelação direta, e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Dotor' disse que vou melhorar logo.",
+        "opcoes": ["síncope", "sinestesia", "prosopopeia", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'doutor' perde um fonema, formando 'dotor', um caso de síncope. Sinestesia mistura sensações diferentes, prosopopeia atribui características humanas a objetos e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "'Ôcê' não devia ter falado isso.",
+        "opcoes": ["síncope", "zeugma", "anacoluto", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'você' perde o 'v', tornando-se 'ôcê', um caso de síncope. Zeugma omite um termo já mencionado, anacoluto quebra a estrutura da frase e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "O carro 'frechou' bem na hora do acidente.",
+        "opcoes": ["síncope", "catacrese", "prosopopeia", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'freou' perde um fonema, tornando-se 'frechou', um caso de síncope. Catacrese usa um termo figurado por necessidade, prosopopeia dá características humanas a objetos, e antonomásia substitui um nome próprio por um título característico."
+      },
+      {
+        "pergunta": "'Parece que a 'vorta' dele tá perto.",
+        "opcoes": ["síncope", "apóstrofe", "zeugma", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'volta' perde um fonema, formando 'vorta', um caso de síncope. Apóstrofe é a interpelação direta de alguém, zeugma omite um termo já citado e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "'Num' gosto de acordar cedo.",
+        "opcoes": ["síncope", "anacoluto", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'não' perde um fonema, tornando-se 'num', um caso de síncope. Anacoluto é uma quebra na estrutura sintática, sinestesia mistura sensações e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Tá' frio lá fora.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'está' perde um fonema, formando 'tá', um caso de síncope. Catacrese usa palavras de forma figurada por necessidade, apóstrofe interpela alguém diretamente e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "'Pro' caso dele, a melhor opção é cirurgia.",
+        "opcoes": ["síncope", "zeugma", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A expressão 'para o' perde fonemas e se torna 'pro', um caso de síncope. Zeugma omite um termo já citado, sinestesia mistura sensações e prosopopeia dá características humanas a objetos."
+      },
+      {
+        "pergunta": "Ela sempre diz 'cumpadi' em vez de 'compadre'.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "anacoluto"],
+        "correta": 0,
+        "explicacao": "A palavra 'compadre' perde um fonema, formando 'cumpadi', um caso de síncope. Catacrese usa termos figurados por necessidade, apóstrofe é uma interpelação direta e anacoluto quebra a estrutura sintática."
+      },
+      {
+        "pergunta": "O menino gritou: 'Dó' um pedaço de bolo pra mim?'",
+        "opcoes": ["síncope", "zeugma", "alusão", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'dá' perde um fonema e vira 'dó', um caso de síncope. Zeugma omite um termo já citado, alusão faz referência indireta e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "O professor 'espicificou' bem as regras da prova.",
+        "opcoes": ["síncope", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'especificou' perde um fonema, formando 'espicificou', um caso de síncope. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo já citado."
+      },
+      {
+        "pergunta": "'Mió' coisa do mundo é uma rede na varanda.",
+        "opcoes": ["síncope", "catacrese", "apóstrofe", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'melhor' perde fonemas, formando 'mió', um caso de síncope. Catacrese usa palavras figuradas por necessidade, apóstrofe interpela alguém diretamente e alusão faz referência indireta."
+      },
+      {
+        "pergunta": "'Cê' viu o jogo ontem?",
+        "opcoes": ["síncope", "zeugma", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A palavra 'você' perde o 'vo', formando 'cê', um caso de síncope. Zeugma omite um termo já mencionado, catacrese usa um termo figurado por necessidade, e sinestesia mistura sensações diferentes."
+      },
+      {
+        "pergunta": "'Tô' de folga hoje, então vou descansar.",
+        "opcoes": ["síncope", "prosopopeia", "apóstrofe", "antonomásia"],
+        "correta": 0,
+        "explicacao": "A palavra 'estou' perde o 'es-', formando 'tô', um caso de síncope. Prosopopeia atribui características humanas a objetos, apóstrofe é a interpelação direta de alguém e antonomásia substitui nomes próprios por expressões características."
+      },
+      {
+        "pergunta": "Ele 'pediu' pra mim comprar pão.",
+        "opcoes": ["síncope", "sinestesia", "anacoluto", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'perguntou' perde um fonema, formando 'pediu', um caso de síncope. Sinestesia mistura sensações diferentes, anacoluto quebra a estrutura sintática e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "A 'bora' resolver isso agora!",
+        "opcoes": ["síncope", "catacrese", "prosopopeia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'embora' perde fonemas, formando 'bora', um caso de síncope. Catacrese usa um termo figurado por necessidade, prosopopeia atribui características humanas a objetos, e zeugma omite um termo já citado."
+      },
+      {
+        "pergunta": "Vou fazer a 'coisa' certa dessa vez.",
+        "opcoes": ["síncope", "zeugma", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'coisa' perde uma sílaba, formando 'coisa', um caso de síncope. Zeugma omite um termo já mencionado, sinestesia mistura sensações diferentes e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Té' logo, meu irmão!",
+        "opcoes": ["síncope", "zeugma", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A palavra 'até' sofre redução fonética, se tornando 'té', um caso de síncope. Zeugma omite um termo já citado, catacrese usa um termo figurado por necessidade e sinestesia mistura sensações diferentes."
+      },
+      {
+        "pergunta": "Essa 'vamo' fazer do jeito certo.",
+        "opcoes": ["síncope", "prosopopeia", "alusão", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'vamos' perde a sílaba final, formando 'vamo', um caso de síncope. Prosopopeia atribui características humanas a objetos, alusão faz referência indireta a algo conhecido e zeugma omite um termo já citado."
+      },
+      {
+        "pergunta": "Vou 'manda' logo a resposta.",
+        "opcoes": ["síncope", "antonomásia", "catacrese", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'mandar' perde um fonema, tornando-se 'manda', um caso de síncope. Antonomásia substitui um nome próprio por uma expressão característica, catacrese usa um termo figurado e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "Essa 'gente' pode resolver isso amanhã.",
+        "opcoes": ["síncope", "zeugma", "sinestesia", "apóstrofe"],
+        "correta": 0,
+        "explicacao": "A palavra 'gente' sofre uma redução, mas é usada corretamente em lugar de 'nós', um caso de síncope. Zeugma omite um termo já mencionado, sinestesia mistura sensações diferentes e apóstrofe interpela alguém diretamente."
+      },
+      {
+        "pergunta": "Eu 'tava' na festa ontem à noite.",
+        "opcoes": ["síncope", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'estava' perde o 'es-', formando 'tava', um caso de síncope. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo já citado."
+      },
+      {
+        "pergunta": "'Cês' falaram disso ontem.",
+        "opcoes": ["síncope", "anacoluto", "sinestesia", "alusão"],
+        "correta": 0,
+        "explicacao": "A palavra 'vocês' perde o 'vo', formando 'cês', um caso de síncope. Anacoluto quebra a estrutura sintática, sinestesia mistura sensações diferentes e alusão faz referência indireta a algo conhecido."
+      },
+      {
+        "pergunta": "Não 'deixa' a chave na porta.",
+        "opcoes": ["síncope", "prosopopeia", "catacrese", "zeugma"],
+        "correta": 0,
+        "explicacao": "A palavra 'deixe' perde a sílaba final, formando 'deixa', um caso de síncope. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e zeugma omite um termo já citado."
+      },
+      {
+        "pergunta": "Quando 'nóis' chega, vai estar tudo pronto.",
+        "opcoes": ["síncope", "antonomásia", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A palavra 'nós' sofre alteração fonética, tornando-se 'nóis', um caso de síncope. Antonomásia substitui um nome próprio por uma expressão característica, sinestesia mistura sensações e prosopopeia atribui características humanas a objetos."
+      }
+    ]
+  },
+    "Alusão": {
+    "descricao": "A alusão é uma figura de linguagem que consiste em fazer referência indireta a algo, geralmente um fato, uma pessoa ou uma obra conhecida, sem mencionar diretamente. Ela pode ser uma referência a eventos históricos, obras literárias ou outras figuras culturais.",
+    "perguntas": [
+      {
+        "pergunta": "'Ele tem um coração de pedra, igual ao de Gollum.'",
+        "opcoes": ["alusão", "antonomásia", "prosopopeia", "catacrese"],
+        "correta": 0,
+        "explicacao": "A frase faz referência ao personagem Gollum, da obra 'O Senhor dos Anéis', sem mencioná-lo diretamente. Isso é uma alusão. Antonomásia substitui um nome próprio por uma expressão, prosopopeia atribui características humanas a objetos e catacrese usa um termo figurado."
+      },
+      {
+        "pergunta": "'Ele foi o nosso messias no futebol.'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "anacoluto"],
+        "correta": 0,
+        "explicacao": "A palavra 'messias' faz alusão a uma figura de salvador, associando alguém a uma figura religiosa conhecida. Sinestesia mistura sensações, zeugma omite um termo e anacoluto quebra a estrutura sintática."
+      },
+      {
+        "pergunta": "'Ela é uma verdadeira Mona Lisa com aquele sorriso.'",
+        "opcoes": ["alusão", "catacrese", "prosopopeia", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A frase faz alusão à famosa pintura de Leonardo da Vinci, sem mencioná-la diretamente. Catacrese usa um termo figurado, prosopopeia atribui características humanas a objetos e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Ele tem a força de Hércules!'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A referência à força de Hércules é uma alusão ao mito grego, sem citar diretamente o personagem. Sinestesia mistura sensações, zeugma omite um termo e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'O novo álbum da banda tem um clima de 'Revolução dos Bichos'.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão é feita à obra 'Revolução dos Bichos' de George Orwell, sugerindo um clima de crítica política. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e zeugma omite um termo já mencionado."
+      },
+      {
+        "pergunta": "'Ela parecia a própria Cleópatra naquela festa.'",
+        "opcoes": ["alusão", "sinestesia", "anacoluto", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A frase faz uma alusão a Cleópatra, famosa rainha do Egito, sem mencioná-la diretamente. Sinestesia mistura sensações, anacoluto quebra a estrutura sintática e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Quando ele passou por ali, todos os olhos se voltaram, como se fosse um rei.'",
+        "opcoes": ["alusão", "catacrese", "prosopopeia", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência ao comportamento de um rei, sem citar diretamente a monarquia. Catacrese usa um termo figurado, prosopopeia atribui características humanas a objetos e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Aquela ideia era uma verdadeira 'Odisseia' para ele.'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A referência à 'Odisseia', de Homero, faz alusão à dificuldade de uma situação. Sinestesia mistura sensações, zeugma omite um termo e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Ele jogava como Pelé em sua juventude.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A frase faz alusão a Pelé, o rei do futebol, sem citá-lo diretamente. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo."
+      },
+      {
+        "pergunta": "'Ela tinha os olhos de Safira.'",
+        "opcoes": ["alusão", "catacrese", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência à beleza da pedra preciosa 'Safira', sem mencioná-la diretamente. Catacrese usa um termo figurado, sinestesia mistura sensações e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Aquela situação era como o Apocalipse.'",
+        "opcoes": ["alusão", "sinestesia", "prosopopeia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão ao Apocalipse faz referência a um evento catastrófico sem nomeá-lo diretamente. Sinestesia mistura sensações, prosopopeia atribui características humanas a objetos e zeugma omite um termo."
+      },
+      {
+        "pergunta": "'Ele tem a coragem de um leão.'",
+        "opcoes": ["alusão", "sinestesia", "prosopopeia", "catacrese"],
+        "correta": 0,
+        "explicacao": "A frase faz alusão à coragem do leão, simbolizando coragem, sem mencioná-lo diretamente. Sinestesia mistura sensações, prosopopeia atribui características humanas a objetos e catacrese usa um termo figurado."
+      },
+      {
+        "pergunta": "'Aquele trabalho foi uma verdadeira 'Ilíada' para ele.'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "catacrese"],
+        "correta": 0,
+        "explicacao": "A referência à 'Ilíada', de Homero, faz alusão à grandiosidade do trabalho, sem mencioná-lo diretamente. Sinestesia mistura sensações, zeugma omite um termo e catacrese usa um termo figurado."
+      },
+      {
+        "pergunta": "'Ele parecia uma estrela de cinema, com aquele brilho.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão compara a pessoa a uma estrela de cinema, sem mencioná-la diretamente. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Ela é a nossa Joana D'Arc.'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência a Joana D'Arc, a heroína francesa, sem mencioná-la diretamente. Sinestesia mistura sensações, zeugma omite um termo e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Ele era o James Bond do escritório, sempre resolvendo tudo.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A frase faz uma alusão ao personagem James Bond, sem mencioná-lo diretamente, indicando alguém habilidoso e destemido. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Ela não se cansa de repetir que aquele é o seu Jardim do Éden.'",
+        "opcoes": ["alusão", "zeugma", "prosopopeia", "anacoluto"],
+        "correta": 0,
+        "explicacao": "A alusão é ao 'Jardim do Éden', fazendo referência ao paraíso bíblico, sem mencioná-lo diretamente. Zeugma omite um termo já mencionado, prosopopeia atribui características humanas a objetos e anacoluto quebra a estrutura sintática."
+      },
+      {
+        "pergunta": "'Ela era uma verdadeira Medusa com aquele olhar.'",
+        "opcoes": ["alusão", "catacrese", "sinestesia", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A alusão é feita à Medusa, personagem mitológica grega, cujo olhar petrificava as pessoas. Catacrese usa um termo figurado, sinestesia mistura sensações e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Aquela foi uma verdadeira 'Queda de Roma' para a empresa.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão à 'Queda de Roma' faz referência ao colapso do Império Romano, sem mencioná-lo diretamente. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'O comportamento dele foi digno de um novo Napoleão.'",
+        "opcoes": ["alusão", "catacrese", "zeugma", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência a Napoleão Bonaparte, sem mencioná-lo diretamente, sugerindo grandeza ou ambição. Catacrese usa um termo figurado, zeugma omite um termo já mencionado e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Ele falou como se fosse um filósofo grego.'",
+        "opcoes": ["alusão", "sinestesia", "catacrese", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão aos filósofos gregos faz referência à sabedoria, sem mencioná-los diretamente. Sinestesia mistura sensações, catacrese usa um termo figurado e zeugma omite um termo já mencionado."
+      },
+      {
+        "pergunta": "'Sua voz era como o canto das sereias.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "catacrese"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência às sereias da mitologia grega, que seduziam com suas músicas, sem mencioná-las diretamente. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e catacrese usa um termo figurado."
+      },
+      {
+        "pergunta": "'Ele era um verdadeiro Sherlock Holmes na investigação.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "catacrese"],
+        "correta": 0,
+        "explicacao": "A alusão é a Sherlock Holmes, o famoso detetive, sem mencioná-lo diretamente. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e catacrese usa um termo figurado."
+      },
+      {
+        "pergunta": "'Ela se comportava como uma verdadeira Cleópatra.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência à Cleópatra, a rainha do Egito, sem mencioná-la diretamente. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Aquela cidade parecia o 'Coração das Trevas' no meio da guerra.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão é à obra 'Coração das Trevas', de Joseph Conrad, fazendo referência a uma situação de caos e escuridão. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Ele era um verdadeiro herói, como o Capitão América.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão ao Capitão América faz referência a um herói, sem mencioná-lo diretamente. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e zeugma omite um termo já mencionado."
+      },
+      {
+        "pergunta": "'A situação era uma verdadeira batalha de Stalingrado.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão é à famosa Batalha de Stalingrado, um dos maiores conflitos da Segunda Guerra Mundial. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo."
+      },
+      {
+        "pergunta": "'Ela tinha a beleza de uma Deusa do Olimpo.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão é feita às Deusas do Olimpo da mitologia grega, sem mencioná-las diretamente. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Ele se comportava como um verdadeiro Robin Hood.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão é a Robin Hood, o famoso fora-da-lei que roubava dos ricos para dar aos pobres. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Aquele filme tinha o drama de um Hamlet.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão é à tragédia de 'Hamlet', de Shakespeare, sem mencioná-la diretamente. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo."
+      },
+      {
+        "pergunta": "'A sua atitude parecia a de um verdadeiro Don Juan.'",
+        "opcoes": ["alusão", "sinestesia", "zeugma", "prosopopeia"],
+        "correta": 0,
+        "explicacao": "A alusão é ao personagem Don Juan, conhecido por sua sedução. Sinestesia mistura sensações, zeugma omite um termo e prosopopeia atribui características humanas a objetos."
+      },
+      {
+        "pergunta": "'Ele cantava como um anjo caído.'",
+        "opcoes": ["alusão", "prosopopeia", "catacrese", "sinestesia"],
+        "correta": 0,
+        "explicacao": "A alusão faz referência a um anjo caído, simbolizando algo de beleza ou pureza perdido. Prosopopeia atribui características humanas a objetos, catacrese usa um termo figurado e sinestesia mistura sensações."
+      },
+      {
+        "pergunta": "'Aquela era uma verdadeira Guerra dos Tronos.'",
+        "opcoes": ["alusão", "prosopopeia", "sinestesia", "zeugma"],
+        "correta": 0,
+        "explicacao": "A alusão é à série 'Guerra dos Tronos', sem mencioná-la diretamente. Prosopopeia atribui características humanas a objetos, sinestesia mistura sensações e zeugma omite um termo."
+      }
+    ]
   }
+}

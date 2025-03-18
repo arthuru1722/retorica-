@@ -82,32 +82,36 @@ function atualizarRecordeAtual() {
 
 
 async function carregarPerguntas() {
-    let perguntass = true;
-    let perguntasM = true;
-    let perguntasD = true;
 
-    if (perguntass) {
-        const response1 = await fetch("/questions/perguntas.json");
-        perguntas = await response1.json();
-    }
-
-    if (perguntasM) {
-        const response2 = await fetch("/questions/perguntasM.json");
-        perguntasM = await response2.json();
-    }
-
-    if (perguntasD) {
-        const response3 = await fetch("/questions/perguntasD.json");
-        perguntasD = await response3.json();
-    }
+    let response1 = await fetch("/questions/perguntas.json");
+    perguntas = await response1.json();
 
     console.log(perguntas);
-    console.log(perguntasM);
-    console.log(perguntasD);
 
     document.getElementById("telaInicial").style.display = "flex";
 }
 
+async function json1() {
+
+    response1 = await fetch("/questions/perguntas.json");
+    perguntas = await response1.json();
+
+    console.log(perguntas);
+}
+
+async function json2() {
+    response1 = await fetch("/questions/perguntasM.json");
+    perguntas = await response1.json();
+
+    console.log(perguntas);
+}
+
+async function json3() {
+    response1 = await fetch("/questions/perguntasD.json"); 
+    perguntas = await response1.json();
+
+    console.log(perguntas); 
+}
 
 function iniciarQuiz() {
     vidaAtual = 3;
