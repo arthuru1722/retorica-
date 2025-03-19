@@ -91,7 +91,7 @@ async function json1() {
     
     if (telaInicial.style.display === 'flex') {
         iniciarQuiz()
-    } else {carregarPergunta()}  
+    } 
     
 }
 
@@ -104,9 +104,11 @@ async function json2() {
     console.log(perguntas);
     
         
-    if (telaInicial.style.display === 'flex') {
-        iniciarQuiz()
-    } else {carregarPergunta()} 
+    setTimeout(() => {
+        if (telaInicial.style.display === 'flex') {
+            iniciarQuiz()
+        } 
+    }, 500); 
         
     
     
@@ -120,10 +122,10 @@ async function json3() {
 
     console.log(perguntas);
     
-      setTimeout(() => {
+    setTimeout(() => {
         if (telaInicial.style.display === 'flex') {
             iniciarQuiz()
-        } else {carregarPergunta()} 
+        } 
     }, 500);  
     
     
@@ -154,9 +156,7 @@ async function json4() {
     setTimeout(() => {
         if (telaInicial.style.display === 'flex') {
             iniciarQuiz();
-        } else {
-            carregarPergunta();
-        }
+        } 
     }, 500);
 }
 
