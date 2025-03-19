@@ -575,7 +575,7 @@ function perderVida() {
             vidaAtual--;
             atualizarVidas();
         }
-    }, 1500);
+    }, 100);
     
 }
 
@@ -588,7 +588,10 @@ function atualizarVidas() {
             vidasContainer.innerHTML += `<i class="fa-solid fa-heart"></i> `;
         }
     } else {
-        mostrarExplicacao();
+        setTimeout(() => {
+            mostrarExplicacao();
+        }, 1000);
+        
     }
 }
 
