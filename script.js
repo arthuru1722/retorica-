@@ -1,3 +1,6 @@
+document.getElementById('telaInicial').style.display = "flex"
+
+
 let perguntas = {};
 let perguntasD = {};
 let perguntasM = {};
@@ -81,7 +84,7 @@ function atualizarRecordeAtual() {
 async function json1() {
     const telaInicial = document.getElementById('telaInicial');
 
-    response1 = await fetch("/questions/perguntas.json");
+    response1 = await fetch("perguntas.json");
     perguntas = await response1.json();
 
     console.log(perguntas);
@@ -97,7 +100,7 @@ async function json1() {
 async function json2() {
     const telaInicial = document.getElementById('telaInicial');
 
-    response1 = await fetch("/questions/perguntasM.json");
+    response1 = await fetch("perguntasM.json");
     perguntas = await response1.json();
 
     console.log(perguntas);
@@ -114,7 +117,7 @@ async function json2() {
 async function json3() {
     const telaInicial = document.getElementById('telaInicial');
 
-    response1 = await fetch("/questions/perguntasD.json"); 
+    response1 = await fetch("perguntasD.json"); 
     perguntas = await response1.json();
 
     console.log(perguntas);
@@ -131,7 +134,7 @@ async function json3() {
 async function json4() {
     const telaInicial = document.getElementById('telaInicial');
 
-    response1 = await fetch("/questions/perguntasMerge.json"); 
+    response1 = await fetch("perguntasMerge.json"); 
     perguntas = await response1.json();
 
     console.log(perguntas);
