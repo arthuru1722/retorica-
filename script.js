@@ -89,11 +89,9 @@ async function json1() {
 
     console.log(perguntas);
     
-
     if (telaInicial.style.display === 'flex') {
         iniciarQuiz()
-    } else {carregarPergunta()} 
-    
+    } else {carregarPergunta()}  
     
 }
 
@@ -134,18 +132,32 @@ async function json3() {
 async function json4() {
     const telaInicial = document.getElementById('telaInicial');
 
-    response1 = await fetch("perguntasMerge.json"); 
-    perguntas = await response1.json();
+    // Lista os nomes dos arquivos como strings
+    const arquivos = ["perguntas.json", "perguntasM.json", "perguntasD.json"];
 
-    console.log(perguntas);
-    
-      setTimeout(() => {
+    // Limpa o objeto perguntas para evitar acumulação
+    perguntas = {};
+
+    for (const arquivo of arquivos) {
+        const dados = await fetch(arquivo).then(res => res.json());
+        // Mescla as categorias de cada arquivo
+        for (const categoria in dados) {
+            if (!perguntas[categoria]) {
+                perguntas[categoria] = { descricao: dados[categoria].descricao, perguntas: [] };
+            }
+            perguntas[categoria].perguntas.push(...dados[categoria].perguntas);
+        }
+    }
+
+    console.log("Perguntas mescladas:", perguntas);
+
+    setTimeout(() => {
         if (telaInicial.style.display === 'flex') {
-            iniciarQuiz()
-        } else {carregarPergunta()} 
-    }, 500);  
-    
-    
+            iniciarQuiz();
+        } else {
+            carregarPergunta();
+        }
+    }, 500);
 }
 
   
@@ -654,6 +666,24 @@ function cu() {
 }
 
 //
+
+function gradualPlay() {
+    // Carrega o JSON inicial
+    json1(); 
+
+    // Monitora a mudança de respostas corretas dinamicamente
+    const originalCarregarPergunta = carregarPergunta;
+    carregarPergunta = function() {
+        // Verifica o progresso antes de cada nova pergunta
+        if (respostasCorretas >= 2 && respostasCorretas < 5) {
+            json2(); // Médio
+        } else if (respostasCorretas >= 5) {
+            json3(); // Difícil
+        }
+        originalCarregarPergunta(); // Chama a função original
+    };
+}
+
 
 function easePlay() {
     const vinheta = document.getElementById('vinheta');
