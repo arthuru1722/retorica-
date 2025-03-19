@@ -82,53 +82,21 @@ function atualizarRecordeAtual() {
 }
 
 async function json1() {
-    const telaInicial = document.getElementById('telaInicial');
-
-    response1 = await fetch("perguntas.json");
-    perguntas = await response1.json();
-
-    console.log(perguntas);
-    
-    if (telaInicial.style.display === 'flex') {
-        iniciarQuiz()
-    } 
-    
+    const response = await fetch("perguntas.json");
+    perguntas = await response.json();
+    console.log("Carregado: perguntas.json", perguntas);
 }
 
 async function json2() {
-    const telaInicial = document.getElementById('telaInicial');
-
-    response1 = await fetch("perguntasM.json");
-    perguntas = await response1.json();
-
-    console.log(perguntas);
-    
-        
-    setTimeout(() => {
-        if (telaInicial.style.display === 'flex') {
-            iniciarQuiz()
-        } 
-    }, 500); 
-        
-    
-    
+    const response = await fetch("perguntasM.json");
+    perguntas = await response.json();
+    console.log("Carregado: perguntasM.json", perguntas);
 }
 
 async function json3() {
-    const telaInicial = document.getElementById('telaInicial');
-
-    response1 = await fetch("perguntasD.json"); 
-    perguntas = await response1.json();
-
-    console.log(perguntas);
-    
-    setTimeout(() => {
-        if (telaInicial.style.display === 'flex') {
-            iniciarQuiz()
-        } 
-    }, 500);  
-    
-    
+    const response = await fetch("perguntasD.json");
+    perguntas = await response.json();
+    console.log("Carregado: perguntasD.json", perguntas);
 }
 
 async function json4() {
@@ -174,28 +142,11 @@ function iniciarQuizBtn() {
         json3()
         console.log('respostasR >= 80')
     } else if (respostasR >= 120) {
-        toggleSelect()
+        selectShow()
         console.log('respostasR >= 120')
     }
 }
 
-function toggleSelect() {
-    const creditos = document.getElementById('creditos');
-    const select = document.getElementById('select');
-    const escritores = document.getElementById('escritores');
-
-    if (select.style.display === "none") {
-        select.style.display = "flex";
-        creditos.style.display = "none";
-        escritores.style.display = "none";
-    } else {
-        select.style.display = "none";
-        creditos.style.display = "none";
-        escritores.style.display = "flex";
-    }
-}
-
-toggleSelect()
 
 function iniciarQuiz() {
     vidaAtual = 3;
@@ -212,6 +163,10 @@ function iniciarQuiz() {
     setTimeout(() => {
         animateTimer()
     }, 1000);
+    setTimeout(() => {
+        select.classList.remove("ativa1");
+    }, 2000);
+    
     
 
     // Remove a vinheta após a animação pra não ficar ocupando espaço na DOM
@@ -222,9 +177,9 @@ function iniciarQuiz() {
         document.getElementById("telaInicial").style.display = "none";
         document.getElementById("telaExplicacao").style.display = "none";
         document.getElementById("telaTempoEsgotado").style.display = "none";
-        perguntasDisponiveis = Object.keys(perguntas).flatMap(categoria =>
-            perguntas[categoria].perguntas.map(pergunta => ({ ...pergunta, categoria }))
-        );
+        
+        reiniciarPerguntasDisponiveis();
+
         embaralharArray(perguntasDisponiveis);
         respostasCorretas = 0;
         contadorPerguntas = 0;
@@ -655,54 +610,71 @@ function difficultyToggle() {
 difficultyToggle()
 
 
-function cu() {
-    if (respostasCorretas < 1) {
-        json1();
-    } else if (respostasCorretas >= 2 && respostasCorretas < 3) {
-        json2();
-    } else if (respostasCorretas > 3) {
-        json2();
-    }
-}
-
 //
 
 function gradualPlay() {
-    // Carrega o JSON inicial
-    json1(); 
+    json1().then(() => {
+        iniciarQuiz();
+    });
 
-    // Monitora a mudança de respostas corretas dinamicamente
-    const originalCarregarPergunta = carregarPergunta;
-    carregarPergunta = function() {
-        // Verifica o progresso antes de cada nova pergunta
-        if (respostasCorretas >= 2 && respostasCorretas < 5) {
-            json2(); // Médio
-        } else if (respostasCorretas >= 5) {
-            json3(); // Difícil
-        }
-        originalCarregarPergunta(); // Chama a função original
+    const originalVerificarResposta = verificarResposta;
+    verificarResposta = function(...args) {
+        originalVerificarResposta.apply(this, args);
+
+        setTimeout(() => {
+            if (respostasCorretas === 2) {
+                console.log("Mudando para perguntas MÉDIAS");
+                json2().then(() => reiniciarPerguntasDisponiveis());
+            } else if (respostasCorretas === 5) {
+                console.log("Mudando para perguntas DIFÍCEIS");
+                json3().then(() => reiniciarPerguntasDisponiveis());
+            }
+        }, 1000);
     };
+}
+
+function reiniciarPerguntasDisponiveis() {
+    perguntasDisponiveis = Object.keys(perguntas).flatMap(categoria =>
+        perguntas[categoria].perguntas.map(pergunta => ({ ...pergunta, categoria }))
+    );
+    embaralharArray(perguntasDisponiveis);
+    console.log("Perguntas reiniciadas. Total:", perguntasDisponiveis.length);
 }
 
 
 function easePlay() {
     const vinheta = document.getElementById('vinheta');
     vinheta.style.background = "#6e8f7c";
-    json1();
+    json1().then(() => {
+        iniciarQuiz(); // Inicia o quiz após carregar o JSON
+    });
 }
 
 function mediumPlay() {
     const vinheta = document.getElementById('vinheta');
     vinheta.style.background = "#f4bb8c";
-    json2();
+    json2().then(() => {
+        iniciarQuiz(); // Inicia o quiz após carregar o JSON
+    });
 }
 
 function hardPlay() {
     const vinheta = document.getElementById('vinheta');
     vinheta.style.background = "#CF1E1E";
-    json3();
+    json3().then(() => {
+        iniciarQuiz(); // Inicia o quiz após carregar o JSON
+    });
 }
 
 function randomPlay() {
     json4();
+}
+
+const select = document.querySelector(".select");
+function selectShow() {
+    select.classList.add("ativa1");
+    // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
+    // setTimeout(() => {
+    //     select.classList.remove("ativa1");
+    // }, 2000);
 }
