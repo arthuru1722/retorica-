@@ -439,7 +439,6 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #00ff6a;
     box-sizing: border-box;
     padding: 20px;
     max-width: 1200px;
@@ -1057,15 +1056,6 @@ ul, ol {
 
 
 
-
-
-
-
-
-
-
-
-
 @keyframes shake {
     0% { transform: translateX(10px); }
     1% { transform: translateX(-10px); }
@@ -1084,91 +1074,18 @@ ul, ol {
     100% { transform: translateX(0); }
 }
 
-/* Media queries para diferentes tamanhos de tela 1200, */
-/* @media (max-width: 1200px) {
-    #telaInicial {
-        flex-direction: row;
-    }
-    
-    #telaQuiz .bottom {
-        flex-direction: row;
-    }
-    
-    #telaQuiz .bottom .left .left-bottom {
-        flex-direction: row;
-    }
-    
-    #telaExplicacao {
-        flex-direction: row;
-    }
-    
-    #telaTempoEsgotado {
-        flex-direction: row;
-    }
-    .slide {
-        flex-direction: column  ;
-    }
-} */
 
-/* @media (max-width: 767px) {
-    #telaInicial .creditos .left h2 {
-        writing-mode: horizontal-tb;
-        transform: none;
-        height: auto;
-        padding: 15px;
-    }
-    
-    #telaInicial .creditos .right {
-        height: auto;
-    }
-    
-    #telaInicial .creditos .right .topp {
-        height: auto;
-        padding: 30px 0;
-    }
-}
 
-@media (max-width: 480px) {
-    #telaInicial h1 {
-        font-size: calc(20px + 3vw);
-    }
-    
-    #telaInicial .menu p {
-        font-size: calc(14px + 1vw);
-    }
-    
-    .buttons button {
-        font-size: calc(16px + 1vw);
-    }
-    
-    #opcoes li {
-        font-size: calc(14px + 1vw);
-        padding: 15px;
-    }
-    
-    .dot {
-        width: 15px;
-        height: 15px;
-        margin: 3px;
-    }
-    
-    #telaQuiz .title h1 {
-        font-size: calc(16px + 1vw);
-    }
-    
-    #telaQuiz .bottom .left .question .pergunta h1 {
-        font-size: calc(14px + 1vw);
-        min-height: 120px;
-    }
-    
-    #recordeAtual {
-        font-size: calc(40px + 3vw);
-    }
-    
-    #telaTempoEsgotado .left i {
-        font-size: calc(80px + 8vw);
-    }
-} */
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
     html { padding: 20px}

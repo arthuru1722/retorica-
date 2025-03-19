@@ -48,6 +48,8 @@ function formatarTempo(timee) {
         return `${timee} segundos`;
     } else if (timee < 3600) {
         return `${minutos} minutos`;
+    } else if (timee > 3600 && timee < 7200) {
+        return `${horas} hora`;
     } else if (timee < 86400) {
         return `${horas} horas`;
     } else {
@@ -84,11 +86,11 @@ async function json1() {
 
     console.log(perguntas);
     
-    setTimeout(() => {
-        if (telaInicial.style.display === 'flex' && !gradual) {
-            iniciarQuiz()
-        } else {carregarPergunta()} 
-    }, 500);  
+
+    if (telaInicial.style.display === 'flex') {
+        iniciarQuiz()
+    } else {carregarPergunta()} 
+    
     
 }
 
@@ -100,11 +102,11 @@ async function json2() {
 
     console.log(perguntas);
     
-        setTimeout(() => {
-            if (telaInicial.style.display === 'flex') {
-                iniciarQuiz()
-            } else {carregarPergunta()} 
-        }, 500);  
+        
+    if (telaInicial.style.display === 'flex') {
+        iniciarQuiz()
+    } else {carregarPergunta()} 
+        
     
     
 }
@@ -126,37 +128,23 @@ async function json3() {
     
 }
 
-let json4T = null;
+async function json4() {
+    const telaInicial = document.getElementById('telaInicial');
 
-document.getElementById("telaInicial").style.display = "flex";
-
-async function carregarJSON(nomeArquivo) {
-    const telaInicial = document.getElementById('telaInicial')
-    response1 = await fetch(`questions/${nomeArquivo}`);
+    response1 = await fetch("/questions/perguntasMerge.json"); 
     perguntas = await response1.json();
-    
+
     console.log(perguntas);
-    setTimeout(() => {
+    
+      setTimeout(() => {
         if (telaInicial.style.display === 'flex') {
             iniciarQuiz()
         } else {carregarPergunta()} 
-    }, 500);
-  }
-  
-  // Função principal 'json4' que escolhe um arquivo aleatório e carrega seu conteúdo
-  async function json4() {
-    // Lista com os nomes dos arquivos JSON
-    const arquivos = ['perguntas.json', 'perguntasM.json', 'perguntasD.json'];
-  
-    // Escolher um arquivo aleatório
-    const arquivoAleatorio = arquivos[Math.floor(Math.random() * arquivos.length)];
-  
-    // Carregar o conteúdo do arquivo aleatório
-    const perguntas1 = await carregarJSON(arquivoAleatorio);
-  
-    console.log(perguntas1);
-    return perguntas1;
-  }
+    }, 500);  
+    
+    
+}
+
   
 
 
@@ -186,7 +174,6 @@ function toggleSelect() {
         creditos.style.display = "none";
         escritores.style.display = "none";
     } else {
-        console.log ('2')
         select.style.display = "none";
         creditos.style.display = "none";
         escritores.style.display = "flex";
@@ -372,6 +359,7 @@ function carregarPergunta() {
         notification()
         quinze = true;
     }
+
 }
 
 function notification() {
@@ -532,7 +520,7 @@ slideInterval = setInterval(nextSlide, 50000);
 function toggleSection() {
     const escritoresSection = document.getElementById("escritores");
     const creditosSection = document.getElementById("creditos");
-    const creditosbtn = document.getElementById("creditosbtn")
+    const creditosbtn = document.getElementById("creditosbtn");
 
     if (escritoresSection.style.display === "none") {
         creditosbtn.innerHTML = "Creditos";
@@ -553,12 +541,12 @@ function showStats() {
     if (estatistica.style.display === "none") {
         estatistica.style.display = "flex";
     } else {
-        estatistica.style.display = "none"
+        estatistica.style.display = "none";
     }
 }
 function ocultStats() {
-    const estatistica = document.getElementById("estatisticas")
-    estatistica.style.display = "none"
+    const estatistica = document.getElementById("estatisticas");
+    estatistica.style.display = "none";
 }
 
 showStats()
@@ -643,11 +631,9 @@ function difficultyToggle() {
     if (difficulty.style.display === "none") {
         difficulty.style.display = "grid";
         difficultyBtn.style.backgroundColor = "#4f6d5c";
-        console.log ('1')
     } else {
-        difficulty.style.display = "none"
+        difficulty.style.display = "none";
         difficultyBtn.style.backgroundColor = "";
-        console.log ('2')
     }
 }
 
@@ -656,11 +642,11 @@ difficultyToggle()
 
 function cu() {
     if (respostasCorretas < 1) {
-        json1()
+        json1();
     } else if (respostasCorretas >= 2 && respostasCorretas < 3) {
-        json2()
+        json2();
     } else if (respostasCorretas > 3) {
-        json2()
+        json2();
     }
 }
 
