@@ -547,6 +547,7 @@ body {
 #telaQuiz .title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #vidas {
@@ -601,7 +602,7 @@ body {
     padding: 0 20px;
     font-size: calc(16px + 1vw);
     font-weight: 700;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .timer {
@@ -615,6 +616,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
     gap: 20px;
 }
 
@@ -623,12 +625,13 @@ body {
     display: flex;
     font-family: 'poppins';
     font-weight: 600;
+    height: fit-content;
     margin: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: #feefd8;
-    margin-top: 40px;
+    
     width: 100%;
     max-width: 400px;
     font-size: calc(14px + 0.8vw);
@@ -1377,5 +1380,44 @@ ul, ol {
 @media (max-width: 380px) {
     html {
         height: 110%;
+    }
+}
+
+@media (max-height: 570px) {
+    #telaQuiz .bottom {
+        height: 330px;
+        background-color: #422620;
+    }
+    #telaQuiz .bottom .left .question .disclaimer p {
+            margin: 0;
+    }
+
+    #telaQuiz .bottom .left .question .pergunta h1 {
+        margin: 0;
+        padding: 0 20px;
+        min-height: 100px;
+    }
+    #opcoes {
+        scale: 0.8;
+        gap: 10px;
+    }
+    #estatisticas{
+        height: 100vh;
+    }
+
+    #telaTempoEsgotado .right .bottom .title {
+        display: none;
+    }
+
+    #telaTempoEsgotado .right .bottom button {
+        font-size: calc(14px + 1vw);
+    }
+
+    #telaTempoEsgotado {
+        height: 89vh;
+    }
+
+    #telaTempoEsgotado .right .top .bg {
+        height: 40vmin;
     }
 }

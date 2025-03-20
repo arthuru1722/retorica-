@@ -219,25 +219,29 @@ function startTimer() {
 // Criar o elemento de áudio
 
 function updateTimer() {
-    tempoRestante--;
-    timee++;
-    localStorage.setItem("timee", timee);
-    document.getElementById("timer").innerText = formatTime(tempoRestante);
+    const telaQuiz = document.getElementById("telaQuiz");
+    if (telaQuiz.style.display === "flex") {
+        tempoRestante--;
+        timee++;
+        localStorage.setItem("timee", timee);
+        document.getElementById("timer").innerText = formatTime(tempoRestante);
 
-     if (tempoRestante === 10) {
-         document.getElementById("timer").style.color = "red";
-         document.getElementById("timer").style.animation = "blinking 1s infinite";
-     } else if (tempoRestante > 10 ) {
-         document.getElementById("timer").style.color = "#7e493e";
-         document.getElementById("timer").style.animation = ""; // Remove o efeito de piscar
-     }
+        if (tempoRestante === 10) {
+            document.getElementById("timer").style.color = "red";
+            document.getElementById("timer").style.animation = "blinking 1s infinite";
+        } else if (tempoRestante > 10 ) {
+            document.getElementById("timer").style.color = "#7e493e";
+            document.getElementById("timer").style.animation = ""; // Remove o efeito de piscar
+        }
 
-    if (tempoRestante <= 0) {
-        esgotado++;
-        localStorage.setItem("esgotado", esgotado);
-        clearInterval(timerInterval);
-        mostrarTempoEsgotado();
+        if (tempoRestante <= 0) {
+            esgotado++;
+            localStorage.setItem("esgotado", esgotado);
+            clearInterval(timerInterval);
+            mostrarTempoEsgotado();
+        }
     }
+    
 }
 const vinheta1 = document.querySelector(".vinheta1");
 function vinheta2() {
@@ -245,7 +249,7 @@ function vinheta2() {
         // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
         setTimeout(() => {
             vinheta1.classList.remove("ativa1");
-        }, 2000);
+        }, 3000);
 }
 
 const vinheta3 = document.querySelector(".vinheta2");
@@ -269,7 +273,7 @@ function mostrarTempoEsgotado() {
         document.getElementById("telaInicial").style.display = "none";
         document.getElementById("telaQuiz").style.display = "none";
         document.getElementById("telaTempoEsgotado").style.display = "flex";
-    }, 1000);
+    }, 800);
 }
 
 function carregarPergunta() {
@@ -683,4 +687,19 @@ function selectShow() {
     // setTimeout(() => {
     //     select.classList.remove("ativa1");
     // }, 2000);
+}
+
+function ocultSelf() {
+    const sele = document.getElementById("sele");
+    const select = document.getElementById("select");
+
+    document.addEventListener("click", (event) => {
+        if (event.target !== sele && event.target == select) {
+            select.classList.remove("ativa1");
+        }
+    });
+    
+        
+    
+    
 }
