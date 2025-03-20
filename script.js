@@ -134,12 +134,15 @@ async function json4() {
 function iniciarQuizBtn() {
     if (respostasR <= 40) {
         json1()
+        iniciarQuiz()
         console.log('respostasR <= 40')
     } else if (respostasR >= 40 && respostasR < 80) {
         json2()
+        iniciarQuiz()
         console.log('respostasR >= 40')
     } else if (respostasR >= 80 && respostasR < 120) {
         json3()
+        iniciarQuiz()
         console.log('respostasR >= 80')
     } else if (respostasR >= 120) {
         selectShow()
