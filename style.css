@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 40vh;
+    height: 20vh;
     width: 50vmin;
 }
 
@@ -1108,6 +1108,62 @@ ul, ol {
     background-color: #422620;
 }
 
+#menu1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  /* Adicione estes estilos */
+.progress-container {
+    width: 50vmin;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  .progress-bar {
+    padding: 3vmin;
+    display: flex;
+    align-items: center;
+    height: 4vmin;
+    background: #7f4a3e;
+    background-clip: content-box;
+    border-radius: 40px;
+    overflow: hidden;
+    
+  }
+  
+  .progress {
+    height: 4vmin;
+    border-radius: 12px 0px 0px 12px;
+    width: 0%;
+    transition: all 0.3s ease;
+    position: relative;
+    background-color: #a76054;
+    z-index: 1;
+  }
+  
+  .level-divider {
+    overflow: visible;
+    z-index: 2;
+    height: 4.4vmin;
+    width: 4.4vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a76054;
+    scale: 1.25;
+    border-radius: 50%;
+    border: solid 0.4vmin #7f4a3e;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    font-size: 2.5vmin;
+    font-weight: 750;
+    color: #feefd8;
+    transition: left 0.3s ease;
+  }
+
 
 
 
@@ -1230,6 +1286,7 @@ ul, ol {
 
     #telaInicial .title{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -1257,9 +1314,8 @@ ul, ol {
 
     #telaInicial .menu {
         align-items: center;
-        height: 30vmin;
+        height: 140px;
         width: 100%;
-        order: 2;
     }
 
     #telaInicial .creditos .right {

@@ -68,12 +68,19 @@
         
     <!-- Tela Inicial -->
     <div id="telaInicial" class="telaInicial">
-        <div>
+        <div id="menu1">
             <div class="menu">
                 <div class="title">
                     <img class="logo1" src="src/logo1.png">
                 </div>
-            </div> 
+            </div>
+            <!-- Adicione isto no seu HTML (dentro da tela inicial ou onde desejar) -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                    <div class="level-divider" id="levelDivider"><span id="currentLevel">0</span></div>
+                </div>
+            </div>
             <div class="content">
                 <div class="buttons">
                     <button class="menubtn" onclick="iniciarQuizBtn()">Jogar</button>

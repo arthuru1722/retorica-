@@ -455,6 +455,7 @@ function mostrarExplicacao() {
 }
 
 function voltarParaTelaInicial() {
+    atualizarBarraProgresso();
     full.style.display = "none";
     document.getElementById("telaExplicacao").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "none";
@@ -673,10 +674,10 @@ function gradualPlay() {
         originalVerificarResposta.apply(this, args);
 
         setTimeout(() => {
-            if (respostasCorretas === 2) {
+            if (respostasCorretas === 30) {
                 console.log("Mudando para perguntas MÉDIAS");
                 json2().then(() => reiniciarPerguntasDisponiveis());
-            } else if (respostasCorretas === 5) {
+            } else if (respostasCorretas === 60) {
                 console.log("Mudando para perguntas DIFÍCEIS");
                 json3().then(() => reiniciarPerguntasDisponiveis());
             }
@@ -1014,3 +1015,30 @@ async function carregarPerguntaEspecial() {
         }
     }, 1000);
 }
+
+// Variável global para controle do nível
+let currentLevel = 1;
+
+function calcularNivel(respostasR) {
+    return Math.min(Math.floor(respostasR / 10), 20); // Alterado para começar do 0
+  }
+
+  function atualizarBarraProgresso() {
+    const respostasR = parseInt(localStorage.getItem("respostasR")) || 0;
+    currentLevel = calcularNivel(respostasR);
+    
+    // Ajuste nos limites do nível
+    const start = currentLevel * 10;
+    const end = (currentLevel + 1) * 10;
+    
+    const progresso = respostasR - start;
+    const porcentagem = (progresso / (end - start)) * 100;
+  
+    const progressElement = document.querySelector('.progress');
+    progressElement.style.width = `${Math.min(porcentagem, 100)}%`;
+  
+    document.getElementById('currentLevel').textContent = currentLevel;
+  }
+
+// Chamar a função ao carregar a página
+atualizarBarraProgresso();
