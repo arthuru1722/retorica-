@@ -2,13 +2,14 @@ document.getElementById('telaInicial').style.display = "flex"
 
 
 let perguntas = {};
+let vel = 1000; // 1 segundo do timer padrão, so pra poder mudar com mais facilidade essa desgraça
 let perguntasD = {};
 let perguntasM = {};
 let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
 let respostasCorretas = 0;
-let tempoRestante = 60; // 1:30
+let tempoRestante = 90; // 1:30
 let contadorPerguntas = 0;
 let count = 3;
 let timerInterval;
@@ -18,6 +19,9 @@ let respostasW = localStorage.getItem("respostasW") || 0; // Corrigido
 let respostasR = localStorage.getItem("respostasR") || 0; // Corrigido
 let timee = localStorage.getItem("timee") || 0;
 let esgotado = localStorage.getItem("esgotado") || 0;
+
+let bonusAtivo = false;
+let efeitosAtivos = [];
 
 recorde = parseInt(recorde);
 respostas = parseInt(respostas);
@@ -196,7 +200,7 @@ function iniciarQuiz() {
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 60 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 90 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
     if (tempoRestante < 15) tempoRestante = 15; // Limita o tempo para não ser menor que 10 segundos.
     document.getElementById("timer").innerText = formatTime(tempoRestante);
     if (tempoRestante > 10 ) {
@@ -208,11 +212,11 @@ function startTimer() {
     if (contadorPerguntas > 1) {
         // Delay de 1 segundo para corrigir o bug de contagem, se já houver respostas anteriores
         setTimeout(function() {
-            timerInterval = setInterval(updateTimer, 1000); // Começa o intervalo do timer após 1 segundo
+            timerInterval = setInterval(updateTimer, vel); // Começa o intervalo do timer após 1 segundo
         }, 1000);
     } else {
         // Caso contrário, começa o timer normalmente na primeira pergunta
-        timerInterval = setInterval(updateTimer, 1000);
+        timerInterval = setInterval(updateTimer, vel);
     }
 }
 
@@ -226,7 +230,7 @@ function updateTimer() {
         localStorage.setItem("timee", timee);
         document.getElementById("timer").innerText = formatTime(tempoRestante);
 
-        if (tempoRestante === 10) {
+        if (tempoRestante <= 10 && tempoRestante > 5) {
             document.getElementById("timer").style.color = "red";
             document.getElementById("timer").style.animation = "blinking 1s infinite";
         } else if (tempoRestante > 10 ) {
@@ -270,13 +274,18 @@ function formatTime(seconds) {
 function mostrarTempoEsgotado() {
     vinheta4()
     setTimeout(() => {
+        full.style.display = "none";
         document.getElementById("telaInicial").style.display = "none";
         document.getElementById("telaQuiz").style.display = "none";
         document.getElementById("telaTempoEsgotado").style.display = "flex";
+        bonusEl.remove();
     }, 800);
 }
 
 function carregarPergunta() {
+
+    bonusEl.remove();
+    console.log ('remove carregarpergunta')
 
     document.getElementById("telaQuiz").style.display = "flex";
     document.getElementById("telaExplicacao").style.display = "none";
@@ -337,6 +346,10 @@ function carregarPergunta() {
         quinze = true;
     }
 
+    setTimeout(() => {
+        mostrarBonus();
+        console.log('mostrarbonus carregarpergunta')
+    }, 1000);
 }
 
 function notification() {
@@ -362,6 +375,7 @@ function notification() {
 
 function verificarResposta(elemento, indice, correta, opcoes) {
     respostas += 1;
+    clearTimeout(mostrarBonus);
     localStorage.setItem("Respostas", respostas);
     clearInterval(timerInterval); // Pausar o timer
     document.querySelectorAll("#opcoes li").forEach(li => li.onclick = null); // Desabilitar as outras respostas
@@ -401,24 +415,37 @@ function verificarResposta(elemento, indice, correta, opcoes) {
     }
 
     contadorPerguntas++;
+
+    // Verificar eventos a cada 10 acertos
+    if (respostasCorretas % 10 === 0 && respostasCorretas > 0) {
+        triggerEvento();
+        console.log('event trigger')
+    }
+
+    bonusEl.remove()
+    
 }
 
 
 function mostrarExplicacao() {
     vinheta2() 
     setTimeout(() => {
+        full.style.display = "none";
         document.getElementById("telaQuiz").style.display = "none";
         document.getElementById("telaExplicacao").style.display = "flex";
         document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
         document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
         document.getElementById("explicacao").innerText = perguntaAtual.explicacao;
+        bonusEl.remove();
     }, 500);
 }
 
 function voltarParaTelaInicial() {
+    full.style.display = "none";
     document.getElementById("telaExplicacao").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "none";
     document.getElementById("telaInicial").style.display = "flex";
+    bonusEl.remove();
 }
 
 function embaralharArray(array) {
@@ -702,4 +729,233 @@ function ocultSelf() {
         
     
     
+}
+let bonusTimeout;
+const bonusEl = document.createElement('div');
+// Novo elemento HTML (adicionar no CSS o estilo)
+function mostrarBonus() {
+    clearTimeout(bonusTimeout);
+    
+    bonusEl.id = 'bonus-notificacao';
+    bonusEl.innerHTML = `
+        🎁 Bônus Disponível!
+        <div class="opcoes-bonus">
+            <button onclick="escolherBonus(true)">Pegar</button>
+            <button onclick="escolherBonus(false)">Recusar</button>
+        </div>
+    `;
+    document.body.appendChild(bonusEl);
+    bonusTimeout = setTimeout(() => {bonusEl.remove(); console.log('bonus remove MostrarBonus')}, 15000);
+}
+const full = document.getElementById('full');
+// Efeitos dos bônus
+const efeitosBonus = [
+    // {
+    //     tipo: 'tempo',
+    //     valor: 2,
+    //     desc: 'Tempo Dobrado!',
+    //     chance: 0.30,
+    //     aplicar: () => tempoRestante *= 2
+    // },
+    // {
+    //     tipo: 'tempo',
+    //     valor: 0.5,
+    //     desc: 'Tempo Reduzido!',
+    //     chance: 0.20,
+    //     aplicar: () => tempoRestante = Math.floor(tempoRestante/2)
+    // },
+    // {
+    //     tipo: 'tempo',
+    //     valor: 0,
+    //     desc: 'Tempo Pausado!',
+    //     chance: 0.15,
+    //     aplicar: () => clearInterval(timerInterval)
+    // },
+    // {
+    //     tipo: 'vida',
+    //     valor: 1,
+    //     desc: 'Vida Extra!',
+    //     chance: 0.20,
+    //     aplicar: () => ganharVida()
+    // },
+    // {
+    //     tipo: 'vida',
+    //     valor: 1,
+    //     desc: 'Vida Perdida!',
+    //     chance: 0.28,
+    //     aplicar: () => {
+    //         if (vidaAtual >= 2) {
+    //             perderVida();
+    //         } else {
+    //             const notificacao = document.querySelector('.evento-notificacao');
+    //             escolherBonus();
+    //         }
+    //     }
+    // },
+    // {
+    //     tipo: 'vida',
+    //     valor: 6,
+    //     desc: 'Vida Cheia!',
+    //     chance: 0.10,
+    //     aplicar: () => {
+    //         vidaAtual = vidaMaxima;
+    //         atualizarVidas();
+    //     }
+    // },
+    // {
+    //     tipo: 'tela',
+    //     valor: 1,
+    //     desc: 'Blackout! (60 segundos)',
+    //     chance: 0.10,
+    //     aplicar: () => {
+    //         full.style.display = "block";
+    //         full.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+    //         setTimeout(() => {
+    //             full.style.display = "none";
+    //         }, 60000);
+    //     }
+    // },
+    // {
+    //     tipo: 'tela',
+    //     valor: 1,
+    //     desc: 'Flashbang! (60 segundos)',
+    //     chance: 0.12,
+    //     aplicar: () => {
+    //         full.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+    //         full.style.display = "block";
+    //         setTimeout(() => {
+    //             full.style.display = "none";
+    //         }, 60000);
+    //     }
+    // },
+    {
+        tipo: 'tempo',
+        valor: 1,
+        desc: 'Tempo ocultado! (5 perguntas)',
+        chance: 0.90,
+        aplicar: () => {
+            const timerContainer = document.getElementById('timerContainer');
+            timerContainer.style.filter = 'blur(50px)';
+            setTimeout(() => {
+                timerContainer.style.display = 'block';
+            }, 50000);
+        }
+    }
+    // Adicione outros efeitos aqui
+];
+
+function selecionarBonus() {
+    const random = Math.random();
+    let acumulado = 0;
+    
+    for(const efeito of efeitosBonus) {
+        acumulado += efeito.chance;
+        if(random <= acumulado) {
+            return efeito;
+        }
+    }
+    return efeitosBonus[0]; // Fallback
+}
+
+function normalizarChances() {
+    const total = efeitosBonus.reduce((acc, cur) => acc + cur.chance, 0);
+    efeitosBonus.forEach(efeito => {
+        efeito.chance = efeito.chance / total;
+    });
+}
+
+function escolherBonus(aceitou) {
+    if (aceitou) {
+        const efeito = selecionarBonus(); //efeitosBonus[Math.floor(Math.random() * efeitosBonus.length)];
+        efeito.aplicar();
+        mostrarEfeitoAtivo(efeito);
+        clearTimeout(bonusTimeout);
+    } else {
+        bonusEl.remove()
+    }
+    bonusAtivo = false;
+}
+
+// Eventos obrigatórios
+const eventos = [
+    {
+        desc: 'Velocidade 2x!',
+        aplicar: () => {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(updateTimer, 500);
+            console.log ('Velocidade 2x')
+            setTimeout(() => {
+                clearInterval(timerInterval);
+                console.log('voltando ao tempo normal')
+                timerInterval = setInterval(updateTimer, 1000);
+            }, 60000);
+        }
+    },
+    {
+        desc: 'Velocidade 0.5x! (60 segundos)',
+        aplicar: () => {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(updateTimer, 2000);
+            setTimeout(() => {
+                clearInterval(timerInterval);
+                timerInterval = setInterval(updateTimer, 1000);
+            }, 60000);
+        }
+    },
+];
+
+function triggerEvento() {
+    const evento = eventos[Math.floor(Math.random() * eventos.length)];
+    const notificacao = document.createElement('div');
+    notificacao.className = 'evento-notificacao';
+    notificacao.textContent = evento.desc;
+    document.body.appendChild(notificacao);
+    evento.aplicar();
+    setTimeout(() => notificacao.remove(), 3000);
+}
+
+function mostrarEfeitoAtivo(efeito) {
+    const indicador = document.createElement('div');
+    indicador.className = 'efeito-ativo';
+    indicador.textContent = efeito.desc;
+    
+    // Círculo de progresso
+    const progresso = document.createElement('div');
+    progresso.className = 'progresso';
+    indicador.appendChild(progresso);
+    
+    document.getElementById('efeitos-ativos').appendChild(indicador);
+    
+    // Animação de 2s
+    let tempo = 2;
+    const animacao = setInterval(() => {
+        tempo--;
+        progresso.style.width = `${(tempo/60)*100}%`;
+        if (tempo <= 0) {
+            clearInterval(animacao);
+            indicador.remove();
+        }
+    }, 1000);
+}
+
+// Adicionar nova categoria no JSON
+async function carregarPerguntaEspecial() {
+    const response = await fetch("perguntas-matematica.json");
+    const perguntasMat = await response.json();
+    const pergunta = perguntasMat[Math.floor(Math.random() * perguntasMat.length)];
+    
+    // Mostrar tela especial
+    document.getElementById('pergunta').innerText = pergunta.pergunta;
+    // ... resto da lógica de exibição ...
+    
+    // Configurar timer especial
+    let tempoEspecial = 30;
+    const timerEspecial = setInterval(() => {
+        tempoEspecial--;
+        if (tempoEspecial <= 0) {
+            clearInterval(timerEspecial);
+            perderVida();
+            carregarPergunta();
+        }
+    }, 1000);
 }

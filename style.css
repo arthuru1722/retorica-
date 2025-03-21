@@ -430,9 +430,9 @@ body {
 }
 
 @keyframes blinking {
-    0% { color: #7e493e; }
-    50% { color: red; }
-    100% { color: #7e493e; }
+    0% { color: rgb(126, 73, 62, 0.8); scale: 1; }
+    50% { color: red; scale: 1.025; }
+    100% { color: rgb(126, 73, 62, 0.8); scale: 1; }
 }
 
 
@@ -1104,7 +1104,9 @@ ul, ol {
     color: #feefd8  ;
 }
 
-
+#efeitos-ativos {
+    background-color: #422620;
+}
 
 
 
@@ -1131,6 +1133,32 @@ ul, ol {
     80% { transform: translateX(0); }
     90% { transform: translateX(0); }
     100% { transform: translateX(0); }
+}
+
+#full {
+    background-color: rgba(0, 0, 0, 0.965);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 999;
+    display: none;
+}
+
+#efeitos-ativos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
 }
 
 
@@ -1386,7 +1414,6 @@ ul, ol {
 @media (max-height: 570px) {
     #telaQuiz .bottom {
         height: 330px;
-        background-color: #422620;
     }
     #telaQuiz .bottom .left .question .disclaimer p {
             margin: 0;
