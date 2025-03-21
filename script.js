@@ -9,7 +9,7 @@ let perguntasDisponiveis = [];
 let perguntaAtual = null;
 let categoriaAtual = null;
 let respostasCorretas = 0;
-let tempoRestante = 90; // 1:30
+let tempoRestante = 60; // 1:30
 let contadorPerguntas = 0;
 let count = 3;
 let timerInterval;
@@ -22,6 +22,7 @@ let esgotado = localStorage.getItem("esgotado") || 0;
 
 let bonusAtivo = false;
 let efeitosAtivos = [];
+let blurr = false;
 
 recorde = parseInt(recorde);
 respostas = parseInt(respostas);
@@ -156,6 +157,11 @@ function iniciarQuizBtn() {
 
 
 function iniciarQuiz() {
+    const vida = document.getElementById('vidas');
+    const timer = document.getElementById('timerContainer');
+    vida.style.filter = "none";
+    timer.style.filter = "none";
+    blurr = false;
     vidaAtual = 3;
     atualizarVidas()
     sessenta = false;
@@ -200,7 +206,7 @@ function iniciarQuiz() {
 function startTimer() {  
 
     clearInterval(timerInterval); // Limpa qualquer timer anterior
-    tempoRestante = 90 - (Math.floor(contadorPerguntas / 5) * 10); // Diminui 10 segundos a cada 5 perguntas
+    tempoRestante = 60 - (Math.floor(contadorPerguntas / 10) * 10); // Diminui 10 segundos a cada 5 perguntas
     if (tempoRestante < 15) tempoRestante = 15; // Limita o tempo para não ser menor que 10 segundos.
     document.getElementById("timer").innerText = formatTime(tempoRestante);
     if (tempoRestante > 10 ) {
@@ -384,7 +390,9 @@ function verificarResposta(elemento, indice, correta, opcoes) {
     if (indice === correta) {
         respostasR++;
         localStorage.setItem("respostasR", respostasR);
-        elemento.classList.add("correta");
+        if (!blurr) {
+            elemento.classList.add("correta");
+        }
         respostasCorretas++;
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
         atualizarRecordeAtual();
@@ -393,7 +401,10 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         respostasW++;
         localStorage.setItem("respostasW", respostasW);
         // Se a resposta for errada, adiciona a classe 'errada' à opção clicada
-        elemento.classList.add("errada");
+        if (!blurr) {
+            elemento.classList.add("errada");
+        }
+        
         atualizarRecordeAtual();
         perderVida();
         atualizarRecorde();
@@ -404,7 +415,10 @@ function verificarResposta(elemento, indice, correta, opcoes) {
     const indiceCorreto = opcoes.findIndex(opcao => opcao.index === correta);
 
     // Destaca a opção correta (verde) se não for a mesma opção clicada
-    opcoesEl[indiceCorreto].classList.add("correta");
+    if (!blurr) {
+        opcoesEl[indiceCorreto].classList.add("correta");  
+    }
+    
 
     // Se o usuário acertou, vai para a próxima pergunta após 1 segundo
     if (indice === correta) {
@@ -750,89 +764,101 @@ function mostrarBonus() {
 const full = document.getElementById('full');
 // Efeitos dos bônus
 const efeitosBonus = [
-    // {
-    //     tipo: 'tempo',
-    //     valor: 2,
-    //     desc: 'Tempo Dobrado!',
-    //     chance: 0.30,
-    //     aplicar: () => tempoRestante *= 2
-    // },
-    // {
-    //     tipo: 'tempo',
-    //     valor: 0.5,
-    //     desc: 'Tempo Reduzido!',
-    //     chance: 0.20,
-    //     aplicar: () => tempoRestante = Math.floor(tempoRestante/2)
-    // },
-    // {
-    //     tipo: 'tempo',
-    //     valor: 0,
-    //     desc: 'Tempo Pausado!',
-    //     chance: 0.15,
-    //     aplicar: () => clearInterval(timerInterval)
-    // },
-    // {
-    //     tipo: 'vida',
-    //     valor: 1,
-    //     desc: 'Vida Extra!',
-    //     chance: 0.20,
-    //     aplicar: () => ganharVida()
-    // },
-    // {
-    //     tipo: 'vida',
-    //     valor: 1,
-    //     desc: 'Vida Perdida!',
-    //     chance: 0.28,
-    //     aplicar: () => {
-    //         if (vidaAtual >= 2) {
-    //             perderVida();
-    //         } else {
-    //             const notificacao = document.querySelector('.evento-notificacao');
-    //             escolherBonus();
-    //         }
-    //     }
-    // },
-    // {
-    //     tipo: 'vida',
-    //     valor: 6,
-    //     desc: 'Vida Cheia!',
-    //     chance: 0.10,
-    //     aplicar: () => {
-    //         vidaAtual = vidaMaxima;
-    //         atualizarVidas();
-    //     }
-    // },
-    // {
-    //     tipo: 'tela',
-    //     valor: 1,
-    //     desc: 'Blackout! (60 segundos)',
-    //     chance: 0.10,
-    //     aplicar: () => {
-    //         full.style.display = "block";
-    //         full.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
-    //         setTimeout(() => {
-    //             full.style.display = "none";
-    //         }, 60000);
-    //     }
-    // },
-    // {
-    //     tipo: 'tela',
-    //     valor: 1,
-    //     desc: 'Flashbang! (60 segundos)',
-    //     chance: 0.12,
-    //     aplicar: () => {
-    //         full.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
-    //         full.style.display = "block";
-    //         setTimeout(() => {
-    //             full.style.display = "none";
-    //         }, 60000);
-    //     }
-    // },
+    {
+        tipo: 'tempo',
+        valor: 2,
+        desc: 'Tempo Dobrado!',
+        chance: 0.1,
+        aplicar: () => tempoRestante *= 2
+    },
+    {
+        tipo: 'tempo',
+        valor: 1,
+        desc: 'Tempo congelado! (30 segundos)',
+        chance: 0.1,
+        aplicar: () => {
+            clearInterval(timerInterval);
+            setTimeout(() => {
+                timerInterval = setInterval(updateTimer, 1000);
+            }, 30000);
+        }
+    },
+    {
+        tipo: 'tempo',
+        valor: 0.5,
+        desc: 'Tempo Reduzido!',
+        chance: 0.1,
+        aplicar: () => tempoRestante = Math.floor(tempoRestante/2)
+    },
+    {
+        tipo: 'tempo',
+        valor: 0,
+        desc: 'Tempo Pausado!',
+        chance: 0.1,
+        aplicar: () => clearInterval(timerInterval)
+    },
+    {
+        tipo: 'vida',
+        valor: 1,
+        desc: 'Vida Extra!',
+        chance: 0.1,
+        aplicar: () => ganharVida()
+    },
+    {
+        tipo: 'vida',
+        valor: 1,
+        desc: 'Vida Perdida!',
+        chance: 0.1,
+        aplicar: () => {
+            if (vidaAtual >= 2) {
+                perderVida();
+            } else {
+                const notificacao = document.querySelector('.evento-notificacao');
+                escolherBonus();
+            }
+        }
+    },
+    {
+         tipo: 'vida',
+         valor: 6,
+        desc: 'Vida Cheia!',
+        chance: 0.1,
+        aplicar: () => {
+            vidaAtual = vidaMaxima;
+            atualizarVidas();
+        }
+    },
+    {
+        tipo: 'tela',
+        valor: 1,
+        desc: 'Blackout! (60 segundos)',
+        chance: 0.1,
+        aplicar: () => {
+            full.style.display = "block";
+            full.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+            setTimeout(() => {
+                full.style.display = "none";
+            }, 60000);
+        }
+    },
+    {
+        tipo: 'tela',
+        valor: 1,
+        desc: 'Flashbang! (60 segundos)',
+        chance: 0.1,
+        aplicar: () => {
+            full.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
+            full.style.display = "block";
+            setTimeout(() => {
+                full.style.display = "none";
+            }, 60000);
+        }
+    },
     {
         tipo: 'tempo',
         valor: 1,
         desc: 'Tempo ocultado! (5 perguntas)',
-        chance: 0.90,
+        chance: 0.1,
         aplicar: () => {
             const timerContainer = document.getElementById('timerContainer');
             timerContainer.style.filter = 'blur(50px)';
@@ -902,6 +928,35 @@ const eventos = [
             }, 60000);
         }
     },
+    {
+        desc: 'Miopia! (60 segundos)',
+        chance: 0.1,
+        aplicar: () => {
+            full.style.display = "block";
+            full.style.backgroundColor = "transparent";
+            full.style.backdropFilter = "blur(3px)";
+            setTimeout(() => {
+                full.style.display = "none";
+                full.style.filter = "none";
+            }, 60000);
+        }
+    },
+    {
+        desc: 'Foco! (60 segundos)',
+        chance: 0.1,
+        aplicar: () => {
+            const vida = document.getElementById('vidas');
+            const timer = document.getElementById('timerContainer');
+            vida.style.filter = "blur(20px)";
+            timer.style.filter = "blur(20px)";
+            blurr = true;    
+            setTimeout(() => {
+                vida.style.filter = "none";
+                timer.style.filter = "none";
+                blurr = false;
+            }, 60000);      
+        }
+    }
 ];
 
 function triggerEvento() {
