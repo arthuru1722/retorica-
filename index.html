@@ -12,7 +12,8 @@
 </head>
 <body>
 
-    <div id="full"></div>
+    <div id="full"></div> 
+    <div class="overlay" id="overlay"></div>
     
     <div id="estatisticas">
         <div class="content">
@@ -28,7 +29,7 @@
                 <div class="est"><p>RESPOSTAS CERTAS:</p><span id="respostasR"></span></div>
                 <div class="est"><p>PERGUNTAS RESPONDIDAS:</p><span id="respostas"></span></div>
                 <div class="est"><p>TEMPO ESGOTADO:</p><span id="esgotado"></span> </div>
-                <div class="version">V1.4A</div>
+                <div class="version">V1.4F</div>
             </div>
         </div>    
     </div>
@@ -42,7 +43,23 @@
         </div>
     </div>
     <div id="efeitos-ativos" class="efeitos-ativos"></div>
+    <!-- Adicione isso no seu HTML -->
+    <div id="bonus-ntnt">
+        <div id="bonus-window">
+            <button id="bonus-header" onclick="choseBonus()">BÔNUS</button>
+            <div id="bonus-content">
+                <div id="bonus-text">Escolhendo bônus...</div>
+                <div id="bonus-values"></div>
+                <div id="down-details">
+                    <div class="detail1"></div>
+                    <div class="detail2"></div>
+                    <div class="detail1"></div>
+                </div>
+            </div>
+        </div>
 
+    </div>
+    
 
     <div class="vinheta" id="vinheta"> <p id="timerr">3</p></div>
     <div class="vinheta1"><i class="fa-solid fa-heart-crack fa-fade"></i></div>

@@ -1,6 +1,6 @@
 document.getElementById('telaInicial').style.display = "flex"
 
-
+let intervall
 let perguntas = {};
 let vel = 1000; // 1 segundo do timer padrão, so pra poder mudar com mais facilidade essa desgraça
 let perguntasD = {};
@@ -89,19 +89,19 @@ function atualizarRecordeAtual() {
 async function json1() {
     const response = await fetch("perguntas.json");
     perguntas = await response.json();
-    console.log("Carregado: perguntas.json", perguntas);
+    console.table(perguntas);
 }
 
 async function json2() {
     const response = await fetch("perguntasM.json");
     perguntas = await response.json();
-    console.log("Carregado: perguntasM.json", perguntas);
+    console.table(perguntas);
 }
 
 async function json3() {
     const response = await fetch("perguntasD.json");
     perguntas = await response.json();
-    console.log("Carregado: perguntasD.json", perguntas);
+    console.table(perguntas);
 }
 
 async function json4() {
@@ -124,7 +124,7 @@ async function json4() {
         }
     }
 
-    console.log("Perguntas mescladas:", perguntas);
+    console.table(perguntas);
 
     setTimeout(() => {
         if (telaInicial.style.display === 'flex') {
@@ -140,7 +140,7 @@ function iniciarQuizBtn() {
     if (respostasR <= 40) {
         json1()
         iniciarQuiz()
-        console.log('respostasR <= 40')
+        console.log('respostasR <= 50')
     } else if (respostasR >= 40 && respostasR < 80) {
         json2()
         iniciarQuiz()
@@ -199,7 +199,6 @@ function iniciarQuiz() {
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
         carregarPergunta();
     }, 4000);
-    startTimer();
 
 }
 
@@ -251,6 +250,7 @@ function updateTimer() {
             mostrarTempoEsgotado();
         }
     }
+    console.log(tempoRestante)
     
 }
 const vinheta1 = document.querySelector(".vinheta1");
@@ -284,13 +284,16 @@ function mostrarTempoEsgotado() {
         document.getElementById("telaInicial").style.display = "none";
         document.getElementById("telaQuiz").style.display = "none";
         document.getElementById("telaTempoEsgotado").style.display = "flex";
-        bonusEl.remove();
+        document.getElementById("bonus-window").style.display = "none";
+        bonusApply = false;
     }, 800);
 }
 
 function carregarPergunta() {
 
-    bonusEl.remove();
+    Invencibilidade = false;
+
+    document.getElementById("bonus-window").style.display = "none";
     console.log ('remove carregarpergunta')
 
     document.getElementById("telaQuiz").style.display = "flex";
@@ -298,7 +301,7 @@ function carregarPergunta() {
     document.getElementById("telaTempoEsgotado").style.display = "none";
 
     if (perguntasDisponiveis.length === 0) {
-        alert("Você respondeu todas as perguntas! O quiz será reiniciado.");
+        alert("Error: All questions have been answered.");
         iniciarQuiz();
         return;
     }
@@ -352,10 +355,12 @@ function carregarPergunta() {
         quinze = true;
     }
 
-    setTimeout(() => {
-        mostrarBonus();
-        console.log('mostrarbonus carregarpergunta')
-    }, 1000);
+    if (Math.random() < 0.5) {
+        setTimeout(() => {
+            mostrarBonus();
+            console.log('mostrarbonus carregarpergunta')
+        }, 10000);
+    }
 }
 
 function notification() {
@@ -405,18 +410,12 @@ function verificarResposta(elemento, indice, correta, opcoes) {
             elemento.classList.add("errada");
         }
         
+        
+        if (!Invencibilidade) {
+            perderVida();
+        }
         atualizarRecordeAtual();
-        perderVida();
         atualizarRecorde();
-    }
-
-    // Adiciona a resposta correta à lista
-    const opcoesEl = document.querySelectorAll("#opcoes li");
-    const indiceCorreto = opcoes.findIndex(opcao => opcao.index === correta);
-
-    // Destaca a opção correta (verde) se não for a mesma opção clicada
-    if (!blurr) {
-        opcoesEl[indiceCorreto].classList.add("correta");  
     }
     
 
@@ -436,8 +435,11 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         console.log('event trigger')
     }
 
-    bonusEl.remove()
-    
+    document.getElementById("bonus-window").style.animation = "slideUp 0.5s forwards";
+    document.getElementById("bonus-window").style.pointerEvents = "none";
+    setTimeout(() => {
+        document.getElementById("bonus-window").style.display = "none";
+    }, 600);
 }
 
 
@@ -450,7 +452,8 @@ function mostrarExplicacao() {
         document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
         document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
         document.getElementById("explicacao").innerText = perguntaAtual.explicacao;
-        bonusEl.remove();
+        document.getElementById("bonus-window").style.display = "none";
+        bonusApply = false;
     }, 500);
 }
 
@@ -460,7 +463,8 @@ function voltarParaTelaInicial() {
     document.getElementById("telaExplicacao").style.display = "none";
     document.getElementById("telaTempoEsgotado").style.display = "none";
     document.getElementById("telaInicial").style.display = "flex";
-    bonusEl.remove();
+    document.getElementById("bonus-window").style.display = "none";
+    bonusApply = false;
 }
 
 function embaralharArray(array) {
@@ -740,27 +744,6 @@ function ocultSelf() {
             select.classList.remove("ativa1");
         }
     });
-    
-        
-    
-    
-}
-let bonusTimeout;
-const bonusEl = document.createElement('div');
-// Novo elemento HTML (adicionar no CSS o estilo)
-function mostrarBonus() {
-    clearTimeout(bonusTimeout);
-    
-    bonusEl.id = 'bonus-notificacao';
-    bonusEl.innerHTML = `
-        🎁 Bônus Disponível!
-        <div class="opcoes-bonus">
-            <button onclick="escolherBonus(true)">Pegar</button>
-            <button onclick="escolherBonus(false)">Recusar</button>
-        </div>
-    `;
-    document.body.appendChild(bonusEl);
-    bonusTimeout = setTimeout(() => {bonusEl.remove(); console.log('bonus remove MostrarBonus')}, 15000);
 }
 const full = document.getElementById('full');
 // Efeitos dos bônus
@@ -768,121 +751,139 @@ const efeitosBonus = [
     {
         tipo: 'tempo',
         valor: 2,
-        desc: 'Tempo Dobrado!',
+        desc: 'Tempo Dobrado',
         chance: 0.1,
-        aplicar: () => tempoRestante *= 2
+        aplicar: () => { 
+            tempoRestante *= 2
+            console.log('tempo dobrado')
+        } 
     },
     {
         tipo: 'tempo',
         valor: 1,
-        desc: 'Tempo congelado! (30 segundos)',
+        desc: 'Tempo congelado',
         chance: 0.1,
         aplicar: () => {
             clearInterval(timerInterval);
             setTimeout(() => {
                 timerInterval = setInterval(updateTimer, 1000);
             }, 30000);
+            console.log('tempo congelado')
         }
     },
     {
         tipo: 'tempo',
         valor: 0.5,
-        desc: 'Tempo Reduzido!',
+        desc: 'Tempo Reduzido',
         chance: 0.1,
-        aplicar: () => tempoRestante = Math.floor(tempoRestante/2)
+        aplicar: () =>  { 
+            bonusHeader.style.border = "0.7vmin solid #e96767";
+            tempoRestante = Math.floor(tempoRestante/2)
+            console.log('tempo reduzido')
+        }
     },
     {
         tipo: 'tempo',
         valor: 0,
-        desc: 'Tempo Pausado!',
+        desc: 'Tempo Pausado',
         chance: 0.1,
-        aplicar: () => clearInterval(timerInterval)
-    },
-    {
-        tipo: 'vida',
-        valor: 1,
-        desc: 'Vida Extra!',
-        chance: 0.1,
-        aplicar: () => ganharVida()
-    },
-    {
-        tipo: 'vida',
-        valor: 1,
-        desc: 'Vida Perdida!',
-        chance: 0.1,
-        aplicar: () => {
-            if (vidaAtual >= 2) {
-                perderVida();
-            } else {
-                const notificacao = document.querySelector('.evento-notificacao');
-                escolherBonus();
-            }
+        aplicar: () => { 
+            clearInterval(timerInterval)
+            console.log('tempo pausado')
         }
     },
     {
-         tipo: 'vida',
-         valor: 6,
-        desc: 'Vida Cheia!',
+        tipo: 'vida',
+        valor: 1,
+        desc: 'Vida Extra',
+        chance: 0.1,
+        aplicar: () => {
+            ganharVida()
+            console.log('vida extra')
+        }
+    },
+    {
+        tipo: 'vida',
+        valor: 1,
+        desc: 'Vida Perdida',
+        chance: 0.1,
+        aplicar: () => {
+            if (vidaAtual >= 2) {
+                bonusHeader.style.border = "0.7vmin solid #e96767";
+                perderVida();
+            } else {
+                escolherBonus();
+            }
+            console.log('vida perdida')
+        }
+    },
+    {
+        tipo: 'vida',
+        valor: 6,
+        desc: 'Vida Cheia',
         chance: 0.1,
         aplicar: () => {
             vidaAtual = vidaMaxima;
             atualizarVidas();
+            console.log('vida cheia')
         }
     },
     {
         tipo: 'tela',
         valor: 1,
-        desc: 'Blackout! (60 segundos)',
+        desc: 'Blackout',
         chance: 0.1,
         aplicar: () => {
-            full.style.display = "block";
-            full.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
+            bonusHeader.style.border = "0.7vmin solid #e96767";
+            document.getElementById('overlay').style.display = "block";
             setTimeout(() => {
-                full.style.display = "none";
+                document.getElementById('overlay').style.display = "none";
             }, 60000);
+            console.log('blackout')
         }
     },
     {
         tipo: 'tela',
         valor: 1,
-        desc: 'Flashbang! (60 segundos)',
+        desc: 'Flashbang',
         chance: 0.1,
         aplicar: () => {
+            bonusHeader.style.border = "0.7vmin solid #e96767";
             full.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
             full.style.display = "block";
             setTimeout(() => {
                 full.style.display = "none";
             }, 60000);
+            console.log('flashbang')
         }
     },
     {
         tipo: 'tempo',
         valor: 1,
-        desc: 'Tempo ocultado! (5 perguntas)',
+        desc: 'Tempo ocultado',
         chance: 0.1,
         aplicar: () => {
+            bonusHeader.style.border = "0.7vmin solid #e96767";
             const timerContainer = document.getElementById('timerContainer');
             timerContainer.style.filter = 'blur(50px)';
             setTimeout(() => {
                 timerContainer.style.display = 'block';
             }, 50000);
+            console.log('tempo ocultado')
+        }
+    },
+    {
+        tipo: 'pergunta',
+        valor: 1,
+        desc: 'Nova pergunta',
+        chance: 0.1,
+        aplicar: () => {
+            carregarPergunta();
+            console.log('nova pergunta')
         }
     }
     // Adicione outros efeitos aqui
 ];
-
-function selecionarBonus() {
-    const random = Math.random();
-    let acumulado = 0;
-    
-    for(const efeito of efeitosBonus) {
-        acumulado += efeito.chance;
-        if(random <= acumulado) {
-            return efeito;
-        }
-    }
-    return efeitosBonus[0]; // Fallback
-}
 
 function normalizarChances() {
     const total = efeitosBonus.reduce((acc, cur) => acc + cur.chance, 0);
@@ -891,22 +892,11 @@ function normalizarChances() {
     });
 }
 
-function escolherBonus(aceitou) {
-    if (aceitou) {
-        const efeito = selecionarBonus(); //efeitosBonus[Math.floor(Math.random() * efeitosBonus.length)];
-        efeito.aplicar();
-        mostrarEfeitoAtivo(efeito);
-        clearTimeout(bonusTimeout);
-    } else {
-        bonusEl.remove()
-    }
-    bonusAtivo = false;
-}
-
+let Invencibilidade = false
 // Eventos obrigatórios
 const eventos = [
     {
-        desc: 'Velocidade 2x!',
+        desc: '2x Velocidade',
         aplicar: () => {
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 500);
@@ -919,7 +909,7 @@ const eventos = [
         }
     },
     {
-        desc: 'Velocidade 0.5x! (60 segundos)',
+        desc: '0.5x Velocidade',
         aplicar: () => {
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 2000);
@@ -930,7 +920,7 @@ const eventos = [
         }
     },
     {
-        desc: 'Miopia! (60 segundos)',
+        desc: 'Miopia',
         chance: 0.1,
         aplicar: () => {
             full.style.display = "block";
@@ -943,7 +933,7 @@ const eventos = [
         }
     },
     {
-        desc: 'Foco! (60 segundos)',
+        desc: 'Foco!',
         chance: 0.1,
         aplicar: () => {
             const vida = document.getElementById('vidas');
@@ -957,6 +947,13 @@ const eventos = [
                 blurr = false;
             }, 60000);      
         }
+    },
+    {
+        desc: 'Invencibilidade',
+        chance: 0.1,
+        aplicar: () => {
+            Invencibilidade = true;
+        }
     }
 ];
 
@@ -964,7 +961,10 @@ function triggerEvento() {
     const evento = eventos[Math.floor(Math.random() * eventos.length)];
     const notificacao = document.createElement('div');
     notificacao.className = 'evento-notificacao';
-    notificacao.textContent = evento.desc;
+    
+    // Definir o conteúdo como HTML
+    notificacao.innerHTML = `<strong>Evento:</strong> ${evento.desc}`;
+    
     document.body.appendChild(notificacao);
     evento.aplicar();
     setTimeout(() => notificacao.remove(), 3000);
@@ -1042,3 +1042,144 @@ function calcularNivel(respostasR) {
 
 // Chamar a função ao carregar a página
 atualizarBarraProgresso();
+
+const bonusValuesDiv = document.getElementById("bonus-values");
+const bonusWindow = document.getElementById("bonus-window");
+const bonusContent = document.getElementById("bonus-content");
+const bonusHeader = document.getElementById("bonus-header");
+let bonusTimeoutTime = 200;
+
+function choseBonus() { //pra quando aceitar o bonus
+    displayBonus();
+    clearInterval(intervall);
+    bonusContent.style.display = "block";
+    bonusHeader.style.pointerEvents = "none";
+    setTimeout(() => {
+        document.getElementById("bonus-text").style.display = "block"
+    }, 200);
+}
+
+function mostrarBonus() { //pra chamar a função de mostrar o bonus
+    bonusHeader.style.border = "0.7vmin solid #6e8f78";
+    bonusApply = true;
+    clearInterval(intervall);
+    mostrarBonuss();
+}
+
+function mostrarBonuss() { // a função de chamar o bonus
+    setTimeout(() => {
+        console.log('mostrarbonus')
+    }, 1000);
+    bonusHeader.style.pointerEvents = "auto";
+    bonusWindow.style.display = "flex";
+    bonusWindow.style.animation = "slideDownn 1s forwards";
+
+    intervall = setTimeout(() => {
+        bonusWindow.style.animation = "slideUp 1s forwards";
+        setTimeout(() => {
+            bonusWindow.style.display = "none";
+            bonusHeader.style.pointerEvents = "none";
+        }, 1100);
+        
+    }, 8000);
+
+    console.log(tempoRestante)
+}
+
+function displayBonus() { // o randomizador de bonus
+    let bonusIterationCount = 0;
+    const interval = setInterval(() => {
+        const randomValues = [];
+        const selectedBonuses = []; // Array para armazenar os bônus selecionados
+
+        // Calcula a soma total das chances
+        const totalChance = efeitosBonus.reduce((sum, bonus) => sum + bonus.chance, 0);
+
+        while (selectedBonuses.length < 3) {
+            let random = Math.random() * totalChance;
+            let chosenBonus = null;
+
+            // Determina qual bônus foi escolhido com base no valor aleatório
+            for (const bonus of efeitosBonus) {
+                if (random <= bonus.chance) {
+                    chosenBonus = bonus;
+                    break;
+                }
+                random -= bonus.chance;
+            }
+
+            // Verifica se o bônus já foi selecionado
+            if (chosenBonus && !selectedBonuses.includes(chosenBonus)) {
+                selectedBonuses.push(chosenBonus);
+                randomValues.push(chosenBonus.desc); // Armazena a descrição para exibição
+            }
+        }
+
+        bonusValuesDiv.innerHTML = '';
+        randomValues.forEach(descricao => { // Usa 'descricao' aqui
+            const p = document.createElement("p");
+            p.textContent = descricao;
+            bonusValuesDiv.appendChild(p);
+        });
+
+        bonusIterationCount++;
+        if (bonusIterationCount >= 25) {
+            clearInterval(interval);
+            if (bonusApply) {
+                displayBonus(selectedBonuses[1]);
+            }
+             // Passa o objeto bônus selecionado
+            const bonusMeio = selectedBonuses[1];
+            selectedBonusObj = bonusMeio; // Armazena o objeto do bônus do meio
+            // Adiciona a classe 'destacado' ao elemento do meio APÓS a escolha
+            const elementosP = bonusValuesDiv.querySelectorAll('p');
+            setTimeout(() => {
+                elementosP[1].classList.add('destacado');  
+            }, 100); 
+        }
+    }, bonusTimeoutTime);
+    
+
+    function displayBonus(bonus) {
+        console.log(`O bônus escolhido foi: ${bonus.desc}`);
+        bonus.aplicar();
+    }
+
+    setTimeout(() => {
+        
+        bonusWindow.style.animation = "slideUp 1s forwards";
+        setTimeout(() => {
+            bonusWindow.style.display = "none";
+            bonusContent.style.display = "none";
+            document.getElementById("bonus-text").style.display = "none"
+        }, 1100);
+        
+
+    }, 8000);
+}
+
+let bonusApply = true;
+
+function updateMask(x, y) {
+    const overlay = document.getElementById("overlay");
+    overlay.style.maskImage = `radial-gradient(circle 120px at ${x}px ${y}px, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)`;
+    overlay.style.webkitMaskImage = overlay.style.maskImage;
+}
+
+function showOverlay() {
+    const overlay = document.getElementById("overlay");
+    if (!overlay.style.maskImage || overlay.style.maskImage === "none") {
+        updateMask(window.innerWidth / 2, window.innerHeight / 2);
+    }
+}
+
+document.addEventListener("mousemove", (e) => {
+    showOverlay();
+    updateMask(e.clientX, e.clientY);
+});
+
+document.addEventListener("touchmove", (e) => {
+    showOverlay();
+    const touch = e.touches[0];
+    updateMask(touch.clientX, touch.clientY);
+}, { passive: true });
