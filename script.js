@@ -20,6 +20,10 @@ let respostasR = localStorage.getItem("respostasR") || 0; // Corrigido
 let timee = localStorage.getItem("timee") || 0;
 let esgotado = localStorage.getItem("esgotado") || 0;
 
+let errosCometidos = [];
+let slideAtual = 0;
+let slideIntervalErros;
+
 let bonusAtivo = false;
 let efeitosAtivos = [];
 let blurr = false;
@@ -157,6 +161,7 @@ function iniciarQuizBtn() {
 
 
 function iniciarQuiz() {
+    limparErros();
     const vida = document.getElementById('vidas');
     const timer = document.getElementById('timerContainer');
     vida.style.filter = "none";
@@ -360,7 +365,7 @@ function carregarPergunta() {
             mostrarBonus();
             console.log('mostrarbonus carregarpergunta')
         }, 10000);
-    }
+    } else {console.log('numfoi')}
 }
 
 function notification() {
@@ -410,6 +415,13 @@ function verificarResposta(elemento, indice, correta, opcoes) {
             elemento.classList.add("errada");
         }
         
+        // Armazenar detalhes do erro
+        errosCometidos.push({
+            categoria: categoriaAtual,
+            descricao: perguntas[categoriaAtual].descricao,
+            explicacao: perguntaAtual.explicacao,
+            pergunta: perguntaAtual.pergunta
+        });
         
         if (!Invencibilidade) {
             perderVida();
@@ -449,9 +461,6 @@ function mostrarExplicacao() {
         full.style.display = "none";
         document.getElementById("telaQuiz").style.display = "none";
         document.getElementById("telaExplicacao").style.display = "flex";
-        document.getElementById("tema").innerText = categoriaAtual.toUpperCase();
-        document.getElementById("descricaoTema").innerText = perguntas[categoriaAtual].descricao;
-        document.getElementById("explicacao").innerText = perguntaAtual.explicacao;
         document.getElementById("bonus-window").style.display = "none";
         bonusApply = false;
     }, 500);
@@ -627,6 +636,7 @@ function perderVida() {
         if (vidaAtual > 0) {
             vidaAtual--;
             atualizarVidas();
+            mostrarErrosSlide();
         }
     }, 100);
     
@@ -963,8 +973,17 @@ function triggerEvento() {
     notificacao.className = 'evento-notificacao';
     
     // Definir o conteúdo como HTML
-    notificacao.innerHTML = `<strong>Evento:</strong> ${evento.desc}`;
-    
+    notificacao.innerHTML = 
+    `
+    <div id="event-ntnt">
+        <h3>EVENTO <br> ALEATÓRIO</h3>
+        <div class="line">        
+            <div><hr></div><div><p>${evento.desc}</p></div><div><hr></div>
+        </div>
+            
+    </div>
+    `;
+
     document.body.appendChild(notificacao);
     evento.aplicar();
     setTimeout(() => notificacao.remove(), 3000);
@@ -1049,21 +1068,26 @@ const bonusContent = document.getElementById("bonus-content");
 const bonusHeader = document.getElementById("bonus-header");
 let bonusTimeoutTime = 200;
 
-function choseBonus() { //pra quando aceitar o bonus
+function choseBonus() { //pra quando aceitar o bonus   
     displayBonus();
     clearInterval(intervall);
     bonusContent.style.display = "block";
     bonusHeader.style.pointerEvents = "none";
     setTimeout(() => {
         document.getElementById("bonus-text").style.display = "block"
-    }, 200);
+    }, 200);   
 }
 
 function mostrarBonus() { //pra chamar a função de mostrar o bonus
-    bonusHeader.style.border = "0.7vmin solid #6e8f78";
-    bonusApply = true;
-    clearInterval(intervall);
-    mostrarBonuss();
+    if (document.getElementById('telaQuiz').style.display !== "none") {
+        bonusHeader.style.border = "0.7vmin solid #6e8f78";
+        bonusWindow.style.opacity = "1"
+        bonusApply = true;
+        clearInterval(intervall);
+        mostrarBonuss();
+    } else {
+        console.log('telaQuiz = none')
+    }
 }
 
 function mostrarBonuss() { // a função de chamar o bonus
@@ -1183,3 +1207,85 @@ document.addEventListener("touchmove", (e) => {
     const touch = e.touches[0];
     updateMask(touch.clientX, touch.clientY);
 }, { passive: true });
+
+function mostrarErrosSlide() {
+    const container = document.getElementById('slideErrosContainer');
+    const contador = document.getElementById('contadorErros');
+    
+    document.getElementById('telaErros').style.display = 'grid';
+    contador.textContent = `${slideAtual + 1}/${errosCometidos.length}`;
+    
+    // Criar slides
+    container.innerHTML = errosCometidos.map((erro, index) => `
+        <div class="slide-erro ${index === 0 ? 'ativo' : ''}" data-index="${index}">
+            <div class="erro-card">
+                <div>
+                    <h3>${erro.categoria}</h3>
+                    <p>Era a resposta Correta</p>
+                    <p class="descricao-curta">${erro.descricao}</p>
+                </div>
+                <button onclick="mostrarExplicacaoCompleta(${index})">Ver detalhes</button>
+            </div>
+        </div>
+    `).join('');
+}
+
+
+function proximoSlide() {
+    const slides = document.querySelectorAll('.slide-erro');
+    slideAtual = (slideAtual + 1) % slides.length;
+    
+    slides.forEach((slide, index) => {
+        slide.classList.remove('ativo', 'anterior');
+        if (index === slideAtual) slide.classList.add('ativo');
+        if (index === (slideAtual - 1 + slides.length) % slides.length) slide.classList.add('anterior');
+    });
+    
+    document.getElementById('contadorErros').textContent = `${slideAtual + 1}/${errosCometidos.length}`;
+}
+
+function slideAnterior() {
+    const slides = document.querySelectorAll('.slide-erro');
+    slideAtual = (slideAtual - 1 + slides.length) % slides.length;
+    
+    slides.forEach((slide, index) => {
+        slide.classList.remove('ativo', 'anterior');
+        if (index === slideAtual) slide.classList.add('ativo');
+        if (index === (slideAtual + 1) % slides.length) slide.classList.add('anterior');
+    });
+    
+    document.getElementById('contadorErros').textContent = `${slideAtual + 1}/${errosCometidos.length}`;
+}
+
+function mostrarExplicacaoCompleta(index) {
+    clearInterval(slideIntervalErros);
+    const erro = errosCometidos[index];
+    
+    document.getElementById('telaErrosCompleto').style.display = 'flex';
+    document.getElementById('erroCompletoCategoria').textContent = erro.categoria;
+    document.getElementById('erroCompletoPergunta').textContent = erro.pergunta;
+    document.getElementById('erroCompletoExplicacao').textContent = erro.explicacao;
+    document.getElementById('erroCompletoContador').textContent = `${index + 1}/${errosCometidos.length}`;
+    
+    // Atualizar navegação
+    document.querySelectorAll('.nav-erro-completo').forEach(btn => {
+        btn.onclick = function() {
+            const newIndex = index + (this.classList.contains('proximo') ? 1 : -1);
+            if (newIndex >= 0 && newIndex < errosCometidos.length) {
+                mostrarExplicacaoCompleta(newIndex);
+            }
+        };
+    });
+}
+
+function limparErros() { 
+    // Resetar todos os erros
+    errosCometidos = [];
+    slideAtual = 0;
+
+    // Atualizar UI
+    document.getElementById('contadorErros').textContent = '0/0';
+    document.getElementById('slideErrosContainer').innerHTML = '';
+
+
+}
