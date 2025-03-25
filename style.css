@@ -384,14 +384,33 @@ body {
         color: #3b3838;
         background-color: transparent;
         border: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 4vmin;
         width: 6vmin;
         height: 6vmin;
         padding: 0;
-        transition: scale 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out;
         &:hover {
             scale: 1.3;
         }
+    }
+}
+
+#estatisticas #rotate {
+    
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+@keyframes rotate-an {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
 
@@ -1186,7 +1205,7 @@ ul, ol {
     width: 30vmin;
     position: absolute;
     font-family: 'poppins';
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     top: -100%;
@@ -1196,25 +1215,25 @@ ul, ol {
 
 @keyframes slideDownn {
     0% {
-      transform: translateY(-100%);
+      top: -15vmin;
     }
     20% {
-      transform: translateY(13vmin);
+      top: 3vmin;
     }
     100% {
-      transform: translateY(12vmin);
+      top: 1vmin;
     }
 }
 
 @keyframes slideUp {
     0% {
-        transform: translateY(13vmin);
+        top: 1vmin;
     }
     20% {
-        transform: translateY(16vmin);
+        top: 3vmin
     }
     100% {
-        transform: translateY(-100%);
+        top: -50vmin;
     }
 }
 
@@ -1344,22 +1363,24 @@ ul, ol {
 #telaErros {
     background-color: #653931;
     display: none;
-    gap: 1vmin;
+    
     top: 0;
     left: 0;
     width: 65%;
-    height: 80%;
+    height: 100%;
     z-index: 1000;
     grid-template-columns: 1fr 20fr 1fr;
 }
 
 #slideErrosContainer {
-    background-color: #ff2f00;
-    width: 100%;
+    
     height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     display: grid;
     
 }
+
 
 .slide-erro {
     width: 100%;
@@ -1368,19 +1389,27 @@ ul, ol {
     transition: opacity 0.5s;
     grid-row: 1;
     grid-column: 1;
+    
+
+    
 
     & h3 {
         margin: 0;
         font-family: 'poppins';
-        font-size: 8vmin;
+        font-size: 6vmin;
         text-align: center;
         color: #feefd8;
     }
 
     & p {
         color: #feefd8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         font-size: 2.5vmin;
         font-weight: 600;
+        
     }
 
     & button {
@@ -1431,12 +1460,6 @@ ul, ol {
     height: 100%;
     display: flex;
     align-items: center;
-}
-
-.descricao-curta {
-    box-sizing: border-box;
-    padding-left: 5vmin;
-    padding-right: 5vmin;
 }
 
 
@@ -1546,13 +1569,7 @@ ul, ol {
 }
 
 #contadorErros {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 1.2em;
-    background: rgba(0,0,0,0.1);
-    padding: 5px 15px;
-    border-radius: 20px;
+    display: none;
 }
 
 #contadorErrosCompleto {
@@ -1651,6 +1668,11 @@ ul, ol {
     body {
         overflow-x: hidden;
     }
+
+    #bonus-window {
+        scale: 1.5;
+        transform: translateY(30%);
+    }
     #telaInicial {
         flex-direction: column;
         justify-content: space-between;     
@@ -1678,6 +1700,7 @@ ul, ol {
 
     .buttons {
         margin-top: 20px;
+        width: 100%;
     }
     
     .buttons button {
@@ -1690,6 +1713,7 @@ ul, ol {
 
     #telaInicial .content {
         order: 3;
+        width: 100%;
     }
 
     #telaInicial .menu .buttons {
@@ -1882,6 +1906,12 @@ ul, ol {
     #telaErros {
         width: 100%;
     }
+
+    .progress-container {
+        width: 100%;
+    }
+
+    
 
 }
 

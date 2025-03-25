@@ -1,6 +1,6 @@
 {
-  "personificacao": {
-    "descricao": "A personificação, também chamada de prosopopeia, é uma figura de linguagem que atribui características, sentimentos ou ações humanas a seres inanimados ou irracionais. Essa técnica é amplamente usada na literatura, na poesia e até na publicidade para criar imagens vívidas e expressivas. A personificação pode fazer com que objetos e elementos da natureza pareçam ter vida própria, emoções e intenções. Diferente de outras figuras de linguagem, como a metáfora, que estabelece comparações implícitas, ou a hipérbole, que exagera uma ideia, a personificação dá vida a conceitos abstratos e elementos inanimados. Ela também se distingue da onomatopeia, que se limita a reproduzir sons, e da metonímia, que substitui um termo por outro relacionado. Seu uso torna a linguagem mais expressiva e poética, permitindo que o leitor visualize cenas de forma mais envolvente.",
+  "Personificacão": {
+    "descricao": "A personificação, também chamada de prosopopeia, é uma figura de linguagem que atribui características, sentimentos ou ações humanas a seres inanimados ou irracionais. Essa técnica é amplamente usada na literatura, na poesia e até na publicidade para criar imagens vívidas e expressivas. A personificação pode fazer com que objetos e elementos da natureza pareçam ter vida própria, emoções e intenções. Seu uso torna a linguagem mais expressiva e poética, permitindo que o leitor visualize cenas de forma mais envolvente.",
     "perguntas": [
       {
         "pergunta": "\"O vento sussurrava segredos ao pé do ouvido das árvores.\"",
@@ -238,7 +238,7 @@
       }
     ]
   },
-  "metonimia": {
+  "Metonímia": {
     "descricao": "A metonímia é uma figura de linguagem que consiste na substituição de uma palavra por outra, com a qual mantém uma relação de proximidade, seja de contiguidade ou de causa e efeito. Ela é usada para tornar a comunicação mais direta, substituindo o nome de algo por outro com o qual tem alguma conexão.",
     "perguntas": [
       {
@@ -459,7 +459,7 @@
       }
     ]
   },
-  "eufemismo": {
+  "Eufemismo": {
     "descricao": "O eufemismo é uma figura de linguagem que suaviza uma ideia ou expressão que poderia ser considerada rude, negativa ou desconfortável. Ele é utilizado para tornar a comunicação mais polida, educada ou até mais aceitável socialmente, especialmente quando se trata de temas delicados como a morte, problemas financeiros ou doenças.",
     "perguntas": [
       {
@@ -674,7 +674,7 @@
       }
     ]
   },
-  "hiperbole": {
+  "Hipérbole": {
     "descricao": "A hipérbole é uma figura de linguagem que utiliza exageros para enfatizar uma ideia, sentimento ou característica. Essa técnica é comumente usada na comunicação cotidiana, na literatura e na publicidade, com o objetivo de criar um impacto emocional no receptor. A hipérbole é eficaz para transmitir emoções intensas, como surpresa, admiração ou frustração, tornando a comunicação mais expressiva e memorável.",
     "perguntas": [
       {
@@ -931,8 +931,8 @@
       }
     ]
   },
-  "comparacao": {
-    "descricao": "A comparação é uma figura de linguagem que estabelece uma relação de semelhança entre dois elementos, geralmente usando palavras como 'como', 'assim como', 'tal qual', entre outras. Ela permite ao falante ou escritor ilustrar melhor um conceito, dando uma ideia mais clara ao receptor. A comparação pode ser utilizada para intensificar uma característica ou apenas para criar uma imagem mais vívida e compreensível. A chave da comparação está no uso explícito de elementos que são comparados, tornando a relação entre eles bem evidente.",
+  "Comparação": {
+    "descricao": "A comparação é uma figura de linguagem que estabelece uma relação de semelhança entre dois elementos, geralmente usando palavras como 'como', 'assim como', 'tal qual', entre outras. Ela permite ao falante ou escritor ilustrar melhor um conceito, dando uma ideia mais clara ao receptor. A comparação pode ser utilizada para intensificar uma característica ou apenas para criar uma imagem mais vívida e compreensível. A chave da comparação está no uso explícito de elementos que são comparados.",
     "perguntas": [
       {
         "pergunta": "\"Ela é rápida como um raio!\"",
@@ -1200,7 +1200,7 @@
       }
     ]
   },
-  "metafora": {
+  "Metáfora": {
     "descricao": "A metáfora é uma figura de linguagem em que uma palavra ou expressão é usada para designar outra, com a qual mantém alguma semelhança. A principal diferença entre a metáfora e a comparação é que, enquanto a comparação usa palavras como 'como', 'assim como' ou 'tal qual' para estabelecer uma relação entre dois elementos, a metáfora faz essa associação de forma implícita, sem o uso dessas palavras. Ela é uma forma de condensar ideias e sentimentos, enriquecendo a expressão e proporcionando uma imagem mais intensa e poética. Metáforas podem ser usadas para representar abstrações, sentimentos ou qualidades de uma maneira mais impactante e simbólica.",
     "perguntas": [
       {
@@ -1439,7 +1439,7 @@
       }
     ]
   },
-  "paradoxo": {
+  "Paradoxo": {
     "descricao": "O paradoxo é uma figura de linguagem que reúne ideias aparentemente contraditórias, mas que, ao serem analisadas mais profundamente, revelam uma verdade profunda ou lógica. Essa contradição é usada para provocar reflexão e desafiando as percepções comuns da realidade. A ideia central é que, embora as frases se contradigam de forma superficial, elas podem apresentar uma verdade oculta ou inesperada.",
     "perguntas": [
       {
@@ -1690,7 +1690,7 @@
       }
     ]
   },
-  "antitese": {
+  "Antítese": {
     "descricao": "Figura de linguagem que consiste na apresentação de ideias, palavras ou conceitos opostos dentro de uma mesma estrutura frasal, criando um contraste deliberado. A antítese realça a oposição entre elementos (como 'luz e sombra', 'amor e ódio') para enfatizar diferenças, gerar tensão dramática ou destacar paradoxos. É frequentemente usada em textos filosóficos, poéticos e discursivos para provocar reflexão ou reforçar um argumento por meio da dualidade. Diferencia-se do paradoxo (que une contradições aparentemente irreconciliáveis)",
     "perguntas": [
       {
@@ -1893,8 +1893,8 @@
       }
     ]
   },
-  "pleonasmo": {
-    "descricao": "Pleonasmo é Figura de linguagem caracterizada pela redundância, ou seja, pelo uso de termos desnecessários que repetem uma ideia já expressa. Pode ser classificado em dois tipos: vicioso (quando a repetição é considerada um erro por não acrescentar significado, como 'subir para cima') ou estilístico (quando usado intencionalmente para ênfase ou efeito expressivo, como 'eu vi com meus próprios olhos'). O pleonasmo estilístico é comum na literatura para intensificar descrições ou emoções.",
+  "Pleonasmo": {
+    "descricao": "Pleonasmo é Figura de linguagem caracterizada pela redundância, ou seja, pelo uso de termos desnecessários que repetem uma ideia já expressa. Pode ser classificado em dois tipos: vicioso (quando a repetição é considerada um erro por não acrescentar significado, como 'subir para cima') ou estilístico (quando usado intencionalmente para ênfase ou efeito expressivo, como 'eu vi com meus próprios olhos').",
     "perguntas": [
       {
         "pergunta": "\"Subir para cima é uma ação desnecessária.\"",
@@ -2156,7 +2156,7 @@
       }
     ]
   },
-  "anafora": {
+  "Anáfora": {
     "descricao": "Anafora é uma figura de linguagem que consiste na repetição intencional de uma mesma palavra ou expressão no início de versos, frases ou orações consecutivas. Essa repetição busca enfatizar uma ideia, criar ritmo ou reforçar um conceito, gerando impacto no leitor ou ouvinte. É comum em discursos, poemas e textos persuasivos para destacar um tema central.",
     "perguntas": [
       {
@@ -2395,7 +2395,7 @@
       }
     ]
   },
-  "gradação": {
+  "Gradação": {
     "descricao": "A gradação (ou clímax) é uma figura de linguagem que apresenta uma sequência de ideias em ordem crescente ou decrescente de intensidade, criando um efeito de progressão.",
     "perguntas": [
       {
@@ -2568,7 +2568,7 @@
       }
     ]
   },
-  "onomatopeia": {
+  "Onomatopeia": {
     "descricao": "A onomatopeia é uma figura de linguagem que reproduz ou imita sons naturais, animais ou de objetos por meio de palavras. Ela busca representar foneticamente ruídos como latidos, trovões, batidas ou outros barulhos. É comum em histórias em quadrinhos, textos literários e descrições realistas",
     "perguntas": [
       {

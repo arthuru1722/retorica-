@@ -18,7 +18,7 @@
     <div id="estatisticas">
         <div class="content">
             <div class="top">
-                <div></div>
+                <button id="rotate" onclick="atualizarStats()"><i class="fa-solid fa-rotate"></i></button>
                 <h2>Figuras de linguagem</h2>
                 <button onclick="ocultStats()"><i class="fa-solid fa-xmark"></i></button>
             </div>
@@ -29,7 +29,7 @@
                 <div class="est"><p>RESPOSTAS CERTAS:</p><span id="respostasR"></span></div>
                 <div class="est"><p>PERGUNTAS RESPONDIDAS:</p><span id="respostas"></span></div>
                 <div class="est"><p>TEMPO ESGOTADO:</p><span id="esgotado"></span> </div>
-                <div class="version">V1.5</div>
+                <div class="version">V1.5A</div>
             </div>
         </div>    
     </div>
@@ -223,6 +223,7 @@
             </div>
         
             <div id="slideErrosContainer"></div>
+
             <div class="btn-nav">
                 <button class="nav-btn proximo" onclick="proximoSlide()"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
@@ -249,7 +250,7 @@
         <div class="right">
             <div class="top">
                 <div class="bg">
-                    <p class="total">TOTAL:</p><br> <span id="recordeAtual">0</span>
+                    <p class="total">TOTAL:</p> <span id="recordeAtual">0</span>
                 </div>
             </div>
             <div class="bottom">

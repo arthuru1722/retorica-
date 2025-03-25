@@ -1,6 +1,6 @@
 {
-    "ironia": {
-      "descricao": "A ironia ocorre quando há uma contradição entre o que é dito e o que realmente se quer dizer. Normalmente, é usada para expressar sarcasmo, crítica ou humor, e seu entendimento depende do contexto e da entonação. A ironia pode estar presente em diversas formas de discurso, como literatura, conversas cotidianas e até mesmo notícias. Muitas vezes, ela depende da interpretação subjetiva do receptor, tornando-se uma figura de linguagem que pode gerar diferentes reações, como humor ou indignação. Por isso, a ironia é uma ferramenta poderosa na comunicação, podendo ser usada para suavizar críticas ou enfatizar absurdos.",
+    "Ironia": {
+      "descricao": "A ironia ocorre quando há uma contradição entre o que é dito e o que realmente se quer dizer. Muitas vezes, ela depende da interpretação subjetiva do receptor, tornando-se uma figura de linguagem que pode gerar diferentes reações, como humor ou indignação. Por isso, a ironia é uma ferramenta poderosa na comunicação, podendo ser usada para suavizar críticas ou enfatizar absurdos.",
       "perguntas": [
         {
           "pergunta": "Que alegria! Meu computador travou e perdi todo o trabalho que não salvei!",
@@ -376,8 +376,8 @@
           }
     ]
   }, 
-    "sarcasmo": {
-      "descricao": "O sarcasmo é uma forma de ironia mordaz, geralmente usada para zombar, ridicularizar ou expressar desprezo. Caracteriza-se pelo uso de linguagem cortante e frequentemente acompanhada de um tom de voz específico. Diferente da ironia simples, o sarcasmo tem uma intenção mais agressiva e direta, buscando expor contradições ou absurdos de forma mais contundente. O sarcasmo pode ser um mecanismo de defesa, uma forma de humor ou um instrumento de crítica social. Sua eficácia depende do contexto, da entonação e do relacionamento entre os interlocutores, podendo ser interpretado como engraçado ou ofensivo dependendo dessas variáveis.",
+    "Sarcasmo": {
+      "descricao": "O sarcasmo é uma forma de ironia mordaz, geralmente usada para zombar, ridicularizar ou expressar desprezo. Caracteriza-se pelo uso de linguagem cortante e frequentemente acompanhada de um tom de voz específico. O sarcasmo tem uma intenção agressiva e direta, buscando expor contradições ou absurdos de forma mais contundente. O sarcasmo pode ser um mecanismo de defesa, uma forma de humor ou um instrumento de crítica social.",
       "perguntas": [
         {
           "pergunta": "Uau, você é um gênio! Só demorou três horas para resolver um problema de matemática básica.",
@@ -591,8 +591,8 @@
           }
       ]
     },
-    "polissindeto": {
-    "descricao": "O polissíndeto é uma figura de linguagem que consiste na repetição intencional de conjunções em uma frase ou texto, principalmente a conjunção 'e', com o objetivo de dar ênfase, ritmo ou intensidade à expressão. Este recurso estilístico cria um efeito de acumulação e destaque aos elementos enumerados, tornando o texto mais expressivo e cadenciado. O polissíndeto é comum na literatura, poesia, discursos persuasivos e textos bíblicos, onde a repetição das conjunções produz uma sensação de continuidade, abundância ou de algo interminável. Ao contrário do assíndeto (que elimina as conjunções), o polissíndeto torna as frases mais longas e pausadas, dando um tom solene ou dramático à narrativa.",
+    "Polissíndeto": {
+    "descricao": "O polissíndeto é uma figura de linguagem que consiste na repetição intencional de conjunções em uma frase ou texto, principalmente a conjunção 'e', com o objetivo de dar ênfase, ritmo ou intensidade à expressão. O polissíndeto é comum na literatura, poesia, discursos persuasivos e textos bíblicos, onde a repetição das conjunções produz uma sensação de continuidade, abundância ou de algo interminável. Ao contrário do assíndeto (que elimina as conjunções), o polissíndeto torna as frases mais longas e pausadas, dando um tom solene ou dramático à narrativa.",
     "perguntas": [
       {
         "pergunta": "Ela comprou pão e leite e manteiga e ovos e açúcar para fazer o bolo de aniversário.",
@@ -866,7 +866,7 @@
       }
     ]
   },
-  "assindeto": {
+  "Assíndeto": {
     "descricao": "O assíndeto é uma figura de linguagem que se caracteriza pela omissão de conjunções coordenativas entre palavras, orações ou frases, criando um efeito de rapidez, dinamismo e intensidade. É frequentemente utilizado em textos literários, discursos e até na linguagem cotidiana para tornar a narrativa mais ágil e expressiva. Diferente do polissíndeto, que enfatiza a repetição de conjunções, o assíndeto dá fluidez ao discurso, gerando um ritmo acelerado que pode transmitir urgência, emoção ou dramaticidade.",
     "perguntas": [
       {
@@ -1051,7 +1051,7 @@
       }
     ]
   },
-  "antanaclase": {
+  "Antanaclase": {
     "descricao": "A antanaclase é uma figura de linguagem que ocorre quando uma mesma palavra ou expressão é repetida em um enunciado, mas com significados diferentes. Esse recurso pode gerar ambiguidade, ironia ou um efeito estilístico interessante, sendo comum na literatura, no humor e na retórica. Muitas vezes, a antanaclase é utilizada para dar ênfase a uma ideia ou para brincar com a polissemia das palavras.",
     "perguntas": [
       {
@@ -1278,7 +1278,7 @@
       }
     ]
   },
-"aliteração": {
+"Aliteração": {
     "descricao": "A aliteração é uma figura de linguagem que consiste na repetição de sons consonantais no início ou no interior de palavras próximas, criando um efeito rítmico e sonoro no texto. Muito utilizada na poesia, na publicidade e em slogans, a aliteração dá musicalidade e destaque às frases, facilitando a memorização e intensificando a expressividade do discurso.",
     "perguntas": [
     {
@@ -1457,7 +1457,7 @@
       }
     ]
   },
-  "paronomasia": {
+  "Paronomásia": {
     "descricao": "A paronomásia é uma figura de linguagem que consiste no uso de palavras parônimas, ou seja, palavras que possuem sons semelhantes, mas significados diferentes. Esse recurso é frequentemente utilizado na literatura, na publicidade e em trocadilhos humorísticos, criando efeitos estilísticos interessantes e chamando a atenção do leitor ou ouvinte.",
     "perguntas": [
       {
@@ -1684,7 +1684,7 @@
       }
     ]
   },
-  "elipse": {
+  "Elipse": {
     "descricao": "A elipse é uma figura de linguagem que consiste na omissão de um termo que pode ser facilmente subentendido no contexto da frase. Esse recurso é utilizado para dar dinamismo ao discurso, evitando repetições desnecessárias e tornando a construção textual mais fluida e estilisticamente sofisticada.",
     "perguntas": [
       {
@@ -1977,8 +1977,8 @@
       }
     ]
   },
-  "litote": {
-    "descricao": "A litote é uma figura de pensamento que consiste em afirmar algo por meio da negação do seu contrário, muitas vezes com o objetivo de suavizar a mensagem ou criar um efeito de modéstia. É frequentemente utilizada para expressar ideias de forma indireta, usando uma negação para enfatizar uma qualidade ou situação. Por exemplo, dizer 'Ele não é burro' para sugerir que é inteligente. Essa figura é comum em contextos formais, literários e até no discurso cotidiano, sendo útil para evitar afirmações diretas que possam parecer agressivas ou pretensiosas.",
+  "Litote": {
+    "descricao": "A litote é uma figura de pensamento que consiste em afirmar algo por meio da negação do seu contrário, muitas vezes com o objetivo de suavizar a mensagem ou criar um efeito de modéstia. É frequentemente utilizada para expressar ideias de forma indireta, usando uma negação para enfatizar uma qualidade ou situação. Essa figura é comum em contextos formais, literários e até no discurso cotidiano, sendo útil para evitar afirmações diretas que possam parecer agressivas ou pretensiosas.",
     "perguntas": [
       {
         "pergunta": "Não é que o filme tenha sido um fracasso total...",

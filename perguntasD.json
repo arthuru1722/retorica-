@@ -1,5 +1,5 @@
 {
-    "zeugma": {
+    "Zeugma": {
       "descricao": "O zeugma é uma figura de linguagem caracterizada pela omissão de um termo já mencionado anteriormente na frase, criando uma ligação gramatical ou semântica entre elementos distintos. Geralmente, um verbo ou preposição é usado uma única vez, mas se aplica a múltiplos complementos, muitas vezes com significados diferentes. Essa figura confere concisão e elegância ao texto, evitando repetições desnecessárias.",
       "perguntas": [
         {
@@ -123,200 +123,200 @@
           "explicacao": "O zeugma usa 'perdeu' para 'chaves' (literal) e 'compostura' (emocional). A paronomásia usaria palavras parecidas, o eufemismo suavizaria e a gradação criaria uma sequência."
         },
         {
-            "pergunta": "Ele fechou os olhos e o coração para a verdade.",
-            "opcoes": ["Zeugma", "Polissíndeto", "Metáfora", "Hipérbole"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque o verbo 'fechar' se aplica a 'olhos' (sentido literal) e 'coração' (sentido figurado), mas é mencionado apenas uma vez. O polissíndeto repetiria conjunções, a metáfora faria uma comparação implícita e a hipérbole exageraria a ação."
-          },
-          {
-            "pergunta": "Ela perdeu o voo e a paciência no aeroporto.",
-            "opcoes": ["Zeugma", "Ironia", "Assíndeto", "Personificação"],
-            "correta": 0,
-            "explicacao": "O zeugma está no uso único do verbo 'perder' para duas situações distintas: uma concreta ('voo') e outra abstrata ('paciência'). A ironia expressaria o oposto, o assíndeto omitiria conjunções e a personificação daria vida a objetos."
-          },
-          {
-            "pergunta": "Ele levou o guarda-chuva e um susto com a tempestade.",
-            "opcoes": ["Zeugma", "Eufemismo", "Aliteração", "Antítese"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'levar' conecta um objeto físico ('guarda-chuva') e uma experiência emocional ('susto'). O eufemismo suavizaria, a aliteração repetiria sons e a antítese oporia ideias."
-          },
-          {
-            "pergunta": "A artista pintou quadros e a própria história.",
-            "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Pleonasmo"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'quadros' (ato físico) e 'história' (ato simbólico). A metáfora compararia conceitos, a hipérbole exageraria e o pleonasmo seria redundante."
-          },
-          {
-            "pergunta": "Ele quebrou o silêncio e o copo durante a discussão.",
-            "opcoes": ["Zeugma", "Paradoxo", "Metonímia", "Sarcasmo"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação abstrata ('silêncio') e uma ação física ('copo'). O paradoxo uniria contradições, a metonímia substituiria termos e o sarcasmo teria tom ácido."
-          },
-          {
-            "pergunta": "Ela vestiu um vestido vermelho e uma atitude desafiadora.",
-            "opcoes": ["Zeugma", "Comparação", "Sinestesia", "Anáfora"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'vestir', que se aplica a 'vestido' (literal) e 'atitude' (figurado). A comparação usaria 'como', a sinestesia misturaria sensações e a anáfora repetiria palavras iniciais."
-          },
-          {
-            "pergunta": "Ele abriu a janela e o coração para os novos amigos.",
-            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Catacrese"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('janela') e uma emocional ('coração'). A metáfora omitiria o conectivo, o polissíndeto repetiria conjunções e a catacrese usaria metáforas comuns."
-          },
-          {
-            "pergunta": "O discurso tocou o público e o assunto principal.",
-            "opcoes": ["Zeugma", "Hipérbole", "Eufemismo", "Prosopopeia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'tocar', que se aplica a 'público' (emocional) e 'assunto' (abordar). A hipérbole exageraria, o eufemismo suavizaria e a prosopopeia personificaria o discurso."
-          },
-          {
-            "pergunta": "Ela levou a bolsa, as chaves e um grande susto.",
-            "opcoes": ["Zeugma", "Assíndeto", "Ironia", "Aliteração"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'levar' conecta objetos físicos ('bolsa', 'chaves') e uma experiência ('susto'). O assíndeto omitiria conjunções, a ironia expressaria o oposto e a aliteração repetiria sons."
-          },
-          {
-            "pergunta": "Ele escreveu poemas e o próprio destino com determinação.",
-            "opcoes": ["Zeugma", "Metáfora", "Antítese", "Pleonasmo"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'escrever', que se aplica a 'poemas' (literal) e 'destino' (figurado). A metáfora compararia conceitos, a antítese oporia ideias e o pleonasmo seria redundante."
-          },
-          {
-            "pergunta": "A criança quebrou o brinquedo e a concentração da mãe.",
-            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paronomásia"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'quebrar' une um objeto físico ('brinquedo') e um estado abstrato ('concentração'). A hipérbole exageraria, a personificação daria vida a objetos e a paronomásia usaria palavras parecidas."
-          },
-          {
-            "pergunta": "Ele bebeu café e as palavras do chefe com atenção.",
-            "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Anacoluto"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'beber', que se aplica a 'café' (literal) e 'palavras' (figurado). A metonímia substituiria termos, o sarcasmo teria tom irônico e o anacoluto quebraria a estrutura da frase."
-          },
-          {
-            "pergunta": "Ela abraçou a oportunidade e o filho antes de sair.",
-            "opcoes": ["Zeugma", "Eufemismo", "Hipérbato", "Sinestesia"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'abraçar' conecta uma ação abstrata ('oportunidade') e uma física ('filho'). O eufemismo suavizaria, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
-          },
-          {
-            "pergunta": "O artista pintou telas e a própria fama com maestria.",
-            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Ironia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'telas' (literal) e 'fama' (figurado). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e a ironia expressaria o oposto."
-          },
-          {
-            "pergunta": "Ele ganhou o jogo e a admiração dos adversários.",
-            "opcoes": ["Zeugma", "Hipérbole", "Assíndeto", "Catacrese"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'ganhar' conecta uma vitória concreta ('jogo') e um sentimento abstrato ('admiração'). A hipérbole exageraria, o assíndeto omitiria conjunções e a catacrese usaria metáforas cristalizadas."
-          },
-          {
-            "pergunta": "Ela guardou as roupas e as lágrimas para mais tarde.",
-            "opcoes": ["Zeugma", "Personificação", "Paradoxo", "Aliteração"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'roupas' (literal) e 'lágrimas' (figurado). A personificação daria vida a objetos, o paradoxo uniria contradições e a aliteração repetiria sons."
-          },
-          {
-            "pergunta": "Ele acendeu a lâmpada e a esperança no grupo.",
-            "opcoes": ["Zeugma", "Metáfora", "Silepse", "Zeugma"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'acender' conecta uma ação física ('lâmpada') e uma abstrata ('esperança'). A metáfora omitiria o conectivo, e a silepse faria concordância ideológica."
-          },
-          {
-            "pergunta": "O professor corrigiu provas e o comportamento dos alunos.",
-            "opcoes": ["Zeugma", "Eufemismo", "Hipérbole", "Anáfora"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'corrigir', que se aplica a 'provas' (literal) e 'comportamento' (figurado). O eufemismo suavizaria, a hipérbole exageraria e a anáfora repetiria palavras iniciais."
-          },
-          {
-            "pergunta": "Ele fechou a porta e os ouvidos para as críticas.",
-            "opcoes": ["Zeugma", "Ironia", "Metonímia", "Pleonasmo"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'fechar' une uma ação física ('porta') e uma atitude abstrata ('ouvidos'). A ironia expressaria o oposto, a metonímia substituiria termos e o pleonasmo seria redundante."
-          },
-          {
-            "pergunta": "Ela plantou flores e dúvidas no jardim da mente.",
-            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Paronomásia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'plantar', que se aplica a 'flores' (literal) e 'dúvidas' (figurado). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a paronomásia usaria palavras parecidas."
-          },
-          {
-            "pergunta": "Ele cortou o bolo e o clima tenso da reunião.",
-            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Zeugma"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'cortar' conecta uma ação concreta ('bolo') e uma abstrata ('clima'). A hipérbole exageraria e a personificação daria vida a objetos."
-          },
-          {
-            "pergunta": "Ela segurou a carteira e o riso durante a piada.",
-            "opcoes": ["Zeugma", "Sarcasmo", "Catacrese", "Anacoluto"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'segurar', que se aplica a 'carteira' (literal) e 'riso' (figurado). O sarcasmo teria tom irônico, a catacrese usaria metáforas comuns e o anacoluto quebraria a estrutura sintática."
-          },
-          {
-            "pergunta": "Ele levantou a voz e a bandeira da justiça.",
-            "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Eufemismo"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'levantar' conecta uma ação física ('voz') e uma simbólica ('bandeira'). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e o eufemismo suavizaria."
-          },
-          {
-            "pergunta": "Ela perdeu o ônibus e a paciência naquela manhã.",
-            "opcoes": ["Zeugma", "Ironia", "Hipérbato", "Sinestesia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'perder', que se aplica a 'ônibus' (literal) e 'paciência' (figurado). A ironia expressaria o oposto, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
-          },
-          {
-            "pergunta": "Ele abriu o livro e a mente para novas ideias.",
-            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('livro') e uma intelectual ('mente'). A metáfora omitiria o conectivo, o assíndeto eliminaria conjunções e a aliteração repetiria sons."
-          },
-          {
-            "pergunta": "Ela lavou a louça e a alma com água corrente.",
-            "opcoes": ["Zeugma", "Personificação", "Hipérbole", "Paronomásia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'lavar', que se aplica a 'louça' (literal) e 'alma' (figurado). A personificação daria vida a objetos, a hipérbole exageraria e a paronomásia usaria palavras parecidas."
-          },
-          {
-            "pergunta": "Ele quebrou o lápis e o silêncio com uma pergunta.",
-            "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Pleonasmo"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação física ('lápis') e uma abstrata ('silêncio'). A metonímia substituiria termos, o sarcasmo teria tom ácido e o pleonasmo seria redundante."
-          },
-          {
-            "pergunta": "Ela acendeu a vela e a discussão no jantar.",
-            "opcoes": ["Zeugma", "Ironia", "Catacrese", "Anáfora"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'acender', que se aplica a 'vela' (literal) e 'discussão' (figurado). A ironia expressaria o oposto, a catacrese usaria metáforas comuns e a anáfora repetiria palavras iniciais."
-          },
-          {
-            "pergunta": "Ele beijou a esposa e a oportunidade de ficar rico.",
-            "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Zeugma"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'beijar' conecta uma ação física ('esposa') e uma abstrata ('oportunidade'). A metáfora compararia conceitos e a hipérbole exageraria a situação."
-          },
-          {
-            "pergunta": "Ela guardou os documentos e o orgulho após a derrota.",
-            "opcoes": ["Zeugma", "Eufemismo", "Polissíndeto", "Sinestesia"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'documentos' (literal) e 'orgulho' (figurado). O eufemismo suavizaria, o polissíndeto repetiria conjunções e a sinestesia misturaria sensações."
-          },
-          {
-            "pergunta": "Ele ergueu os braços e a voz contra a injustiça.",
-            "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
-            "correta": 0,
-            "explicacao": "O zeugma ocorre porque 'erguer' conecta uma ação física ('braços') e uma simbólica ('voz'). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a aliteração repetiria sons."
-          },
-          {
-            "pergunta": "Ela apagou a luz e as más lembranças do passado.",
-            "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paradoxo"],
-            "correta": 0,
-            "explicacao": "O zeugma está no verbo 'apagar', que se aplica a 'luz' (literal) e 'lembranças' (figurado). A hipérbole exageraria, a personificação daria vida a objetos e o paradoxo uniria contradições."
-          }
+          "pergunta": "Ele fechou os olhos e o coração para a verdade.",
+          "opcoes": ["Zeugma", "Polissíndeto", "Metáfora", "Hipérbole"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque o verbo 'fechar' se aplica a 'olhos' (sentido literal) e 'coração' (sentido figurado), mas é mencionado apenas uma vez. O polissíndeto repetiria conjunções, a metáfora faria uma comparação implícita e a hipérbole exageraria a ação."
+        },
+        {
+          "pergunta": "Ela perdeu o voo e a paciência no aeroporto.",
+          "opcoes": ["Zeugma", "Ironia", "Assíndeto", "Personificação"],
+          "correta": 0,
+          "explicacao": "O zeugma está no uso único do verbo 'perder' para duas situações distintas: uma concreta ('voo') e outra abstrata ('paciência'). A ironia expressaria o oposto, o assíndeto omitiria conjunções e a personificação daria vida a objetos."
+        },
+        {
+          "pergunta": "Ele levou o guarda-chuva e um susto com a tempestade.",
+          "opcoes": ["Zeugma", "Eufemismo", "Aliteração", "Antítese"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'levar' conecta um objeto físico ('guarda-chuva') e uma experiência emocional ('susto'). O eufemismo suavizaria, a aliteração repetiria sons e a antítese oporia ideias."
+        },
+        {
+          "pergunta": "A artista pintou quadros e a própria história.",
+          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Pleonasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'quadros' (ato físico) e 'história' (ato simbólico). A metáfora compararia conceitos, a hipérbole exageraria e o pleonasmo seria redundante."
+        },
+        {
+          "pergunta": "Ele quebrou o silêncio e o copo durante a discussão.",
+          "opcoes": ["Zeugma", "Paradoxo", "Metonímia", "Sarcasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação abstrata ('silêncio') e uma ação física ('copo'). O paradoxo uniria contradições, a metonímia substituiria termos e o sarcasmo teria tom ácido."
+        },
+        {
+          "pergunta": "Ela vestiu um vestido vermelho e uma atitude desafiadora.",
+          "opcoes": ["Zeugma", "Comparação", "Sinestesia", "Anáfora"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'vestir', que se aplica a 'vestido' (literal) e 'atitude' (figurado). A comparação usaria 'como', a sinestesia misturaria sensações e a anáfora repetiria palavras iniciais."
+        },
+        {
+          "pergunta": "Ele abriu a janela e o coração para os novos amigos.",
+          "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Catacrese"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('janela') e uma emocional ('coração'). A metáfora omitiria o conectivo, o polissíndeto repetiria conjunções e a catacrese usaria metáforas comuns."
+        },
+        {
+          "pergunta": "O discurso tocou o público e o assunto principal.",
+          "opcoes": ["Zeugma", "Hipérbole", "Eufemismo", "Prosopopeia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'tocar', que se aplica a 'público' (emocional) e 'assunto' (abordar). A hipérbole exageraria, o eufemismo suavizaria e a prosopopeia personificaria o discurso."
+        },
+        {
+          "pergunta": "Ela levou a bolsa, as chaves e um grande susto.",
+          "opcoes": ["Zeugma", "Assíndeto", "Ironia", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'levar' conecta objetos físicos ('bolsa', 'chaves') e uma experiência ('susto'). O assíndeto omitiria conjunções, a ironia expressaria o oposto e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ele escreveu poemas e o próprio destino com determinação.",
+          "opcoes": ["Zeugma", "Metáfora", "Antítese", "Pleonasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'escrever', que se aplica a 'poemas' (literal) e 'destino' (figurado). A metáfora compararia conceitos, a antítese oporia ideias e o pleonasmo seria redundante."
+        },
+        {
+          "pergunta": "A criança quebrou o brinquedo e a concentração da mãe.",
+          "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paronomásia"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'quebrar' une um objeto físico ('brinquedo') e um estado abstrato ('concentração'). A hipérbole exageraria, a personificação daria vida a objetos e a paronomásia usaria palavras parecidas."
+        },
+        {
+          "pergunta": "Ele bebeu café e as palavras do chefe com atenção.",
+          "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Anacoluto"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'beber', que se aplica a 'café' (literal) e 'palavras' (figurado). A metonímia substituiria termos, o sarcasmo teria tom irônico e o anacoluto quebraria a estrutura da frase."
+        },
+        {
+          "pergunta": "Ela abraçou a oportunidade e o filho antes de sair.",
+          "opcoes": ["Zeugma", "Eufemismo", "Hipérbato", "Sinestesia"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'abraçar' conecta uma ação abstrata ('oportunidade') e uma física ('filho'). O eufemismo suavizaria, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+        },
+        {
+          "pergunta": "O artista pintou telas e a própria fama com maestria.",
+          "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Ironia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'pintar', que se aplica a 'telas' (literal) e 'fama' (figurado). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e a ironia expressaria o oposto."
+        },
+        {
+          "pergunta": "Ele ganhou o jogo e a admiração dos adversários.",
+          "opcoes": ["Zeugma", "Hipérbole", "Assíndeto", "Catacrese"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'ganhar' conecta uma vitória concreta ('jogo') e um sentimento abstrato ('admiração'). A hipérbole exageraria, o assíndeto omitiria conjunções e a catacrese usaria metáforas cristalizadas."
+        },
+        {
+          "pergunta": "Ela guardou as roupas e as lágrimas para mais tarde.",
+          "opcoes": ["Zeugma", "Personificação", "Paradoxo", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'roupas' (literal) e 'lágrimas' (figurado). A personificação daria vida a objetos, o paradoxo uniria contradições e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ele acendeu a lâmpada e a esperança no grupo.",
+          "opcoes": ["Zeugma", "Metáfora", "Silepse", "Zeugma"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'acender' conecta uma ação física ('lâmpada') e uma abstrata ('esperança'). A metáfora omitiria o conectivo, e a silepse faria concordância ideológica."
+        },
+        {
+          "pergunta": "O professor corrigiu provas e o comportamento dos alunos.",
+          "opcoes": ["Zeugma", "Eufemismo", "Hipérbole", "Anáfora"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'corrigir', que se aplica a 'provas' (literal) e 'comportamento' (figurado). O eufemismo suavizaria, a hipérbole exageraria e a anáfora repetiria palavras iniciais."
+        },
+        {
+          "pergunta": "Ele fechou a porta e os ouvidos para as críticas.",
+          "opcoes": ["Zeugma", "Ironia", "Metonímia", "Pleonasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'fechar' une uma ação física ('porta') e uma atitude abstrata ('ouvidos'). A ironia expressaria o oposto, a metonímia substituiria termos e o pleonasmo seria redundante."
+        },
+        {
+          "pergunta": "Ela plantou flores e dúvidas no jardim da mente.",
+          "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Paronomásia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'plantar', que se aplica a 'flores' (literal) e 'dúvidas' (figurado). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a paronomásia usaria palavras parecidas."
+        },
+        {
+          "pergunta": "Ele cortou o bolo e o clima tenso da reunião.",
+          "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Zeugma"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'cortar' conecta uma ação concreta ('bolo') e uma abstrata ('clima'). A hipérbole exageraria e a personificação daria vida a objetos."
+        },
+        {
+          "pergunta": "Ela segurou a carteira e o riso durante a piada.",
+          "opcoes": ["Zeugma", "Sarcasmo", "Catacrese", "Anacoluto"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'segurar', que se aplica a 'carteira' (literal) e 'riso' (figurado). O sarcasmo teria tom irônico, a catacrese usaria metáforas comuns e o anacoluto quebraria a estrutura sintática."
+        },
+        {
+          "pergunta": "Ele levantou a voz e a bandeira da justiça.",
+          "opcoes": ["Zeugma", "Metáfora", "Polissíndeto", "Eufemismo"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'levantar' conecta uma ação física ('voz') e uma simbólica ('bandeira'). A metáfora compararia conceitos, o polissíndeto repetiria conjunções e o eufemismo suavizaria."
+        },
+        {
+          "pergunta": "Ela perdeu o ônibus e a paciência naquela manhã.",
+          "opcoes": ["Zeugma", "Ironia", "Hipérbato", "Sinestesia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'perder', que se aplica a 'ônibus' (literal) e 'paciência' (figurado). A ironia expressaria o oposto, o hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+        },
+        {
+          "pergunta": "Ele abriu o livro e a mente para novas ideias.",
+          "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'abrir' conecta uma ação física ('livro') e uma intelectual ('mente'). A metáfora omitiria o conectivo, o assíndeto eliminaria conjunções e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ela lavou a louça e a alma com água corrente.",
+          "opcoes": ["Zeugma", "Personificação", "Hipérbole", "Paronomásia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'lavar', que se aplica a 'louça' (literal) e 'alma' (figurado). A personificação daria vida a objetos, a hipérbole exageraria e a paronomásia usaria palavras parecidas."
+        },
+        {
+          "pergunta": "Ele quebrou o lápis e o silêncio com uma pergunta.",
+          "opcoes": ["Zeugma", "Metonímia", "Sarcasmo", "Pleonasmo"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'quebrar' une uma ação física ('lápis') e uma abstrata ('silêncio'). A metonímia substituiria termos, o sarcasmo teria tom ácido e o pleonasmo seria redundante."
+        },
+        {
+          "pergunta": "Ela acendeu a vela e a discussão no jantar.",
+          "opcoes": ["Zeugma", "Ironia", "Catacrese", "Anáfora"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'acender', que se aplica a 'vela' (literal) e 'discussão' (figurado). A ironia expressaria o oposto, a catacrese usaria metáforas comuns e a anáfora repetiria palavras iniciais."
+        },
+        {
+          "pergunta": "Ele beijou a esposa e a oportunidade de ficar rico.",
+          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Zeugma"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'beijar' conecta uma ação física ('esposa') e uma abstrata ('oportunidade'). A metáfora compararia conceitos e a hipérbole exageraria a situação."
+        },
+        {
+          "pergunta": "Ela guardou os documentos e o orgulho após a derrota.",
+          "opcoes": ["Zeugma", "Eufemismo", "Polissíndeto", "Sinestesia"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'guardar', que se aplica a 'documentos' (literal) e 'orgulho' (figurado). O eufemismo suavizaria, o polissíndeto repetiria conjunções e a sinestesia misturaria sensações."
+        },
+        {
+          "pergunta": "Ele ergueu os braços e a voz contra a injustiça.",
+          "opcoes": ["Zeugma", "Metáfora", "Assíndeto", "Aliteração"],
+          "correta": 0,
+          "explicacao": "O zeugma ocorre porque 'erguer' conecta uma ação física ('braços') e uma simbólica ('voz'). A metáfora compararia conceitos, o assíndeto omitiria conjunções e a aliteração repetiria sons."
+        },
+        {
+          "pergunta": "Ela apagou a luz e as más lembranças do passado.",
+          "opcoes": ["Zeugma", "Hipérbole", "Personificação", "Paradoxo"],
+          "correta": 0,
+          "explicacao": "O zeugma está no verbo 'apagar', que se aplica a 'luz' (literal) e 'lembranças' (figurado). A hipérbole exageraria, a personificação daria vida a objetos e o paradoxo uniria contradições."
+        }
       ]
     },
-    "catacrese": {
+    "Catacrese": {
         "descricao": "A catacrese é uma figura de linguagem que consiste no uso de uma palavra fora de seu sentido original por falta de um termo específico para designar um conceito ou objeto. Trata-se de uma metáfora tão consolidada na língua que seu uso figurado passa a ser aceito como convencional. Exemplos comuns incluem expressões como 'pé da mesa' ou 'asa da xícara', onde partes do corpo ou elementos naturais são emprestados para nomear coisas abstratas ou concretas que não possuem denominação própria.",
         "perguntas": [
           {
@@ -573,7 +573,7 @@
           }
         ]
       },
-      "sinestesia": {
+      "Sinestesia": {
     "descricao": "A sinestesia é uma figura de linguagem que consiste na combinação de sensações percebidas por diferentes órgãos dos sentidos, criando uma expressão que mistura elementos como visão, audição, tato, paladar e olfato. Essa fusão de percepções gera imagens poéticas e impactantes, como 'cor fria' ou 'som doce', ampliando a expressividade do texto.",
     "perguntas": [
       {
@@ -715,7 +715,7 @@
         "explicacao": "A sinestesia mistura audição ('música') e visão ('cor dourada'). Sincope omitiria letras, alusão faria referência indireta, e prosapopeia daria vida a objetos."
       },
       {
-        "pergunta": "O toque da melodia era suave como seda.",
+        "pergunta": " ",
         "opcoes": ["anacoluta", "sinestesia", "zeugma", "alusão"],
         "correta": 1,
         "explicacao": "A sinestesia liga tato ('toque suave') e audição ('melodia'). Anacoluta quebraria a estrutura da frase, zeugma omitiria um verbo, e alusão faria referência indireta"
@@ -824,7 +824,7 @@
       }
      ]
    },
-    "apostrofe": {
+    "Apóstrofe": {
       "descricao": "A apóstrofe é uma figura de linguagem que consiste no direcionamento da fala a um interlocutor ausente, abstrato ou inanimado, como uma pessoa que não está presente, um objeto ou um conceito. É comum em discursos emocionados, poesias e textos dramáticos, criando um efeito de ênfase ou dramaticidade.",
       "perguntas": [
         {
@@ -1069,7 +1069,7 @@
           }
        ]
     },
-    "anacoluto": {
+    "Anacoluto": {
     "descricao": "O anacoluto é uma figura de linguagem caracterizada pela quebra da estrutura sintática da frase, criando uma incoerência entre suas partes. Geralmente ocorre quando o falante inicia uma construção gramatical e a interrompe abruptamente, deixando termos soltos ou sem conexão lógica.",
     "perguntas": [
       {
@@ -1314,7 +1314,7 @@
       }
     ]
   },
-  "antonomasia": {
+  "Antonomásia": {
   "descricao": "A antonomásia é uma figura de linguagem que consiste na substituição de um nome próprio por uma expressão que o caracteriza (ou vice-versa). Pode ser um epíteto, um título ou uma qualidade marcante, como chamar um líder influente de 'O Libertador' em vez de usar seu nome real, ou referir-se a uma figura histórica por uma de suas ações notáveis.",
   "perguntas": [
     {
@@ -1505,7 +1505,7 @@
     }
    ]
   },
-  "sincope": {
+  "Síncope": {
   "descricao": "A síncope é uma figura de linguagem que consiste na supressão de fonemas ou sílabas no meio das palavras. Esse fenômeno ocorre frequentemente na fala coloquial e na poesia para dar fluidez ao discurso.",
   "perguntas": [
       {

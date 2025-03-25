@@ -161,11 +161,17 @@ function iniciarQuizBtn() {
 
 
 function iniciarQuiz() {
-    limparErros();
+    setTimeout(() => {
+        limparErros();
+    }, 1000)
+    
     const vida = document.getElementById('vidas');
     const timer = document.getElementById('timerContainer');
+    const rp = document.getElementById('rp');
     vida.style.filter = "none";
-    timer.style.filter = "none";
+    timer.style.filter = "none";   
+    rp.style.filter = "none";
+                
     blurr = false;
     vidaAtual = 3;
     atualizarVidas()
@@ -366,6 +372,13 @@ function carregarPergunta() {
             console.log('mostrarbonus carregarpergunta')
         }, 10000);
     } else {console.log('numfoi')}
+
+    if (Math.random() < 0.2) {
+        setTimeout(() => {
+            triggerEvento();
+            console.log('triggerEvento carregarpergunta')
+        }, 6000);
+    } else {console.log('numfoi')}
 }
 
 function notification() {
@@ -428,7 +441,16 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         }
         atualizarRecordeAtual();
         atualizarRecorde();
+        
     }
+
+    if (!blurr) {
+        const opcoesEl = document.querySelectorAll("#opcoes li");
+        const indiceCorreto = opcoes.findIndex(opcao => opcao.index === correta);
+
+        opcoesEl[indiceCorreto].classList.add("correta");
+    }
+        
     
 
     // Se o usuário acertou, vai para a próxima pergunta após 1 segundo
@@ -582,6 +604,26 @@ function ocultStats() {
 }
 
 showStats()
+
+function atualizarStats() {
+    const rotate = document.getElementById('rotate');
+    setTimeout(() => {
+        rotate.style.animation = "rotate-an 1s forwards infinite"
+    }, 100);
+    
+    setTimeout (() => {
+        rotate.style.animation = ""
+        document.getElementById("recordee").innerText = recorde;
+            document.getElementById("recorde").innerText = recorde;
+            atualizarRecorde()
+            document.getElementById("respostas").innerText = respostas;
+            document.getElementById("respostasW").innerText = respostasW;
+            document.getElementById("respostasR").innerText = respostasR;
+            document.getElementById("esgotado").innerText = esgotado;
+            console.log('estatisticas atualizada')
+    }, 3000);
+    
+}
 
 function animateTimer() {
     if (count > 0) {
@@ -903,6 +945,7 @@ function normalizarChances() {
 }
 
 let Invencibilidade = false
+
 // Eventos obrigatórios
 const eventos = [
     {
@@ -948,12 +991,15 @@ const eventos = [
         aplicar: () => {
             const vida = document.getElementById('vidas');
             const timer = document.getElementById('timerContainer');
+            const rp = document.getElementById('rp');
             vida.style.filter = "blur(20px)";
             timer.style.filter = "blur(20px)";
+            rp.style.filter = "blur(20px)";
             blurr = true;    
             setTimeout(() => {
                 vida.style.filter = "none";
                 timer.style.filter = "none";
+                rp.style.filter = "none";
                 blurr = false;
             }, 60000);      
         }
@@ -1219,9 +1265,9 @@ function mostrarErrosSlide() {
     container.innerHTML = errosCometidos.map((erro, index) => `
         <div class="slide-erro ${index === 0 ? 'ativo' : ''}" data-index="${index}">
             <div class="erro-card">
-                <div>
+                <div class="depressao-pos-parto">
                     <h3>${erro.categoria}</h3>
-                    <p>Era a resposta Correta</p>
+                    <p style="color: #f4bb8c; margin: 0;">Era a resposta Correta</p>
                     <p class="descricao-curta">${erro.descricao}</p>
                 </div>
                 <button onclick="mostrarExplicacaoCompleta(${index})">Ver detalhes</button>
@@ -1242,6 +1288,8 @@ function proximoSlide() {
     });
     
     document.getElementById('contadorErros').textContent = `${slideAtual + 1}/${errosCometidos.length}`;
+
+    console.log(slideAtual);
 }
 
 function slideAnterior() {
@@ -1255,6 +1303,7 @@ function slideAnterior() {
     });
     
     document.getElementById('contadorErros').textContent = `${slideAtual + 1}/${errosCometidos.length}`;
+    console.log(slideAtual);
 }
 
 function mostrarExplicacaoCompleta(index) {
@@ -1270,10 +1319,13 @@ function mostrarExplicacaoCompleta(index) {
     // Atualizar navegação
     document.querySelectorAll('.nav-erro-completo').forEach(btn => {
         btn.onclick = function() {
-            const newIndex = index + (this.classList.contains('proximo') ? 1 : -1);
-            if (newIndex >= 0 && newIndex < errosCometidos.length) {
-                mostrarExplicacaoCompleta(newIndex);
+            let newIndex = index;
+            if (this.classList.contains('proximo')) {
+                newIndex = (index + 1) % errosCometidos.length; // Correção cíclica
+            } else {
+                newIndex = (index - 1 + errosCometidos.length) % errosCometidos.length; // Correção cíclica
             }
+            mostrarExplicacaoCompleta(newIndex);
         };
     });
 }
