@@ -300,6 +300,11 @@ function mostrarTempoEsgotado() {
     }, 800);
 }
 
+let timeoutmb
+let timeouttg
+let eventTrigue = false
+let bonuscearaestadobrasileiro = false
+
 function carregarPergunta() {
 
     Invencibilidade = false;
@@ -365,20 +370,24 @@ function carregarPergunta() {
         notification()
         quinze = true;
     }
-
-    if (Math.random() < 0.5) {
-        setTimeout(() => {
+    
+    if (Math.random() < 0.5 && !bonuscearaestadobrasileiro && !eventTrigue) {
+        console.log('foi bonus')
+        bonuscearaestadobrasileiro = true
+        timeoutmb = setTimeout(() => {
             mostrarBonus();
             console.log('mostrarbonus carregarpergunta')
         }, 10000);
-    } else {console.log('numfoi')}
+    } else {console.log('num foi bonus')}
 
-    if (Math.random() < 0.2) {
-        setTimeout(() => {
+    if (Math.random() < 0.5 && !bonuscearaestadobrasileiro && !eventTrigue) {
+        console.log('foi trigue')
+        timeouttg = setTimeout(() => {
+            eventTrigue = true
             triggerEvento();
             console.log('triggerEvento carregarpergunta')
         }, 6000);
-    } else {console.log('numfoi')}
+    } else {console.log('num foi trige')}
 }
 
 function notification() {
@@ -450,6 +459,9 @@ function verificarResposta(elemento, indice, correta, opcoes) {
 
         opcoesEl[indiceCorreto].classList.add("correta");
     }
+
+    clearTimeout('timeoutmb');
+    clearTimeout('timeouttg')
         
     
 
@@ -978,7 +990,7 @@ const eventos = [
         aplicar: () => {
             full.style.display = "block";
             full.style.backgroundColor = "transparent";
-            full.style.backdropFilter = "blur(3px)";
+            full.style.backdropFilter = "blur(2px)";
             setTimeout(() => {
                 full.style.display = "none";
                 full.style.filter = "none";
@@ -1032,7 +1044,10 @@ function triggerEvento() {
 
     document.body.appendChild(notificacao);
     evento.aplicar();
-    setTimeout(() => notificacao.remove(), 3000);
+    setTimeout(() => {
+        notificacao.remove();
+        eventTrigue = false;
+    }, 3000);
 }
 
 function mostrarEfeitoAtivo(efeito) {
@@ -1149,6 +1164,7 @@ function mostrarBonuss() { // a função de chamar o bonus
         setTimeout(() => {
             bonusWindow.style.display = "none";
             bonusHeader.style.pointerEvents = "none";
+            bonuscearaestadobrasileiro = false
         }, 1100);
         
     }, 8000);
@@ -1222,6 +1238,7 @@ function displayBonus() { // o randomizador de bonus
             bonusWindow.style.display = "none";
             bonusContent.style.display = "none";
             document.getElementById("bonus-text").style.display = "none"
+            bonuscearaestadobrasileiro = false
         }, 1100);
         
 
