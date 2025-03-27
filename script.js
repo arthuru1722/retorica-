@@ -289,6 +289,8 @@ function formatTime(seconds) {
 }
 
 function mostrarTempoEsgotado() {
+    isCarregandoPergunta = false;
+    clearInterval(timerInterval);
     vinheta4()
     setTimeout(() => {
         full.style.display = "none";
@@ -300,12 +302,18 @@ function mostrarTempoEsgotado() {
     }, 800);
 }
 
-let timeoutmb
-let timeouttg
-let eventTrigue = false
-let bonuscearaestadobrasileiro = false
+let timeoutmb;
+let timeouttg;
+let eventTrigue = false;
+let bonuscearaestadobrasileiro = false;
+let isCarregandoPergunta = false;
 
 function carregarPergunta() {
+    console.log(isCarregandoPergunta)
+
+    isCarregandoPergunta = true;
+    
+    
 
     Invencibilidade = false;
 
@@ -380,7 +388,7 @@ function carregarPergunta() {
         }, 10000);
     } else {console.log('num foi bonus')}
 
-    if (Math.random() < 0.5 && !bonuscearaestadobrasileiro && !eventTrigue) {
+    if (Math.random() < 0.2 && !bonuscearaestadobrasileiro && !eventTrigue) {
         console.log('foi trigue')
         timeouttg = setTimeout(() => {
             eventTrigue = true
@@ -490,6 +498,7 @@ function verificarResposta(elemento, indice, correta, opcoes) {
 
 
 function mostrarExplicacao() {
+    isCarregandoPergunta = false;
     vinheta2() 
     setTimeout(() => {
         full.style.display = "none";
@@ -501,6 +510,7 @@ function mostrarExplicacao() {
 }
 
 function voltarParaTelaInicial() {
+    isCarregandoPergunta = false;
     atualizarBarraProgresso();
     full.style.display = "none";
     document.getElementById("telaExplicacao").style.display = "none";
@@ -847,16 +857,6 @@ const efeitosBonus = [
         }
     },
     {
-        tipo: 'tempo',
-        valor: 0,
-        desc: 'Tempo Pausado',
-        chance: 0.1,
-        aplicar: () => { 
-            clearInterval(timerInterval)
-            console.log('tempo pausado')
-        }
-    },
-    {
         tipo: 'vida',
         valor: 1,
         desc: 'Vida Extra',
@@ -929,9 +929,9 @@ const efeitosBonus = [
         aplicar: () => {
             bonusHeader.style.border = "0.7vmin solid #e96767";
             const timerContainer = document.getElementById('timerContainer');
-            timerContainer.style.filter = 'blur(50px)';
+            timerContainer.style.filter = 'blur(25px)';
             setTimeout(() => {
-                timerContainer.style.display = 'block';
+                timerContainer.style.filter = 'none';
             }, 50000);
             console.log('tempo ocultado')
         }
@@ -942,7 +942,10 @@ const efeitosBonus = [
         desc: 'Nova pergunta',
         chance: 0.1,
         aplicar: () => {
-            carregarPergunta();
+            setTimeout(() => {
+                carregarPergunta();
+            }, 1000)
+            
             console.log('nova pergunta')
         }
     }
@@ -962,6 +965,7 @@ let Invencibilidade = false
 const eventos = [
     {
         desc: '2x Velocidade',
+        chance: 0.1,
         aplicar: () => {
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 500);
@@ -975,6 +979,7 @@ const eventos = [
     },
     {
         desc: '0.5x Velocidade',
+        chance: 0.1,
         aplicar: () => {
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 2000);
@@ -985,7 +990,7 @@ const eventos = [
         }
     },
     {
-        desc: 'Miopia',
+        desc: 'Miopia',     
         chance: 0.1,
         aplicar: () => {
             full.style.display = "block";
@@ -1029,6 +1034,7 @@ function triggerEvento() {
     const evento = eventos[Math.floor(Math.random() * eventos.length)];
     const notificacao = document.createElement('div');
     notificacao.className = 'evento-notificacao';
+    notificacao.style.animation = "slideDownn 1s forwards";
     
     // Definir o conteúdo como HTML
     notificacao.innerHTML = 
@@ -1045,9 +1051,13 @@ function triggerEvento() {
     document.body.appendChild(notificacao);
     evento.aplicar();
     setTimeout(() => {
-        notificacao.remove();
+        notificacao.style.animation = "slideUp 1s forwards";
         eventTrigue = false;
-    }, 3000);
+        setTimeout(() => {
+            notificacao.remove();
+        }, 1000)
+        
+    }, 2000);
 }
 
 function mostrarEfeitoAtivo(efeito) {
