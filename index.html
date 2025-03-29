@@ -13,13 +13,14 @@
 <body>
 
     <div id="full"></div> 
+    <div id="full-changeUruguai"></div>
     <div class="overlay" id="overlay"></div>
     
     <div id="estatisticas">
         <div class="content">
             <div class="top">
                 <button id="rotate" onclick="atualizarStats()"><i class="fa-solid fa-rotate"></i></button>
-                <h2>Figuras de linguagem</h2>
+                <h2>Estatísticas</h2>
                 <button onclick="ocultStats()"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="down">
@@ -29,9 +30,25 @@
                 <div class="est"><p>RESPOSTAS CERTAS:</p><span id="respostasR"></span></div>
                 <div class="est"><p>PERGUNTAS RESPONDIDAS:</p><span id="respostas"></span></div>
                 <div class="est"><p>TEMPO ESGOTADO:</p><span id="esgotado"></span> </div>
-                <div class="version">V1.5C (pre-release)</div>
+                <div class="version">V1.5D (pre-release)</div>
             </div>
         </div>    
+    </div>
+
+    <div id="menuBack">
+        <div class="content">
+            <header>
+                <p>Voltar à tela inicial</p>
+                <button id="backBtn-header-menuback" onclick="ocultBtnBackMenu()"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="top">
+                <p>Deseja realmente voltar?</p>
+            </div>
+            <div class="bottom">
+                <p>Todo o progresso será perdido.</p>
+                <button onclick="backBtnMarcelo()">Voltar</button>
+            </div>
+        </div>
     </div>
 
     
@@ -68,7 +85,7 @@
             <i class="fa-solid fa-stopwatch fa-shake fa-bounce relogio-vinheta"></i>
         </div>
     </div>
-
+    <div class="vinheta3" id="vinheta3"></div>
 
     <div class="select" id="select" onclick="ocultSelf()">
         <div class="sele" id="sele">
@@ -177,7 +194,7 @@
     <!-- Tela do Quiz -->
     <div id="telaQuiz">
         <div class="title">
-            <img class="logo2" src="src/logo1.png">
+            <img class="logo2" src="src/logo1.png" onclick="showBtnBackMenu()">
             <div class="vidas" id="vidas">
                 <i class="fa-solid fa-heart"></i>
                 <i class="fa-solid fa-heart"></i>

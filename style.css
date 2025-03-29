@@ -42,6 +42,13 @@ body {
 
 .logo2 {
     width: 15%;
+    margin-bottom: 2vmin;
+    transition: all 0.3 ease-in-out;
+
+    &:hover {
+        scale: 1.05;
+    }
+    
 }
 
 .logo3 {
@@ -183,13 +190,13 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90vmin;
+    width: 100%;
     height: 50vmin;
     background-color: #a86255;
 }
 
 .white_bg {
-    width: 34vmin;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: end;
@@ -204,11 +211,11 @@ body {
     align-items: center;
     padding: 3vmin;
     height: 50vmin;
-    width: 40vmin;
+    width: 40%;
 }
 
 #writer-description {
-    width: 56vmin;
+    width: 100%;
     height: 50vmin;
     background-color: #feefd8;
     overflow: visible;
@@ -226,7 +233,8 @@ body {
 }
 
 .slide .info {
-    width: 34vmin;
+    width: max-content;
+    max-width: 34vmin;
     overflow-y: auto;
     overflow-x: hidden;
     height: auto;
@@ -256,6 +264,7 @@ body {
 .escritores {
     height: auto;
     min-height: 50vmin;
+    max-width: 100vmin;
 }
 
 .carousel {
@@ -268,7 +277,7 @@ body {
     background-color: #6e8f7c;
     height: auto;
     padding: 1.5vmin 0;
-    width: 96vmin;
+    width: 100%;
     margin: 0;
     font-family: 'questrial';
     font-size: 3.6vmin;
@@ -329,8 +338,8 @@ body {
 
 .dot {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 2vmin;
+    height: 2vmin;
     margin: 5px;
     background-color: #7e493e;
     border-radius: 50%;
@@ -341,7 +350,7 @@ body {
     background-color: #422620;
 }
 
-#telaExplicacao, #telaQuiz, #telaTempoEsgotado, #creditos, #difficulty, #estatisticas { display: none; }
+#telaExplicacao, #telaQuiz, #telaTempoEsgotado, #creditos, #difficulty, #estatisticas, #menuBack { display: none; }
 
 #estatisticas {
     background-color: #00000079;
@@ -856,15 +865,14 @@ ul, ol {
 #telaTempoEsgotado {
     justify-content: space-between;
     height: 80vh;
+    gap: 2vmin;
 }
 
 #telaTempoEsgotado .left h1{
     font-size: calc(24px + 2.5vw);
-    margin: 0 20px;
+    margin: 0;  
     color: #feefd8;
-    margin-bottom: 20px;
     text-align: center;
-    padding: 15px;
 }
 
 #telaTempoEsgotado .left{
@@ -1019,6 +1027,8 @@ ul, ol {
 
 .vinheta2 {
     position: fixed;
+    justify-content: center;
+    align-items: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -1027,6 +1037,12 @@ ul, ol {
     z-index: 9999;
     transform: translateY(-100%);
     display: none; /* Oculta até ser ativada */
+
+    & i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .vinheta2.ativa2 {
@@ -1035,6 +1051,35 @@ ul, ol {
     align-items: center;
     animation: slideDown 1s ease-in-out forwards;
 }
+
+.vinheta3 {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6e8f7c;
+    z-index: 999999999999999999;
+    transform: translateY(-100%);
+    display: none; /* Oculta até ser ativada */
+
+    & i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.vinheta3.ativa3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideDown 0.5s ease-in-out forwards;
+}
+
+
   @keyframes slideDown {
     0% {
       transform: translateY(-100%);
@@ -1087,6 +1132,7 @@ ul, ol {
     color: white;
     border-radius: 5px;
     z-index: 9999;
+    pointer-events: none;
     transition: top 0.5s ease-in-out; /* Animação de deslizar */
 }
 
@@ -1149,7 +1195,7 @@ ul, ol {
     height: 4vmin;
     background: #7f4a3e;
     background-clip: content-box;
-    border-radius: 40px;
+    border-radius: 33px;
     overflow: hidden;
     
   }
@@ -1187,6 +1233,7 @@ ul, ol {
 
 #bonus-ntnt {
     position: absolute;
+    pointer-events: none;
     top: 0;
     left: 0;
     width: 100vw;
@@ -1363,7 +1410,6 @@ ul, ol {
 #telaErros {
     background-color: #653931;
     display: none;
-    
     top: 0;
     left: 0;
     width: 65%;
@@ -1438,6 +1484,10 @@ ul, ol {
 
 .erro-card {
     background: #653931;
+    background-image: url(src/download.svg);
+    background-repeat: no-repeat;
+    background-size: 12vmin;
+    background-position: center center;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1584,6 +1634,132 @@ ul, ol {
     color: #3b3838;
 }
 
+#menuBack {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+#menuBack .content {
+    background-color: #feefd8;
+    width: 85vmin;
+    height: 30vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+#menuBack .content header {
+    padding: 1vmin 2vmin;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #6e8f7c;
+
+    & p {
+        color: #4f6d5c;
+        margin: 0;
+        font-size: 5vmin;
+        font-weight: 700;
+    }
+
+    & button {
+        padding: 0;
+        width: 7vmin;
+        height: 7vmin;
+        border: none;
+        font-size: 5vmin;
+        background: none;
+        color: #3b3838;
+        cursor: pointer;
+
+        &:hover {
+            scale: 1.05;
+        }
+    }
+}
+
+#menuBack .content .top {
+    padding: 0 2vmin;
+    & p {
+        color: #3b3838;
+        font-family: 'alata';
+        margin: 0;
+        font-size: 5vmin;
+        font-weight: 600;
+        letter-spacing: 0.4vmin;
+    }
+
+}
+
+#menuBack .content .bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 7vmin;
+    padding: 2vmin;
+    color: #feefd8;
+
+    & p {
+        background-color: #e96767;
+        height: fit-content;
+        margin: 0;
+        font-size: 2.5vmin;
+        font-family: 'alata';
+        letter-spacing: 0.1vmin;
+        padding: 0 1.3vmin;
+        font-weight: 400;
+    }
+    & button {
+        background-color: #6e8f7c;
+        color: #feefd8;
+        width: 40vmin;
+        font-size: 5.5vmin;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800;
+        font-family: 'poppins';
+        border: none;
+        transition: all 0.1s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            scale: 1.03;
+        }
+    }
+}
+
+#full-changeUruguai {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    z-index: 99999999;
+    background: #fff; 
+    opacity: 0;
+}
+
+@keyframes whiter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
@@ -1732,6 +1908,7 @@ ul, ol {
     }
     .logo2 {
         width: 70%;
+    
     }
 
     .creditos .right {
@@ -1873,6 +2050,7 @@ ul, ol {
     #telaTempoEsgotado .left .clock {
         display: flex;
         justify-content: center;
+        scale: 0.8;
     }
 
     #telaTempoEsgotado .left {
