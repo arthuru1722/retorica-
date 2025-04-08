@@ -1,6 +1,7 @@
 document.getElementById('telaInicial').style.display = "flex"
 
 let intervall
+
 let perguntas = {};
 let vel = 1000; // 1 segundo do timer padrão, so pra poder mudar com mais facilidade essa desgraça
 let perguntasD = {};
@@ -14,6 +15,9 @@ let tempoRestante = 60; // 1:30
 let contadorPerguntas = 0;
 let count = 3;
 let timerInterval;
+
+let RetoCoins = localStorage.getItem("RetoCoins") || 0;
+
 let recorde = localStorage.getItem("recordeQuiz") || 0;
 let respostas = localStorage.getItem("Respostas") || 0;
 let respostasW = localStorage.getItem("respostasW") || 0; // Corrigido
@@ -36,7 +40,7 @@ respostasR = parseInt(respostasR);
 timee = parseInt(timee);
 esgotado = parseInt(esgotado);
 
-
+document.getElementById("retoCoins").innerText = RetoCoins;
 document.getElementById("recordee").innerText = recorde;
 document.getElementById("recorde").innerText = recorde;
 atualizarRecorde()
@@ -162,6 +166,11 @@ function iniciarQuizBtn() {
 
 
 function iniciarQuiz() {
+    const questions = document.getElementById('questions');
+    const optiones = document.getElementById('optiones');
+
+    questions.style.order = "1"
+    optiones.style.order = "2"
     setTimeout(() => {
         limparErros();
     }, 1000)
@@ -332,6 +341,7 @@ let bonuscearaestadobrasileiro = false;
 let isCarregandoPergunta = false;
 
 function carregarPergunta() {
+    
     console.log(isCarregandoPergunta)
 
     isCarregandoPergunta = true;
@@ -464,6 +474,14 @@ function verificarResposta(elemento, indice, correta, opcoes) {
         document.getElementById("respostasCorretas").innerText = respostasCorretas;
         atualizarRecordeAtual();
         atualizarRecorde();
+
+        if (respostasCorretas % 2 === 0) {
+            RetoCoins += 100;
+            RetoCoins = parseInt(RetoCoins)
+            console.log(RetoCoins)
+            localStorage.setItem("RetoCoins", RetoCoins);
+            document.getElementById("retoCoins").innerText = RetoCoins;
+        }
     } else {
 
         respostasW++;
@@ -564,7 +582,24 @@ function voltarParaTelaInicial() {
         document.getElementById("telaQuiz").style.display = "none";
         bonusApply = false;
     }, 200)
-    
+}
+
+function mostrarLojaMenu() {
+    vinheta6()
+    setTimeout(() => {
+        document.getElementById('menuBack').style.display = "none";
+        isCarregandoPergunta = false;
+        atualizarBarraProgresso();
+        full.style.display = "none";
+        document.getElementById('overlay').style.display = "none";
+        document.getElementById("telaExplicacao").style.display = "none";
+        document.getElementById("telaTempoEsgotado").style.display = "none";
+        document.getElementById("telaInicial").style.display = "none";
+        document.getElementById("bonus-window").style.display = "none";
+        document.getElementById("telaQuiz").style.display = "none";
+        document.getElementById("telaLoja").style.display = "flex";
+        bonusApply = false;
+    }, 200)
 }
 
 function embaralharArray(array) {
@@ -709,8 +744,8 @@ function animateTimer() {
         setTimeout(animateTimer, 1000);
     } else {
         // Substitui o número pelo ícone com a animação de escala
-        timerElement.innerHTML = '<i class="fa-solid fa-check"></i>';
-        const checkIcon = document.querySelector('.fa-check');
+        timerElement.innerHTML = '<p class="rmais">R+</p>';
+        const checkIcon = document.querySelector('.rmais');
         
         // Anima o ícone de check
         checkIcon.style.transform = `scale(${1.2})`;
@@ -931,17 +966,6 @@ const efeitosBonus = [
         }
     },
     {
-        tipo: 'vida',
-        valor: 6,
-        desc: 'Vida Cheia',
-        chance: 0.1,
-        aplicar: () => {
-            vidaAtual = vidaMaxima;
-            atualizarVidas();
-            console.log('vida cheia')
-        }
-    },
-    {
         tipo: 'tela',
         valor: 1,
         desc: 'Blackout',
@@ -1030,12 +1054,8 @@ const eventos = [
         desc: '0.5x Velocidade',
         chance: 0.1,
         aplicar: () => {
-            clearInterval(timerInterval);
-            timerInterval = setInterval(updateTimer, 2000);
-            setTimeout(() => {
-                clearInterval(timerInterval);
-                timerInterval = setInterval(updateTimer, 1000);
-            }, 60000);
+            timer05x();
+            console.log ('Velocidade 0.5x');
         }
     },
     {
@@ -1075,6 +1095,13 @@ const eventos = [
         chance: 0.1,
         aplicar: () => {
             Invencibilidade = true;
+        }
+    },
+    {
+        desc: 'HUD Invertido',
+        chance: 0.1,
+        aplicar: () => {
+            inverterLayout();
         }
     }
 ];
@@ -1430,6 +1457,307 @@ function ocultBtnBackMenu() {
     menuBack.style.display = "none";
 }
 
+
+window.addEventListener("beforeunload", (event) => {
+    event.preventDefault();
+    event.returnValue = "Tem certeza que deseja sair? Seu progresso pode ser perdido.";
+});
+
+function inverterLayout() {
+    const questions = document.getElementById('questions');
+    const optiones = document.getElementById('optiones');
+
+    questions.style.order = "2"
+    optiones.style.order = "1"
+    setTimeout(() => {
+        if (telaQuiz.style.display !== "none") {
+            questions.style.order = "1"
+            optiones.style.order = "2"
+        }
+    }, 60000)
+}
+
+
+//parte miserave da loja, eu odeio minha vida e to recebendo muito pouco por isso
+
+const todosItens = [
+    { id: 1, nome: 'Remover Tempo', efeito: 'para o tempo', preco: 5000, icon: 'fa-star'},
+    { id: 2, nome: '0.5x Velocidade', efeito: 'desacelera o tempo', preco: 3000, icon: 'fa-star'},
+    { id: 3, nome: 'Aumentar Tempo', efeito: 'Adiciona 60 segundos ao tempo', preco: 2000, icon: 'fa-star'},
+    { id: 4, nome: 'Pular Pergunta', efeito: 'Muda a Pergunta', preco: 6000, icon: 'fa-star' },
+    // { id: 5, nome: 'Dobro de Pontos', efeito: 'Dobro de pontos', preco: 2500, icon: 'fa-star' },
+    // { id: 6, nome: 'remover Evento', efeito: 'Remove o evento', preco: 3000, icon: 'fa-star' },
+    { id: 7, nome: 'Vida Cheia', efeito: 'Deixa a Vida cheia', preco: 10000, icon: 'fa-star' },
+    { id: 8, nome: '1+ vida', efeito: 'Adiciona uma vida a mais', preco: 2000, icon: 'fa-star' },
+    { id: 9, nome: '2+ vida', efeito: 'Adiciona duas vidas a mais', preco: 4100, icon: 'fa-star' },
+    // { id: 10, nome: 'Cura', efeito: 'Recupera a vida gradualmente durante toda a partida', preco: 15000, icon: 'fa-star' },
+    // { id: 11, nome: 'Escudo', efeito: 'Não leva dano por 3 perguntas erradas', preco: 8000, icon: 'fa-star'},
+    // { id: 12, nome: 'Reencarnação', efeito: 'ao morrer, ganha uma segunda chance, com a vida cheia, mas com metade da pontuação', preco: 15000, icon: 'fa-star'},
+    // { id: 13, nome: 'Ressureição', efeito: 'Ao morrer, ganha uma chance de voltar a vida com 1 coração e todos seus itens', preco: 8000, icon: 'fa-star'}
+];
+
+const acoesItens = {
+    1: () => stopTimer(),
+    2: () => timer05x(),
+    3: () => addTime(60),
+    4: () => changeUruguai(),
+    // 5: () => console.log('id 5'),
+    // 6: () => console.log('id 6'),
+    7: () => MaxLife(),
+    8: () => ganharVida(),
+    9: () => gainLife(),
+    // 10: () => console.log('id 10'),
+    // 11: () => console.log('id 6'),
+    // 12: () => console.log('id 7'),
+    // 13: () => console.log('id 8'),
+};
+
+let inventario = [];
+
+let lojaAtual = [];  // Armazena os itens e limites atuais da loja
+let comprados = {};
+
+
+// Carregar dados salvos
+function carregarProgresso() {
+    const salvosInventario = localStorage.getItem('inventario');
+    const salvosMoeda = localStorage.getItem('RetoCoins');
+    
+    
+    if (salvosMoeda) RetoCoins = parseInt(salvosMoeda);
+    
+    atualizarInventario();
+    atualizarDinheiroDisplay();
+}
+
+// Salvar progresso
+function salvarProgresso() {
+    localStorage.setItem('inventario', JSON.stringify(inventario));
+    localStorage.setItem('RetoCoins', RetoCoins.toString());
+}
+
+// Atualizar display do dinheiro
+function atualizarDinheiroDisplay() {
+    document.getElementById('dinheiro').textContent = RetoCoins;
+}
+
+// Sortear itens para a loja
+function sortearItensLoja() {
+    return [...todosItens]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 5);
+}
+
+// Mostrar loja
+function mostrarLoja() {
+    const lojaDiv = document.getElementById('loja');
+    const itensLoja = lojaAtual; // Usa os itens já gerados com limites
+
+    lojaDiv.innerHTML = '<h3></h3>';
+
+    lojaAtual.forEach(item => {
+        const compradoCount = comprados[item.id] || 0;
+        const disponivel = item.limite - compradoCount;
+        const esgotado = disponivel <= 0;
+        const limiteInventario = inventario.length >= 5 && !inventario.some(i => i.id === item.id);
+
+
+        const itemDiv = document.createElement('div');
+        itemDiv.className = `item${esgotado ? ' esgotado' : ''}`; // Adiciona classe se esgotado
+        
+        itemDiv.innerHTML = `
+            
+            <div class="priceStore"> 
+                <p class="priceStore"> ${item.preco}  </p>
+                <div class="macaco">  
+                    <p>R+</p>
+                </div>
+            </div>
+
+            <h4 class="linguado"><i class="fa-solid ${item.icon}"></i></h4>
+            <h4 class="abapuru">${item.nome}</h4>
+            
+            <div class=estroque>
+                <div class="estoque">${esgotado ? '0' : `${disponivel}`}</div>
+            </div>
+            
+            <button class="botonePatone"
+                onclick="comprarItem(${item.id})" 
+                ${RetoCoins < item.preco || esgotado ? 'disabled' : ''}
+            >
+                ${esgotado ? 'Esgotado' : 'Comprar'}
+            </button>
+        `;
+        lojaDiv.appendChild(itemDiv);
+    }); 
+}
+
+function mostrarNotificacao(mensagem) {
+    const notificacoesDiv = document.getElementById('notificacoes');
+    const toast = document.createElement('div');
+    toast.className = 'toast';
+    toast.textContent = mensagem;
+    
+    notificacoesDiv.appendChild(toast);
+    
+    setTimeout(() => {
+        toast.remove();
+    }, 3000);
+}
+
+function comprarItem(itemId) {
+    const item = lojaAtual.find(i => i.id === itemId);
+    
+    if (inventario.length >= 5 && !inventario.some(i => i.id === itemId)) {
+        mostrarNotificacao('Inventário cheio. Não é possível comprar mais itens.');
+        return;
+    }
+
+    // Verifica quantos já foram comprados
+    const compradosAtual = comprados[itemId] || 0;
+    const disponivel = item.limite - compradosAtual;
+
+    if (disponivel <= 0) {
+        console.log("Limite de compras atingido para este item!");
+        return;
+    }
+
+    if (RetoCoins >= item.preco) {
+        RetoCoins -= item.preco;
+        
+        // ⭐⭐ AQUI É ONDE VOCÊ DEVE COLOCAR ⭐⭐
+        comprados[itemId] = compradosAtual + 1; // Atualiza o contador
+        
+        // Resto da lógica de adicionar ao inventário
+        const itemExistente = inventario.find(i => i.id === itemId);
+        if (itemExistente) {
+            itemExistente.quantidade++;
+        } else {
+            inventario.push({
+                id: itemId,
+                quantidade: 1
+            });
+        }
+        
+        // Atualizações finais
+        salvarProgresso();
+        atualizarDinheiroDisplay();
+        atualizarInventario();
+        mostrarLoja();
+    }
+}
+
+// Atualizar inventário
+function atualizarInventario() {
+    const inventarioDiv = document.getElementById('inventario');
+    inventarioDiv.innerHTML = '<h3>Inventário</h3>';
+    
+    inventario.forEach((item, index) => {
+        const itemOriginal = todosItens.find(i => i.id === item.id);
+        const itemDiv = document.createElement('div');
+        itemDiv.className = 'item';
+        itemDiv.innerHTML = `
+            <h4><i class="fa-solid ${itemOriginal.icon}"></i></h4>
+            <h4>${itemOriginal.nome} (${item.quantidade}x)</h4>
+            <p>${itemOriginal.efeito}</p>
+            <button onclick="removerItem(${index})">Remover</button>
+        `;
+        inventarioDiv.appendChild(itemDiv);
+    });
+}
+
+function removerItem(index) {
+    const item = inventario[index];
+    
+    if(item.quantidade > 1) {
+        item.quantidade--;
+    } else {
+        inventario.splice(index, 1);
+    }
+    
+    salvarProgresso();
+    atualizarInventario();
+    console.log('Item removido do inventário');
+}
+
+// Usar item
+function usarItem(index) {
+    const itemUsado = inventario[index];
+    const itemOriginal = todosItens.find(i => i.id === itemUsado.id);
+
+    // Executa o console.log específico
+    if (acoesItens[itemUsado.id]) {
+        acoesItens[itemUsado.id]();
+    } else {
+        console.log(`Usou: ${itemOriginal.nome} - ${itemOriginal.efeito}`);
+    }
+
+    itemUsado.quantidade--;
+    
+    if (itemUsado.quantidade <= 0) {
+        inventario.splice(index, 1);
+    }
+    
+    salvarProgresso();
+    atualizarInventario();
+}
+
+// Inicialização
+window.onload = () => {
+    carregarProgresso();
+    gerarLoja();
+    mostrarLoja();
+    atualizarDinheiroDisplay();
+};
+
+// Adicione esta nova função
+function ganharDinheiro() {
+    RetoCoins += 10000;
+    salvarProgresso();
+    atualizarDinheiroDisplay();
+    console.log('+100 moedas ganhas!');
+}
+
+function gerarLoja() {
+    lojaAtual = [];
+    comprados = {};
+    
+    const itensDisponiveis = [...todosItens]
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 5)
+        .map(item => ({
+            ...item,
+            limite: Math.floor(Math.random() * 5) + 1 // Limite aleatório 1-5
+        }));
+    
+    lojaAtual.push(...itensDisponiveis);
+}
+
+function recarregarLoja() {
+    if (RetoCoins >= 50) {
+        RetoCoins -= 50;
+        gerarLoja();
+        mostrarLoja();
+        salvarProgresso();
+        atualizarDinheiroDisplay();
+    }
+}
+
+function toggleStoreInv() {
+    if (document.getElementById('loja').style.display !== "grid") {
+        document.getElementById('loja').style.display = "grid";
+        document.getElementById('inventarioLoja').style.display = "none";
+    } else {
+        document.getElementById('loja').style.display = "none";
+        document.getElementById('inventarioLoja').style.display = "block";
+    }
+}
+
+toggleStoreInv();
+
+
+// bonus e itens da loja (functions separadas)
+
 function changeUruguai() {
     const changeUruguai = document.getElementById('full-changeUruguai');
     ocultBtnBackMenu()
@@ -1452,8 +1780,33 @@ function changeUruguai() {
     }, 6000);
 }
 
+function MaxLife() { // Vida cheia
+    vidaAtual = vidaMaxima;
+    atualizarVidas();
+    console.log('vida cheia')
+}
 
-window.addEventListener("beforeunload", (event) => {
-    event.preventDefault();
-    event.returnValue = "Tem certeza que deseja sair? Seu progresso pode ser perdido.";
-});
+function timer05x() { // 0.5x Velocidade
+    clearInterval(timerInterval);
+    timerInterval = setInterval(updateTimer, 2000);
+}
+
+function stopTimer() {
+    clearInterval(timerInterval);
+}
+
+function addTime(t) { // Aumentar tempo
+    tempoRestante += t;
+    console.log('tempo aumentado')
+}
+
+function gainLife() { // Ganha 2 vidas caso a vida maxima for 4, se for 5 ganha 1 vida, se for 6 ganha 0 vidas
+    if (vidaAtual <= 4) {
+        vidaAtual += 2;
+    } else if (vidaAtual === 5) {
+        vidaAtual += 1;
+    } else if (vidaAtual = vidaMaxima) {
+        console.log('vida maxima, usou atoa kkkkkkkkkkkkkkkkkkkkkkkkkkkkk')
+    }
+    atualizarVidas();
+}

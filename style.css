@@ -41,7 +41,7 @@ body {
 }
 
 .logo2 {
-    width: 15%;
+    width: 25vmin;
     margin-bottom: 2vmin;
     transition: all 0.3 ease-in-out;
 
@@ -569,7 +569,9 @@ body {
 }
 
 #telaQuiz {
+    margin-top: 4vmin;
     flex-direction: column;
+    gap: 2vmin;
 }
 
 #telaQuiz .title {
@@ -581,6 +583,10 @@ body {
 #vidas {
     height: 100%;
     font-size: 200%;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: end;
     color: crimson;
 }
 
@@ -1195,14 +1201,14 @@ ul, ol {
     height: 4vmin;
     background: #7f4a3e;
     background-clip: content-box;
-    border-radius: 33px;
+    border-radius: 4vmin;
     overflow: hidden;
     
   }
   
   .progress {
     height: 4vmin;
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 1vmin 0px 0px 1vmin;
     width: 0%;
     transition: all 0.3s ease;
     position: relative;
@@ -1761,6 +1767,433 @@ ul, ol {
     }
 }
 
+.logoquiz {
+    width: 90%;
+    max-width: 800px;
+    height: 9vmin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.retoCoins {
+    height: 100%;
+    display: none;
+    justify-content: end;
+    align-items: end;
+}
+
+.darkSouls3 {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5vmin;
+    justify-content: space-between;
+    height: 4vmin;
+    min-width: 14vmin;
+    background-color: #454444;
+    color: #f9ebd4;
+    font-size: 2vmin;
+    font-weight: 700;
+    
+
+    & p {
+        margin: 0;
+        margin-left: 0.4vmin;
+    }
+}
+
+.macaco {
+    width: 3vmin;
+    height: 3vmin;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5vmin;
+    color: #f9ebd4;
+    background-color: #ffbd59;
+}
+
+
+
+
+
+/* inventario */
+
+#inventario .item {
+    color: #f9ebd4;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #643830;
+
+    & h4 {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    & i {
+        font-size: 7vw;
+        color: #f9ebd4;
+    }
+}
+
+#inventario  {
+    overflow-x: auto;
+    & p {
+        font-size: 1vw;
+    }
+}
+
+
+/* loja */
+#telaLoja {
+    
+    display: none;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+#telaLoja .top {
+    display: grid;
+    width: 100%;
+    justify-content: center;  
+}
+
+
+#telaLoja .top .middleStoreBg {
+    
+    width: 100%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-left: 8vmin solid transparent;
+    border-right: 8vmin solid transparent;
+    border-bottom: 10vw solid #7c473d;
+}
+
+
+
+.pillarLeft {
+    background-color: #7c473d;
+    width: 3vmin;
+    
+}
+
+.pillarRight {
+    background-color: #7c473d;
+    width: 3vmin;
+}
+
+#logoImage {
+    width: 20%;
+    transform: translateY(75%);
+    
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.store {
+    min-height: 32vmin;
+    background-color: #a76255;
+    max-width: 80%;
+    width: 100%;
+    overflow-y: visible;
+}
+
+#loja {
+    min-height: 32vmin;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2vmin 3%;
+    gap: 1vmin;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    & h3 {
+        margin: 0;
+        display: none;
+    }
+}
+
+.item {
+    color: #f9ebd4;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #643830;
+}
+
+#telaLoja .middlebottom .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottomBg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vmin;
+    box-sizing: border-box;
+    
+    width: 100%;
+    height: 14vmin;
+    background: repeating-linear-gradient(
+        90deg,
+        #87ae98 0px,
+        #87ae98 3vmin,
+        #6e8f7c 3vmin,
+        #6e8f7c 6vmin
+    );       
+}
+
+
+
+
+.inventario {
+    height: 100%;
+    display: grid;
+    padding: 1vmin;
+    gap: 1em;
+    grid-template-columns: repeat(5, 1fr);
+    box-sizing: border-box;
+
+    & h3 {
+        display: none;
+    }
+}
+
+#inventarioLoja {
+    height: 100%;
+    display: none;
+}
+
+#dinheiro {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    color: #f9ebd4;
+    font-family: 'Alata';
+    font-size: 4vmin;
+    letter-spacing: 0.3vmin;
+}
+.darkSouls2 {
+    display: flex;
+    background-color: #454444;
+    min-width: 20vmin;
+    gap: 1vmin;
+    padding: 1vmin 2vmin;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.macaca {
+    width: 5vmin;
+    height: 5vmin;
+    font-size: 2.8vmin;
+}
+
+#lojaTittle {
+    background-color: #454444;
+    color: #f9ebd4;
+    font-family: 'poppins';
+    padding: 0 8vmin;
+    font-size: clamp(4vw, 6vw, 32px);
+    font-weight: 800;
+    margin: 0;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+        scale: 1.01;
+        background-color: #313030;
+    }
+}
+
+.priceStore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata';
+    gap: 1vmin;
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin: 0;
+
+    & p {
+        margin: 0;
+    }
+}
+
+.outside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vmin;
+    & button {
+        background-color: #6e8f7c;
+        padding: 0 8vmin;
+        font-weight: 800;
+        font-size: 8vmin;
+        color: #f9ebd4;
+        font-family: 'poppins';
+        border: none;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        &:hover {
+            scale: 1.03;
+            background-color: #5e7c6a; 
+        }
+    }
+}
+
+.linguado {
+    
+    width: 100%;
+    font-size: 5vw;
+    margin: 0;
+    margin-top: 1vmin;
+
+    & i {
+      display: flex;
+        justify-content: center;  
+        margin: 0;
+    }
+}
+
+.abapuru {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1vW;
+}
+
+
+
+.estroque {
+    color: #454444;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5vmin;
+}
+
+.estoque {
+    background-color: #f9ebd4;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    align-items: center;
+    font-family: 'Alata';
+    font-weight: 600;
+    width: 3vmin;
+    height: 3vmin;
+}
+
+.botonePatone {
+    width: 100%;
+    height: 4vw;
+    margin-top: 1vmin;
+    background-color: #6e8f7c;
+    border: none;
+    color: #f9ebd4;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+        scale: 1.03;
+        background-color: #5e7c6a; 
+    }
+}
+
+#recarregarLojaBtn {
+    background-color: #2196F3;
+    color: white;
+    margin: 10px;
+    padding: 8px 15px;
+}
+
+.item.esgotado {
+    background-color: #e0e0e0;
+    opacity: 0.7;
+    position: relative;
+}
+
+
+
+.item.esgotado h4,
+.item.esgotado p {
+    color: #666;
+}
+
+.item.esgotado button {
+    background-color: #9e9e9e !important;
+    cursor: not-allowed;
+}
+
+.item.limite-alcancado {
+    background-color: #ffebee;
+    border-color: #ff1744;
+}
+
+.item.limite-alcancado::after {
+    content: "🚫";
+    color: #ff1744;
+}
+
+#notificacoes {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.toast {
+    background: #ff4444;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    animation: slideIn 0.3s, fadeOut 0.5s 2.5s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.toast::before {
+    content: "⚠️";
+    font-size: 1.2em;
+}
+
+/* loja */
+
 
 
 
@@ -1844,6 +2277,8 @@ ul, ol {
     body {
         overflow-x: hidden;
     }
+
+    
 
     #bonus-window {
         scale: 1.5;
@@ -1956,6 +2391,7 @@ ul, ol {
     }
 
     #telaQuiz { 
+        
         flex-direction: column;
     }
 
@@ -1980,6 +2416,11 @@ ul, ol {
         width: 100%;
     }
 
+    #telaQuiz .title .logoquiz {
+        flex-direction: column;
+        height: fit-content;
+    }
+
     .slide .info h3 {
         margin-top: 2px;
         line-height: 20.2px;
@@ -1989,11 +2430,22 @@ ul, ol {
         font-size: calc(13px + 0.5vw);
     }
     #telaQuiz .title {
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; 
+    }
+
+    .darkSouls3 {
+        scale: 1.4;
+    }
+
+    #vidas {
+        height: fit-content;
+        margin-top: 1vmin;
+        justify-content: center;
+        font-size: 170%;
     }
 
     #telaExplicacao {
@@ -2072,11 +2524,6 @@ ul, ol {
         display: none;
     }
 
-    #vidas {
-        height: 100%;
-        font-size: 200%;
-    }
-
     #overlay {
         background: rgba(0, 0, 0, 0.8);
     }
@@ -2091,6 +2538,65 @@ ul, ol {
 
     
 
+}
+
+@media (max-width: 550px) {
+    #telaLoja {
+        position: absolute;
+        top: 20%;
+    }
+    .item {
+        align-items: start;
+        flex-direction: row;
+        
+    }
+
+    #inventario {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        overflow-y: auto;
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 1em;
+        
+    }
+
+    #inventario .item {
+        flex-direction: initial;
+    }
+
+
+    #telaLoja .middlebottom {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #telaLoja .middlebottom .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #telaLoja .middlebottom .middle .store {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    #loja {
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        overflow-y: auto;
+    }
 }
 
 @media (max-width: 380px) {

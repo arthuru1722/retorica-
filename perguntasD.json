@@ -58,9 +58,9 @@
         },
         {
           "pergunta": "Ela segurou a criança e a respiração.",
-          "opcoes": ["Zeugma", "Eufemismo", "Antítese", "Zeugma"],
+          "opcoes": ["Zeugma", "Eufemismo", "Antítese", "Aliteração"],
           "correta": 0,
-          "explicacao": "O zeugma está em 'segurou' aplicado a 'criança' (físico) e 'respiração' (figurado). O eufemismo suavizaria e a antítese oporia ideias."
+          "explicacao": "O zeugma está em 'segurou' aplicado a 'criança' (físico) e 'respiração' (figurado). O eufemismo suavizaria, a antítese oporia ideias e a aliteração repetiria sons.."
         },
         {
           "pergunta": "Ele apagou a luz e as dúvidas.",
@@ -82,9 +82,9 @@
         },
         {
           "pergunta": "Ela quebrou o silêncio e o vaso.",
-          "opcoes": ["Zeugma", "Hipérbato", "Sinestesia", "Zeugma"],
+          "opcoes": ["Zeugma", "Hipérbato", "Sinestesia", "Aliteração"],
           "correta": 0,
-          "explicacao": "O zeugma usa 'quebrou' para 'silêncio' (abstrato) e 'vaso' (concreto). O hipérbato inverteria a ordem e a sinestesia misturaria sensações."
+          "explicacao": "O zeugma usa 'quebrou' para 'silêncio' (abstrato) e 'vaso' (concreto). O hipérbato inverteria a ordem, a sinestesia misturaria sensações e a aliteração repetiria sons."
         },
         {
           "pergunta": "Ele ergueu os braços e a voz.",
@@ -100,9 +100,9 @@
         },
         {
           "pergunta": "Ele plantou árvores e ideias.",
-          "opcoes": ["Zeugma", "Antítese", "Zeugma", "Paradoxo"],
+          "opcoes": ["Zeugma", "Antítese", "Aliteração", "Paradoxo"],
           "correta": 0,
-          "explicacao": "O zeugma usa 'plantou' para 'árvores' (literal) e 'ideias' (figurado). A antítese oporia ideias e o paradoxo uniria contradições."
+          "explicacao": "O zeugma usa 'plantou' para 'árvores' (literal) e 'ideias' (figurado). A antítese oporia ideias, o paradoxo uniria contradições e a aliteração repetiria sons."
         },
         {
           "pergunta": "Ela escreveu uma carta e sua história.",
@@ -220,9 +220,9 @@
         },
         {
           "pergunta": "Ele acendeu a lâmpada e a esperança no grupo.",
-          "opcoes": ["Zeugma", "Metáfora", "Silepse", "Zeugma"],
+          "opcoes": ["Zeugma", "Metáfora", "Silepse", "Aliteração"],
           "correta": 0,
-          "explicacao": "O zeugma ocorre porque 'acender' conecta uma ação física ('lâmpada') e uma abstrata ('esperança'). A metáfora omitiria o conectivo, e a silepse faria concordância ideológica."
+          "explicacao": "O zeugma ocorre porque 'acender' conecta uma ação física ('lâmpada') e uma abstrata ('esperança'). A metáfora omitiria o conectivo, a silepse faria concordância ideológica e a aliteração repetiria sons."
         },
         {
           "pergunta": "O professor corrigiu provas e o comportamento dos alunos.",
@@ -292,9 +292,9 @@
         },
         {
           "pergunta": "Ele beijou a esposa e a oportunidade de ficar rico.",
-          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Zeugma"],
+          "opcoes": ["Zeugma", "Metáfora", "Hipérbole", "Aliteração"],
           "correta": 0,
-          "explicacao": "O zeugma ocorre porque 'beijar' conecta uma ação física ('esposa') e uma abstrata ('oportunidade'). A metáfora compararia conceitos e a hipérbole exageraria a situação."
+          "explicacao": "O zeugma ocorre porque 'beijar' conecta uma ação física ('esposa') e uma abstrata ('oportunidade'). A metáfora compararia conceitos, a hipérbole exageraria a situação e a aliteração repetiria sons."
         },
         {
           "pergunta": "Ela guardou os documentos e o orgulho após a derrota.",

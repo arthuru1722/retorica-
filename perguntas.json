@@ -722,7 +722,7 @@
       {
         "pergunta": "\"Ele tem uma memória de elefante!\"",
         "opcoes": ["Hipérbole", "Metáfora", "Antítese", "Eufemismo"],
-        "correta": 1,
+        "correta": 0,
         "explicacao": "Embora pareça um exagero, essa frase é uma metáfora. Ela não é uma hipérbole porque não exagera a habilidade de recordar, mas faz uma comparação implícita com o animal famoso por sua memória."
       },
       {

@@ -30,7 +30,7 @@
                 <div class="est"><p>RESPOSTAS CERTAS:</p><span id="respostasR"></span></div>
                 <div class="est"><p>PERGUNTAS RESPONDIDAS:</p><span id="respostas"></span></div>
                 <div class="est"><p>TEMPO ESGOTADO:</p><span id="esgotado"></span> </div>
-                <div class="version">V1.5D (pre-release)</div>
+                <div class="version">V1.6</div>
             </div>
         </div>    
     </div>
@@ -169,7 +169,8 @@
                         <p>Suelly</p>
                         <p>Ruan</p>
                         <p>João Pedro</p>
-                        <p>Karollayne</p>
+                        <p>Rayka</p>
+                        <p>Jéssica</p>
                     </div>
                     <div class="bottom">
                         <div class="leftt">
@@ -194,7 +195,17 @@
     <!-- Tela do Quiz -->
     <div id="telaQuiz">
         <div class="title">
-            <img class="logo2" src="src/logo1.png" onclick="showBtnBackMenu()">
+            <div class="logoquiz">
+                <img class="logo2" src="src/logo1.png" onclick="showBtnBackMenu()">
+                <div class="retoCoins">
+                    <div class="darkSouls3">
+                        <p><span id="retoCoins"></span></p>
+                        <div class="macaco">
+                            <p>R+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="vidas" id="vidas">
                 <i class="fa-solid fa-heart"></i>
                 <i class="fa-solid fa-heart"></i>
@@ -203,7 +214,7 @@
         </div>
 
         <div class="bottom">
-            <div class="left">
+            <div class="left" id="questions">
                 <div class="question">
                     <div class="disclaimer">
                         <p>Identifique que tipo de figura de <br> linguagem se trata:</p>
@@ -225,13 +236,63 @@
                 
             </div>
     
-            <div class="right">
+            <div class="right" id="optiones">
                 <ul id="opcoes"></ul>
             </div>
         </div>
     </div>
 
-    <!-- Tela de Explicação (só aparece se errar) -->
+    <!-- Loja -->
+
+    <div id="notificacoes"></div>
+
+
+    <div id="telaLoja">
+        <div class="top">
+           
+            
+            <div class="middleStoreBg">
+                <img id="logoImage" src="src/logo3.png">
+            </div>
+             
+           
+        </div>
+        <div class="middlebottom">
+            <div class="middle">
+                <div class="pillarLeft"></div>
+                <div class="store">
+                    <div id="loja"></div>
+                    <div id="inventarioLoja">
+                        <div id="inventario" class="inventario"></div>
+                        <!-- <button id="ganharDinheiroBtn" onclick="ganharDinheiro()">Ganhar 100 Moedas</button>
+                        <button id="atualizarItens" onclick="mostrarLoja()">Atualizar itens Da Loja</button>
+                        <button id="recarregarLojaBtn" onclick="recarregarLoja()">Recarregar Loja (50 moedas)</button> -->
+                    </div>
+                </div>
+                <div class="pillarRight"></div>
+            </div>
+            <div class="bottom">
+                <div class="bottomBg">       
+                    <div class="darkSouls2">
+                        <div id="dinheiro"></div>
+                        <div class="macaco macaca">
+                            <p>R+</p>
+                        </div>
+                    </div>
+                    <p id="lojaTittle" onclick="toggleStoreInv()">INVENTÁRIO</p>
+                </div>
+            </div>
+        </div>
+        <div class="outside">
+            <button>CONTINUAR</button>
+        </div>
+        
+        
+        
+    </div>
+
+
+    <!-- Tela de Explicação -->
     <div id="telaExplicacao">
         <div id="telaErros" class="tela">
             <div id="contadorErros"></div>
