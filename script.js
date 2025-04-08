@@ -584,23 +584,25 @@ function voltarParaTelaInicial() {
     }, 200)
 }
 
-function mostrarLojaMenu() {
-    vinheta6()
-    setTimeout(() => {
-        document.getElementById('menuBack').style.display = "none";
-        isCarregandoPergunta = false;
-        atualizarBarraProgresso();
-        full.style.display = "none";
-        document.getElementById('overlay').style.display = "none";
-        document.getElementById("telaExplicacao").style.display = "none";
-        document.getElementById("telaTempoEsgotado").style.display = "none";
-        document.getElementById("telaInicial").style.display = "none";
-        document.getElementById("bonus-window").style.display = "none";
-        document.getElementById("telaQuiz").style.display = "none";
-        document.getElementById("telaLoja").style.display = "flex";
-        bonusApply = false;
-    }, 200)
-}
+//descontinuado
+// function mostrarLojaMenu() {
+//     vinheta6()
+//     setTimeout(() => {
+//         document.getElementById('menuBack').style.display = "none";
+//         isCarregandoPergunta = false;
+//         atualizarBarraProgresso();
+//         full.style.display = "none";
+//         document.getElementById('overlay').style.display = "none";
+//         document.getElementById("telaExplicacao").style.display = "none";
+//         document.getElementById("telaTempoEsgotado").style.display = "none";
+//         document.getElementById("telaInicial").style.display = "none";
+//         document.getElementById("bonus-window").style.display = "none";
+//         document.getElementById("telaQuiz").style.display = "none";
+//         document.getElementById("telaLoja").style.display = "flex";
+//         bonusApply = false;
+//     }, 200)
+// }
+
 
 function embaralharArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -1475,4 +1477,61 @@ function inverterLayout() {
             optiones.style.order = "2"
         }
     }, 60000)
+}
+
+// bonus e itens da loja (functions separadas) 
+//loja descontinuada
+
+function changeUruguai() {
+    const changeUruguai = document.getElementById('full-changeUruguai');
+    ocultBtnBackMenu()
+    changeUruguai.style.display = "block";
+    changeUruguai.style.animation = "whiter 5.5s"
+    clearInterval(timerInterval);
+    console.log('a1')
+    setTimeout(() => {
+        for (let i = 0; i < 20; i++) {
+                setTimeout(() => {
+                    carregarPergunta(); // Chama a função 10 vezes
+                }, i * 250)  
+            }
+    }, 500);
+    setTimeout(() => {
+        changeUruguai.style.display = "none";
+        setInterval(timerInterval, 1000)
+        changeUruguai.style.animation = ""
+        carregarPergunta();
+    }, 6000);
+}
+
+function MaxLife() { // Vida cheia
+    vidaAtual = vidaMaxima;
+    atualizarVidas();
+    console.log('vida cheia')
+}
+
+
+function timer05x() { // 0.5x Velocidade
+    clearInterval(timerInterval);
+    timerInterval = setInterval(updateTimer, 2000);
+}
+
+function stopTimer() {
+    clearInterval(timerInterval);
+}
+
+function addTime(t) { // Aumentar tempo
+    tempoRestante += t;
+    console.log('tempo aumentado')
+}
+
+function gainLife() { // Ganha 2 vidas caso a vida maxima for 4, se for 5 ganha 1 vida, se for 6 ganha 0 vidas
+    if (vidaAtual <= 4) {
+        vidaAtual += 2;
+    } else if (vidaAtual === 5) {
+        vidaAtual += 1;
+    } else if (vidaAtual = vidaMaxima) {
+        console.log('vida maxima, usou atoa kkkkkkkkkkkkkkkkkkkkkkkkkkkkk')
+    }
+    atualizarVidas();
 }
