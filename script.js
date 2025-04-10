@@ -345,6 +345,7 @@ function carregarPergunta() {
     console.log(isCarregandoPergunta)
 
     isCarregandoPergunta = true;
+    Invencibilidade = false
 
     document.getElementById("bonus-window").style.display = "none";
     console.log ('remove carregarpergunta')
@@ -1483,6 +1484,7 @@ function inverterLayout() {
 //loja descontinuada
 
 function changeUruguai() {
+    Invencibilidade = false
     const changeUruguai = document.getElementById('full-changeUruguai');
     ocultBtnBackMenu()
     changeUruguai.style.display = "block";

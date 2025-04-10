@@ -5,6 +5,39 @@ html {
     padding: 4vmin;
 }
 
+.button {
+    width: 100%;
+    height: 20px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #6e8f7c;
+    color: #feefd8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    font-size: calc(16px + 1vw);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-clip: content-box;
+    border: solid 0.4vmin #7f4a3e;
+    background-clip: padding-box;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
 body { 
     background-color: #f4bb8c; 
     font-family: 'Poppins', 'Questrial', 'Alata', 'Open Sans';
@@ -110,9 +143,8 @@ body {
 #telaInicial .creditos .right .bottom {
     background-color: #feefd8;
     width: 100%;
-    max-width: 450px;
     height: auto;
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -120,7 +152,7 @@ body {
 
 #telaInicial .creditos .right .bottom p {
     margin: 0;
-    font-size: calc(10px + 0.5vw);
+    font-size: calc(23px + 0.5vw);
     color: #3b3838;
     font-family: 'Alata';
 }
@@ -1781,6 +1813,15 @@ ul, ol {
     display: none;
     justify-content: end;
     align-items: end;
+}
+.arthur {
+    color: #1b1815 !important;
+    font-weight: 600;
+}
+
+.jp {
+    color: #1b1815 !important;
+    font-weight: 600;
 }
 
 .darkSouls3 {
