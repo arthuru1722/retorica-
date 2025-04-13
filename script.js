@@ -1,4 +1,27 @@
-document.getElementById('telaInicial').style.display = "flex"
+const vinheta7 = document.querySelector(".vinheta4");
+let iniciastespontocom = false; // pra saber se ja passou a primeira vinheta ou não
+function vinheta8() {
+    const ldlg = document.getElementById("ldlg")
+    vinheta7.classList.add("ativa4");
+    !iniciastespontocom && (ldlg.style.animation = "blinki 1s") // quando chama aplica isso, usa if tela inicial visivel ou true em algo diferente, se ativa apos o inicio
+    
+    // Remove a vinheta1 após a animação pra não ficar ocupando espaço na DOM
+    setTimeout(() => {
+        iniciastespontocom = true;
+        vinheta7.classList.remove("ativa4");
+        vinheta7.style.animation = "slideDown 0.5s ease-in-out forwards";
+        ldlg.style.animation = "none"; // ta sendo chamado dps  
+    }, 2500)
+    
+}
+
+vinheta8()
+
+setTimeout (() =>{
+    document.getElementById('telaInicial').style.display = "flex"
+    document.body.style.backgroundColor = "#f4bb8c"
+}, 1000)
+
 
 let intervall
 
@@ -312,6 +335,7 @@ function vinheta6() {
     }, 500)
 }
 
+
 function formatTime(seconds) {
     let minutos = Math.floor(seconds / 60);
     let segundos = seconds % 60;
@@ -569,7 +593,7 @@ function backBtnMarcelo() {
     
 
 function voltarParaTelaInicial() {
-    vinheta6()
+    vinheta8()
     setTimeout(() => {
         document.getElementById('menuBack').style.display = "none";
         isCarregandoPergunta = false;
@@ -1043,6 +1067,7 @@ const eventos = [
         desc: '2x Velocidade',
         chance: 0.1,
         aplicar: () => {
+            eventTrigue = false;
             clearInterval(timerInterval);
             timerInterval = setInterval(updateTimer, 500);
             console.log ('Velocidade 2x')
@@ -1057,6 +1082,7 @@ const eventos = [
         desc: '0.5x Velocidade',
         chance: 0.1,
         aplicar: () => {
+            eventTrigue = false;
             timer05x();
             console.log ('Velocidade 0.5x');
         }
@@ -1065,6 +1091,7 @@ const eventos = [
         desc: 'Miopia',     
         chance: 0.1,
         aplicar: () => {
+            Invencibilidade = false;
             full.style.display = "block";
             full.style.backgroundColor = "transparent";
             full.style.backdropFilter = "blur(3px)";
@@ -1461,10 +1488,10 @@ function ocultBtnBackMenu() {
 }
 
 
-window.addEventListener("beforeunload", (event) => {
-    event.preventDefault();
-    event.returnValue = "Tem certeza que deseja sair? Seu progresso pode ser perdido.";
-});
+// window.addEventListener("beforeunload", (event) => {
+//     event.preventDefault();
+//     event.returnValue = "Tem certeza que deseja sair? Seu progresso pode ser perdido.";
+// });
 
 function inverterLayout() {
     const questions = document.getElementById('questions');

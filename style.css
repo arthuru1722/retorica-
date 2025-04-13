@@ -39,7 +39,7 @@ html {
 }
 
 body { 
-    background-color: #f4bb8c; 
+    background-color: #6e8f7c; 
     font-family: 'Poppins', 'Questrial', 'Alata', 'Open Sans';
     height: 100%;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 #telaInicial {
-    display: flex;
+    display: none;
     justify-content: space-between;
     gap: 20px;
     height: auto;
@@ -1117,6 +1117,64 @@ ul, ol {
     animation: slideDown 0.5s ease-in-out forwards;
 }
 
+.vinheta4 {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #6e8f7c;
+    z-index: 999999999999999999;
+    transform: translateY(-100%);
+    display: none; /* Oculta até ser ativada */
+
+    & i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.vinheta4.ativa4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: init 1.8s ease-in-out forwards;
+}
+
+#ldlg {
+    width: 60vmin;
+}
+
+@keyframes blinki {
+    10% {
+        width: 60vmin;
+    }
+    40% {
+        width: 70vmin;
+    }
+    90% {
+        width: 60vmin;
+    }
+}
+
+@keyframes init {
+    0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+    
+}
 
   @keyframes slideDown {
     0% {
